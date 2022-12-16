@@ -1,0 +1,188 @@
+<!DOCTYPE html> <!-- CassowaryV2 | November 2022-->
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+    <!-- Webpage title -->
+    <title id="home">Exploring the Use of Math and Matrices in Video Games and Unreal Engine 5 | AlexTECPlayz</title>
+    <!-- Website description -->
+    <meta name="description" content="Short project for mathematics, in which I explain how and where are matrices used in games, with details.">
+    <!-- Viewport width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="../../../../css/fonts.css"/>
+    <link rel="stylesheet" href="../../../../css/styles.css"/>
+    <link rel="stylesheet" href="../../../../css/obsidian-styles.css">
+    <link rel="stylesheet" type="text/css" href="../../../../css/colors.css"/>
+    <!-- Favicons start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../../favicon/apple-touch-icon.png"> <!-- Apple Touch icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon/favicon-32x32.png"> <!-- 32x Icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon/favicon-16x16.png"> <!-- 16x Icon -->
+    <link rel="mask-icon" href="../../../../favicon/safari-pinned-tab.svg" color="#cc5bd5"> <!-- Safari Favicon -->
+    <meta name="apple-mobile-web-app-title" content="AlexTEC Website">
+    <meta name="application-name" content="AlexTEC Website">
+    <meta name="msapplication-TileColor" content="#9f00a7"> <!-- Win8/10 Tile Icon | RIP Tiles in Windows 11 -->
+    <meta name="theme-color" content="#d137d7"> <!-- Theme color -->
+    <!-- Favicons end -->
+    <link rel="manifest" href="../../../../site.webmanifest"> <!-- Manifest (.webmanifest) -->
+    </head>
+    <body class="bg-header">
+        <!-- Header begin -->
+        <header class="header header-padding bg-header">
+            <div class="header-left">
+                <div class="header-branding">
+                    <a class="header-brandname outfit semibold" href="https://alextecplayz.github.io">alextecplayz</a>
+                    <div class="header-spacing"></div>
+                    <a href="https://alextecplayz.github.io">
+                    <img class="header-logo" id="logo" src="../../../../favicon/favicon-512x512.png" alt="alextecplayz brand image"/></a>
+                </div>
+              </div>
+            </div>
+                <div class="header-right">
+                    <div class="header-buttons">
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/games">Games</a>
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/projects">Projects</a>
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/posts">Posts</a>
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/portfolio">Portfolio</a>
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/mods">Mods</a>
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/contact">Contact</a>
+                        <a class="header-button dm-sans semibold" href="https://alextecplayz.github.io/about">About</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+
+        <!-- Notice start -->
+        <div class="notice bg-transparent">
+            <p class="notice-text monospace medium italic white">The website has received a visual overhaul!&nbsp;</p><a href="https://alextecplayz.github.io/posts/2022/12/5/Visual-Overhaul.html" class="notice-link monospace medium underline accent-color">See what's new here</a>
+        </div>
+        <!-- Notice end -->
+
+
+        <div class="post-content">
+            <div class="post-image-container">
+                <img class="post-image-placeholder" alt="placeholder">
+            </div>
+        <div class="post-header">
+            <p class="post-title rem2 white didact-gothic bold">Exploring the Use of Math and Matrices in Video Games and Unreal Engine 5</p> <p class="post-date rem1-15 monospace semibold">16 December 2022</p> <a href="https://alextecplayz.github.io/posts/2022/12/16/Matrices-in-Games-RO.html" class="article-title white rem1-15 monospace semibold">See the english version</a>
+        </div>
+        <p class="post-description rem1-5 italic outfit medium lightgray">Mathematics and matrices play a crucial role in the development and design of modern video games. From character movement and animation to physics and lighting, math is at the heart of many of the features and functions we take for granted in today's games. In this article, we will take a closer look at the use of math and matrices in video games, and explore how the latest version of the Unreal Engine, Unreal Engine 5, makes use of these important tools to create stunning and immersive game worlds.</p>
+
+        <p id="#Preface" class="post-section rem2">Preface | What I'm talking about&emsp;<a class="post-section-link rem1-5" href="Preface">Copy Link</a></p>
+
+        <p class="post-text rem1-5 outfit medium">The use of matrices in popular games and game engines has become increasingly important in recent years, as they provide a powerful tool for representing and manipulating 3D objects and their transformations. In this project, we will explore the role of matrices in popular games and in Unreal Engine 5, the latest version of the popular game engine developed by Epic Games.</p>
+        <p class="post-text rem1-5 outfit medium">We will begin by discussing the use of matrices in popular games, such as open-world games, racing games, and sports games. We will explain how matrices are used to represent and manipulate 3D objects and their transformations, such as translation, rotation, and scaling. We will also provide examples of specific games that use matrices in their development.</p>
+        <p class="post-text rem1-5 outfit medium">Next, we will turn our attention to Unreal Engine 5 and its use of matrices. We will discuss how matrices are used in Unreal Engine 5 to represent and manipulate 3D objects and their transformations. We will also describe the various features and capabilities of Unreal Engine 5 that rely on matrices, such as its real-time rendering engine, physics simulation, and artificial intelligence.</p>
+        <p class="post-text rem1-5 outfit medium">In conclusion, we will summarize the main points covered in the project and discuss the importance of matrices in game development and their role in enabling advanced features and realistic graphics in modern games. We will also consider potential future developments in the use of matrices in games and game engines, such as the use of machine learning and other advanced technologies.</p>
+
+        <p id="Introduction" class="post-section rem2">Introduction | What are matrices?&emsp;<a class="post-section-link rem1-5" href="#Introduction">Copy Link</a></p>
+
+        <p class="post-text rem1-5 outfit medium">In video games, the virtual world is made up of a vast number of objects, each with its own position, orientation, and size. To render these objects on the screen and make them move and interact with each other, game engines like Unreal Engine use mathematical concepts like matrices.</p>
+        <p class="post-text rem1-5 outfit medium">First, let's take a look at what matrices are and how they work.</p>
+        <p class="post-text rem1-5 outfit medium">Matrices are rectangular arrays of numbers that can be used to represent and manipulate data in various ways. For example, a matrix can be used to represent a 3D point or a 3D vector, which are fundamental concepts in computer graphics. A 3D point can be represented by a matrix of the form:</p>
+
+        <div class="codeblock">
+            <p class="codeblock-text rem1-5 monospace semibold">[x y z 1]</p>
+        </div>
+        <p class="post-text rem1-5 outfit medium">where x, y, and z are the coordinates of the point in 3D space, and the 1 at the end is called the "homogeneous coordinate". A 3D vector can be represented by a matrix of the form:</p>
+        <div class="codeblock">
+            <p class="codeblock-text rem1-5 monospace semibold">[x y z 0]</p>
+        </div>
+        <p class="post-text rem1-5 outfit medium">where x, y, and z are the components of the vector, and the 0 at the end indicates that it is not a point, but a direction. Matrices can be combined using matrix multiplication, which is a powerful mathematical operation that allows us to perform a variety of transformations on 3D points and vectors.</p>
+
+        <p id="MatricesInGames" class="post-section rem2">Matrices in popular games&emsp;<a class="post-section-link rem1-5" href="#MatricesInGames">Copy Link</a></p>
+
+        <p class="post-text rem1-5 outfit medium">Matrices are an essential tool in the development of popular games, as they provide a convenient way to represent and manipulate 3D objects and their transformations. In first-person shooters, for example, matrices are used to represent the position, orientation, and scale of objects in the game world, such as weapons, enemies, and buildings. These matrices are then used to perform various transformations, such as moving the objects relative to the player's viewpoint or rotating them to match the player's aim.</p>
+        <p class="post-text rem1-5 outfit medium">Racing games also make extensive use of matrices to represent and manipulate the 3D models of vehicles and tracks. In these games, matrices are used to translate, rotate, and scale the models to match the movement of the vehicles and the curvature of the tracks. Matrices are also used to perform collision detection, allowing the game to accurately simulate the physical interactions between vehicles and obstacles.</p>
+        <p class="post-text rem1-5 outfit medium">Sports games also rely on matrices to represent and manipulate the 3D models of players, stadiums, and other objects. In these games, matrices are used to perform a wide range of transformations, such as moving players along the field or court, rotating them to match their orientation, and scaling them to match their size relative to other objects. Matrices are also used to perform collision detection, allowing the game to simulate the physical interactions between players and other objects.</p>
+        <p class="post-text rem1-5 outfit medium">Some examples of popular games that use matrices in their development include Grand Theft Auto: San Andreas, Forza Horizon, and FIFA. In GTA, matrices are used to represent and manipulate the 3D models of weapons, vehicles, entities, and environments. They're also used as data storage, as they're capable of storing vast amounts of data (e.g. A car's properties, a NPC's position). In Forza Horizon 5, matrices are used to represent and manipulate the 3D models of vehicles and tracks. And in FIFA, matrices are used to represent and manipulate the 3D models of players, stadiums, and other objects.</p>
+        <img src="https://i.ibb.co/hfVPHKv/giphy.gif" class="post-image-max720p" alt="A GIF of a few cars racing in the desert in Forza Horizon 5">
+        <p class="post-text rem1-5 outfit medium">Here's Grand Theft Auto: San Andreas, using matrices (structs) to store parameters used in the game:</p>
+        <div class="codeblock"> <!-- SA Matrix Codeblock -->
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// ------------------</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// CMatrix (size 0x3C || 60)</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// Matrix used to store an entities coordinates and rotation</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// ------------------</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">struct&nbsp;</p><p class="codeblock-text rem1-5 monospace semibold">CMatrix</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">{</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;float&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">XRotation&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">3</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x0 || 0</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;float&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">YRotation&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">3</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0xC || 12</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;float&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">ZRotation&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">3</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x18 || 24</p></div>
+            <div class="codeline"><p class="codeblock-text rem1-5 monospace semibold">&emsp;&emsp;&emsp;BYTE&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;zPadding0&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">12</p><p class="codeblock-text-green rem1-5 monospace semibold">];</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;float&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">Position&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">3</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x30 || 48</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">};</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+            <a href="https://pastebin.com/f5ed36b9"  class="codeblock-copytext italic semibold">Text source (Pastebin)</a>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+        </div>
+        <img src="https://i.ibb.co/jLdL4kt/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.png" class="post-image-max720p" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house.">
+        <p class="post-text rem1-5 outfit medium">Here's another example, this time with the struct of a vehicle, where properties like mass, primary and secondary paint, and car grip values are stored. (Do note that this struct fragment has been heavily shortened in this code block to reduce unnecessary stuff.)</p>
+        <div class="codeblock"> <!-- SA Veh Codeblock -->
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// ------------------</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// CVehicle (size 0xA18 || 2584)</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// Structure used to store information on vehicles in use</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">// ------------------</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">struct&nbsp;</p><p class="codeblock-text rem1-5 monospace semibold">CVehicle</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">{</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;float&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</p><p class="codeblock-text rem1-5 monospace semibold">Mass&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x8C || 140</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;unsigned char&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">PrimaryColours&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">2</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x434 || 1076</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;unsigned char&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">SecondaryColours&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">2</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x436 || 1078</p></div>
+            <div class="codeline"><p class="codeblock-text rem1-5 monospace semibold">&emsp;&emsp;&emsp;CPed*&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">PedsInVehicle&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;</p><p class="codeblock-text-green rem1-5 monospace semibold">[</p><p class="codeblock-text-purple rem1-5 monospace semibold">8</p><p class="codeblock-text-green rem1-5 monospace semibold">];&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x460 || 1120 (Driver is the first)</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">&emsp;&emsp;&emsp;float&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text rem1-5 monospace semibold">Health;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p><p class="codeblock-text-gray rem1-5 monospace semibold">// 0x4C0 || 1216</p></div>
+            <div class="codeline"><p class="codeblock-text-green rem1-5 monospace semibold">};</p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+            <a href="https://pastebin.com/f5ed36b9" class="codeblock-copytext italic semibold">Text source (Pastebin)</a>
+            <div class="codeline"><p class="codeblock-text-gray rem1-5 monospace semibold">‎ </p></div>
+        </div>
+
+        <img src="https://i.ibb.co/XkwKtLL/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.jpg" class="post-image-max720p" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open.">
+        <img src="https://i.ibb.co/hF6hkcw/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.jpg" class="post-image-max720p" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.">
+
+        <p class="post-text rem1-5 outfit medium">Generally, matrices are used for data storage, 3D graphics and to manipulate objects' size, position, rotation, orientation, among other things.</p>
+
+        <p id="MatricesInUE5" class="post-section rem2">Matrices in Unreal Engine 5&emsp;<a class="post-section-link rem1-5" href="#MatricesInUE5">Copy Link</a></p>
+
+        <p class="post-text rem1-5 outfit medium">Unreal Engine 5 is the latest version of the popular game engine developed by Epic Games, and it makes extensive use of matrices to represent and manipulate 3D objects and their transformations. In Unreal Engine 5, matrices are used to represent the position, orientation, and scale of objects in the game world, allowing developers to easily move, rotate, and scale objects as needed. Matrices are also used to perform a wide range of other transformations, such as deforming objects to match the shape of a terrain or animating objects to match a character's movements.</p>
+        <img src="https://i.ibb.co/B2XyZjf/Cubes.gif" class="post-image-max720p" alt="Two spinning cubes in Unreal Engine 5.1">
+        <p class="post-text rem1-5 outfit medium">Unreal Engine 5 also makes use of matrices in its real-time rendering engine, which uses matrices to transform 3D objects into the 2D images that are displayed on the screen. This allows Unreal Engine 5 to accurately represent the position, orientation, and scale of objects in the game world, as well as the perspective of the camera. Matrices are also used in Unreal Engine 5's physics simulation, which uses matrices to represent the motion and interactions of objects in the game world.</p>
+        <p class="post-text rem1-5 outfit medium">In addition, Unreal Engine 5 makes use of matrices in its artificial intelligence systems, which use matrices to represent the state and behavior of NPCs (non-player characters) in the game world. Matrices are used to represent the positions, orientations, and velocities of NPCs, as well as their relationships with other NPCs and the environment. This allows Unreal Engine 5 to simulate the behavior of NPCs in a realistic and responsive manner.</p>
+        <img src="https://i.ibb.co/ZxsBnXc/UE5-AI.gif" class="post-image-max720p" alt="A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level">
+        <p class="post-text rem1-5 outfit medium">Overall, the use of matrices in Unreal Engine 5 is crucial for its advanced features and realistic graphics, and it plays a central role in the development of modern games using this game engine.</p>
+
+
+        <p class="post-text rem1-5 outfit medium"></p>
+
+        <p id="Conclusion" class="post-section rem2">Conclusion&emsp;<a class="post-section-link rem1-5" href="#Conclusion">Copy Link</a></p>
+
+        <p class="post-text rem1-5 outfit medium">In this project, we have explored the use of matrices in popular games and in Unreal Engine 5, the latest version of the popular game engine developed by Epic Games. We have discussed the role of matrices in popular games, such as first-person shooters, racing games, and sports games, and explained how matrices are used to represent and manipulate 3D objects and their transformations. We have also discussed the use of matrices in Unreal Engine 5, including its real-time rendering engine, physics simulation, and artificial intelligence.</p>
+        <p class="post-text rem1-5 outfit medium">Overall, we have seen that matrices are an essential tool in game development, as they provide a convenient and powerful way to represent and manipulate 3D objects and their transformations. Matrices are used in a wide range of popular games and game engines, and they play a crucial role in enabling advanced features and realistic graphics in modern games.</p>
+        <p class="post-text rem1-5 outfit medium">Looking to the future, it is likely that the use of matrices in games and game engines will continue to evolve and expand, as developers continue to push the boundaries of what is possible with these technologies. We may see the use of machine learning and other advanced technologies to improve the performance and capabilities of matrices in games, leading to even more sophisticated and immersive gaming experiences.</p>
+        
+        </div>
+        <!-- Footer start -->
+        <footer class="footer">
+
+            <div class="footer-copyrights">
+                <p class="rem1 footer-text dm-sans semibold italic">© 2020-2022 AlexTECPlayz. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a class="white link-white rem1 dm-sans bold" rel="me" href="https://techhub.social/@alextecplayz">Mastodon</a>&nbsp;
+                <a class="white link-white rem1 dm-sans bold" href="https://twitter.com/realTECPlayz">Twitter</a>&nbsp;
+                <a class="white link-white rem1 dm-sans bold" href="https://youtube.com/@alextecplayz">YouTube</a>&nbsp;
+                <a class="white link-white rem1 dm-sans bold" href="https://github.com/alextecplayz">GitHub</a>
+            </div>
+            <div class="footer-links">
+                <a class="white link-white rem1 dm-sans bold" href="https://alextecplayz.github.io/about/terms-of-service.html">Terms of Service</a>&nbsp;
+                <a class="white link-white rem1 dm-sans bold" href="https://alextecplayz.github.io/about/privacy-policy.html">Privacy Policy</a>
+            </div>
+        </footer>
+        <!-- Footer end -->
+    </body>
+    
+</html>

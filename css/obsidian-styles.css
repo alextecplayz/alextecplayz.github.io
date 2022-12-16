@@ -1,0 +1,256 @@
+/* ====================== OBSIDIAN Design System styles.css ====================== */
+/* ======================= V1.0-202211 used on CassowaryV2 ======================= */
+
+/* ========================================================== RESET BEGIN ========================================================== */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+    border:0;
+    font: inherit;
+    vertical-align:baseline
+}
+
+a {
+    text-decoration: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block
+}
+
+body {
+    line-height:1
+}
+
+ol,ul {
+    list-style:none
+}
+
+blockquote,q {
+    quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content:'';
+    content:none
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+/* ========================================================== RESET END ========================================================== */
+
+.notice {
+    background-color: var(--darkgray);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.notice {
+    transition: 0.4s;
+}
+
+.notice-link:hover {
+    transition: 0.4s;
+    color: var(--brand-magenta);
+}
+
+.notice-outline {
+    border-color: var(--brand-magenta);
+    border: 1rem;
+}
+
+.header-wrap {
+    transition: 0.4s;
+    overflow: hidden;
+    padding: 0rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Sticky / fixed header */
+    top: 0;
+    /* width: 100% */
+    /* background-color: var(--darkgray); */ /* default is #def7ff, also used is #31313d */
+    z-index: 11;
+}
+
+.header {
+    transition: 0.4s;
+    text-rendering: optimizeLegibility;
+    font-size: 2.25rem; 
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10; 
+    position: sticky;
+    width: 100%;
+}
+
+.header-left {
+    transition: 0.4s;
+    padding-left: 5rem;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.header-right {
+    transition: 0.4s;
+    padding-right: 5rem;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-branding {
+    transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-branding:hover, .header-brandname:hover {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.header-logo:hover .header-brandname {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.header-brandname {
+    text-rendering: optimizeLegibility;
+    line-height: 100%;
+    transition: 0.4s;
+    color: var(--brand-magenta); /* Pink color - #F85FFF | Black color - #000000 */
+    font-size: 2.25rem; 
+}
+
+.header-logo {
+    width: 3.125rem;
+    height: 3.125rem;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    transition: 0.4s;
+    height: 100%;
+    padding-left: 3.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--brand-magenta);
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.header-button:hover {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.header-buttons {
+    transition: 0.4s;
+    display: flex;
+}
+
+.header-padding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+div.horizontal-scrollbox {
+    overflow: auto;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-transform: rotateX('-180deg');
+    transform: rotateX('-180deg');
+}
+
+div.horizontal-scrollbox a {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--black);
+}
+
+div.horizontal-scrollbox a:hover {
+    transition: 0.4s;
+    background: var(--accent-color);
+    text-decoration: underline;
+}
+
+.button {
+    transition: 0.4s;
+    color: var(--white);
+    text-align: center;
+    direction: ltr;
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--darkgray);
+    border: 0.5rem solid var(--darkgray);;
+}
+
+.button:hover {
+    transition: 0.4s;
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: 0.5rem solid var(--accent-color);
+}
+
+.button-outline {
+    transition: 0.4s;
+    border-radius: 0;
+    border: 0.5rem solid var(--accent-color);
+}
+
+.footer {
+    transition: 0.4s;
+    padding: 1rem 2.5rem 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.link-white {
+    transition: 0.4s;
+    position: relative;
+}
+
+.link-white:hover {
+    transition: 0.4s;
+    color: var(--brand-magenta);
+}

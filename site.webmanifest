@@ -1,0 +1,94 @@
+{
+    "name": "alextecplayz",
+    "dir": "ltr",
+    "lang": "en-GB",
+    "orientation": "any",
+    "short_name": "AlexTEC",
+    "description": "Browse Alex's website, check on the latest news and projects.",
+    "categories": ["entertainment", "games", "news", "personalization", "utilities"],
+    "icons": [
+        {
+            "src": "/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#d137d7",
+    "background_color": "#d137d7",
+    "scope": "/",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Posts",
+            "url": "/articles",
+            "description": "List with all of the website posts",
+            "icons": [
+                {
+                    "src": "/favicon/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Games",
+            "url": "/games",
+            "description": "List with all of the games in development or developed",
+            "icons": [
+                {
+                    "src": "/favicon/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Projects",
+            "url": "/projects",
+            "description": "List with all of the projects in development or developed",
+            "icons": [
+                {
+                    "src": "/favicon/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "About",
+            "url": "/about",
+            "description": "About Alex and the website",
+            "icons": [
+                {
+                    "src": "/favicon/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Contact",
+            "url": "/contact",
+            "description": "Contact me",
+            "icons": [
+                {
+                    "src": "/favicon/android-chrome-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ]
+}
