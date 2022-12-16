@@ -13,6 +13,12 @@
     "utilities"
   ],
   "icons": [
+     {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "/favicon/android-chrome-192x192.png",
       "sizes": "192x192",
@@ -32,7 +38,7 @@
   "theme_color": "#d137d7",
   "background_color": "#d137d7",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "minimal-ui",
   "prefer_related_applications": false,
   "shortcuts": [
