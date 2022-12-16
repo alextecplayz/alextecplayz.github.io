@@ -46,17 +46,18 @@ table {
     background-color: var(--darkgray);
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-top: 0rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    transition: 0.4s;
 }
 
-.notice {
+.notice-link {
     transition: 0.4s;
 }
 
@@ -68,6 +69,10 @@ table {
 .notice-outline {
     border-color: var(--brand-magenta);
     border: 1rem;
+}
+
+.notice-offline {
+    background-color: var(--accent-color);
 }
 
 .header-wrap {
