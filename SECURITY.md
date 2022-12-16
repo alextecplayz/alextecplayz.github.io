@@ -4,7 +4,8 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.0-release (current) | :white_check_mark: |
+| 1.0-release (current) | :white_check_mark: |
+| 0.9-release (old) | :white_check_mark: |
 | 1.5-jekyll-mmistakes | :x: |
 | 1.0-jekyll-mmistakes | :x: |
 
@@ -16,4 +17,4 @@ Please report (suspected) security vulnerabilities to alextec70@outlook.com. You
 
 ## Sharing website feedback or giving suggestions
 1. Check the currently supported version in the Version support list section at the beginning of this document. I won't implement new features into unsupported versions.
-2. Share the feedback either through GitHub using the FEEDBACK tag, or via e-mail to alextec70@outlook.com with the subject 'Alexhowell2a - Website feedback'.
+2. Share the feedback either through GitHub using the FEEDBACK tag, or via e-mail to alextec70@outlook.com with the subject 'Website feedback'.
