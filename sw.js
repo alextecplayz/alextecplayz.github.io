@@ -1,19 +1,11 @@
 const CACHE_NAME = 'cassowaryV2-cache';
 const OFFLINE_URL = 'offline.html';
 
-const PRECACHE_ASSETS = [
-    '/favicon/',
-    '/css/',
-    '/js/',
-    '/index.html'
-];
-
 self.addEventListener('install', function(event) {
   console.log('[ServiceWorker] Install');
   
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    cache.addAll(PRECACHE_ASSETS);
     await cache.add(new Request(OFFLINE_URL, {cache: 'reload'}));
   })());
   
