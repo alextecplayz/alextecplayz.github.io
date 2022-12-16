@@ -38,8 +38,11 @@
   "theme_color": "#d137d7",
   "background_color": "#d137d7",
   "scope": "/",
-  "start_url": "/index.html",
-  "display": "minimal-ui",
+  "id": "/",
+  "start_url": "/",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "display": "standalone",
+  "related_applications": false,
   "prefer_related_applications": false,
   "shortcuts": [
     {
