@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- CassowaryV2 | 16 December 2022. 02:07 AM Romania -->
+<!DOCTYPE html> <!-- CassowaryV2 | 16 December 2022 -->
 <html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
@@ -256,8 +256,10 @@
         <!-- Footer end -->
 
         <script>
-            if (typeof navigator.serviceWorker !== 'undefined') {
-            navigator.serviceWorker.register('sw.js')
+            if('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('sw.js')
+                .then(function() { console.log("Service Worker Registered"); });
             }
     </script>
 
