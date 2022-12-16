@@ -38,7 +38,7 @@
   "shortcuts": [
     {
       "name": "Posts",
-      "url": "/articles",
+      "url": "/posts",
       "description": "List with all of the website posts",
       "icons": [
         {
