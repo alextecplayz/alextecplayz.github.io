@@ -14,8 +14,17 @@
     src: url(/projects/mountain/fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Techna Sans';
+    src: url(/fonts/TechnaSans-Regular.otf);
+}
+
 .bebasneue {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.techna {
+    font-family: 'Techna Sans', sans-serif;
 }
 
 /* Font styles and weights */
