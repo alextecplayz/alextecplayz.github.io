@@ -20,6 +20,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 body {
     line-height:1
+    font-family: 'Outfit', sans-serif;
 }
 
 ol,ul {
