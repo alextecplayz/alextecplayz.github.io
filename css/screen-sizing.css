@@ -393,15 +393,24 @@
     }
 
     .header-left {
-        padding-left: 1rem;
+        padding-left: 0rem;
     }
 
     .header-right {
-        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-right: 0rem;
+    }
+
+    .notice {
+        font-size: 0.7rem;
+    }
+
+    .in-queue {
+        padding: 0rem;
     }
     
     .articles-container {
-        padding: 1.5rem;
+        padding: 0.5rem;
     }
 
     .article-long-left, .padding-long-right {
@@ -409,34 +418,33 @@
     }
 
     .article-long {
-        margin: 0.25rem;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .article-long:hover {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .article-long-title, .article-title {
-        padding-bottom: 1.5rem;
-        font-size: 1rem;
+        padding-bottom: 0.5rem;
+        font-size: 0.75rem;
     }
 
     .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.75rem;
+        font-size: 0.6rem;
     }
 
     /* Buttons BEGIN */
     .article-button-container {
         display: flex;
-        padding: 0.25rem;
+        padding: 0.20rem;
         transition: 0.4s;
     }
     
     .article-button-light, .article-button-dark {
         transition: 0.4s;
-        padding: 0.25rem;
-        font-size: 0.75rem;
+        padding: 0.20rem;
+        font-size: 0.6rem;
     }
     /* Buttons END */
 
@@ -457,8 +465,8 @@
     }
     
     .article-long-image-size {
-        max-width: 801px !important;
-        max-height: 534px !important;
+        max-width: 358px !important;
+        max-height: 234px !important;
         width: auto !important;
         height: 100% !important;
         background-color: var(--readerbg);
@@ -466,8 +474,8 @@
     }
     
     .article-image-size {
-        max-width: 299px !important;
-        max-height: 168px !important;
+        max-width: calc(299px / 4) !important;
+        max-height: calc(168px / 4) !important;
         width: auto !important;
         height: 100% !important;
         background-color: var(--readerbg-dark);
@@ -603,8 +611,8 @@
     }
     
     .article-long-image-size {
-        max-width: calc(801px / 5) !important;
-        max-height: calc(534px / 5) !important;
+        max-width: 160px !important;
+        max-height: 107px !important;
         width: auto !important;
         height: 100% !important;
         background-color: var(--readerbg);
@@ -612,8 +620,8 @@
     }
     
     .article-image-size {
-        max-width: calc(299px / 5) !important;
-        max-height: calc(168px /5) !important;
+        max-width: 60px !important;
+        max-height: 34px !important;
         width: auto !important;
         height: 100% !important;
         background-color: var(--readerbg-dark);
