@@ -70,7 +70,7 @@
   "shortcuts": [
     {
       "name": "Posts",
-      "url": "/posts",
+      "url": "/",
       "description": "List with all of the website posts",
       "icons": [
         {
@@ -106,20 +106,8 @@
     },
     {
       "name": "About",
-      "url": "/about",
+      "url": "/pages/About.html",
       "description": "About Alex and the website",
-      "icons": [
-        {
-          "src": "/favicon/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
-      "url": "/contact",
-      "description": "Contact me",
       "icons": [
         {
           "src": "/favicon/android-chrome-192x192.png",
