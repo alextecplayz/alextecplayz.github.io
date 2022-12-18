@@ -522,13 +522,14 @@
 /* Codeblock */
 
 .codeblock {
+    transition: 0.4s;
     background-color: var(--readerbg-dark);
     padding: 1rem;
     /*display: flex;*/
     width: -moz-fit-content;
     width: fit-content;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
