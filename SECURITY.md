@@ -5,7 +5,7 @@
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0-release (current) | :white_check_mark: |
-| 0.9-release (old) | :white_check_mark: |
+| 0.9-release (old) | :x: |
 | 1.5-jekyll-mmistakes | :x: |
 | 1.0-jekyll-mmistakes | :x: |
 
