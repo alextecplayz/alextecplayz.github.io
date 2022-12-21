@@ -11,9 +11,9 @@
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+You can open up a new issue or even make a pull request if you want.
 
-Please report (suspected) security vulnerabilities to alextec70@outlook.com. You will receive a response from me within 48 hours. If the issue is confirmed, I will release a patch as soon as possible depending on complexity but historically within a few days.
+Alternatively, please report (suspected) security vulnerabilities to alextec70@outlook.com. You will receive a response from me within 48 hours. If the issue is confirmed, I will release a patch as soon as possible depending on complexity but historically within a few days.
 
 ## Sharing website feedback or giving suggestions
 1. Check the currently supported version in the Version support list section at the beginning of this document. I won't implement new features into unsupported versions.
