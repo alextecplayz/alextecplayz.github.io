@@ -1,9 +1,18 @@
 /* CassowaryV2 - Colors */
 /* (C) alextecplayz 2022 */
 :root {
+    --jumpgame: #306dc9;
     --project-mountain: #E9DCDC; /* Colors not final */
     --project-odyssey: #FF7777; /* Colors not final */
     --project-hangar: #FFA674; /* Colors not final */
+    --project-eiffel: #4fdce0; /* Colors not final */
+    --project-vidal: #e5ee63; /* Colors not final */
+    --project-c3Vuc2V0: #e25b11; /* Colors not final */
+    --project-UnVzc2V0: #62682a; /* Colors not final */
+    --project-Vm94ZWw: #754040; /* Vm94ZWw= | Colors not final */
+
+    --enhanced-red: #FF5757;
+
     --black: #000000;
     --darkgray: #3a3a3a;
     --white: #ffffff;
@@ -92,6 +101,10 @@
     color: var(--text-green);
 }
 
+.jumpgame {
+    color: var(--jumpgame);
+}
+
 .project-mountain {
     color: var(--project-mountain);
 }
@@ -103,6 +116,8 @@
 .project-odyssey {
     color: var(--project-odyssey);
 }
+
+
 
 /* Normal and linear gradients for Background */
 

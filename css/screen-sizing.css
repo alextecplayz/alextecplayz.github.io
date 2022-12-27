@@ -1,5 +1,5 @@
 /* ======================== OBSIDIAN Design System sizing ======================== */
-/* ===================== V1.0-2022/12/18 used on CassowaryV2 ===================== */
+/* ===================== V1.0-2022/12/16 used on CassowaryV2 ===================== */
 
 /* In case I have to work with 4K resolution or higher, I have left space for them here */
 
@@ -329,6 +329,16 @@
         font-size: 0.75rem;
     }
 
+    .article-left {
+        padding: 0.15rem;
+    }
+
+    .article-right {
+        padding: 0.15rem;
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Buttons BEGIN */
     .article-button-container {
         display: flex;
@@ -404,6 +414,30 @@
         padding-right: 0.5rem;
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
+    }
+
+    .project-hangar-logo, .project-mountain-logo, .project-odyssey-logo, .project-vidal-logo, .project-eiffel-logo {
+        font-size: 1.35rem;
+    }
+
+    .more-soon {
+        font-size: 1.5rem;
+    }
+
+    .mod-enhanced-logo, .mod-enhanced-logo-red {
+        font-size: 1rem;
+    }
+
+    .footer-brandname {
+        font-size: 2.5rem;
+    }
+
+    .footer-legal {
+        font-size: 1rem;
+    }
+
+    .footer-copyright-text {
+        font-size: 1rem;
     }
 }
 
@@ -693,6 +727,39 @@
     .footer {
         padding: 0.15rem;
         padding-bottom: 1rem;
+    }
+
+    .project-hangar-logo, .project-mountain-logo, .project-odyssey-logo, .project-vidal-logo, .project-eiffel-logo {
+        font-size: 1rem;
+    }
+
+    .more-soon {
+        font-size: 1rem;
+    }
+
+    .mod-enhanced-logo, .mod-enhanced-logo-red {
+        font-size: 1rem;
+    }
+
+    .footer-brandname {
+        font-size: 2rem;
+    }
+
+    .footer-logo {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .footer-legal {
+        font-size: 0.75rem;
+    }
+
+    .footer-copyright-text {
+        font-size: 0.75rem;
+    }
+
+    .footer-left {
+        padding: 2rem 1rem 1rem 1rem !important;
     }
 }
 

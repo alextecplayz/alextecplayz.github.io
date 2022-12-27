@@ -351,43 +351,119 @@
     padding-bottom: 0.5rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.jumpgame-logo {
+    transition: 0.4s;
+    color: var(--lightgray);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
 }
 
 .project-hangar-logo {
     transition: 0.4s;
     color: var(--lightgray);
-    text-decoration-style: none;
+    text-decoration-style: none !important;
+    text-decoration: none !important;
 }
 
 .project-mountain-logo {
     transition: 0.4s;
     color: var(--lightgray);
-    text-decoration-style: none;
+    text-decoration-style: none !important;
+    text-decoration: none !important;
 }
 
 .project-odyssey-logo {
     transition: 0.4s;
     color: var(--lightgray);
-    text-decoration-style: none;
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.project-eiffel-logo {
+    transition: 0.4s;
+    color: var(--lightgray);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.project-vidal-logo {
+    transition: 0.4s;
+    color: var(--lightgray);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.mod-enhanced-logo {
+    color: var(--white);
+    transition: 0.4s;
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+}
+
+.mod-enhanced-logo-red {
+    color: var(--white);
+    background-color: var(--enhanced-red);
+    transition: 0.4s;
+    text-decoration: none !important;
+    text-decoration-style: none !important;
+}
+
+.jumpgame-logo:hover {
+    transition: 0.4s;
+    color: var(--jumpgame);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
 }
 
 .project-hangar-logo:hover {
     transition: 0.4s;
     color: var(--project-hangar);
-    text-decoration-style: none;
+    text-decoration-style: none !important;
+    text-decoration: none !important;
 }
 
 .project-mountain-logo:hover {
     transition: 0.4s;
     color: var(--project-mountain);
-    text-decoration-style: none;
+    text-decoration-style: none !important;
+    text-decoration: none !important;
 }
 
 .project-odyssey-logo:hover {
     transition: 0.4s;
     color: var(--project-odyssey);
-    text-decoration-style: none;
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.project-eiffel-logo:hover {
+    transition: 0.4s;
+    color: var(--project-eiffel);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.project-vidal-logo:hover {
+    transition: 0.4s;
+    color: var(--project-vidal);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.mod-enhanced-logo:hover {
+    transition: 0.4s;
+    color: var(--lightgray);
+    text-decoration-style: none !important;
+    text-decoration: none !important;
+}
+
+.mod-enhanced-logo-red:hover {
+    color: var(--lightgray);
+    transition: 0.4s;
+    text-decoration: none !important;
+    text-decoration-style: none !important;
 }
 
 
@@ -755,4 +831,21 @@
     max-height: 923px;
     width: 100%;
     height: auto;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.more-soon {
+    font-size: 5rem;
+    color: var(--lightgray);
 }

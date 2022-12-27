@@ -295,13 +295,88 @@ div.horizontal-scrollbox a:hover {
     transition: 0.4s;
     padding: 1rem 2.5rem 3rem 2.5rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
 }
 
 .footer-text {
     transition: 0.4s;
     color: var(--white);
+}
+
+.footer-copyright-text {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.footer-left {
+    padding: 3rem 2.5rem 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-up {
+    display: flex;
+    padding-bottom: 1rem ;
+}
+
+.footer-left-down {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer-branding {
+    transition: 0.4s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer-branding:hover, .footer-brandname:hover {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.footer-logo:hover .footer-brandname {
+    transition: 0.4s;
+    color: var(--white);
+}
+
+.footer-brandname {
+    text-rendering: optimizeLegibility;
+    line-height: 100%;
+    transition: 0.4s;
+    color: var(--brand-magenta); /* Pink color - #F85FFF | Black color - #000000 */
+    font-size: 4rem; 
+}
+
+.footer-logo {
+    width: 4rem;
+    height: 4rem;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+}
+
+.footer-legal {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
 }
 
 .link-white {
