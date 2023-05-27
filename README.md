@@ -8,7 +8,7 @@ With the new website update nearing completion, here's a small sneak peek to wha
 The Obsidian Design System will release to the public soon after the new website is released. Currently, plans are to release a web and an Unreal Engine version of the design system, with possible future releases for Android, Linux and Windows.
 
 The new design system update not only contains visual updates, but functionality changes as well:
-- Share: Share buttons for all posts, will show a custom interface from where you can copy the link directly, share it on social media, and to even include a direct jump to a section
+- Share: Share buttons for all posts
 - 'Vertical Slices': Will be showcased in a case study for all the previous iterations of my website, and ideas I've had/have for the website. It will feature interactive portions of older website iterations, images, animations, etc. This will be used in the future for project announcements or sneak peeks, like 3D model viewers (*Not confirmed yet*).
 - Fancy stuff like microinteractions, fast & fluid animations, progress indicators
 - Image viewer, and soon after, Videos and Music player, as I continue to unify my stuff in a single place
