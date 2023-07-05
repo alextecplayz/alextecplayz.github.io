@@ -17,8 +17,6 @@ The new design system update not only contains visual updates, but functionality
 
 These aren't all the changes, but more details will be added in the release notes in the CHANGELOG.md file once the update comes out.
 
-Also an announcement about the Obsidian Design System: It will be **FREE** to use for personal and small-scale projects, but will have paid options (not subscriptions) for large business and commercial applications, including templates or custom iterations. More details will be added soon, when the website updates.
-
 ### <img src="https://i.ibb.co/Yc3F8XC/ORB-Server.webp" height="2.5%" width="2.5%"> OR8 Wiki
 In a continued efford to unify my stuff, I have decided to also unify the OR8 Wiki from my 0R8-Wiki repo to a dedicated portion of my website. It will have its own theming and style based on Obsidian, but it won't have all the features, as it doesn't need some stuff.
 
