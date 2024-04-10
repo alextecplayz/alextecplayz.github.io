@@ -70,6 +70,7 @@
 .post {height: 100%; flex-grow: 1; width: auto; padding: var(--rem1) var(--rem1) var(--rem1) var(--rem3) !important; margin: 0rem 0rem 0rem var(--rem1) !important;}
 .post-header {display: flex; align-items: flex-start; padding: var(--rem1) var(--rem1) var(--rem1) var(--rem3) !important; margin: 0rem var(--rem1) 0rem var(--rem1); background-color: var(--vantagray); width: -moz-available !important; width: -webkit-fill-available !important; width: stretch !important; transition: transform 0.3s ease-in-out !important;}
 .post-header-sticky {position: fixed !important; padding: 0rem; top: var(--rem1-5); transition: transform 0.3s ease-in-out !important; z-index: 100;}
+.post-header details {overflow-y: auto !important; max-height: 25vh !important; scroll-behavior: smooth;}
 .post-header details a:first-of-type {padding-top: var(--rem1-5);}
 .post-header details a:last-of-type {padding-bottom: var(--rem1-5);}
 .post-header details a {text-decoration: none; line-height: 0.25rem !important; position: relative !important;}
