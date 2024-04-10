@@ -1,0 +1,27 @@
+---
+layout: 404
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" class="scroll-smooth bg-header">
+    <head>
+        {% include head.html %}
+    </head>
+<body class="bg-header">
+        {% include header.html %}
+
+        {% include notice-container.html %}
+
+        <div class="post-content post">
+            <header class="post-header">
+                <h1 class="post-title blaec semibold rem20 white" itemprop="name headline">404</h1>
+                <p class="post-description rem1-5 outfit medium white">{{ site.t[page.lang].pagenotfound }}</p>
+            </header>
+         <div class="post-content lightgray rem1-15 monospace medium">
+               <a href="https://vantainteractive.com/">{{ site.t[page.lang].homepage }}</a>
+           </div>
+        </div>
+
+        {% include footer.html %}
+</body>
+</html>

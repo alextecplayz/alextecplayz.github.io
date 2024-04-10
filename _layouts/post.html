@@ -1,0 +1,45 @@
+---
+layout: post
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" class="scroll-smooth bg-header">
+    <head>
+        {% include head.html %}
+    </head>
+<body class="bg-header">
+        {% include header.html %}
+
+        {% include notice-container.html %}
+
+        <div class="post-content post">
+            {% if page.toc %}
+                <header class="post-header z-index25" id="post-header">
+                    <details class="toc">
+                        <summary class="post-text monospace rem1-25 lightgray">{{ site.t[page.lang].toc }}</summary>
+                        {{ page.toc }}
+                    </details>
+                </header>
+            {% endif %}
+            <div class="post-content lightgray rem1-15 monospace medium">
+                {% if page.image_banner_link %}
+                    <div class="article-long article-banner">
+                        <img src="{{ page.image_banner_link }}" class="project-image-banner" alt="{{ page.image_banner_alt }}">
+                    </div>
+            {% endif %}
+            <h1 class="post-title rem2-5 white monospace semibold" itemprop="name headline">{{ page.title }}</h1>
+                {% if page.date %}
+                    <p class="post-meta">
+                        <time class="dt-published rem1 white monospace medium" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}
+                    </time></p>
+                {% endif %}
+            <p class="monospace rem1-15 lightgray">{{ page.metadata_proglang }} {{ page.metadata_platforms }} {{ page.metadata_timespan }}</p>
+            <p class="{{ page.indicator_type }} {{ page.indicator_class }} notice-text vantagray monospace semibold">{{ page.indicator_text_onpage }}</p>
+            <p class="post-text rem1-15 monospace medium lightgray">{{ page.description }}</p>
+                {{ content }}
+            </div>
+        </div>
+
+        {% include footer.html %}
+</body>
+</html>

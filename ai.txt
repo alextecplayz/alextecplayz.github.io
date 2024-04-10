@@ -1,0 +1,51 @@
+# AlexTECPlayz posts, documentation, legal content is made available
+# for your personal, non-commercial use, subject to our Terms of Service
+# available here: https://alextecplayz.github.io/terms
+#
+# Use of any device, tool, or process designed to data mine or scrape the
+# content using automated means is prohibited without prior written permission
+# from Vanta Interactive. Prohibited uses include, but are not limited to:
+# (1) text and data mining activities under Art. 4 of the EU Directive on Copyright in
+# the Digital Single Market;
+# (2) the development of any software, machine learning, artificial intelligence (AI),
+# and/or large language models (LLMs);
+# (3) creating or providing archived or cached data sets containing our content to others; and/or
+# (4) any commercial purposes.
+# Access https://alextecplayz.github.io/about for assistance or contact information.
+
+# Sitemap
+Sitemap: https://alextecplayz.github.io/sitemap.xml
+
+# UA
+User-agent: *
+Disallow: /posts/
+
+# complete UA block
+User-agent: AdsBot-Google
+User-agent: Amazonbot
+User-agent: anthropic-ai
+User-agent: Applebot
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: cohere-ai
+User-agent: DataForSeoBot
+User-agent: FacebookBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GPTBot
+User-agent: ImagesiftBot
+User-agent: magpie-crawler
+User-agent: Meltwater
+User-agent: omgili
+User-agent: omgilibot
+User-agent: peer39_crawler
+User-agent: peer39_crawler/1.0
+User-agent: PerplexityBot
+User-agent: Seekr
+User-agent: YouBot
+Disallow: /

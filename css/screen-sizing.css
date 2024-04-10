@@ -1,765 +1,187 @@
-/* ======================== OBSIDIAN Design System sizing ======================== */
-/* ===================== V1.0-2022/12/16 used on CassowaryV2 ===================== */
-
-/* In case I have to work with 4K resolution or higher, I have left space for them here */
-
-/* =========================================================================================== */
-
-/* If screen size less than 1500px wide, do STH */
+/* If screen size less than 1500px wide, do.. */
 @media screen and (max-width: 1500px) and ( min-width: 1250px) {
-    .articles-container {
-        padding: 1.5rem;
-    }
-
-    .article-long-left, .padding-long-right {
-        padding: 0.5rem;
-    }
-
-    .article-long {
-        margin: 0.25rem;
-        padding: 1rem;
-    }
-
-    .article-long:hover {
-        padding: 1rem;
-    }
-
-    .article-long-title, .article-title {
-        padding-bottom: 1.5rem;
-        font-size: 1rem;
-    }
-
-    .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.75rem;
-    }
-
-    /* Buttons BEGIN */
-    .article-button-container {
-        display: flex;
-        padding: 0.25rem;
-        transition: 0.4s;
-    }
-    
-    .article-button-light, .article-button-dark {
-        transition: 0.4s;
-        padding: 0.25rem;
-        font-size: 0.75rem;
-    }
-    /* Buttons END */
-
-    .placeholder-image-article {
-        max-width: 801px !important;
-        max-height: 534px !important;
-        width: 100%;
-        height: auto;
-        transition: 0.4s;
-    }
-    
-    .post-image-portrait-mode {
-        max-width: 2322px;
-        max-height: 4128px;
-        width: auto;
-        height: 100%;
-        transition: 0.4s;
-    }
-    
-    .article-long-image-size {
-        max-width: 801px !important;
-        max-height: 534px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg);
-        transition: 0.4s;
-    }
-    
-    .article-image-size {
-        max-width: 299px !important;
-        max-height: 168px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg-dark);
-        transition: 0.4s;
-    }
+    .articles-container {padding: 1.5rem;}
+    .article-long-left, .padding-long-right {padding: 0.5rem;}
+    .article-long {margin: 0.25rem; padding: 1rem;}
+    .article-long:hover {padding: 1rem;}
+    .article-long-title, .article-title {padding-bottom: 1.5rem;}
+    .article-button-container {display: flex; padding: 0.25rem;}
+    .article-button-dark, .article-button-light {padding: 1.25rem;}
+    .placeholder-image-article {max-width: 801px !important; max-height: 534px !important; width: 100%; height: auto;}
+    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
+    .article-long-image-size {max-width: 801px !important; max-height: 534px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 299px !important; max-height: 168px !important; width: auto !important; height: 100% !important;}
 }
 
-/* =========================================================================================== */
-
-/* If screen size less than 1250px wide, do STH */
+/* If screen size less than 1250px wide, do.. */
 @media screen and (max-width: 1250px) and ( min-width: 1170px) {
-    .header-brandname {
-        text-rendering: optimizeLegibility;
-        font-size: calc(2.25rem / 1.1); 
-    }
-    
-    .header-logo {
-        width: calc(3.125rem / 1.1);
-        height: calc(3.125rem / 1.1);
-    }
-
-    .header-left {
-        padding-left: 2.5rem;
-    }
-
-    .header-right {
-        padding-right: 2.5rem;
-    }
-
-    .articles-container {
-        padding: 1.5rem;
-    }
-
-    .article-long-left, .padding-long-right {
-        padding: 0.5rem;
-    }
-
-    .article-long {
-        margin: 0.25rem;
-        padding: 1rem;
-    }
-
-    .article-long:hover {
-        padding: 1rem;
-    }
-
-    .article-long-title, .article-title {
-        padding-bottom: 1.5rem;
-        font-size: 1rem;
-    }
-
-    .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.75rem;
-    }
-
-    /* Buttons BEGIN */
-    .article-button-container {
-        display: flex;
-        padding: 0.25rem;
-        transition: 0.4s;
-    }
-    
-    .article-button-light, .article-button-dark {
-        transition: 0.4s;
-        padding: 0.25rem;
-        font-size: 0.75rem;
-    }
-    /* Buttons END */
-
-    .placeholder-image-article {
-        max-width: 1920px;
-        max-height: 1080px;
-        width: 100%;
-        height: auto;
-        transition: 0.4s;
-    }
-    
-    .post-image-portrait-mode {
-        max-width: 2322px;
-        max-height: 4128px;
-        width: auto;
-        height: 100%;
-        transition: 0.4s;
-    }
-    
-    .article-long-image-size {
-        max-width: 801px !important;
-        max-height: 534px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg);
-        transition: 0.4s;
-    }
-    
-    .article-image-size {
-        max-width: 299px !important;
-        max-height: 168px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg-dark);
-        transition: 0.4s;
-    }
+    .header-logo {width: calc(3.125rem / 1.1); height: calc(3.125rem / 1.1);}
+    .header-left {padding-left: 2.5rem;}
+    .header-right {padding-right: 2.5rem;}
+    .articles-container {padding: 1.5rem;}
+    .article-long-left, .padding-long-right {padding: 0.5rem;}
+    .article-long {margin: 0.25rem; padding: 1rem;}
+    .article-long:hover {padding: 1rem;}
+    .article-long-title, .article-title {padding-bottom: 1.5rem;}
+    .article-button-container {display: flex; padding: 0.25rem;}
+    .article-button-light, .article-button-dark {padding: 1.25rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
+    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
+    .article-long-image-size {max-width: 801px !important; max-height: 534px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 299px !important; max-height: 168px !important; width: auto !important; height: 100% !important;}
 }
 
-/* =========================================================================================== */
-
-/* If screen size less than 1170px wide, do STH */
+/* If screen size less than 1170px wide, do.. */
 @media screen and (max-width: 1170px) and (min-width: 950px) {
-    .header-brandname {
-        text-rendering: optimizeLegibility;
-        font-size: calc(2.25rem / 1.25); 
-    }
-    
-    .header-logo {
-        width: calc(3.125rem / 1.25);
-        height: calc(3.125rem / 1.25);
-    }
-
-    .header-left {
-        padding-left: 1.5rem;
-    }
-
-    .header-right {
-        padding-right: 1.5rem;
-    }
-    
-    .articles-container {
-        padding: 1rem;
-    }
-
-    .article-long-left, .padding-long-right {
-        padding: 0.35rem;
-    }
-
-    .article-long {
-        margin: 0.15rem;
-        padding: 0.75rem;
-    }
-
-    .article-long:hover {
-        padding: 0.75rem;
-    }
-
-    .article-long-title, .article-title {
-        padding-bottom: 1.25rem;
-        font-size: 1rem;
-    }
-
-    .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.55rem;
-    }
-
-    /* Buttons BEGIN */
-    .article-button-container {
-        display: flex;
-        padding: 0.15rem;
-        transition: 0.4s;
-    }
-    
-    .article-button-light, .article-button-dark {
-        transition: 0.4s;
-        padding: 0.15rem;
-        font-size: 0.65rem;
-    }
-    /* Buttons END */
-
-    .placeholder-image-article {
-        max-width: 1920px;
-        max-height: 1080px;
-        width: 100%;
-        height: auto;
-        transition: 0.4s;
-    }
-    
-    .post-image-portrait-mode {
-        max-width: 2322px;
-        max-height: 4128px;
-        width: auto;
-        height: 100%;
-        transition: 0.4s;
-    }
-    
-    .article-long-image-size {
-        max-width: 566px !important;
-        max-height: 378px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg);
-        transition: 0.4s;
-    }
-    
-    .article-image-size {
-        max-width: 211px !important;
-        max-height: 119px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg-dark);
-        transition: 0.4s;
-    }
+    .header-logo {width: calc(3.125rem / 1.25); height: calc(3.125rem / 1.25);}
+    .header-left {padding-left: 1.5rem;}
+    .header-right {padding-right: 1.5rem;}
+    .articles-container {padding: 1rem;}
+    .article-long-left, .padding-long-right {padding: 0.35rem;}
+    .article-long {margin: 0.15rem; padding: 0.75rem;}
+    .article-long:hover {padding: 0.75rem;}
+    .article-long-title, .article-title {padding-bottom: 1.25rem}
+    .article-button-container {display: flex; padding: 0.15rem;}
+    .article-button-light, .article-button-dark {padding: 0.15rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px;width: 100%; height: auto;}
+    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px;width: auto; height: 100%;}
+    .article-long-image-size {max-width: 566px !important; max-height: 378px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 211px !important; max-height: 119px !important; width: auto !important; height: 100% !important;}
 }
 
-/* =========================================================================================== */
-
-/* If screen size less than 950px wide, do STH */
+/* If screen size less than 950px wide, do.. */
 @media screen and (max-width: 950px) and (min-width: 725px) {
-    .header-brandname {
-        text-rendering: optimizeLegibility;
-        font-size: calc(2.25rem / 1.5); 
-    }
-    
-    .header-logo {
-        width: calc(3.125rem / 1.5);
-        height: calc(3.125rem / 1.5);
-    }
-
-    .header-buttons {
-        flex-wrap: wrap;
-    }
-
-    .header-left {
-        padding-left: unset;
-    }
-
-    .header-right {
-        padding-top: 1rem;
-        padding-right: unset;
-    }
-    
-    .articles-container {
-        padding: 1.5rem;
-    }
-
-    .article-long-left, .padding-long-right {
-        padding: 0.5rem;
-    }
-
-    .article-long {
-        margin: 0.25rem;
-        padding: 1rem;
-    }
-
-    .article-long:hover {
-        padding: 1rem;
-    }
-
-    .article-long-title, .article-title {
-        padding-bottom: 1.5rem;
-        font-size: 1rem;
-    }
-
-    .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.75rem;
-    }
-
-    .article-left {
-        padding: 0.15rem;
-    }
-
-    .article-right {
-        padding: 0.15rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Buttons BEGIN */
-    .article-button-container {
-        display: flex;
-        padding: 0.25rem;
-        transition: 0.4s;
-    }
-    
-    .article-button-light, .article-button-dark {
-        transition: 0.4s;
-        padding: 0.25rem;
-        font-size: 0.75rem;
-    }
-    /* Buttons END */
-
-    .placeholder-image-article {
-        max-width: 1920px;
-        max-height: 1080px;
-        width: 100%;
-        height: auto;
-        transition: 0.4s;
-    }
-    
-    .post-image-portrait-mode {
-        max-width: 2322px;
-        max-height: 4128px;
-        width: auto;
-        height: 100%;
-        transition: 0.4s;
-    }
-    
-    .article-long-image-size {
-        max-width: calc(801px / 2) !important;
-        max-height: calc(534px / 2) !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg);
-        transition: 0.4s;
-    }
-    
-    .article-image-size {
-        max-width: calc(299px / 2) !important;
-        max-height: calc(168px / 2) !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg-dark);
-        transition: 0.4s;
-    }
-
-    .codeblock {
-        transition: 0.4s;
-        padding: 0.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .codeblock-text, .codeblock-text-gray, .codeblock-text-green, .codeblock-text-blue, .codeblock-text-red, .codeblock-text-yellow, .codeblock-text-purple {
-        font-size: 1rem !important;
-    }
-
-    .codeblock-copytext {
-        margin-top: 2.5rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        font-size: 1rem;
-    }
-
-    .post-image-max1080p, .post-image-max720p, .post-image-max480p {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-    }
-
-    .project-hangar-logo, .project-mountain-logo, .project-odyssey-logo, .project-vidal-logo, .project-eiffel-logo {
-        font-size: 1.35rem;
-    }
-
-    .more-soon {
-        font-size: 1.5rem;
-    }
-
-    .mod-enhanced-logo, .mod-enhanced-logo-red {
-        font-size: 1rem;
-    }
-
-    .footer-brandname {
-        font-size: 2.5rem;
-    }
-
-    .footer-legal {
-        font-size: 1rem;
-    }
-
-    .footer-copyright-text {
-        font-size: 1rem;
-    }
+    .header-logo {width: calc(3.125rem / 1.5); height: calc(3.125rem / 1.5);}
+    .header-buttons {flex-wrap: wrap;}
+    .header-left {padding-left: unset;}
+    .header-right {padding-top: 1rem; padding-right: unset;}
+    .articles-container {padding: 1.5rem;}
+    .article-long-left, .padding-long-right {padding: 0.5rem;}
+    .article-long {margin: 0.25rem; padding: 1rem;}
+    .article-long:hover {padding: 1rem;}
+    .article-long-title, .article-title {padding-bottom: 1.5rem;}
+    .article-left {padding: 0.15rem;}
+    .article-right {padding: 0.15rem; display: flex; flex-direction: column;}
+    .article-button-container {display: flex; padding: 0.25rem;}
+    .article-button-light, .article-button-dark {padding: 0.25rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
+    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
+    .article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
+        width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: calc(299px / 2) !important; max-height: calc(168px / 2) !important; width: auto !important; height: 100% !important;}
+    .post-image-max1080p, .post-image-max720p, .post-image-max480p {padding: 0.25rem 0.5rem 0.25rem 0.5rem !important;}
 }
 
-/* =========================================================================================== */
-
-/* If screen size less than 725px wide, do STH */
+/* If screen size less than 725px wide, do.. */
 @media screen and (max-width: 725px) and (min-width: 425px) {
-    .header-brandname {
-        text-rendering: optimizeLegibility;
-        font-size: calc(2.25rem / 1.5); 
-    }
-    
-    .header-logo {
-        width: calc(3.125rem / 1.5);
-        height: calc(3.125rem / 1.5);
-    }
-
-    .header-left {
-        padding-left: 0rem;
-    }
-
-    .header-right {
-        padding-top: 1rem;
-        padding-right: 0rem;
-    }
-
-    .notice {
-        font-size: 0.7rem;
-    }
-
-    .in-queue {
-        padding: 0rem;
-    }
-    
-    .articles-container {
-        padding: 0.5rem;
-    }
-
-    .article-long-left, .padding-long-right {
-        padding: 0.5rem;
-    }
-
-    .article-long {
-        padding: 0.5rem;
-    }
-
-    .article-long:hover {
-        padding: 0.5rem;
-    }
-
-    .article-long-title, .article-title {
-        padding-bottom: 0.5rem;
-        font-size: 0.75rem;
-    }
-
-    .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.6rem;
-    }
-
-    /* Buttons BEGIN */
-    .article-button-container {
-        display: flex;
-        padding: 0.20rem;
-        transition: 0.4s;
-    }
-    
-    .article-button-light, .article-button-dark {
-        transition: 0.4s;
-        padding: 0.20rem;
-        font-size: 0.6rem;
-    }
-    /* Buttons END */
-
-    .placeholder-image-article {
-        max-width: 1920px;
-        max-height: 1080px;
-        width: 100%;
-        height: auto;
-        transition: 0.4s;
-    }
-    
-    .post-image-portrait-mode {
-        max-width: 2322px;
-        max-height: 4128px;
-        width: auto;
-        height: 100%;
-        transition: 0.4s;
-    }
-    
-    .article-long-image-size {
-        max-width: 358px !important;
-        max-height: 234px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg);
-        transition: 0.4s;
-    }
-    
-    .article-image-size {
-        max-width: calc(299px / 4) !important;
-        max-height: calc(168px / 4) !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg-dark);
-        transition: 0.4s;
-    }
-
-    .codeblock {
-        transition: 0.4s;
-        padding: 0.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .codeblock-text, .codeblock-text-gray, .codeblock-text-green, .codeblock-text-blue, .codeblock-text-red, .codeblock-text-yellow, .codeblock-text-purple {
-        font-size: 0.75rem !important;
-    }
-
-    .codeblock-copytext {
-        margin-top: 2.5rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        font-size: 1rem;
-    }
-    
-    .post-image-max1080p, .post-image-max720p, .post-image-max480p {
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
-        padding-top: 0.05rem;
-        padding-bottom: 0.05rem;
-    }
+    .header-logo {width: calc(3.125rem / 1.5); height: calc(3.125rem / 1.5);}
+    .header-left {padding-left: 0rem;}
+    .header-right {padding-top: 1rem; padding-right: 0rem;}
+    .in-queue {padding: 0rem;}
+    .articles-container {padding: 0.5rem;}
+    .article-long-left, .padding-long-right {padding: 0.5rem;}
+    .article-long {padding: 0.5rem;}
+    .article-long:hover {padding: 0.5rem;}
+    .article-long-title, .article-title {padding-bottom: 0.5rem;}
+    .article-button-container {display: flex; padding: 0.20rem;}
+    .article-button-light, .article-button-dark {padding: 0.20rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
+    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
+    .article-long-image-size { max-width: 358px !important; max-height: 234px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: calc(299px / 4) !important; max-height: calc(168px / 4) !important; width: auto !important; height: 100% !important;}
+    .post-image-max1080p, .post-image-max720p, .post-image-max480p {padding: 0.05rem 0.25rem 0.05rem 0.25rem !important;}
 }
 
-/* =========================================================================================== */
-
-/* If screen size less than 425px wide, do STH */
-@media screen and (max-width: 425px) and (min-width: 150px) {
-    .header-brandname {
-        text-rendering: optimizeLegibility;
-        font-size: calc(2.25rem / 3); 
-    }
-    
-    .header-logo {
-        width: calc(3.125rem / 3);
-        height: calc(3.125rem / 3);
-    }
-
-    .header-buttons {
-        flex-wrap: wrap;
-    }
-
-    .header-left {
-        padding-left: unset;
-    }
-
-    .header-right {
-        padding-right: unset;
-    }
-
-    .header-button {
-        font-size: 0.55rem;
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
-    }
-
-    .notice {
-        font-size: 0.5rem;
-    }
-    
-    .articles-container {
-        display: flex;
-        flex-direction: column;
-        padding: 0.15rem;
-    }
-
-    .double-article {
-        flex-direction: column;
-    }
-
-    .projects-container {
-        flex-direction: column;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        padding: 0rem;
-        align-items: unset;
-    }
-
-    .projects-container .article {
-        padding: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-
-    .article {
-        margin-top: 0.75rem;
-        margin-bottom: 0.75rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-
-    .in-queue {
-        padding: 0rem;
-        margin-top: 0.75rem;
-        margin-bottom: 0.75rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-    }
-
-    .article-long-left, .padding-long-right {
-        padding: 0.15rem;
-    }
-
-    .article-long {
-        margin: 0.15rem;
-        padding: 0.25rem;
-    }
-
-    .article-long:hover {
-        padding: 0.25rem;
-    }
-
-    .article-long-title, .article-title {
-        padding-bottom: 0.5rem;
-        font-size: 0.65rem;
-    }
-
-    .article-long-desc, .article-long-date, .article-desc, .article-date {
-        font-size: 0.35rem;
-    }
-
-    /* Buttons BEGIN */
-    .article-button-container {
-        display: flex;
-        padding: 0.15rem;
-        transition: 0.4s;
-    }
-    
-    .article-button-light, .article-button-dark {
-        transition: 0.4s;
-        padding: 0.15rem;
-        font-size: 0.35rem;
-    }
-    /* Buttons END */
-
-    .placeholder-image-article {
-        max-width: 1920px;
-        max-height: 1080px;
-        width: 100%;
-        height: auto;
-        transition: 0.4s;
-    }
-    
-    .post-image-portrait-mode {
-        max-width: 2322px;
-        max-height: 4128px;
-        width: auto;
-        height: 100%;
-        transition: 0.4s;
-    }
-    
-    .article-long-image-size {
-        max-width: 160px !important;
-        max-height: 107px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg);
-        transition: 0.4s;
-    }
-    
-    .article-image-size {
-        max-width: 60px !important;
-        max-height: 34px !important;
-        width: auto !important;
-        height: 100% !important;
-        background-color: var(--readerbg-dark);
-        transition: 0.4s;
-    }
-
-    .footer, .footer-text, .footer-link {
-        font-size: 0.55rem;
-    }
-
-    .footer {
-        padding: 0.15rem;
-        padding-bottom: 1rem;
-    }
-
-    .project-hangar-logo, .project-mountain-logo, .project-odyssey-logo, .project-vidal-logo, .project-eiffel-logo {
-        font-size: 1rem;
-    }
-
-    .more-soon {
-        font-size: 1rem;
-    }
-
-    .mod-enhanced-logo, .mod-enhanced-logo-red {
-        font-size: 1rem;
-    }
-
-    .footer-brandname {
-        font-size: 2rem;
-    }
-
-    .footer-logo {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .footer-legal {
-        font-size: 0.75rem;
-    }
-
-    .footer-copyright-text {
-        font-size: 0.75rem;
-    }
-
-    .footer-left {
-        padding: 2rem 1rem 1rem 1rem !important;
-    }
+/* If screen size less than 425px wide, do.. */
+@media screen and (max-width: 425px) and (min-width: 398px) {
+    .notice {padding: 0.45rem;}
+    .header {padding: 0.75rem; align-items: flex-start;}
+    .header-logo {width: calc(3.125rem / 3); height: calc(3.125rem / 3);}
+    .logo-sticky {top: 1rem; left: 3rem;}
+    .header-buttons {flex-wrap: wrap;}
+    .header-left {padding-left: unset; align-items: start;}
+    .header-right {padding-right: unset;}
+    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important; display: none;}
+    .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
+    .double-article {flex-direction: column;}
+    .projects-container {flex-direction: column; align-items: unset;}
+    .projects-container, .projects-container .article {padding: 0rem; margin-left: 0rem; margin-right: 0rem;}
+    .article, .article-long, .in-queue {flex-direction: column; margin: 0.75rem 0rem 0.75rem 0rem !important;}
+    .article-long-left, .article-left {flex-direction: row; padding: 0.25rem; margin: 0rem;}
+    .in-queue {padding: 0rem;}
+    .article-long-left, .padding-long-right {padding: 0.15rem;}
+    .article-long {margin: 0.15rem; padding: 0.25rem;}
+    .article-long:hover {padding: 0.25rem;}
+    .article-long-title, .article-title {padding-bottom: 0.5rem;}
+    .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
+    .article-button-light, .article-button-dark {padding: 0.75rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
+    .article-long-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
+    .footer {padding: 0.15rem; padding-bottom: 1rem;}
+    .footer-logo {width: 2rem; height: 2rem;}
+    .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
+    .section-permalink, .section-title {padding: 0.5rem;}
 }
 
+/* If screen size less than 425px wide, do.. */
+@media screen and (max-width: 398px) and (min-width: 340px) {
+    .notice {padding: 0.45rem;}
+    .header {padding: 0.75rem; align-items: flex-start;}
+    .header-logo {width: calc(3.125rem / 3); height: calc(3.125rem / 3);}
+    .logo-sticky {top: 1rem; left: 3rem;}
+    .header-buttons {flex-wrap: wrap;}
+    .header-left {padding-left: unset; align-items: start;}
+    .header-right {padding-right: unset;}
+    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important; display: none;}
+    .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
+    .double-article {flex-direction: column;}
+    .projects-container {flex-direction: column; align-items: unset;}
+    .projects-container, .projects-container .article {padding: 0rem; margin-left: 0rem; margin-right: 0rem;}
+    .article, .article-long, .in-queue {flex-direction: column; margin: 0.75rem 0rem 0.75rem 0rem !important;}
+    .article-long-left, .article-left {flex-direction: row; padding: 0.25rem; margin: 0rem;}
+    .in-queue {padding: 0rem;}
+    .article-long-left, .padding-long-right {padding: 0.15rem;}
+    .article-long {margin: 0.15rem; padding: 0.25rem;}
+    .article-long:hover {padding: 0.25rem;}
+    .article-long-title, .article-title {padding-bottom: 0.5rem;}
+    .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
+    .article-button-light, .article-button-dark {padding: 0.75rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
+    .article-image-size {max-width: 300px !important; max-height: 169px; width: auto !important; height: 100% !important;}
+    .footer {padding: 0.15rem; padding-bottom: 1rem;}
+    .footer-logo {width: 2rem; height: 2rem;}
+    .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
+    .section-permalink, .section-title {padding: 0.5rem;}
+}
+
+/* If screen size less than 425px wide, do.. */
+@media screen and (max-width: 340px) and (min-width: 150px) {
+    .notice {padding: 0.45rem;}
+    .header {padding: 0.75rem; align-items: flex-start;}
+    .header-logo {width: calc(3.125rem / 3); height: calc(3.125rem / 3);}
+    .logo-sticky {top: 1rem; left: 3rem;}
+    .header-buttons {flex-wrap: wrap;}
+    .header-left {padding-left: unset; align-items: start;}
+    .header-right {padding-right: unset;}
+    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important; display: none;}
+    .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
+    .double-article {flex-direction: column;}
+    .projects-container {flex-direction: column; align-items: unset;}
+    .projects-container, .projects-container .article {padding: 0rem; margin-left: 0rem; margin-right: 0rem;}
+    .article, .article-long, .in-queue {flex-direction: column; margin: 0.75rem 0rem 0.75rem 0rem !important;}
+    .article-long-left, .article-left {flex-direction: row; padding: 0.25rem; margin: 0rem;}
+    .in-queue {padding: 0rem;}
+    .article-long-left, .padding-long-right {padding: 0.15rem;}
+    .article-long {margin: 0.15rem; padding: 0.25rem;}
+    .article-long:hover {padding: 0.25rem;}
+    .article-long-title, .article-title {padding-bottom: 0.5rem;}
+    .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
+    .article-button-light, .article-button-dark {padding: 0.75rem;}
+    .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
+    .article-image-size {max-width: 250px !important; max-height: 141px; width: auto !important; height: 100% !important;}
+    .footer {padding: 0.15rem; padding-bottom: 1rem;}
+    .footer-logo {width: 2rem; height: 2rem;}
+    .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
+    .section-permalink, .section-title {padding: 0.5rem;}
+}

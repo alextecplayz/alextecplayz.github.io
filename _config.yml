@@ -1,0 +1,58 @@
+title: AlexTECPlayz
+email: alextec70@outlook.com
+description: >- 
+  My site. It has a blog.
+baseurl: ""
+website: https://alextecplayz.github.io
+url: "https://alextecplayz.github.io"
+lang: en
+search: true
+search_full_content: true
+lunr:
+  search_within_pages: true
+
+twitter_username: "@realTECPlayz"
+mastodon_username: "@AlexTECPlayz@techhub.social"
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+exclude:
+  - CHANGELOG.md
+  - README.md
+  - SECURITY.md
+  - LICENSE
+
+include:
+  - _includes
+  - _layouts
+  - js
+
+collections:
+  en:
+    output: true
+    permalink: /:title
+
+t:
+    en:
+        posts: Posts
+        projects: Projects
+        games: Games
+        software: Software
+        apps: Apps
+        about: About
+        support: Support
+        uses: Uses
+        search: Search
+        tos: Terms of Service
+        privacy: Privacy Policy
+        status: Status
+        present: Present
+        allrights: All rights reserved.
+        readmore: Read More
+        postshead: 
+        pagenotfound: The requested page could not be found.
+        homepage: Return to the home page
+        home: Index
+        toc: Table of Contents

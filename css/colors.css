@@ -1,284 +1,50 @@
-/* CassowaryV2 - Colors */
-/* (C) alextecplayz 2022 */
 :root {
-    --jumpgame: #306dc9;
-    --project-mountain: #E9DCDC; /* Colors not final */
-    --project-odyssey: #FF7777; /* Colors not final */
-    --project-hangar: #FFA674; /* Colors not final */
-    --project-eiffel: #4fdce0; /* Colors not final */
-    --project-vidal: #e5ee63; /* Colors not final */
-    --project-c3Vuc2V0: #e25b11; /* Colors not final */
-    --project-UnVzc2V0: #62682a; /* Colors not final */
-    --project-Vm94ZWw: #754040; /* Vm94ZWw= | Colors not final */
-
-    --enhanced-red: #FF5757;
 
     --black: #000000;
     --darkgray: #3a3a3a;
-    --white: #ffffff;
     --lightgray: #c5c5c5;
-    --brand-magenta: #fcb5ff; /* Cassowary brand color */
-    --bg-darkmagenta: #312836;
-    --bg-darkpink: #6f1866;
-    --readerbg: #D4D4D4;
-    --readerbg-dark: #1a1a1a;
+    --white: #ffffff;
     --transparent: #00000000;
 
+    --brand: #a0a0a0;
+    --brand-magenta: #fcb5ff;
+    --bg-darkmagenta: #312836;
+    --bg-darkpink: #6f1866;
+    --magenta: #fcb5ff;
+    --vantagray: #242424;
+    --readerbg: #D4D4D4;
+    --readerbg-dark: #1a1a1a;
+    --headerbg: #282a36;
+    --headerbg-dark: #1c1d25;
+    --headerbg-dark-transparent: #1c1d2580;
+
     --warning: #f8ff9c;
-
-    --codeblock-green: #b9ca4a;
-    --codeblock-red: #ca4a4a;
-    --codeblock-yellow: #caa84a;
-    --codeblock-purple: #bb4aca;
-    --codeblock-blue: #4acabf;
-    --codeblock-gray: #a8a8a8;
-
-    --accent-color: #ff9c9c; /* #ff62ff old */
-    --halloween: #ff8522;
-    --christmas: #ff4040;
-    --spring: #65ec2f;
-
-    --text-green: #194401;
+    --danger: #ed333b;
+    --caution: #ff7800;
+    
+    --accent-color: #dd8ac8;
 }
 
-::selection {
-    color: var(--black);
-    background-color: var(--accent-color);
-}
+.lightgray-hover:hover, .darkgray-hover:hover {transition: 0.3s;}
+::selection, ::-moz-selection {color: var(--black) !important; background-color: var(--accent-color) !important;}
+.accent-color {color: var(--accent-color) !important;}
+.white {color: var(--white) !important;}
+.lightgray {color: var(--lightgray) !important;}
+.lightgray-hover:hover {color: var(--lightgray) !important;}
+.reader {background-color: var(--readerbg) !important;}
+.reader-dark {background-color: var(--readerbg-dark) !important;}
+.darkgray {color: var(--darkgray) !important;}
+.darkgray-hover:hover {color: var(--darkgray) !important;}
+.black {color: var(--black) !important;}
+.bg-darkmagenta {background-color: var(--bg-darkmagenta);}
+.bg-darkpink {background-color: var(--bg-darkpink);}
+.bg-header {background-color: var(--vantagray) !important;}
+.bg-transparent {background-color: var(--transparent) !important;}
+.text-active {background-color: var(--accent-color) !important; color: var(--darkgray) !important;}
+.text-active:hover {color: var(--accent-color) !important; background-color: var(--darkgray) !important;}
 
-::-moz-selection {
-    color: var(--black);
-    background-color: var(--accent-color);
-}
+.warning {color: var(--warning) !important;}
+.danger {color: var(--danger) !important;}
+.caution {color: var(--caution) !important;}
 
-.accent-color {
-    color: var(--accent-color);
-}
-
-.white {
-    color: var(--white);
-}
-
-.lightgray {
-    color: var(--lightgray);
-}
-
-.reader {
-    background-color: var(--readerbg);
-}
-
-.reader-dark {
-    background-color: var(--readerbg-dark);
-}
-
-.darkgray {
-    color: var(--darkgray);
-}
-
-.black {
-    color: var(--black);
-}
-
-.bg-darkmagenta {
-    background-color: var(--bg-darkmagenta);
-}
-
-.bg-darkpink {
-    background-color: var(--bg-darkpink);
-}
-
-.bg-header {
-    background-color: #282a36;
-}
-
-.bg-transparent {
-    background-color: var(--transparent);
-}
-
-/* Text colors */
-
-.text-green {
-    color: var(--text-green);
-}
-
-.jumpgame {
-    color: var(--jumpgame);
-}
-
-.project-mountain {
-    color: var(--project-mountain);
-}
-
-.project-hangar {
-    color: var(--project-hangar);
-}
-
-.project-odyssey {
-    color: var(--project-odyssey);
-}
-
-
-
-/* Normal and linear gradients for Background */
-
-.red {
-    background: rgb(255,194,194);
-}
-
-.red-dark {
-    background: rgb(255,117,117);
-}
-
-.orange {
-    background: rgb(255,237,194);
-}
-
-.orange-dark {
-    background: rgb(255,160,117);
-}
-
-.yellow {
-    background: rgb(251,255,194);
-}
-
-.yellow-dark {
-    background: rgb(255,221,117);
-}
-
-.green {
-    background: rgb(157,255,165);
-}
-
-.green-dark {
-    background: rgb(130, 212, 137);
-}
-
-.cyan {
-    background: rgb(194,255,236);
-}
-
-.cyan-dark {
-    background: rgb(117,255,188);
-}
-
-.blue {
-    background: rgb(194,219,255);
-}
-
-.blue-dark {
-    background: rgb(117,199,255);
-}
-
-.purple {
-    background: rgb(221,194,255);
-}
-
-.purple-dark {
-    background: rgb(163,117,255);
-}
-
-.magenta {
-    background: rgb(255,194,252);
-}
-
-.magenta-dark {
-    background: rgb(221,117,255);
-}
-
-.pink {
-    background: rgb(255,194,225);
-}
-
-.pink-dark {
-    background: rgb(255,117,234);
-}
-
-.linear-red-to-reader {
-    background: rgb(255,157,157);
-    background: linear-gradient(180deg, rgba(255,157,157,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-red-to-readerdark {
-    background: rgb(255,117,117);
-    background: linear-gradient(180deg, rgba(255,117,117,1) 28%, rgba(200,100,100,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-orange-to-reader {
-    background: rgb(255,207,157);
-    background: linear-gradient(180deg, rgba(255,207,157,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-orange-to-readerdark {
-    background: rgb(255,160,117);
-    background: linear-gradient(180deg, rgba(255,160,117,1) 28%, rgba(200,131,100,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-yellow-to-reader {
-    background: rgb(255,247,157);
-    background: linear-gradient(180deg, rgba(255,247,157,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-yellow-to-readerdark {
-    background: rgb(255,221,117);
-    background: linear-gradient(180deg, rgba(255,221,117,1) 28%, rgba(200,178,100,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-green-to-reader {
-    background: rgb(157,255,165);
-    background: linear-gradient(180deg, rgba(157,255,165,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-green-to-readerdark {
-    background: rgb(118,255,117);
-    background: linear-gradient(180deg, rgba(118,255,117,1) 28%, rgba(109,200,100,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-cyan-to-reader {
-    background: rgb(157,255,226);
-    background: linear-gradient(180deg, rgba(157,255,226,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-cyan-to-readerdark {
-    background: rgb(117,255,188);
-    background: linear-gradient(180deg, rgba(117,255,188,1) 28%, rgba(100,200,155,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-blue-to-reader {
-    background: rgb(157,191,255);
-    background: linear-gradient(180deg, rgba(157,191,255,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-blue-to-readerdark {
-    background: rgb(117,199,255);
-    background: linear-gradient(180deg, rgba(117,199,255,1) 28%, rgba(100,161,200,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-purple-to-reader {
-    background: rgb(183,157,255);
-    background: linear-gradient(180deg, rgba(183,157,255,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-purple-to-readerdark {
-    background: rgb(163,117,255);
-    background: linear-gradient(180deg, rgba(163,117,255,1) 28%, rgba(126,100,200,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-magenta-to-reader {
-    background: rgb(255,157,253);
-    background: linear-gradient(180deg, rgba(255,157,253,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-magenta-to-readerdark {
-    background: rgb(221,117,255);
-    background: linear-gradient(180deg, rgba(221,117,255,1) 28%, rgba(185,100,200,1) 53%, rgba(26,26,26,1) 100%);
-}
-
-.linear-pink-to-reader {
-    background: rgb(255,157,228);
-    background: linear-gradient(180deg, rgba(255,157,228,1) 85%, rgba(212,212,212,1) 100%);
-}
-
-.linear-pink-to-readerdark {
-    background: rgb(255,117,234);
-    background: linear-gradient(180deg, rgba(255,117,234,1) 28%, rgba(200,100,176,1) 53%, rgba(26,26,26,1) 100%);
-}
+.vantagray {color: var(--vantagray) !important;}
