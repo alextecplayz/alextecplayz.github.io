@@ -14,23 +14,22 @@ metadata_timespan:
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#the-good">The Good</a><br><a class="header-button monospace semibold" href="#the-bad">The Bad</a>
 ---
 
-**Game:** Call of Duty: Modern Warfare Ⅲ
-**Developer/Publisher:** Sledgehammer Games, Treyarch, Infinity Ward, Beenox, Raven Software, High Moon Studios, Demonware / Activision
-**Release date:** 10 November 2023
-**Engine:** IW Engine 9.0
-**Anti-cheat:** RICOCHET
-**DRM:** Steamworks DRM, Battle.net DRM
-**Review platform:** PC
-**Also available on:** PlayStation 4, PlayStation 5, XBOX Series X|S, XBOX One, PC (Steam), PC (Battle.net)
-**Price:** $70 (Standard), $100 (Vault Edition)
-**Warnings about company (does not count towards Review score):** Greedy, anti-consumer, anti-developer (union busting, crunch culture), cancerous microtransaction practices
+**SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**
 
-**Review score:** 3/10
+| **Game** | Call of Duty: Modern Warfare Ⅲ |
+| **Developer/Publisher** | Sledgehammer Games, Treyarch, Infinity Ward, Beenox, Raven Software, High Moon Studios, Demonware / Activision |
+| **Release date** | 10 November 2023 |
+| **Engine** | IW Engine 9.0 |
+| **Anti-cheat** | RICOCHET |
+| **DRM** | Steamworks DRM, Battle.net DRM
+| **Review platform** | PC |
+| **Also available on** | PlayStation 4, PlayStation 5, XBOX Series XS, XBOX One, PC (Steam), PC (Battle.net) |
+| **Price** | $70 (Standard), $100 (Vault Edition) |
+| **Warnings about company** (does not count towards Review score) | Greedy, anti-consumer, anti-developer (union busting, crunch culture), cancerous microtransaction practices |
+| **Review score** | **3/10** |
 
 ## TLDR
 Sloppy, lazy and uninspired, Modern Warfare Ⅲ's story is filled with shallow characters, predictable cliches, and the very few good moments cannot hold a candle to previous games in the series. Their attempt to innovate the campaign by introducing 'Open Combat Missions' fails miserably, as it's painfully obvious it's the DMZ mode in singleplayer, and they go as far as to literally lift maps from Warzone and bring them in.
-
-**SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**
 
 ## The Good
 + The cinematic cutscenes look good. Heck, the in-engine cutscenes look pretty good too. Some of the setpieces are also detailed and have detailed VFX

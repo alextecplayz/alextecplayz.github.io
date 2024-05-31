@@ -3,9 +3,12 @@
 /.ignore/
 .vscode
 
+wiki
+
 # -- Jekyll --
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+_posts/2024-05-31-Romania.md

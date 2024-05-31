@@ -96,3 +96,4 @@ div.horizontal-scrollbox a:hover {background: var(--accent-color); text-decorati
 .progress-bar {width: 0%; height: 100%; background-color: var(--lightgray); transition: width 0.3s ease;}
 .progress-bar-text {padding: var(--rem0-25); padding-top: 0.15rem;}
 .from-the-right {display: flex; direction: rtl; align-items: flex-end;}
+.banner8831 {width: 88px !important; height: 31px !important; image-rendering: pixelated !important;}

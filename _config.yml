@@ -40,6 +40,7 @@ t:
         projects: Projects
         games: Games
         software: Software
+        portfolio: Portfolio
         apps: Apps
         about: About
         support: Support

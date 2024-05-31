@@ -14,19 +14,18 @@ metadata_timespan:
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#the-good">The Good</a><br><a class="header-button monospace semibold" href="#the-bad">The Bad</a>
 ---
 
-**Game:** Far Cry 6
-**Developer/Publisher:** Ubisoft Toronto / Ubisoft
-**Release date:** October 7, 2021
-**Engine:** Dunia
-**Anti-cheat:** -
-**DRM:** Ubisoft, Denuvo
-**Review platform:** PC (Steam, Uplay)
-**Also available on:** PlayStation 4, PlayStation 5, Google Stadia, Xbox One, Xbox Series X|S
-**Price:** $50-$100
-**Warnings about company (does not count towards Review score):** Toxic workplace, shitty CEO, many games get cut or rushed out the door. Let's not forget the classic Ubisoft formula.
-Additional warnings: END OF LIFE - The game will NOT receive any more updates following Title Update 6, released on November 24, 2022 | Online play won't be shut down, probably for a really long time.
-
-**Review score: 6/10**
+| **Game** | Far Cry 6 |
+| **Developer/Publisher** | Ubisoft Toronto / Ubisoft |
+| **Release date** | October 7, 2021 |
+| **Engine** | Dunia |
+| **Anti-cheat** | - |
+| **DRM** | Ubisoft, Denuvo |
+|**Review platform** | PC (Steam, Uplay) |
+|**Also available on** | PlayStation 4, PlayStation 5, Google Stadia, Xbox One, Xbox Series XS |
+| **Price** | $50-$100 |
+| **Warnings about company** (does not count towards Review score) | Toxic workplace, shitty CEO, many games get cut or rushed out the door. Let's not forget the classic Ubisoft formula.
+| **Additional warnings** | END OF LIFE - The game will NOT receive any more updates following Title Update 6, released on November 24, 2022. Online play won't be shut down, probably for a really long time. |
+| **Review score** |  **6/10** |
 
 ## TLDR
 ***Far Cry 6 is the perfect slop to play for dozens of hours, with no emotion or depth. It's sadly the most marketable Far Cry game content-wise to date.***

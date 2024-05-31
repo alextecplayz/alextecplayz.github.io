@@ -10,7 +10,7 @@
 .article-text {padding: var(--rem1-25); overflow-wrap: break-word; flex-wrap: wrap; display: flex;}
 .section {padding-bottom: var(--rem1); padding-top: var(--rem1);}
 .scroll-smooth {scroll-behavior: smooth;}
-.articles-container {padding: var(--rem5);}
+.articles-container {padding: var(--rem5) var(--rem5) var(--rem0) var(--rem5);}
 .article-long-left {display: flex; padding: 1rem;}
 .article-long-right {padding: var(--rem1); display: flex; flex-direction: column;}
 .article-long {border: 0.15rem solid var(--white); padding: var(--rem2); display: flex; margin: var(--rem0-5);}
@@ -57,9 +57,9 @@
 .section-title, .section-permalink {padding: var(--rem0-5);}
 .section-permalink:hover {padding: var(--rem0-5); color: var(--accent-color); text-decoration: underline;}
 .icon-search:after {-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); display: block; content: "\26B2";}
-.article-banner {position: relative; overflow: hidden; height: 35vw; padding: var(--rem0-5);}
-.project-image-banner {width: auto !important; height: auto !important; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-fit: fill; transition: 0.3s;}
-.project-image-banner:hover {width: auto !important; height: auto !important; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-fit: fill; transition: 0.3s; opacity: 75% !important;}
+.article-banner {position: relative; overflow: hidden; height: 35vw; padding: var(--rem0-5); flex-direction: row !important;}
+.project-image-banner {width: fit-content !important; height: auto !important;object-fit: cover !important; transition: 0.3s;}
+.project-image-banner:hover {width: fit-content !important; height: auto !important; object-fit: cover !important; transition: 0.3s; opacity: 75% !important;}
 .banner-button-container {bottom: 45px; right: 15px;}
 .menu {position: fixed; top: 0; right: -400px; width: 300px; height: 92.75vh; background-color: var(--headerbg); transition: right 0.3s ease-in-out; padding: var(--rem2); border: 0.15rem solid var(--white);}
 .menu.open {right: 0;}
@@ -79,7 +79,7 @@
 .post-date {padding: var(--rem0-5) var(--rem2) var(--rem1) var(--rem2); margin: 0rem var(--rem1) 0rem var(--rem1); color: var(--accent-color);}
 .post-description {padding: var(--rem1) var(--rem025) var(--rem1) var(--rem0-5); margin: 0rem var(--rem3) 0rem var(--rem3);}
 .post-content {padding-left: var(--rem2); padding-right: var(--rem2); display: flex; flex-direction: column; align-items: stretch;}
-.post-content p {color: var(--lightgray); padding: var(--rem0-5); line-height: 1.25;}
+.post-content p, .post-text {color: var(--lightgray); padding: var(--rem0-5); line-height: 1.25;}
 .post-content hr {color: transparent;}
 .post-content p em {font-style: italic;}
 .post-content p strong, .post-content table strong {font-weight: 600;}
@@ -117,6 +117,13 @@
 .footnote::after {content: "]"; font-variant-position: super;}
 .footnotes {font-style: italic; font-size: var(--rem1);}
 
+.recommendations-container {display: flex; padding: var(--rem0-5); justify-content: center; flex-direction: row;}
+.recommendations-double {display: flex; flex-direction: row;}
+.recommendation {display: block; border: var(--rem0-15) solid var(--white); padding: var(--rem0-75); margin: var(--rem0-25);}
+.recommendation:hover {border: var(--rem0-15) solid var(--accent-color);}
+.recommendation-text {padding: var(--rem0-75); margin: var(--rem0);}
+.recommendation-text:hover {color: var(--white);}
+
 .space-evenly {justify-content: space-evenly;}
 .height-100 {height: 100%;}
 
@@ -124,6 +131,7 @@
 .padding-top-1rem {padding-top: var(--rem1);}
 .padding-top-2rem {padding-top: var(--rem2);}
 
+.z-index-100 {z-index: -100 !important;}
 .z-index1 {z-index: 1 !important;}
 .z-index10 {z-index: 10 !important;}
 .z-index11 {z-index: 11 !important;}

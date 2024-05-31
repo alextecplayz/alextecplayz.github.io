@@ -1,3 +1,5 @@
+/* Screen-sizing.css might be deprecated in the future, and integrated into Obsidian */
+
 /* If screen size less than 1500px wide, do.. */
 @media screen and (max-width: 1500px) and ( min-width: 1250px) {
     .articles-container {padding: 1.5rem;}
@@ -101,7 +103,7 @@
     .header-buttons {flex-wrap: wrap;}
     .header-left {padding-left: unset; align-items: start;}
     .header-right {padding-right: unset;}
-    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important; display: none;}
+    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important;}
     .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
     .double-article {flex-direction: column;}
     .projects-container {flex-direction: column; align-items: unset;}
@@ -133,7 +135,7 @@
     .header-buttons {flex-wrap: wrap;}
     .header-left {padding-left: unset; align-items: start;}
     .header-right {padding-right: unset;}
-    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important; display: none;}
+    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important;}
     .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
     .double-article {flex-direction: column;}
     .projects-container {flex-direction: column; align-items: unset;}
@@ -164,7 +166,7 @@
     .header-buttons {flex-wrap: wrap;}
     .header-left {padding-left: unset; align-items: start;}
     .header-right {padding-right: unset;}
-    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important; display: none;}
+    .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important;}
     .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
     .double-article {flex-direction: column;}
     .projects-container {flex-direction: column; align-items: unset;}

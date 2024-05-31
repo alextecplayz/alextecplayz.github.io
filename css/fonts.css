@@ -1,4 +1,5 @@
 :root {
+    --rem0: 0rem;
     --rem0-1: 0.1rem;
     --rem0-15: 0.15rem;
     --rem0-2: 0.2rem;
@@ -156,6 +157,7 @@
 .hover-oblique:hover {font-style: oblique !important;}
 .underline {text-decoration: underline !important;}
 .overline {text-decoration: overline !important;}
+.strikethrough {text-decoration: line-through !important;}
 .wavy {text-decoration: wavy !important;}
 .dashed {text-decoration: dashed !important;}
 .dotted {text-decoration: dotted !important;}
@@ -167,15 +169,16 @@
 .centered {justify-content: center;}
 .ltr {direction: ltr !important;}
 .rtl {direction: rtl !important;}
-.column {flex-direction: column;}
-.column-reverse {flex-direction: column-reverse;}
-.row {flex-direction: row;}
-.row-reverse {flex-direction: row-reverse;}
+.column {flex-direction: column !important;}
+.column-reverse {flex-direction: column-reverse !important;}
+.row {flex-direction: row !important;}
+.row-reverse {flex-direction: row-reverse !important;}
 .justify-start {justify-content: flex-start;}
 .justify-end {justify-content: flex-end;}
 .relative {position: relative;}
 .absolute {position: absolute;}
 .fixed {position: fixed;}
+.redacted {letter-spacing: -0.25px !important;}
 
 .line-height-rem1 {line-height: 1rem;}
 .line-height-rem2 {line-height: 2rem;}

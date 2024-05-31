@@ -13,37 +13,92 @@ layout: posts
         {% include notice-container.html %}
 
         <div class="articles-container">
-        <p class="monospace semibold rem1-5 lightgray">{{ site.t[page.lang].postshead }}&nbsp;</p>
-        {% assign posts=site.posts | where:"lang", page.lang %}
-        <div class="article-long">
-            <div class="article-long-left">
-                <img class="article-long-image-size" src="{{ site.posts.first.image_banner_link }}" alt="{{ site.posts.first.image_banner_alt }}">
+            <p class="monospace semibold rem1-5 lightgray">{{ site.t[page.lang].postshead }}&nbsp;</p>
+            {% assign posts=site.posts | where:"lang", page.lang %}
+            <div class="article-long">
+                <div class="article-long-left">
+                    <img class="article-long-image-size" src="{{ site.posts.first.image_banner_link }}" alt="{{ site.posts.first.image_banner_alt }}">
+                </div>
+                <div class="article-long-right">
+                    <a href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white dm-sans semibold">{{ site.posts.first.title }}</p></a>
+                    <p class="article-long-desc rem1 lightgray semibold monospace italic">{{ site.posts.first.description }}</p>
+                    <p class="article-long-date rem1 lightgray outfit bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
+                    <a class="article-button-light" href="{{ site.posts.first.url }}">{{ site.t[page.lang].readmore }}</a>
+                </div>
             </div>
-            <div class="article-long-right">
-                <a href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white dm-sans semibold">{{ site.posts.first.title }}</p></a>
-                <p class="article-long-desc rem1 lightgray semibold monospace italic">{{ site.posts.first.description }}</p>
-                <p class="article-long-date rem1 lightgray outfit bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
-                <a class="article-button-light" href="{{ site.posts.first.url }}">{{ site.t[page.lang].readmore }}</a>
+            {% for post in site.posts offset:1 %}
+            <div class="article">
+            <div class="article-left">
+                <img class="article-image-size" src="{{ post.image_banner_link }}" alt="{{ post.image_banner_alt }}">
             </div>
-        </div>
-        {% for post in site.posts offset:1 %}
-        <div class="article">
-        <div class="article-left">
-            <img class="article-image-size" src="{{ post.image_banner_link }}" alt="{{ post.image_banner_alt }}">
-        </div>
-        <div class="article-right">
-            <a href="{{ post.url }}">
-                <p class="article-title rem2 white dm-sans semibold">{{ post.title }}</p>
-            </a>
-            <p class="article-desc rem1 lightgray semibold monospace italic">{{ post.description }}</p>
-            <p class="article-date rem1 lightgray outfit bold">{{ post.date | date: "%d %B %Y" }}</p>
-            <div class="article-button-container">
-                <a class="article-button-light" href="{{ post.url }}">{{ site.t[page.lang].readmore }}</a>
+            <div class="article-right">
+                <a href="{{ post.url }}">
+                    <p class="article-title rem2 white dm-sans semibold">{{ post.title }}</p>
+                </a>
+                <p class="article-desc rem1 lightgray semibold monospace italic">{{ post.description }}</p>
+                <p class="article-date rem1 lightgray outfit bold">{{ post.date | date: "%d %B %Y" }}</p>
+                <div class="article-button-container">
+                    <a class="article-button-light" href="{{ post.url }}">{{ site.t[page.lang].readmore }}</a>
+                </div>
             </div>
-        </div>
         </div>
         {% endfor %}
+
         </div>
+        
+        <div class="recommendations-container">
+            <div class="recommendation">
+                <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/uses">Alex uses</a>
+            </div>
+        </div>
+
+        <div class="recommendations-container">
+            <iframe src="https://john.citrons.xyz/embed?ref=alextecplayz.github.io" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
+        </div>
+
+        <div class="recommendations-container">
+            <div class="post">
+                <p class="post-text">My banners:</p>
+                <a href="https://alextecplayz.github.io" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/ATP.png" alt="AlexTECPlayz"></a>
+                <a href="https://vantainteractive.com/en/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/VIgamesnow.png" alt="Vanta Interactive"></a>
+                <a href="https://docs.vantainteractive.com/en/sapphire" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/SapphireEngine.png" alt="Sapphire Game Engine"></a>
+                <a href="https://vantainteractive.com/en/games/Prisonia" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/Jailbird.gif" alt="PRISONIA - Imprison people NOW!"></a>
+            </div>
+        </div>
+        <div class="post">
+            <p class="post-text">Various banners:</p>
+            <a href="https://unrealengine.com" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/UnrealEngine.png" alt="Unreal Engine"></a>
+            <a href="https://www.mozilla.org/firefox/new/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/firefox.png" alt="take back the web, install firefox"></a>
+            <a href="https://ublockorigin.com/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/ublock.png" alt="uBlock Origin NOW"></a>
+            <a href="https://jointhefediverse.net" target="_blank" rel="noopener noreferrer"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/federate.jpg" alt="join the fediverse"></a>
+            <a href="https://yesterweb.org/no-to-web3/" target="_blank" rel="noopener noreferrer"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/noweb3.gif" alt="Say no to Web3"></a>
+            <a href="https://transinromania.ro/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/TransInRomania.png" alt="Trans in Romania"></a>
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/transnow2.gif" alt="Trans rights NOW!">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/NoBinaryNoProblem.webp" alt="no binary? no problem!">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/AromanticsNow.png" alt="Aromantics Now!">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/rainbow_bev.gif" alt="Rainbow!">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/valid-css.gif" alt="Valid CSS">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/valid-html5.gif" alt="Valid HTML 5">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/right-to-repair.webp" alt="I support Right To Repair!">
+            <img class="banner8831" src="{{ site.baseurl }}/images/88x31/discord-no-way.gif" alt="Discord? No way!">
+            <!-- <img class="banner8831" src="{{ site.baseurl }}/images/88x31/" alt=""> -->
+        </div>
+        
+        <div class="post">
+            <p class="post-text">Cool people or sites:</p>
+            <a href="https://cobalt.tools" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/justusecobalt.png" alt="just use cobalt"></a>
+            <a href="https://zvava.org/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/zvava.org.png" alt="zvava (sophie)"></a>
+            <a href="https://lunabee.space/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/lunabee.gif" alt="lunabee"></a>
+            <a href="https://nora.codes/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/noracodes.png" alt="nora codes"></a>
+            <a href="https://blog.fawx.news/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/blog.fawx.news.webp" alt="Blog Fawx News"></a>
+            <a href="https://lunareclipse.zone/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/lunar-eclipse-zone.gif" alt="The LunarEclipse Zone"></a>
+            <a href="https://flufftech.net/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/rail-flufftech.png" alt="Rail"></a>
+            <a href="https://awawa.neocities.org/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/awawa.jpeg" alt="byte"></a>
+            <a href="https://keeri.place/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/keerifox.png" alt="keeri"></a>
+            <a href="https://sneexy.pages.gay/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/sneexy.png" alt="sneexy"></a>
+            <!-- <a href="" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/" alt=""></a> -->
+        </div>
+
         {% include footer.html %}
 </body>
 </html>
