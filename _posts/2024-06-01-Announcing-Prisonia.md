@@ -4,10 +4,10 @@ lang: en
 locale: en_US
 title: "Announcing Prisonia"
 description: "Design, build and manage prisons, in a brand new game from Vanta Interactive."
-date: 2024-05-31 +0200
+date: 2024-06-01 00:00:00 +0200
 categories: Post
 image_banner_link: https://i.ibb.co/FWD5RrG/ATP-Jailbird.png
-image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', white text, a thick black stroke around the title, on a 'prion jumpsuit orange' circle gradient to gray grid background that uses subtle light gray for the grid markings.
+image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', white text, a thick black stroke around the title, on a 'prison jumpsuit orange' circle gradient to gray grid background that uses subtle light gray for the grid markings.
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
