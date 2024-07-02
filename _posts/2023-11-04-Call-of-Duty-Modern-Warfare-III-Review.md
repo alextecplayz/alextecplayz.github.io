@@ -21,7 +21,7 @@ toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a c
 | **Release date** | 10 November 2023 |
 | **Engine** | IW Engine 9.0 |
 | **Anti-cheat** | RICOCHET |
-| **DRM** | Steamworks DRM, Battle.net DRM
+| **DRM** | Steamworks DRM, Battle.net DRM |
 | **Review platform** | PC |
 | **Also available on** | PlayStation 4, PlayStation 5, XBOX Series XS, XBOX One, PC (Steam), PC (Battle.net) |
 | **Price** | $70 (Standard), $100 (Vault Edition) |
