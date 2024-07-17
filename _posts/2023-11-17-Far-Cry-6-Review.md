@@ -11,6 +11,9 @@ image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient ba
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
+review: true
+review_itemtype: Game
+
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#the-good">The Good</a><br><a class="header-button monospace semibold" href="#the-bad">The Bad</a>
 ---
 
