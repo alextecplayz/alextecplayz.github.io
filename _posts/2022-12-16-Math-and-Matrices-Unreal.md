@@ -11,6 +11,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
+highlight: true
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#preface--what-im-talking-about">Preface | What I'm talking about</a><br><a class="header-button monospace semibold" href="#introduction--what-are-matrices">Introduction | What are matrices?</a><br><a class="header-button monospace semibold" href="#matrices-in-popular-games">Matrices in popular games</a><br><a class="header-button monospace semibold" href="#matrices-in-unreal-engine-5">Matrices in Unreal Engine 5</a><br><a class="header-button monospace semibold" href="#conclusion">Conclusion</a><br>
 ---
 

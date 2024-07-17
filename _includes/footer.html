@@ -22,5 +22,5 @@
 <script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/js/common.js"></script>
 {% if page.toc %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/js/sticky-postheader.js"></script>{% endif %}
 {% if page.game_landing_video %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/js/videoplayer.js"></script>{% endif %}
-<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/js/highlight/highlight.min.js"></script>
-<script nonce="{{ site.data.nonce }}">hljs.highlightAll();</script>
+{% if page.highlight %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/js/highlight/highlight.min.js"></script>{% endif %}
+{% if page.highlight %}<script nonce="{{ site.data.nonce }}">hljs.highlightAll();</script>{% endif %}

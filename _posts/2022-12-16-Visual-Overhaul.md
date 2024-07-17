@@ -11,6 +11,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
+highlight: true
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#why-would-you-redesign-the-website">Why would you redesign the website?</a><br><a class="header-button monospace semibold" href="#what-are-your-future-plans">What are your future plans?</a><br><a class="header-button monospace semibold" href="#any-updates-on-project-x-or-y-anything-new">Any updates on project X or project Y? Anything new?</a>
 ---
 
