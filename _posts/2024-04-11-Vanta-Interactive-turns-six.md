@@ -6,7 +6,7 @@ title: "Vanta Interactive turns SIX!"
 description: "Six years of (behind the scenes) indie game development, new website and the future."
 date: 2024-04-11 11:11:11 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/5Kfp1jD/VI-Page-Banner.png
+image_banner_link: /images/post-thumbnails/VantaInteractive_GridBanner.webp
 image_banner_alt: The black "VANTA" logo for Vanta Interactive, on a dark blue to gray grid background that uses subtle light gray for the grid markings.
 metadata_proglang:
 metadata_platforms:

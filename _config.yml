@@ -23,8 +23,12 @@ exclude:
   - README.md
   - SECURITY.md
   - LICENSE
+  - build
+  - install
+  - serve
 
 include:
+  - .well-known
   - _includes
   - _layouts
   - js

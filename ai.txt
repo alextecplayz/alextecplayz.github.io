@@ -13,8 +13,7 @@
 # (4) any commercial purposes.
 # Access https://alextecplayz.github.io/about for assistance or contact information.
 
-# Sitemap
-Sitemap: https://alextecplayz.github.io/sitemap.xml
+# ai.txt, robots.txt use list from DarkVisitors (darkvisitors.com)
 
 # UA
 User-agent: *

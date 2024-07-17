@@ -6,7 +6,7 @@ title: "Visual Overhaul"
 description: "The website has finally received a fresh visual overhaul! See what is new, here."
 date: 2022-12-16 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/p3R6bmr/ATP-Website-Logo.png
+image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

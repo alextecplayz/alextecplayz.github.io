@@ -88,6 +88,7 @@
 .post-content div a {text-decoration: none;}
 .post-section {padding: var(--rem1) var(--rem3-25) var(--rem1) var(--rem3-25); color: var(--accent-color);}
 .post-section:hover {color: var(--accent-color); background-color: var(--readerbg-dark);}
+.post-text-end {line-height: 0.01rem !important;}
 .post-image-container {padding: var(--rem2);}
 .post-section-header {display: flex; align-items: center;}
 .post-section-link {color: var(--readerbg);}

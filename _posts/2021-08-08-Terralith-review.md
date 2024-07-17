@@ -6,7 +6,7 @@ title: "Terralith is the culmination of Minecraft world generation, and it's a d
 description: "Take a look at the amazing world generation Terralith brings to Minecraft - Java Edition!"
 date: 2021-08-08 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/6mD15QQ/Terralith.png
+image_banner_link: /images/post-thumbnails/Terralith_08082021.webp
 image_banner_alt: A screenshot of Minecraft using shaders and the Terralith terrain generation mod, with the sky being removed in post and replaced with the light to dark blue gradient background behind it.
 metadata_proglang:
 metadata_platforms:

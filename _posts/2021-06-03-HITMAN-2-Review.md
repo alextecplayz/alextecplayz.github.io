@@ -6,7 +6,7 @@ title: "HITMAN 2 Review"
 description: "Per-map review for al three games in the World of Assassination trilogy"
 date: 2021-06-03 19:21:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/gTQ3TFZ/ATP-H2.jpg
+image_banner_link: /images/post-thumbnails/HITMAN2_03062021.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

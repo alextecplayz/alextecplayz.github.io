@@ -6,7 +6,7 @@ title: "Pixel 6 Series announced"
 description: "Pixel 6 and Pixel 6 Pro are official!"
 date: 2021-08-03 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/1nhmr7M/Pixel6.png
+image_banner_link: /images/post-thumbnails/Pixel6_03082021.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

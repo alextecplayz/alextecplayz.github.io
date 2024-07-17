@@ -6,7 +6,7 @@ title: "Scrap Mechanic - Review"
 description: "I say this with a heavy heart, but Scrap Mechanic's development is really painfully slow even though it's been 6 years in Early Access."
 date: 2022-12-03 21:18:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/28RbDKZ/ATP-SM.jpg
+image_banner_link: /images/post-thumbnails/ScrapMechanic_03122022.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

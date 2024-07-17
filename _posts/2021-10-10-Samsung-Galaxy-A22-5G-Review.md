@@ -6,7 +6,7 @@ title: "Samsung Galaxy A22 5G Review: Good, on paper"
 description: "Learn why the Galaxy A22 5G is not as good as you thought."
 date: 2021-10-10 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/K9t3p2C/GA22.png
+image_banner_link: /images/post-thumbnails/GA22_10102021.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

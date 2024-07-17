@@ -6,7 +6,7 @@ title: "Exploring the Use of Math and Matrices in Video Games and Unreal Engine 
 description: "In this article, we take a closer look at the use of math and matrices in video games, and explore how the latest version of the Unreal Engine makes use of them."
 date: 2022-12-16 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/9qvXX40/MM.png
+image_banner_link: /images/post-thumbnails/MathMatrices_16122022.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

@@ -6,7 +6,7 @@ title: "Apple's 'Unleashed' Event 18 October - Everything revealed"
 description: "Everything revealed at Apple's event."
 date: 2021-10-18 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/z2hvFcf/ATP-Apple-Unleashed.png
+image_banner_link: /images/post-thumbnails/Apple_18102021.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:

@@ -6,7 +6,7 @@ title: "HITMAN World of Assassination - Review"
 description: "The game is now the 'definitive' place to play all 3 HITMAN games from the trilogy, which is great, although I do not agree at all with their decision to unlist HITMAN and HITMAN 2."
 date: 2023-05-18 19:32:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/hYzNbM5/HWOA-review.png
+image_banner_link: /images/post-thumbnails/HITMANWOA_18052023.webp
 image_banner_alt: HITMAN World of Assassination logo on a red background
 metadata_proglang:
 metadata_platforms:

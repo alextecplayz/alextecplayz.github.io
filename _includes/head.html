@@ -1,10 +1,16 @@
         <meta charset="UTF-8" />
         <!-- Webpage title -->
-        <title id="home">{{ page.title }}</title>
+        <title id="home">{% if page.title %}{{ page.title }}{% else %}AlexTECPlayz{% endif %}</title>
         <!-- Website description -->
-        <meta name="description" content="{{ page.description }}">
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}AlexTECPlayz' website, featuring a blog and some other pages of interest.{% endif %}">
         <!-- Viewport width -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Document-Policy -->
+        <meta http-equiv="Document-Policy" content="require-trusted-types-for 'self' alextecplayz.github.io vantainteractive.com docs.vantainteractive.com store.vantainteractive.com api.vantainteractive.com legal.vantainteractive.com social.vantainteractive.com techhub.social;">
+        
+        <!-- CSP policy -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' alextecplayz.github.io vantainteractive.com docs.vantainteractive.com store.vantainteractive.com api.vantainteractive.com legal.vantainteractive.com social.vantainteractive.com techhub.social; script-src 'self' 'nonce-{{ site.data.nonce }}' 'unsafe-inline'; style-src 'self' 'nonce-{{ site.data.nonce }}'; img-src 'self' data: i.ibb.co lh3.googleusercontent.com; font-src 'self';">
 
         <!-- CSS Stylesheets -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css"/>
@@ -29,20 +35,23 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
         <!-- Open Graph meta tags -->
-        <meta property="og:title" content="{{ page.title }}">
-        <meta property="og:description" content="{{ page.description }}">
-        <meta property="og:image" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}https://i.ibb.co/5Kfp1jD/VI-Page-Banner.png{% endif %}">
-        <meta property="og:image:secure" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}https://i.ibb.co/p3R6bmr/ATP-Website-Logo.png{% endif %}">
+        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}AlexTECPlayz{% endif %}">
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}AlexTECPlayz' website, featuring a blog and some other pages of interest.{% endif %}">
+        <meta property="og:image" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/AlexTECPlayz_GridBanner.webp{% endif %}">
+        <meta property="og:image:secure" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/AlexTECPlayz_GridBanner.webp{% endif %}">
         <meta property="og:image:alt" content="{{ page.image_banner_alt}}">
         <meta property="og:url" content="{{ page.url }}">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="{{ page.locale }}">
         <meta property="og:site_name" content="AlexTECPlayz">
         <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="{{ site.baseurl }}/{{ page.lang }}/">
+        <meta property="twitter:domain" content="{{ site.baseurl }}">
         <meta property="twitter:url" content="{{ page.url }}">
-        <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="{{ page.description }}">
-        <meta name="twitter:image" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}https://i.ibb.co/5Kfp1jD/VI-Page-Banner.png{% endif %}">
-        <meta name="twitter:site" content="@{{ site.twitter_username }}">
-        <meta name="fediverse:creator" content="@AlexTECPlayz@techhub.social"/>
+        <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}AlexTECPlayz{% endif %}">
+        <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}AlexTECPlayz' website, featuring a blog and some other pages of interest.{% endif %}">
+        <meta name="twitter:image" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/AlexTECPlayz_GridBanner.webp{% endif %}">
+        <meta name="twitter:site" content="{{ site.twitter_username }}">
+        <meta name="fediverse:creator" content="{{ site.mastodon_username }}"/>
+        
+        <!-- Miscellaneous -->
+        <meta name="google-site-verification" content="joH1YJawAM-RE8HORdtuNlD7RJ_tpDkNrMFQdnUmO40" />

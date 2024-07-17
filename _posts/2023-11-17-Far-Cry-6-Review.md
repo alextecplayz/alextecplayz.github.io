@@ -6,7 +6,7 @@ title: "Far Cry 6 - Review [6/10]"
 description: "Far Cry 6 is the perfect slop to play for dozens of hours, with no emotion or depth. It's sadly the most marketable Far Cry game content-wise to date."
 date: 2023-11-17 22:34:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/pbLd06F/FC6-review.png
+image_banner_link: /images/post-thumbnails/FarCry6_17112023.webp
 image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient background, mimicking the background used in Far Cry 6 promotional banners, with a blue sky, red fog and dark gray roads.
 metadata_proglang:
 metadata_platforms:

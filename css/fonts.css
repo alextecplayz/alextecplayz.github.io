@@ -1,5 +1,6 @@
 :root {
     --rem0: 0rem;
+    --rem0-01: 0.01rem;
     --rem0-1: 0.1rem;
     --rem0-15: 0.15rem;
     --rem0-2: 0.2rem;
@@ -150,7 +151,7 @@
 
 .outfit {font-family: 'Outfit', sans-serif !important;}
 .dm-sans {font-family: 'DM Sans', sans-serif !important;}
-.monospace {font-family: 'Space Mono' !important; line-height: 1.375rem !important;}
+.monospace {font-family: 'Space Mono', monospace !important; line-height: 1.375rem !important;}
 .italic {font-style: italic !important;}
 .hover-italic:hover {font-style: italic !important;}
 .oblique {font-style: oblique !important;}
@@ -184,6 +185,8 @@
 .line-height-rem2 {line-height: 2rem;}
 .line-height-rem3 {line-height: 3rem;}
 
+.rem0-01 {font-size: var(--rem0-01);}
+.rem0-1 {font-size: var(--rem0-1);}
 .rem0-5 {font-size: var(--rem0-5);}
 .rem0-75 {font-size: var(--rem0-75);}
 .rem1 {font-size: var(--rem1);}

@@ -7,7 +7,7 @@ title: "Galaxy Unpacked August 2021 - All reveals"
 description: "Find out everything Samsung has revealed during the August Unpacked event."
 date: 2021-08-11 16:06:00 +0200
 categories: Post
-image_banner_link: https://i.ibb.co/t85H2Vg/GU.png
+image_banner_link: /images/post-thumbnails/GU_11082021.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:
