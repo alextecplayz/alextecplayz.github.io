@@ -15,7 +15,7 @@ timetoread: PT8M
 
 review: true
 review_product_name: Scrap Mechanic
-review_product_asin: -
+review_product_asin: 
 review_product_releasedate: 2016-01-19
 review_organization_name: Axolot Games
 review_organization_website: axolotgames.com
