@@ -11,8 +11,25 @@ image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient ba
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
+timetoread: PT10M
+
 review: true
-review_itemtype: Game
+review_product_name: Far Cry 6
+review_product_asin: B0BMMDR66P
+review_product_releasedate: 2021-10-07
+review_organization_name: Ubisoft
+review_organization_website: ubisoft.com
+review_positivenote1: The Dunia engine is good from a technical standpoint. It has modern features, good performance, the detail is surprisingly good even on the lowest settings (without the HD pack installed)
+review_positivenote2: The performance of the actors for the 'big characters' - Dani Rojas, Anton Castillo, Juan Cortez, and many others - is very good, especially for Anton Castillo, despite the unfortunately low screen time
+review_positivenote3: The soundtrack is quite good, but unfortunately I feel like it could have been better. Most songs use a common tone, but that tone isn't serious enough, and even in its current state, the soundtrack's tone does not match the tone of the game, or the characters
+review_positivenote4: The Stranger Things x Far Cry 6 mission (The Vanishing) is actually fantastic, just like the soundtrack. It perfectly combines tones from both the show and the game, and I have listened to it so many times. I'm glad at least one of the crossover missions is good
+review_positivenote5: The game runs great on Linux. ALWAYS use Proton Experimental, do not stick to a stable release if you want to play Far Cry 6, as frequent updates to the Ubisoft launcher will render the launcher invisible, and somehow, will prevent the game from ever launching.
+review_negativenote1: Anton is a cookie-cutter villain with short-sighted greed and plans, a grandiose ego that continuously needs stroking, and it's not really very ruthless for a supposedly 'fascist' dictator. There was so much potential regarding his role in the game, but it all ends in such a stupid way, that it doesn't even manage to be memorable.
+review_negativenote2: Denuvo will always be a negative. I still strongly believe a game's performance is worse with Denuvo, for the simple objective reason that Denuvo encrypts and decrypts game data ON THE FLY, which is obviously bound to have performance drawbacks. Fuck Denuvo.
+review_negativenote3: The game takes a MONOLITHIC 171GB of storage with all content installed (136GB download) (base game ~ 60GB, optional HD textures - 59GB, the rest is DLC and other language localization files). This size will still be an issue, even after disabling the HD texture download. It's because there is no configuration in the game's Steam depots for the additional DLCs, so you will end up with 111GBs, and you will have to manually slim it down by removing the additional content and languages if you don't need them. Games should NEVER download additional content you do not own, especially if the additional content is gigabytes and gigabytes of precious storage.
+review_negativenote4: Game is EOL when it comes to updates. The game will never receive AMD FSR2, FSR3, Intel XeSS, or NVIDIA DLSS 3.5, that could massively improve performance on all systems.
+review_negativenote5: Mediocre game story with some peaks, but mostly mids and a few lows. The motifs and themes regarding propaganda, truth/lies are massively under-utilized, and it all gets ruined by the un-serious tone of the characters. Everything feels rushed, overlooked and quickly abandoned.
+review_rating: 6
 
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#the-good">The Good</a><br><a class="header-button monospace semibold" href="#the-bad">The Bad</a>
 ---

@@ -1,5 +1,9 @@
 # Cassowary Changelog
 
+## [1.5.11] | Schema
+  - fixed FC6 thumbnail which was apparently smaller than the rest
+  - Added Schema.org stuff for Article, Review, Author
+
 ## [1.5.1] | Small changes
   - Improvements to robots.txt, now very comprehensive and granular
   - Improved /about, /uses

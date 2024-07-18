@@ -14,7 +14,8 @@ lunr:
 twitter_username: "@realTECPlayz"
 mastodon_username: "@AlexTECPlayz@techhub.social"
 
-review_author: "AlexTECPlayz"
+author: "AlexTECPlayz"
+author_description: "Alex is a developer that occasionally reviews games, software and tech."
 
 # Build settings
 plugins:
