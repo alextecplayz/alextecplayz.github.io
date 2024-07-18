@@ -17,7 +17,7 @@ permalink: /sitemap.xml
     </url>
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.url == "/404.html" or page.url == "/" or page.url == "/feed.xml" %}
+    {% unless page.url == "/404.html" or page.url == "/" or page.url == "/feed.xml" or page.url == "/portfolio.html" or page.url contains "/_layouts/" or page.url contains "/assets/" or page.url contains "/wiki/OR8/" %}
     <url>
       <loc>{{ site.url }}{{ page.url }}</loc>
       {% if page.lastmod == null %}
