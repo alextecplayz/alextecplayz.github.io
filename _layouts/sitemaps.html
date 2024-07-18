@@ -7,7 +7,7 @@ permalink: /sitemaps.xml
   {% for post in site.posts %}
     {% if post.id contains "404" %}{% else %}
       <url>
-        <loc>{{site.baseurl }}{{ post.url }}</loc>
+        <loc>https://alextecplayz.github.io{{ post.url }}</loc>
         {% assign versions=site.posts | where:"ref", post.ref %}
         {% for version in versions %}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ site.baseurl }}{{ version.url }}" />
@@ -20,7 +20,7 @@ permalink: /sitemaps.xml
   {% for page in site.pages %}
     {% if page.id contains "404" %}{% else %}
       <url>
-        <loc>{{site.baseurl }}{{ page.url }}</loc>
+        <loc>https://alextecplayz.github.io{{ page.url }}</loc>
         {% assign versions=site.pages | where:"ref", page.ref %}
         {% for version in versions %}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ site.baseurl }}{{ version.url }}" />
