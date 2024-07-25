@@ -127,30 +127,20 @@
         --rem5: 1.85rem;};
 }
 
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoBold.ttf') format('truetype'); font-weight: 700; font-style: normal;}
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoBoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic;}
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoRegular.ttf') format('truetype'); font-weight: 400; font-style: normal;}
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoItalic.ttf') format('truetype'); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2') format('truetype'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('truetype'); font-weight: 600; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2') format('truetype'); font-weight: 500; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2') format('truetype'); font-weight: 300; font-style: normal;}
 
-@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansBold.ttf') format('truetype'); font-weight: 700; font-style: normal;}
-@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansBoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic;}
-@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansItalic.ttf') format('truetype'); font-weight: 400; font-style: italic;}
-@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansMedium.ttf') format('truetype'); font-weight: 500; font-style: normal;}
-@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansMediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic;}
-@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansRegular.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Bold.woff2') format('truetype'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-BoldItalic.woff2') format('truetype'); font-weight: 700; font-style: italic;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Regular.woff2') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Italic.woff2') format('truetype'); font-weight: 400; font-style: italic;}
 
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Black.ttf') format('truetype'); font-weight: 900; font-style: normal;}
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal;}
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-ExtraBold.ttf') format('truetype'); font-weight: 800; font-style: normal;}
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Light.ttf') format('truetype'); font-weight: 300; font-style: normal;}
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal;}
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal;}
-@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal;}
+.grotesk, .monospace, .italic, .hover-italic:hover, .oblique, .hover-oblique:hover, .underline, .overline, .wavy, .dashed, .dotted, .thin, .regular, .medium, .semibold, .bold, .centered, .ltr, .rtl, .column, .column-reverse, .row, .row-reverse, .justify-start, .justify-end, .relative, .absolute, .fixed, .rem0-5, .rem0-75, .rem1, .rem1-15, .rem1-5, .rem2, .rem2-25, .rem2-5, .rem3, .rem3-5, .rem4, .rem4-5, .rem5 {transition: 0.3s;}
 
-.outfit, .dm-sans, .monospace, .italic, .hover-italic:hover, .oblique, .hover-oblique:hover, .underline, .overline, .wavy, .dashed, .dotted, .thin, .regular, .medium, .semibold, .bold, .centered, .ltr, .rtl, .column, .column-reverse, .row, .row-reverse, .justify-start, .justify-end, .relative, .absolute, .fixed, .rem0-5, .rem0-75, .rem1, .rem1-15, .rem1-5, .rem2, .rem2-25, .rem2-5, .rem3, .rem3-5, .rem4, .rem4-5, .rem5 {transition: 0.3s;}
-
-.outfit {font-family: 'Outfit', sans-serif !important;}
-.dm-sans {font-family: 'DM Sans', sans-serif !important;}
+.grotesk {font-family: 'Space Grotesk', sans-serif !important;}
 .monospace {font-family: 'Space Mono', monospace !important; line-height: 1.375rem !important;}
 .italic {font-style: italic !important;}
 .hover-italic:hover {font-style: italic !important;}

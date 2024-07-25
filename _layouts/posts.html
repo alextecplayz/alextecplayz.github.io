@@ -13,16 +13,15 @@ layout: posts
         {% include notice-container.html %}
 
         <div class="articles-container">
-            <p class="monospace semibold rem1-5 lightgray">{{ site.t[page.lang].postshead }}&nbsp;</p>
             {% assign posts=site.posts | where:"lang", page.lang %}
             <div class="article-long">
                 <div class="article-long-left">
                     <img class="article-long-image-size" src="{{ site.posts.first.image_banner_link }}" alt="{{ site.posts.first.image_banner_alt }}">
                 </div>
                 <div class="article-long-right">
-                    <a href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white dm-sans semibold">{{ site.posts.first.title }}</p></a>
+                    <a href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white grotesk semibold">{{ site.posts.first.title }}</p></a>
                     <p class="article-long-desc rem1 lightgray semibold monospace italic">{{ site.posts.first.description }}</p>
-                    <p class="article-long-date rem1 lightgray outfit bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
+                    <p class="article-long-date rem1 lightgray grotesk bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
                     <a class="article-button-light" href="{{ site.posts.first.url }}">{{ site.t[page.lang].readmore }}</a>
                 </div>
             </div>
@@ -33,18 +32,16 @@ layout: posts
             </div>
             <div class="article-right">
                 <a href="{{ post.url }}">
-                    <p class="article-title rem2 white dm-sans semibold">{{ post.title }}</p>
+                    <p class="article-title rem2 white grotesk semibold">{{ post.title }}</p>
                 </a>
                 <p class="article-desc rem1 lightgray semibold monospace italic">{{ post.description }}</p>
-                <p class="article-date rem1 lightgray outfit bold">{{ post.date | date: "%d %B %Y" }}</p>
+                <p class="article-date rem1 lightgray grotesk bold">{{ post.date | date: "%d %B %Y" }}</p>
                 <div class="article-button-container">
                     <a class="article-button-light" href="{{ post.url }}">{{ site.t[page.lang].readmore }}</a>
                 </div>
             </div>
         </div>
         {% endfor %}
-
-        </div>
         
         <div class="recommendations-container">
             <div class="recommendation">

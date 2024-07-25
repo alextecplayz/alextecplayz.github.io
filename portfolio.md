@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 lang: en
 locale: en_US
 title: "Portfolio"
