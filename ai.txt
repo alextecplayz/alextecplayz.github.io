@@ -1,7 +1,7 @@
 # AlexTECPlayz posts, documentation, legal content is made available
 # for your personal, non-commercial use, subject to our Terms of Service
 # available here: https://alextecplayz.github.io/terms
-#
+
 # Use of any device, tool, or process designed to data mine or scrape the
 # content using automated means is prohibited without prior written permission
 # from Vanta Interactive. Prohibited uses include, but are not limited to:
