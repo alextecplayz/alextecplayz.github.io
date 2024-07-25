@@ -127,16 +127,16 @@
         --rem5: 1.85rem;};
 }
 
-@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2') format('truetype'); font-weight: 700; font-style: normal;}
-@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('truetype'); font-weight: 600; font-style: normal;}
-@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2') format('truetype'); font-weight: 500; font-style: normal;}
-@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2') format('truetype'); font-weight: 400; font-style: normal;}
-@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2') format('truetype'); font-weight: 300; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2') format('woff2'); font-weight: 300; font-style: normal;}
 
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Bold.woff2') format('truetype'); font-weight: 700; font-style: normal;}
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-BoldItalic.woff2') format('truetype'); font-weight: 700; font-style: italic;}
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Regular.woff2') format('truetype'); font-weight: 400; font-style: normal;}
-@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Italic.woff2') format('truetype'); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic;}
 
 .grotesk, .monospace, .italic, .hover-italic:hover, .oblique, .hover-oblique:hover, .underline, .overline, .wavy, .dashed, .dotted, .thin, .regular, .medium, .semibold, .bold, .centered, .ltr, .rtl, .column, .column-reverse, .row, .row-reverse, .justify-start, .justify-end, .relative, .absolute, .fixed, .rem0-5, .rem0-75, .rem1, .rem1-15, .rem1-5, .rem2, .rem2-25, .rem2-5, .rem3, .rem3-5, .rem4, .rem4-5, .rem5 {transition: 0.3s;}
 
