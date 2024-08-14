@@ -7,15 +7,8 @@
     --transparent: #00000000;
 
     --brand: #a0a0a0;
-    --brand-magenta: #fcb5ff;
-    --bg-darkmagenta: #312836;
-    --bg-darkpink: #6f1866;
     --magenta: #fcb5ff;
     --vantagray: #242424;
-    --readerbg: #D4D4D4;
-    --readerbg-dark: #1a1a1a;
-    --headerbg: #282a36;
-    --headerbg-dark: #1c1d25;
     --headerbg-dark-transparent: #1c1d2580;
 
     --warning: #f8ff9c;
@@ -31,20 +24,14 @@
 .white {color: var(--white) !important;}
 .lightgray {color: var(--lightgray) !important;}
 .lightgray-hover:hover {color: var(--lightgray) !important;}
-.reader {background-color: var(--readerbg) !important;}
-.reader-dark {background-color: var(--readerbg-dark) !important;}
 .darkgray {color: var(--darkgray) !important;}
 .darkgray-hover:hover {color: var(--darkgray) !important;}
 .black {color: var(--black) !important;}
-.bg-darkmagenta {background-color: var(--bg-darkmagenta);}
-.bg-darkpink {background-color: var(--bg-darkpink);}
-.bg-header {background-color: var(--vantagray) !important;}
 .bg-transparent {background-color: var(--transparent) !important;}
 .text-active {background-color: var(--accent-color) !important; color: var(--darkgray) !important;}
 .text-active:hover {color: var(--accent-color) !important; background-color: var(--darkgray) !important;}
 
+.vantagray {color: var(--vantagray) !important;}
 .warning {color: var(--warning) !important;}
 .danger {color: var(--danger) !important;}
 .caution {color: var(--caution) !important;}
-
-.vantagray {color: var(--vantagray) !important;}

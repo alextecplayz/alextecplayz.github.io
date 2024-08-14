@@ -20,6 +20,7 @@
     --rem3-5: 3.5rem;
     --rem4: 4rem;
     --rem4-5: 4.5rem;
+    --rem4-75: 4.75rem;
     --rem5: 5rem;
     --rem6 :6rem;
     --rem7 :7rem;
@@ -44,13 +45,14 @@
         --rem3-5: 3rem;
         --rem4: 3.5rem;
         --rem4-5: 4rem;
+        --rem4-75: 4.25rem;
         --rem5: 4.5rem;};
 
     @media screen and (max-width: 1250px) and ( min-width: 1170px) {
         --rem0-5: 0.15rem;
         --rem0-75: 0.25rem;
-        --rem1: 0.5rem;
-        --rem1-15: 0.75rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.05rem;
         --rem1-25: 1.25rem;
         --rem1-5: 1rem;
         --rem2: 1.15rem;
@@ -60,13 +62,14 @@
         --rem3-5: 2.5rem;
         --rem4: 3rem;
         --rem4-5: 3.5rem;
+        --rem4-75: 3.75rem;
         --rem5: 4rem;};
 
     @media screen and (max-width: 1170px) and (min-width: 950px) {
         --rem0-5: 0.10rem;
         --rem0-75: 0.15rem;
-        --rem1: 0.25rem;
-        --rem1-15e: 0.65rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.05rem;
         --rem1-25: 1.25rem;
         --rem1-5: 0.75rem;
         --rem2: 1rem;
@@ -76,6 +79,7 @@
         --rem3-5: 2rem;
         --rem4: 2.5rem;
         --rem4-5: 3rem;
+        --rem4-75: 3.25rem;
         --rem5: 3.5rem;};
 
     @media screen and (max-width: 950px) and (min-width: 725px) {
@@ -92,7 +96,8 @@
         --rem3-5: 1.85rem;
         --rem4: 2rem;
         --rem4-5: 2.15rem;
-        --rem5: 2.25rem;}
+        --rem4-75: 2.25rem;
+        --rem5: 2.35rem;}
 
     @media screen and (max-width: 725px) and (min-width: 425px) {
         --rem0-5: 0.5rem;
@@ -108,6 +113,7 @@
         --rem3-5: 1.65rem;
         --rem4: 1.75rem;
         --rem4-5: 1.85rem;
+        --rem4-75: 1.95rem;
         --rem5: 2rem;};
 
     @media screen and (max-width: 425px) and (min-width: 150px) {
@@ -124,6 +130,7 @@
         --rem3-5: 1.5rem;
         --rem4: 1.65rem;
         --rem4-5: 1.75rem;
+        --rem4-75: 1.80rem;
         --rem5: 1.85rem;};
 }
 

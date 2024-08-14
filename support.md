@@ -25,6 +25,7 @@ Want to help me out financially? Sure, here are some links for that.
 - Monero address: *83ZVMp8CRR5ZvDDyP6QXdR9XGZCJNWfAzJhk9KHf2piT6gMYE9M5dsXfwAsrs2drJmYQLcKWAZr6AgLyYdKgdbP4Et8TJCE*
 
 ## Referrals
+- ente Photos referral code: XDS67Y. You can use it in the ente Photos app, in Settings > General > Referrals > Apply code. If you sign up for a paid plan, you get 10GBs of storage, and I get 10GBs of storage. Do note that the storage you and I earn are capped to the current plan. So, for example, if I use the ente free 5GB plan, I can get 5GBs of storage by referring others, however, if I upgrade to something bigger, I can get the rest, because the extra storage earned is reserved for me to use when I upgrade. Essentially, if you have an account, you can at most, double your storage. A paid 100GB storage account can refer people and earn another 100GB.
 - [Dropbox referral link](https://www.dropbox.com/referrals/AACOnZPj-nge_4ahMHKMynux8UNJ5Sv9qcw?src=global9) - I earn 500MB for every person that installs the Dropbox desktop app, you will earn 500MB of storage as well
 - [Itch.io affiliate link](https://itch.io/?ac=LxK9PBinVvG) - I can get paid a portion of the sale item(s) you buy on itch.io
 - [MediaFire referral link](https://www.mediafire.com/?0obbv7v) - I earn 1GB for every person that signs up using this referral link

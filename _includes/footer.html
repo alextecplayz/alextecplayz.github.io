@@ -1,20 +1,49 @@
+<!-- Pop-up windows -->
+<div class="pop-up settings-pop-up z-index100" id="settings-window">
+    <div class="pop-up-content">          
+        <p class="flex centered grotesk semibold rem2 white pop-up-title">Settings</p>
+        <button class="article-button-dark button-modal grotesk medium" id="settings-close-button">Close</button>
+        <div class="eula-scrollbox">
+            <div class="flex row">
+                <p class="monospace white medium rem1-25 pop-up-title">Theme to use:</p>
+                <select name="theme" id="setting_theme" class="dropdown-dark grotesk medium rem1">
+                    <option value="theme_light">Light</option>
+                    <option value="theme_dark">Dark</option>
+                    <option value="theme_black">AMOLED Black</option>
+                </select>
+            </div>
+            <p class="monospace lightgray medium rem1-25">&emsp;</p>
+            <label class="checkbox-container monospace white medium rem1-25">Use local storage to save preference?
+                <input type="checkbox" unchecked="unchecked">
+                <span class="checkmark"></span>
+              </label>
+            <p class="monospace lightgray italic medium rem0-75 pop-up-title">Session storage is wiped when closing the browser (default option, unchecked). Local storage saves the preferences indefinitely - however, they are not cookies.</p>
+            <p class="monospace lightgray medium rem1-25">&emsp;</p>
+            <p class="monospace lightgray medium rem1-25">&emsp;</p>
+            <p class="grotesk lightgray medium rem1 flex centered">Website v{{ site.ver_site }} | Obsidian v{{ site.ver_obsidian }}</p>
+        </div>
+    </div>
+</div>
+
 <!-- Footer start -->
-        <footer class="footer bg-header">
+        <footer class="footer">
             <div class="footer-left">
                     <div class="footer-legal">
                         <p class="footer-copyright-text grotesk semibold italic">© 2020-{{ site.t[page.lang].present }} AlexTECPlayz. {{ site.t[page.lang].allrights }}</p>
-                        <p class="footer-copyright-text footer-link white grotesk bold">&ensp;|&ensp;</p>
+                        <p class="footer-copyright-text footer-link white grotesk bold spacer">&ensp;|&ensp;</p>
                         <a class="footer-copyright-text footer-link white link-white grotesk bold" href="{{ site.baseurl }}/terms">{{ site.t[page.lang].tos }}</a>
-                        <p class="footer-copyright-text footer-link white grotesk bold">&ensp;|&ensp;</p>
+                        <p class="footer-copyright-text footer-link white grotesk bold spacer">&ensp;|&ensp;</p>
                         <a class="footer-copyright-text footer-link white link-white grotesk bold" href="{{ site.baseurl }}/privacy">{{ site.t[page.lang].privacy }}</a>
-                        <p class="footer-copyright-text footer-link white grotesk bold">&ensp;|&ensp;</p>
+                        <p class="footer-copyright-text footer-link white grotesk bold spacer">&ensp;|&ensp;</p>
                         <a class="footer-copyright-text footer-link white link-white grotesk bold" href="{{ site.baseurl }}/about">{{ site.t[page.lang].about }}</a>
                     </div>
             </div>
             <div class="footer-right">
                 <a class="footer-text footer-link white link-white grotesk bold" rel="me" href="https://techhub.social/@AlexTECPlayz">Mastodon</a>
-                <p class="footer-copyright-text white grotesk bold">&ensp;|&ensp;</p>
+                <p class="footer-copyright-text white grotesk bold spacer">&ensp;|&ensp;</p>
                 <a class="footer-text footer-link white link-white grotesk bold" rel="me" href="https://youtube.com/@AlexTECPlayz">YouTube</a>
+                <p class="footer-copyright-text white grotesk bold spacer">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</p>
+                <button type="button" class="footer-text footer-link white link-white grotesk bold" id="settings-modal-opener">Settings</button>
             </div>
         </footer>
 <!-- Footer end -->

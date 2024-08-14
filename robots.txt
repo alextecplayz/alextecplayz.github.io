@@ -27,7 +27,6 @@ User-agent: Amazonbot
 User-agent: Applebot
 User-agent: bingbot
 User-agent: ChatGPT-User
-User-agent: PerplexityBot
 User-agent: YouBot
 Allow: *
 
@@ -545,6 +544,7 @@ User-agent: panscient.com
 User-agent: peer39_crawler
 User-agent: peer39_crawler/1.0
 User-agent: PerMan
+User-agent: PerplexityBot
 User-agent: Petalbot
 User-agent: Pingdom
 User-agent: Pinterest
@@ -552,6 +552,7 @@ User-agent: Pinterestbot
 User-agent: PiplBot
 User-agent: postrank
 User-agent: PR-CY.RU
+User-agent: prbot/1.0
 User-agent: Primalbot
 User-agent: PrivacyAwareBot
 User-agent: ProPowerBot
@@ -569,6 +570,10 @@ User-agent: RankFlex
 User-agent: redditbot
 User-agent: Refindbot
 User-agent: RegionStuttgartBot
+User-agent: redditbot
+User-agent: Redditbot/2.0
+User-agent: reddit-url-prospector/1.1
+User-agent: reddit-image-crawler/1.0
 User-agent: RepoMonkey
 User-agent: RepoMonkey Bait & Tackle
 User-agent: RetrevoPageAnalyzer

@@ -45,6 +45,8 @@ User-agent: omgilibot
 User-agent: peer39_crawler
 User-agent: peer39_crawler/1.0
 User-agent: PerplexityBot
+User-agent: redditbot
+User-agent: Redditbot/2.0
 User-agent: Seekr
 User-agent: YouBot
 Disallow: /

@@ -6,6 +6,8 @@ baseurl: ""
 website: https://alextecplayz.github.io
 url: "https://alextecplayz.github.io"
 lang: en
+ver_site: 1.5.3
+ver_obsidian: 1.5.3
 search: true
 search_full_content: true
 lunr:
@@ -52,6 +54,7 @@ t:
         about: About
         support: Support
         uses: Uses
+        notes: Notes
         search: Search
         tos: Terms of Service
         privacy: Privacy Policy

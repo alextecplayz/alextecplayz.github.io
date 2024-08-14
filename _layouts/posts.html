@@ -3,11 +3,11 @@ layout: posts
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang }}" class="scroll-smooth bg-header">
+<html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
     </head>
-<body class="bg-header">
+<body>
         {% include header.html %}
 
         {% include notice-container.html %}
@@ -22,7 +22,7 @@ layout: posts
                     <a href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white grotesk semibold">{{ site.posts.first.title }}</p></a>
                     <p class="article-long-desc rem1 lightgray semibold monospace italic">{{ site.posts.first.description }}</p>
                     <p class="article-long-date rem1 lightgray grotesk bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
-                    <a class="article-button-light" href="{{ site.posts.first.url }}">{{ site.t[page.lang].readmore }}</a>
+                    <a class="article-button-light grotesk medium" href="{{ site.posts.first.url }}">{{ site.t[page.lang].readmore }}</a>
                 </div>
             </div>
             {% for post in site.posts offset:1 %}
@@ -37,17 +37,24 @@ layout: posts
                 <p class="article-desc rem1 lightgray semibold monospace italic">{{ post.description }}</p>
                 <p class="article-date rem1 lightgray grotesk bold">{{ post.date | date: "%d %B %Y" }}</p>
                 <div class="article-button-container">
-                    <a class="article-button-light" href="{{ post.url }}">{{ site.t[page.lang].readmore }}</a>
+                    <a class="article-button-light grotesk medium" href="{{ post.url }}">{{ site.t[page.lang].readmore }}</a>
                 </div>
             </div>
         </div>
         {% endfor %}
+
+        <hr>
         
         <div class="recommendations-container">
             <div class="recommendation">
                 <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/uses">Alex uses</a>
             </div>
+            <div class="recommendation">
+                <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/recommends">Alex recommends</a>
+            </div>
         </div>
+
+        <hr>
 
         <div class="recommendations-container">
             <div class="post">
@@ -90,6 +97,7 @@ layout: posts
             <a href="https://awawa.neocities.org/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/awawa.webp" alt="byte"></a>
             <a href="https://keeri.place/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/keerifox.png" alt="keeri"></a>
             <a href="https://sneexy.pages.gay/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/sneexy.png" alt="sneexy"></a>
+            <a href="https://seirdy.one/" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/seirdy.png" alt="Square icon of a colon and semicolon, next to the word “Seirdy”."></a>
             <!-- <a href="" target="_blank"><img class="banner8831" src="{{ site.baseurl }}/images/88x31/out/" alt=""></a> -->
         </div>
 

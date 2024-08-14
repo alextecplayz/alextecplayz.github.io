@@ -44,7 +44,7 @@
     .article-long:hover {padding: 0.75rem;}
     .article-long-title, .article-title {padding-bottom: 1.25rem}
     .article-button-container {display: flex; padding: 0.15rem;}
-    .article-button-light, .article-button-dark {padding: 0.15rem;}
+    .article-button-light, .article-button-dark {padding: 1.15rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px;width: 100%; height: auto;}
     .post-image-portrait-mode {max-width: 2322px; max-height: 4128px;width: auto; height: 100%;}
     .article-long-image-size {max-width: 566px !important; max-height: 378px !important; width: auto !important; height: 100% !important;}
@@ -65,7 +65,7 @@
     .article-left {padding: 0.15rem;}
     .article-right {padding: 0.15rem; display: flex; flex-direction: column;}
     .article-button-container {display: flex; padding: 0.25rem;}
-    .article-button-light, .article-button-dark {padding: 0.25rem;}
+    .article-button-light, .article-button-dark {padding: 1.25rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
     .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
     .article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
@@ -85,12 +85,15 @@
     .article-long {padding: 0.5rem;}
     .article-long:hover {padding: 0.5rem;}
     .article-long-title, .article-title {padding-bottom: 0.5rem;}
+    .article, .article-long, .in-queue {flex-direction: column;}
     .article-button-container {display: flex; padding: 0.20rem;}
-    .article-button-light, .article-button-dark {padding: 0.20rem;}
+    .article-button-light, .article-button-dark {padding: 1.20rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
     .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
-    .article-long-image-size { max-width: 358px !important; max-height: 234px !important; width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: calc(299px / 4) !important; max-height: calc(168px / 4) !important; width: auto !important; height: 100% !important;}
+    /*.article-long-image-size { max-width: 358px !important; max-height: 234px !important; width: auto !important; height: 100% !important;}*/
+    .article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
+        width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: calc(299px / 3) !important; max-height: calc(168px / 3) !important; width: auto !important; height: 100% !important;}
     .post-image-max1080p, .post-image-max720p, .post-image-max480p {padding: 0.05rem 0.25rem 0.05rem 0.25rem !important;}
 }
 
@@ -116,7 +119,7 @@
     .article-long:hover {padding: 0.25rem;}
     .article-long-title, .article-title {padding-bottom: 0.5rem;}
     .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
-    .article-button-light, .article-button-dark {padding: 0.75rem;}
+    .article-button-light, .article-button-dark {padding: 1rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
     .article-long-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
     .article-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
@@ -151,6 +154,7 @@
     .article-button-light, .article-button-dark {padding: 0.75rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
     .article-image-size {max-width: 300px !important; max-height: 169px; width: auto !important; height: 100% !important;}
+    .article-long-image-size {max-width: 300px !important; max-height: 169px !important; width: auto !important; height: 100% !important;}
     .footer {padding: 0.15rem; padding-bottom: 1rem;}
     .footer-logo {width: 2rem; height: 2rem;}
     .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
@@ -182,6 +186,7 @@
     .article-button-light, .article-button-dark {padding: 0.75rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
     .article-image-size {max-width: 250px !important; max-height: 141px; width: auto !important; height: 100% !important;}
+    .article-long-image-size {max-width: 250px !important; max-height: 141px !important; width: auto !important; height: 100% !important;}
     .footer {padding: 0.15rem; padding-bottom: 1rem;}
     .footer-logo {width: 2rem; height: 2rem;}
     .footer-left {padding: 2rem 1rem 1rem 1rem !important;}

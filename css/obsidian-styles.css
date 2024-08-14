@@ -6,8 +6,9 @@ ol,ul { list-style:none}
 blockquote,q {quotes:none}
 blockquote:before,blockquote:after,q:before,q:after {content:''; content:none}
 table {border-collapse:collapse; border-spacing:0}
+body {background-color: var(--vantagray);}
 
-.notice, .notice-link, .notice-link:hover, .notice-outline, .notice-offline, .notice-warning, .notice-link-warning, .notice-link-warning:hover, .header, .header-left, .header-right, .header-branding, .header-branding:hover, .header-brandname, .header-brandname:hover, .header-logo, .header-logo:hover, .header-button, .header-buttons, .header-buttons, .header-menu, .header-menu:hover, .div.horizontal-scrollbox a:hover, .button, .button:hover, .button-outline, .footer, .footer-text, .footer-copyright-text, .footer-branding, .footer-branding:hover, .footer-brandname:hover, .footer-logo:hover .footer-brandname, .footer-brandname, .footer-logo, .link-white, .link-white:hover, .subheader, .subheader-left, .subheader-right, .subheader-branding, .subheader-branding:hover, .subheader-brandname:hover, .subheader-logo:hover .subheader-brandname, .subheader-logo, .subheader-button, .subheader-button:hover, .subheader-buttons, .search-results, .searchbox:hover, .searchbox-container, .searchbox-helpers:hover, .about-pop-up .button-modal, .filters-pop-up .button-modal, .tutorial-pop-up .button-modal, .about-pop-up .pop-up-content, .filters-pop-up .pop-up-content, .tutorial-pop-up .pop-up-content, .button-search, .button-search:hover, .button-clear, .button-clear:hover, .button-tutorial, .button-tutorial:hover, .button-filters, .button-filters:hover, .button-about, .button-about:hover, .button-modal, .button-headerbg, .button-modal:hover, .searchresult, .searchresult:hover, .progress-bar-container, .progress-bar, .progress-bar-text {transition: 0.3s;}
+.notice, .notice-link, .notice-link:hover, .notice-outline, .notice-offline, .notice-warning, .notice-link-warning, .notice-link-warning:hover, .header, .header-left, .header-right, .header-branding, .header-branding:hover, .header-brandname, .header-brandname:hover, .header-logo, .header-logo:hover, .header-button, .header-buttons, .header-buttons, .header-menu, .header-menu:hover, .div.horizontal-scrollbox a:hover, .button, .button:hover, .button-outline, .footer, .footer-text, .footer-copyright-text, .footer-branding, .footer-branding:hover, .footer-brandname:hover, .footer-logo:hover .footer-brandname, .footer-brandname, .footer-logo, .link-white, .link-white:hover, .subheader, .subheader-left, .subheader-right, .subheader-branding, .subheader-branding:hover, .subheader-brandname:hover, .subheader-logo:hover .subheader-brandname, .subheader-logo, .subheader-button, .subheader-button:hover, .subheader-buttons, .search-results, .searchbox:hover, .searchbox-container, .searchbox-helpers:hover, .about-pop-up .button-modal, .filters-pop-up .button-modal, .tutorial-pop-up .button-modal, .about-pop-up .pop-up-content, .filters-pop-up .pop-up-content, .tutorial-pop-up .pop-up-content, .button-search, .button-search:hover, .button-clear, .button-clear:hover, .button-tutorial, .button-tutorial:hover, .button-filters, .button-filters:hover, .button-about, .button-about:hover, .button-modal, .button-modal:hover, .searchresult, .searchresult:hover, .progress-bar-container, .progress-bar, .progress-bar-text {transition: opacity 0.3s ease-in-out;}
 
 .notice {background-color: var(--darkgray); display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center; padding: 1rem;}
 .notice-link:hover {color: var(--brand);}
@@ -30,7 +31,7 @@ table {border-collapse:collapse; border-spacing:0}
 }
 .header-logo:hover {opacity: 80%;}
 .logo-sticky {position: fixed; padding: 0rem; top: 1.5rem; left: 4.2rem; transition: transform 0.3s ease-in-out; transform: translate(-100%, 100%); z-index: 100;}
-.header-button {height: 100%; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; font-weight: 500; line-height: 100%; color: var(--brand); margin-left: 0.9375rem; margin-right: 0.9375rem; padding: 0.25rem;}
+.header-button {height: 100%; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; font-weight: 500; line-height: 100%; color: var(--lightgray); margin-left: 0.9375rem; margin-right: 0.9375rem; padding: 0.25rem;}
 .header-button:hover {color: var(--accent-color);}
 .header-buttons {display: flex;}
 .header-menu {border: 0.15rem solid var(--white); padding: 0.75rem;}
@@ -51,6 +52,8 @@ div.horizontal-scrollbox a:hover {background: var(--accent-color); text-decorati
 .button-outline {border-radius: 0; border: 0.15rem solid var(--accent-color);}
 .footer {padding: var(--rem1) var(--rem2-5) var(--rem3) var(--rem2-5); display: flex; flex-direction: row; align-items: center; align-content: stretch; flex-wrap: wrap;}
 .footer-text {color: var(--white);}
+.footer button {background-color: transparent !important;}
+.footer button::selection, .footer button::-moz-selection {color: var(--black) !important; background-color: var(--accent-color) !important;}
 .footer-copyright-text {color: var(--white);}
 .footer-left {padding: var(--rem3) var(--rem2-5) var(--rem3) var(--rem2-5); display: flex; flex-direction: column;}
 .footer-left-up {display: flex; padding-bottom: var(--rem1);}
@@ -84,16 +87,20 @@ div.horizontal-scrollbox a:hover {background: var(--accent-color); text-decorati
 .search-input {width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border: 2px solid #ccc; border-radius: 4px; outline: none;}
 .search-results {overflow-y: scroll; height: 100%; width: 100%;}  
 .searchbox {width: 60vw; padding: var(--rem1-25); background: var(--darkgray); color: var(--lightgray); border: 0.15rem solid var(--lightgray); border-radius: 0%;}
-.searchbox:hover {background-color: var(--readerbg-dark);}
+.searchbox:hover {background-color: var(--darkgray);}
 .searchbox.active {position: absolute; padding: 1.25rem; background: var(--darkgray); border: 0.15rem solid var(--lightgray); top: 10vh;}
 .searchbox-container {padding: var(--rem1-25); display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: center; align-items: center;}
 .query-results {padding: var(--rem1-25);}
 .query-error {display: flex; flex-wrap: wrap; flex-direction: row; align-items: center; align-content: center; text-align: center;}
-.button-headerbg {background-color: var(--headerbg); border: none;}
 .searchresult {border: 0.15rem solid var(--lightgray); padding: var(--rem1-25); margin: var(--rem1-25); display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;}
 .searchresult:hover { border: 0.15rem solid var(--accent-color);}
 .progress-bar-container {margin: var(--rem0-25) var(--rem0-2) var(--rem0-25) var(--rem0-2)m; border: 0.15rem solid var(--lightgray); overflow: hidden; height: var(--rem1-25);}
 .progress-bar {width: 0%; height: 100%; background-color: var(--lightgray); transition: width 0.3s ease;}
 .progress-bar-text {padding: var(--rem0-25); padding-top: 0.15rem;}
-.from-the-right {display: flex; direction: rtl; align-items: flex-end;}
+.from-the-right {display: flex; align-items: flex-end;}
 .banner8831 {width: 88px !important; height: 31px !important; image-rendering: pixelated !important;}
+.pop-up { display: none; justify-content: center; align-items: center; position: fixed; overflow: auto; background-color: var(--headerbg-dark-transparent); padding: 2rem; transition: opacity 0.3s ease-in-out; top: 0; left: 0; right: 0; bottom: 0;}
+.pop-up-content { background-color: var(--vantagray); padding: 2rem; margin: auto; width: 80%; max-width: 600px; transition: opacity 0.3s ease-in-out; position: relative; border: 0.25rem solid var(--lightgray);}
+.settings-pop-up .button-modal {position: absolute; top: 1rem; right: 1rem; cursor: pointer;}
+.settings-pop-up .pop-up-content { position: relative;}
+.pop-up-title { padding: 1rem;}
