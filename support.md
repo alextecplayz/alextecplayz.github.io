@@ -29,5 +29,5 @@ Want to help me out financially? Sure, here are some links for that.
 - [Dropbox referral link](https://www.dropbox.com/referrals/AACOnZPj-nge_4ahMHKMynux8UNJ5Sv9qcw?src=global9) - I earn 500MB for every person that installs the Dropbox desktop app, you will earn 500MB of storage as well
 - [Itch.io affiliate link](https://itch.io/?ac=LxK9PBinVvG) - I can get paid a portion of the sale item(s) you buy on itch.io
 - [MediaFire referral link](https://www.mediafire.com/?0obbv7v) - I earn 1GB for every person that signs up using this referral link
-- [MEGA referral link](https://mega.nz/aff=kS-Cpiruwpo) - I get 20% commission of any purchases if you buy any plan within 12 months of the referral
+- [MEGA referral link](https://mega.io/security?aff=FX5Pbirctu0) - I get 20% commission of any purchases if you buy any plan within 12 months of the referral
 - [NextDNS referral link](https://nextdns.io/?from=2ktjq9dz) - I get 30% commission of all subscriptions for the first 12 months
