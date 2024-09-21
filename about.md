@@ -16,9 +16,9 @@ toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a c
 
 Hi! I'm Alex.
 
-I currently go by he/him they/them pronouns, but I will switch to she/her they/them at some point when I begin to transition.
+I currently go by he/they pronouns, but I will switch to she/they at some point when I begin to transition.
 
-I'm 19, Transfem, Aromantic, Bisexual, Non-Binary with a hint of Asexuality, Agenderism, and Genderfluidity, living in Romania for the time being, but I'm split between staying or moving the fuck out of the country due to general bad QoL, bad politics, corruption and climate change. I'm also an Atheist, have been since I was at least 12, but the signs were always there. Guess I'm a furry too, what a surprise, huh?
+I'm 19, Transfem, Aromantic, Bisexual, Non-Binary, living in Romania for the time being, but I'm split between staying or moving the fuck out of the country due to general bad QoL, bad politics, corruption and climate change. I'm also an Atheist, have been since I was at least 12, but the signs were always there.
 
 ## What I do
 
@@ -34,21 +34,13 @@ I'm also slightly interested in stuff like hormones, psychology and how the huma
 
 I worked for a month as an on-site freelancer at a small hospital's laboratory section, I worked in Excel, Word, registered lab test results and adapted the majority of a general management standard to a newer standard for a lab inspection (dozens and dozens of documents). Before this, I already worked with an acquaintance who works there, on the same kind of documents.
 
-Currently, I am waiting for a few interviews in a couple of places, hopefully I get a full-time job by the end of the month, because I want to start HRT as soon as possible. *(If you're from Romania, or specifically Transylvania, maybe even straight-up from Cluj, and know an LGBTQIA+-friendly doctor that can prescribe me HRT, feel free to contact me, I'd appreciate this a lot.)*
+Currently, I am waiting for a few interviews in a couple of places, hopefully I get a full-time job by the end of the year, because I want to start HRT as soon as possible. *(If you're from Romania, or specifically Transylvania, maybe even from Cluj, and know an LGBTQIA+-friendly doctor that can prescribe me HRT, feel free to contact me, I'd appreciate this a lot.)*
 
 **I am open to work** if you want a no-frills website using static generators such as Jekyll, with just enough JS for fancier stuff, no tracking or analytics provided. If you're interested, [contact me](#contact), and we'll have a quick chat to see if I'm up for the task.
 
 ## Politics
 
 Here's what I support, am impartial to or a centrist on, or I don't support - all in a fancy table.
-
-Table legend:
-
-{% highlight plaintext %}
-+ = I support this
-~ = Impartial to, or a "centrist" on this
-- = I don't support this
-{% endhighlight %}
 
 | **My stance** | **Measure, something specific, law, right, etc.**   | **Description to explain why (optional)**    |
 | ------------- | --------------------------------------------------- | -------------------------------------------- |
@@ -99,4 +91,6 @@ If you have any questions, suggestions or something else, here's where you can c
 
 I won't accept friend requests on Steam. Unless I really know you, there's no chance I'll accept your friend request.
 
-I have accounts on platforms like Instagram/Threads ([@alextecplayz](https://instagram.com/alextecplayz) / [@alextecplayz@threads.net](https://threads.net/alextecplayz)), reddit ([u/TECPlayz2-0](https://new.reddit.com/user/TECPlayz2-0)), Discord (alextecplayz) and Twitter ([@realTECPlayz](https://twitter.com/realTECPlayz)), but **I don't use them anymore**. If you really must contact me, it's best to message me on Mastodon or send me an email. I will not see or answer messages sent on other platforms. I might use Discord if I want to send out playtest invitations to people I know, but I don't use it for anything else. Neither I or Vanta Interactive have a Discord server. Messages unrelated to playtests or game feedback will **not** be read or replied to.
+I have accounts on platforms like Instagram/Threads ([@alextecplayz](https://instagram.com/alextecplayz) / [@alextecplayz@threads.net](https://threads.net/alextecplayz)), reddit ([u/TECPlayz2-0](https://new.reddit.com/user/TECPlayz2-0)), Discord (alextecplayz) and Twitter ([@realTECPlayz](https://twitter.com/realTECPlayz)), but **I don't use them anymore**.
+
+If you really must contact me, it's best to message me on Mastodon or send me an email. I will not see or answer messages sent on other platforms. I might use Discord if I want to send out playtest invitations to people I know, but I don't use it for anything else. Neither I or Vanta Interactive have a Discord server. Messages unrelated to playtests or game feedback will **not** be read or replied to.
