@@ -1,0 +1,222 @@
+:root {
+    --rem0: 0rem;
+    --rem0-01: 0.01rem;
+    --rem0-1: 0.1rem;
+    --rem0-15: 0.15rem;
+    --rem0-2: 0.2rem;
+    --rem0-25: 0.25rem;
+    --rem0-5: 0.5rem;
+    --rem0-75: 0.75rem;
+    --rem0-9375: 0.9375rem;
+    --rem-1: -1rem;
+    --rem1: 1rem;
+    --rem1-15: 1.15rem;
+    --rem1-25: 1.25rem;
+    --rem1-375: 1.375rem;
+    --rem1-5: 1.5rem;
+    --rem1-75: 1.75rem;
+    --rem2: 2rem;
+    --rem2-25: 2.25rem;
+    --rem2-5: 2.5rem;
+    --rem2-75: 2.75rem;
+    --rem3: 3rem;
+    --rem3-125: 3.125rem;
+    --rem3-25: 3.25rem;
+    --rem3-5: 3.5rem;
+    --rem4: 4rem;
+    --rem4-2: 4.2rem;
+    --rem4-5: 4.5rem;
+    --rem4-75: 4.75rem;
+    --rem5: 5rem;
+    --rem5-75: 5.75rem;
+    --rem6 :6rem;
+    --rem7 :7rem;
+    --rem8 :8rem;
+    --rem9 :9rem;
+    --rem10: 10rem;
+    --rem15: 15rem;
+    --rem20: 20rem;
+    --rem25: 25rem;
+
+    @media screen and (max-width: 1500px) and ( min-width: 1250px) {
+        --rem0-5: 0.25rem;
+        --rem0-75: 0.5rem;
+        --rem1: 0.75rem;
+        --rem1-15: 1rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 1.15rem;
+        --rem2: 1.5rem;
+        --rem2-25: 2.25rem;
+        --rem2-5: 2rem;
+        --rem3: 2.5rem;
+        --rem3-5: 3rem;
+        --rem4: 3.5rem;
+        --rem4-5: 4rem;
+        --rem4-75: 4.25rem;
+        --rem5: 4.5rem;};
+
+    @media screen and (max-width: 1250px) and ( min-width: 1170px) {
+        --rem0-5: 0.15rem;
+        --rem0-75: 0.25rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.05rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 1rem;
+        --rem2: 1.15rem;
+        --rem2-25: 2.25rem;
+        --rem2-5: 1.5rem;
+        --rem3: 2rem;
+        --rem3-5: 2.5rem;
+        --rem4: 3rem;
+        --rem4-5: 3.5rem;
+        --rem4-75: 3.75rem;
+        --rem5: 4rem;};
+
+    @media screen and (max-width: 1170px) and (min-width: 950px) {
+        --rem0-5: 0.10rem;
+        --rem0-75: 0.15rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.05rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 0.75rem;
+        --rem2: 1rem;
+        --rem2-25: 2.25rem;
+        --rem2-5: 1.15rem;
+        --rem3: 1.5rem;
+        --rem3-5: 2rem;
+        --rem4: 2.5rem;
+        --rem4-5: 3rem;
+        --rem4-75: 3.25rem;
+        --rem5: 3.5rem;};
+
+    @media screen and (max-width: 950px) and (min-width: 725px) {
+        --rem0-5: 0.65rem;
+        --rem0-75: 0.75rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.15rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 1.35rem;
+        --rem2: 1.45rem;
+        --rem2-25: 1.5rem;
+        --rem2-5: 1.65rem;
+        --rem3: 1.75rem;
+        --rem3-5: 1.85rem;
+        --rem4: 2rem;
+        --rem4-5: 2.15rem;
+        --rem4-75: 2.25rem;
+        --rem5: 2.35rem;}
+
+    @media screen and (max-width: 725px) and (min-width: 425px) {
+        --rem0-5: 0.5rem;
+        --rem0-75: 0.65rem;
+        --rem1: 0.75rem;
+        --rem1-15: 0.85rem;
+        --rem1-25: 1.05rem;
+        --rem1-5: 1.15rem;
+        --rem2: 1.25rem;
+        --rem2-25: 1.35rem;
+        --rem2-5: 1.45rem;
+        --rem3: 1.5rem;
+        --rem3-5: 1.65rem;
+        --rem4: 1.75rem;
+        --rem4-5: 1.85rem;
+        --rem4-75: 1.95rem;
+        --rem5: 2rem;};
+
+    @media screen and (max-width: 425px) and (min-width: 150px) {
+        --rem0-5: 0.25rem;
+        --rem0-75: 0.5rem;
+        --rem1: 0.65rem;
+        --rem1-15: 0.75rem;
+        --rem1-25: 0.85rem;
+        --rem1-5: 1rem;
+        --rem2: 1rem;
+        --rem2-25: 1.15rem;
+        --rem2-5: 1.25rem;
+        --rem3: 1.35rem;
+        --rem3-5: 1.5rem;
+        --rem4: 1.65rem;
+        --rem4-5: 1.75rem;
+        --rem4-75: 1.80rem;
+        --rem5: 1.85rem;};
+}
+
+@font-face {font-family: 'Blaec'; src: url('../fonts/Blaec/Blaec.woff2') format('woff2'); font-style: normal;}
+@font-face {font-family: 'Blaec'; src: url('../fonts/Blaec/BlaecItalic.woff2') format('woff2'); font-style: italic;}
+
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Grotesk'; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Light.woff2') format('woff2'); font-weight: 300; font-style: normal;}
+
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-BoldItalic.woff2') format('woff2'); font-weight: 700; font-style: italic;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMono-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic;}
+
+.grotesk, .monospace, .italic, .hover-italic:hover, .oblique, .hover-oblique:hover, .underline, .overline, .wavy, .dashed, .dotted, .thin, .regular, .medium, .semibold, .bold, .centered, .ltr, .rtl, .column, .column-reverse, .row, .row-reverse, .justify-start, .justify-end, .relative, .absolute, .fixed, .rem0-5, .rem0-75, .rem1, .rem1-15, .rem1-5, .rem2, .rem2-25, .rem2-5, .rem3, .rem3-5, .rem4, .rem4-5, .rem5 {transition: 0.3s;}
+
+.blaec {font-family: 'Blaec', sans-serif; font-style: normal;}
+.blaecitalic {font-family: 'Blaec', sans-serif; font-style: italic;}
+.grotesk {font-family: 'Space Grotesk', sans-serif !important;}
+.monospace {font-family: 'Space Mono', monospace !important; line-height: var(--rem1-375) !important;}
+.italic {font-style: italic !important;}
+.hover-italic:hover {font-style: italic !important;}
+.oblique {font-style: oblique !important;}
+.hover-oblique:hover {font-style: oblique !important;}
+.underline {text-decoration: underline !important;}
+.overline {text-decoration: overline !important;}
+.strikethrough {text-decoration: line-through !important;}
+.wavy {text-decoration: wavy !important;}
+.dashed {text-decoration: dashed !important;}
+.dotted {text-decoration: dotted !important;}
+.thin {font-weight: 300 !important;}
+.regular {font-weight: 400 !important;}
+.medium {font-weight: 500 !important;}
+.semibold {font-weight: 600 !important;}
+.bold {font-weight: 700 !important;}
+.centered {justify-content: center;}
+.ltr {direction: ltr !important;}
+.rtl {direction: rtl !important;}
+.column {flex-direction: column !important;}
+.column-reverse {flex-direction: column-reverse !important;}
+.row {flex-direction: row !important;}
+.row-reverse {flex-direction: row-reverse !important;}
+.justify-start {justify-content: flex-start;}
+.justify-end {justify-content: flex-end;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.fixed {position: fixed;}
+.redacted {letter-spacing: -0.25px !important;}
+.superscript {font-variant-position: super;}
+.subscript {font-variant-position: sub;}
+
+.line-height-rem1 {line-height: var(--rem1);}
+.line-height-rem2 {line-height: var(--rem2);}
+.line-height-rem3 {line-height: var(--rem3);}
+
+.rem0-01 {font-size: var(--rem0-01);}
+.rem0-1 {font-size: var(--rem0-1);}
+.rem0-5 {font-size: var(--rem0-5);}
+.rem0-75 {font-size: var(--rem0-75);}
+.rem1 {font-size: var(--rem1);}
+.rem1-15 {font-size: var(--rem1-15);}
+.rem1-25 {font-size: var(--rem1-25);}
+.rem1-5 {font-size: var(--rem1-5);}
+.rem2 {font-size: var(--rem2);}
+.rem2-25 {font-size: var(--rem2-25);}
+.rem2-5 {font-size: var(--rem2-5);}
+.rem3 {font-size: var(--rem3);}
+.rem3-5 {font-size: var(--rem3-5);}
+.rem4 {font-size: var(--rem4);}
+.rem4-5 {font-size: var(--rem4-5);}
+.rem5 {font-size: var(--rem5);}
+.rem6 {font-size: var(--rem6);}
+.rem7 {font-size: var(--rem7);}
+.rem8 {font-size: var(--rem8);}
+.rem9 {font-size: var(--rem9);}
+.rem10 {font-size: var(--rem10);}
+.rem15 {font-size: var(--rem15);}
+.rem20 {font-size: var(--rem20);}
+.rem25 {font-size: var(--rem25);}

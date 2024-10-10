@@ -1,0 +1,77 @@
+:root {
+    --jumpgame: #306dc9;
+    --project-mountain: #E9DCDC;
+    --project-odyssey: #FF7777;
+    --project-hangar: #FFA674;
+    --project-eiffel: #4fdce0;
+    --project-vidal: #e5ee63;
+    --project-c3Vuc2V0: #e25b11;
+    --project-UnVzc2V0: #62682a;
+    --project-Vm94ZWw: #754040;
+    --project-anubis: #ffc525;
+    --project-jailbird: #ff9900;
+
+    --black: #000000;
+    --darkgray: #3a3a3a;
+    --lightgray: #c5c5c5;
+    --white: #ffffff;
+    --transparent: #00000000;
+
+    --brand: #a0a0a0;
+    --magenta: #fcb5ff;
+    --vantagray: #242424;
+    --headerbg-dark-transparent: #1c1d2580;
+
+    --pass: #41a82c;
+    --warning: #f8ff9c;
+    --danger: #b3262d;
+    --caution: #ff7800;
+    
+    --accent-color-atp: #dd8ac8;
+    --accent-color-vi : #c5c5c5;
+}
+
+.lightgray-hover:hover, .darkgray-hover:hover {transition: 0.3s;}
+::selection, ::-moz-selection {color: var(--black) !important; background-color: var(--accent-color) !important;}
+.accent-color {color: var(--accent-color) !important;}
+.white {color: var(--white) !important;}
+.lightgray {color: var(--lightgray) !important;}
+.lightgray-hover:hover {color: var(--lightgray) !important;}
+.darkgray {color: var(--darkgray) !important;}
+.darkgray-hover:hover {color: var(--darkgray) !important;}
+.black {color: var(--black) !important;}
+.bg-transparent {background-color: var(--transparent) !important;}
+.text-active {background-color: var(--accent-color) !important; color: var(--darkgray) !important;}
+.text-active:hover {color: var(--accent-color) !important; background-color: var(--darkgray) !important;}
+
+.vantagray {color: var(--vantagray) !important;}
+.pass {color: var(--pass) !important;}
+.warning {color: var(--warning) !important;}
+.danger {color: var(--danger) !important;}
+.caution {color: var(--caution) !important;}
+
+.jumpgame {color: var(--jumpgame);}
+.project-mountain {color: var(--project-mountain);}
+.project-hangar {color: var(--project-hangar);}
+.project-odyssey {color: var(--project-odyssey);}
+.project-anubis {color: var(--project-anubis);}
+.project-jailbird {color: var(--white);}
+.project-jailbird-bg {background-color: var(--project-jailbird);}
+.header-brandname::selection, .header-logo::selection, .header-button::selection {color: var(--black); background-color: var(--brand);}
+.header-brandname::-moz-selection, .header-logo::-moz-selection, .header-button::-moz-selection {color: var(--black); background-color: var(--brand);}
+.project-mountain-logo::selection {color: var(--black); background-color: var(--project-mountain);}
+.project-mountain-logo::-moz-selection {color: var(--black); background-color: var(--project-mountain);}
+.project-anubis-logo::selection {color: var(--black); background-color: var(--project-anubis);}
+.project-anubis-logo::-moz-selection {color: var(--black); background-color: var(--project-anubis);}
+.project-jailbird-logo::selection {color: var(--white); background-color: var(--project-jailbird);}
+.project-jailbird-logo::-moz-selection {color: var(--white); background-color: var(--project-jailbird);}
+.project-hangar-logo::selection {color: var(--black); background-color: var(--project-hangar);}
+.project-hangar-logo::-moz-selection {color: var(--black); background-color: var(--project-hangar);}
+.project-odyssey-logo::selection {color: var(--black); background-color: var(--project-odyssey);}
+.project-odyssey-logo::-moz-selection {color: var(--black); background-color: var(--project-odyssey);}
+.project-eiffel-logo::selection {color: var(--black); background-color: var(--project-eiffel);}
+.project-eiffel-logo::-moz-selection {color: var(--black); background-color: var(--project-eiffel);}
+.project-vidal-logo::selection {color: var(--black); background-color: var(--project-vidal);}
+.project-vidal-logo::-moz-selection {color: var(--black); background-color: var(--project-vidal);}
+.jumpgame-logo::selection {color: var(--lightgray); background-color: var(--jumpgame);}
+.jumpgame-logo::-moz-selection {color: var(--lightgray); background-color: var(--jumpgame);}
