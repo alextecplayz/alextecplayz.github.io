@@ -102,77 +102,271 @@ There is no current official estimate at this time for a release window for the 
 
 Section collapsed for your convenience. It's a rough internal roadmap designed around the needs of my projects first and foremost.
 
-{% expand %}
+<details class="details">
+  <summary style="">Expand to show the contents of this collapsed section</summary>
+  
+<p>Everything here is subject to change or restructuring, depending on a project’s needs at that time.</p>
 
-Everything here is subject to change or restructuring, depending on a project's needs at that time.
+<h3 id="foundation">FOUNDATION</h3>
+<p>Foundational development that lays the groundwork and a solid, stable and modular base on top of which all other additions and expansions will be developed.</p>
 
-### FOUNDATION
-Foundational development that lays the groundwork and a solid, stable and modular base on top of which all other additions and expansions will be developed.
+<table>
+  <thead>
+    <tr>
+      <th>Progress</th>
+      <th>Task</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FINISHED</td>
+      <td>1. Engine architecture design</td>
+      <td>Outline the overall architecture, ensure modularity so that components can be independently developed and maintained</td>
+    </tr>
+    <tr>
+      <td>INDEV</td>
+      <td>2. Rendering API abstraction layer</td>
+      <td>Develop an abstraction layer for the rendering pipeline that handles the multiple APIs (DirectX, OpenGL, Vulkan) accordingly</td>
+    </tr>
+    <tr>
+      <td>INDEV</td>
+      <td>3. Corundum - Vulkan, OpenGL</td>
+      <td>Implement both in one phase, due to the universal support for all Sapphire platforms. Mesh shaders will be used implicitly</td>
+    </tr>
+    <tr>
+      <td>POST T4</td>
+      <td>4. Corundum - DirectX</td>
+      <td>One requirement is that the Windows version of the engine can be developed and built on Linux, which requires the use of MinGW</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>5. Corundum - Aster, Vendor integrations</td>
+      <td>Implement ray tracing, path tracing; AMD FSR, NVIDIA DLSS, Intel XeSS, RTX, RTXDI, NRD, RTXGI and other vendor features</td>
+    </tr>
+    <tr>
+      <td>POST T4</td>
+      <td>6. Volta - Basic physics integration</td>
+      <td>Develop the base for Volta (overall physics module) with basic physics simulations, collision detection, rigid body dynamics</td>
+    </tr>
+    <tr>
+      <td>POST T4</td>
+      <td>7. Basalt - Basic audio integration</td>
+      <td>Develop the base for Basalt (overall audio module) with environmental sound effects, 3D positional audio, and integrate OpenAL</td>
+    </tr>
+    <tr>
+      <td>POST T4</td>
+      <td>8. Granite - Integration</td>
+      <td>Develop the asset pipeline, which handles serialization, data storage, management</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>9. Input system - Handling</td>
+      <td>Develop an input management system to handle multi-platform inputs, such as touchscreen, controllers and traditional M&amp;K</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>10. Scripting system - Lua</td>
+      <td>Implement engine scripting using Lua</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>11. Schema</td>
+      <td>Schema visual scripting system, that provides a visual graph representation of C++ code</td>
+    </tr>
+  </tbody>
+</table>
 
-| Progress  | Task                                      | Description                                                                                                                    |
-| --------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| FINISHED  | 1. Engine architecture design             | Outline the overall architecture, ensure modularity so that components can be independently developed and maintained           |
-| INDEV     | 2. Rendering API abstraction layer        | Develop an abstraction layer for the rendering pipeline that handles the multiple APIs (DirectX, OpenGL, Vulkan) accordingly   |
-| INDEV     | 3. Corundum - Vulkan, OpenGL              | Implement both in one phase, due to the universal support for all Sapphire platforms. Mesh shaders will be used implicitly     |
-| POST T4   | 4. Corundum - DirectX                     | One requirement is that the Windows version of the engine can be developed and built on Linux, which requires the use of MinGW |
-| TBD       | 5. Corundum - Aster, Vendor integrations  | Implement ray tracing, path tracing; AMD FSR, NVIDIA DLSS, Intel XeSS, RTX, RTXDI, NRD, RTXGI and other vendor features        |
-| POST T4   | 6. Volta - Basic physics integration      | Develop the base for Volta (overall physics module) with basic physics simulations, collision detection, rigid body dynamics   |
-| POST T4   | 7. Basalt - Basic audio integration       | Develop the base for Basalt (overall audio module) with environmental sound effects, 3D positional audio, and integrate OpenAL |
-| POST T4   | 8. Granite - Integration                  | Develop the asset pipeline, which handles serialization, data storage, management                                              |
-| TBD       | 9. Input system - Handling                | Develop an input management system to handle multi-platform inputs, such as touchscreen, controllers and traditional M&K       |
-| TBD       | 10. Scripting system - Lua                | Implement engine scripting using Lua                                                                                           |
-| TBD       | 11. Schema                                | Schema visual scripting system, that provides a visual graph representation of C++ code                                        |
+<h3 id="core">CORE</h3>
+<p>Expand the engine by focusing on key features required for Project Jailbird</p>
 
-### CORE
-Expand the engine by focusing on key features required for Project Jailbird
+<table>
+  <thead>
+    <tr>
+      <th>Progress</th>
+      <th>Task</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TBD</td>
+      <td>12. Corundum - 2D Rendering</td>
+      <td>Develop a dedicated 2D pipeline, with support for tilemaps, sprites, sprite animations, directional sprites, and 2D physics part of Volta</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>13. UI system for game projects</td>
+      <td>Develop or extend ImGui to work as a user interface system that will be used in game projects</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>14. Scripting system - Lua modding</td>
+      <td>Extend the scripting system to support game project modding using Lua</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>15. Steamworks, Steam API, Workshop</td>
+      <td>Implement Steam-specific features such as Steamworks, the Steam API, Workshop, Steam Audio through various plugins</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>16. Nexus - Networking layer base</td>
+      <td>Develop a networking layer to be used as the base for Nexus (overall multiplayer, networking, online features module)</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>17. Nexus - Basic Multiplayer</td>
+      <td>Extend Nexus with basic multiplayer features such as server-client, peer-to-peer, low-latency, replication</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>18. Nimble - Performance profiling tools</td>
+      <td>Integrate native profiling tools to measure hardware usage and frame rates, with graphs and play sessions</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>19. Nimble - Debugging, diagnostic tools</td>
+      <td>Integrate native, in-editor debug tools to help detect performance bottlenecks, memory leaks, threading issues, and general status</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>20. Nimble - Implement NVIDIA Reflex</td>
+      <td>Implement NVIDIA Reflex as separate plugin that will integrate with Nimble and the game project to offer latency improvements</td>
+    </tr>
+  </tbody>
+</table>
 
-| Progress  | Task                                      | Description                                                                                                                    |
-| --------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| TBD       | 12. Corundum - 2D Rendering               | Develop a dedicated 2D pipeline, with support for tilemaps, sprites, sprite animations, directional sprites, and 2D physics part of Volta |
-| TBD       | 13. UI system for game projects           | Develop or extend ImGui to work as a user interface system that will be used in game projects                                  |
-| TBD       | 14. Scripting system - Lua modding        | Extend the scripting system to support game project modding using Lua                                                          |
-| TBD       | 15. Steamworks, Steam API, Workshop       | Implement Steam-specific features such as Steamworks, the Steam API, Workshop, Steam Audio through various plugins             |
-| TBD       | 16. Nexus - Networking layer base         | Develop a networking layer to be used as the base for Nexus (overall multiplayer, networking, online features module)          |
-| TBD       | 17. Nexus - Basic Multiplayer             | Extend Nexus with basic multiplayer features such as server-client, peer-to-peer, low-latency, replication                     |
-| TBD       | 18. Nimble - Performance profiling tools  | Integrate native profiling tools to measure hardware usage and frame rates, with graphs and play sessions                      |
-| TBD       | 19. Nimble - Debugging, diagnostic tools  | Integrate native, in-editor debug tools to help detect performance bottlenecks, memory leaks, threading issues, and general status |
-| TBD       | 20. Nimble - Implement NVIDIA Reflex      | Implement NVIDIA Reflex as separate plugin that will integrate with Nimble and the game project to offer latency improvements  |
+<h3 id="advancement-1">ADVANCEMENT 1</h3>
+<p>Expand the engine foundation and core by focusing on key features required for Project Odyssey</p>
 
-### ADVANCEMENT 1
-Expand the engine foundation and core by focusing on key features required for Project Odyssey
+<table>
+  <thead>
+    <tr>
+      <th>Progress</th>
+      <th>Task</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TBD</td>
+      <td>21. Corundum - Aura implementation</td>
+      <td>Extend Corundum with capabilities outlined by submodule Aura (lighting, targeted lighting, scenario lighting, volumetrics)</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>22. Corundum - Aster implementation</td>
+      <td>Extend Corundum with capabilities outlined by submodule Aster (ray, path tracing, rasterisation)</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>23. Corundum - Slyph implementation</td>
+      <td>Extend Corundum with capabilities outlined by submodule Slyph (VFX)</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>24. Corundum - customizable shader pipeline</td>
+      <td>Extend Corundum with capabilities to create and modify a wide range of shader types - vertex, fragment, geometry, compute, ray tracing</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>25. Volta - Advanced physics simulations</td>
+      <td>Extend Volta with other-worldly physics simulation, joint systems, soft body dynamics, targeted physics scenarios</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>26. Volta - Celest implementation</td>
+      <td>Extend Volta with Celest capabilities as a plugin, providing celestial body and space physics simulation</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>27. Terra (part I), Litha implementation</td>
+      <td>Landscape editing, erosion, sculpting capabilities</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>28. AI framework base</td>
+      <td>Implement basic AI features (behaviour trees, EQS, navigation meshes, state machines)</td>
+    </tr>
+  </tbody>
+</table>
 
-| Progress  | Task                                      | Description                                                                                                                    |
-| --------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| TBD       | 21. Corundum - Aura implementation        | Extend Corundum with capabilities outlined by submodule Aura (lighting, targeted lighting, scenario lighting, volumetrics)     |
-| TBD       | 22. Corundum - Aster implementation       | Extend Corundum with capabilities outlined by submodule Aster (ray, path tracing, rasterisation)                               |
-| TBD       | 23. Corundum - Slyph implementation       | Extend Corundum with capabilities outlined by submodule Slyph (VFX)                                                            |
-| TBD       | 24. Corundum - customizable shader pipeline | Extend Corundum with capabilities to create and modify a wide range of shader types - vertex, fragment, geometry, compute, ray tracing |
-| TBD       | 25. Volta - Advanced physics simulations  | Extend Volta with other-worldly physics simulation, joint systems, soft body dynamics, targeted physics scenarios              |
-| TBD       | 26. Volta - Celest implementation         | Extend Volta with Celest capabilities as a plugin, providing celestial body and space physics simulation                       |
-| TBD       | 27. Terra (part I), Litha implementation  | Landscape editing, erosion, sculpting capabilities                                                                             |
-| TBD       | 28. AI framework base                     | Implement basic AI features (behaviour trees, EQS, navigation meshes, state machines)                                          |
+<h3 id="advancement-2">ADVANCEMENT 2</h3>
+<p>Expand on the advanced features available in the engine, by working on highly advanced features required for projects Mountain, Eiffel and Vidal, and improving the scalability, optimization and large-scale capabilities required for such projects.</p>
 
-### ADVANCEMENT 2
-Expand on the advanced features available in the engine, by working on highly advanced features required for projects Mountain, Eiffel and Vidal, and improving the scalability, optimization and large-scale capabilities required for such projects.
+<table>
+  <thead>
+    <tr>
+      <th>Progress</th>
+      <th>Task</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TBD</td>
+      <td>29. Terra (part II) implementation</td>
+      <td>Landscape generation, scenario-based and random world generation capabilities</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>Large-scale environments (e.g. cities)</td>
+      <td>Extend LOD, performance, scalability capabilities to handle the simulation of multiple cities, and massive environments</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>Spark - IntelliSense, LLM</td>
+      <td>Develop Spark to have IntelliSense-like features for Schema, and possibly as an LLM with some editor access and abilities</td>
+    </tr>
+  </tbody>
+</table>
 
-| Progress  | Task                                      | Description                                                                                                                    |
-| --------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| TBD       | 29. Terra (part II) implementation        | Landscape generation, scenario-based and random world generation capabilities                                                  |
-| TBD       | Large-scale environments (e.g. cities)    | Extend LOD, performance, scalability capabilities to handle the simulation of multiple cities, and massive environments        |
-| TBD       | Spark - IntelliSense, LLM                 | Develop Spark to have IntelliSense-like features for Schema, and possibly as an LLM with some editor access and abilities      |
+<h3 id="future-maintenance-expansion">FUTURE MAINTENANCE, EXPANSION</h3>
+<p>Ensure the engine remains up to date with the latest technologies targeted by Sapphire, and meeting future project requirements</p>
 
-### FUTURE MAINTENANCE, EXPANSION
-Ensure the engine remains up to date with the latest technologies targeted by Sapphire, and meeting future project requirements
+<table>
+  <thead>
+    <tr>
+      <th>Progress</th>
+      <th>Task</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RECURRING</td>
+      <td>X. Document all requirements</td>
+      <td>Document all requirements, provide a copy of the license in the main LICENSE.md file, keep track of dependencies</td>
+    </tr>
+    <tr>
+      <td>RECURRING</td>
+      <td>X. ImGui user interface development</td>
+      <td>Develop the user interface of the Editor using Dear ImGui</td>
+    </tr>
+    <tr>
+      <td>RECURRING</td>
+      <td>X. Documentation</td>
+      <td>Constantly-evolving engine documentation that must be maintained and updated frequently</td>
+    </tr>
+    <tr>
+      <td>RECURRENT</td>
+      <td>Technology updates and implementations</td>
+      <td>Implement, update or upgrade to new technologies as they release</td>
+    </tr>
+    <tr>
+      <td>UNKNOWN</td>
+      <td>AR, XR, VR support</td>
+      <td>Only VR is confirmed to be developed in the future, AR and XR support is speculative at this point in time</td>
+    </tr>
+    <tr>
+      <td>UNKNOWN</td>
+      <td>Future project needs</td>
+      <td>Continuously assess the needs for future projects, beyond the previous stages’ implementations</td>
+    </tr>
+  </tbody>
+</table>
 
-| Progress  | Task                                      | Description                                                                                                                    |
-| --------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| RECURRING | X. Document all requirements              | Document all requirements, provide a copy of the license in the main LICENSE.md file, keep track of dependencies               |
-| RECURRING | X. ImGui user interface development       | Develop the user interface of the Editor using Dear ImGui                                                                      |
-| RECURRING | X. Documentation                          | Constantly-evolving engine documentation that must be maintained and updated frequently                                        |
-| RECURRENT | Technology updates and implementations    | Implement, update or upgrade to new technologies as they release                                                               |
-| UNKNOWN   | AR, XR, VR support                        | Only VR is confirmed to be developed in the future, AR and XR support is speculative at this point in time                     |
-| UNKNOWN   | Future project needs                      | Continuously assess the needs for future projects, beyond the previous stages' implementations                                 |
-
-{% endexpand %}
+</details>
 
 *As a final note, the comments displayed below are from under [this post](https://techhub.social/@alextecplayz/111755914285831968) which is used as the 'parent' of Sapphire conversations on my profile.*

@@ -56,48 +56,214 @@ Here's my worldview on many things. I try not to opine on things I know nothing 
 
 Quite long, so it's behind a collapsed section, but here are many, many things if you really want to look into what I specifically support or don't support. Sorted alphabetically, A->Z
 
-{% expand %}
+<details class="details">
+  <summary style="">Expand to show the contents of this collapsed section</summary>
+  
+<table>
+  <thead>
+    <tr>
+      <th><strong>My stance</strong></th>
+      <th><strong>Measure, something specific, law, right, etc.</strong></th>
+      <th><strong>Description to explain why (optional)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>IMPARTIAL</strong></td>
+      <td>ACAB</td>
+      <td>To suggest, or to generalize, that “All Cops are Bastards” sucks fucking ass, and I don’t support this. There are some corrupt cops, and there are some good cops. Not everything’s so black and white.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Anarchism, Anarcho-$THING, Anarcho-communism, Stateless societies, anti-statism, liberationism</td>
+      <td>Bahahaha! Oh, you’re serious? Bahahaha! Even the most basic, primitive human society has some form of governance similar to a state or government.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Authoritarianism</td>
+      <td>Never. Under no circumstance is this good. I give some sceptical leeway for ‘benevolent dictators’. They’re still dictators and all, but sometimes I guess you have to take control of a country that’s gone too far off to bring it back to stability.</td>
+    </tr>
+    <tr>
+      <td><strong>IMPARTIAL</strong></td>
+      <td>Big companies, corporations, businesses.</td>
+      <td>Big companies aren’t <em>inherently</em> bad. Big companies that become monopolies or oligopolies do.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>‘Carbon capture’, ‘carbon credits’</td>
+      <td>They’re a scam, and ineffective in the grand scale of things. Not to mention it’s GREENWASHING.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Cars</td>
+      <td>Not a car abolitionist, though. Cars have their utility and own degree of freedom, but we’d have less of them if we had excellent public transport and trains.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>CIA, FBI, NSA, intelligence agencies in general</td>
+      <td>Fuck yeah, intelligence agencies are cool. Some secret programs need to exist for the sake of national and/or international security.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Communism, Fascism, Nazism, any other ideology</td>
+      <td>None of these are good. Fuck off. Shilling for the NK, CCP, URSS or being a tankie is the same.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Corruption, cronyism, nepotism</td>
+      <td>Self-explanatory. I live in Romania, I see this on a daily basis, unfortunately.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Drug decriminalisation (e.g light drugs, marijuana)</td>
+      <td>Sure, with the same laws as alcohol and tobacco. 18+, you shouldn’t smoke pot and drive, etc. I don’t support or promote drugs.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>FOSS, OSS, Closed-source, Source-available, etc.</td>
+      <td>I’m not some hypocrite or some absolutist, however. Both FOSS and closed-source software have their advantages and disadvantages.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Free speech (NOT including Hate Speech)</td>
+      <td><em>“Muh freedom to say the n-word, to be racist, nooo!”</em> Free speech good. Hate speech bad. Simple as.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Immigration, reducing overreach of immigration/customs agencies</td>
+      <td>Agencies such as the US ICE and DHS have too much power. Lobotomize them, don’t abolish the agencies. General immigration and customs enforcement is needed, but what the ICE does is just way above their pay grade, and their department. Stick to airports and country borders, dipshits.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Increased education, healthcare funding</td>
+      <td>Obvious. An educated and healthy population can’t be controlled through psyops, dumb conspiracy theories, radical politics. Percentage of religion and spirituality would also decrease, what a lovely bonus!</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Increased state/government transparency</td>
+      <td>No questions asked. We can’t keep funding secret projects, literal coups, dictatorships, unjustified wars, etc.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>IP, Copyright law, Patents</td>
+      <td>With the mention that patents shouldn’t forbid someone from doing the same thing, and IP should expire 10 years after creation, with the owner/creator of the IP being able to renew its IP ownership each 10 years, until they die, or pass of the IP to someone else. 50-70 years after the IP was made, it should enter into public domain, with no way of retraction or renewal.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Mass surveillance (e.g. PRISM, Chat Control, IIS)</td>
+      <td>Mass surveillance is an overwhelming no from me.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Measures against climate change</td>
+      <td>Climate change is very real, very noticeable, and is here to stay. We need to urgently reduce our CO2 emissions, and remove some of the pollution from the atmosphere. This should have been done YEARS ago, DECADES, even, but the car and oil lobbies were/are too powerful.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Minority rights (LGBTQIA+, natives, etc.)</td>
+      <td>Self-explanatory. Everyone is equal.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Nationalism, legionarism, etc.</td>
+      <td>Yeah. Bad.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Nuclear, fusion, renewable, green energy.</td>
+      <td>All-in for all of these. Nuclear is still very much a valid option, until we get very efficient and powerful green energy.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Polyamory</td>
+      <td>Might seem strange to some, but yeah, I support polyamory. If it’s all consensual and legal, go for it if that’s your thing. Personally, I <em>could theoretically</em> fit in a poly relationship since I’m Aro, and generally I don’t care if I do a thing or not.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Private property, ownership, Stocks, Private equity</td>
+      <td>If living in a world where Socialist principles are somewhat applied, private, cooperative and collective ownership CAN exist.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Project 2025</td>
+      <td>Strongly opposed to this. It’s literally the new fascist manifesto.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Public healthcare, HRT, puberty blockers access</td>
+      <td>Obvious. Privatized healthcare should still exist, but public healthcare should be more than enough for your average educated citizen, as per previous measure(s). HRT &amp; puberty blockers should be 12+, available freely under public healthcare.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Radical anticapitalism, or Radical anything</td>
+      <td>No, just no.</td>
+    </tr>
+    <tr>
+      <td><strong>IMPARTIAL</strong></td>
+      <td>Radicalism (radical vs gradual change)</td>
+      <td>I usually prefer gradual change.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Refusal to work, work abolitionism, critique of work, anti-work</td>
+      <td>Let me guess, you’re a “wage slave”? You don’t like to work? However, I wouldn’t want someone to be forced to work 40+ years of their life just to afford a house or something. I think 10-20 years of work should earn you enough to buy an apartment or a house that can fit a family.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Right-wing libertarianism</td>
+      <td>Trust me bro, it’ll work this time! If we add $CRYPTO, $NFT, $AI or $BUZZWORD into this, it’ll be the best thing ever! Bahahaha!</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Separation of Church and State</td>
+      <td>Religion should be private.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Socialism</td>
+      <td>I usually stand by socialist ideas, as long as they don’t undermine democracy or a mixed economic model that has the best of both socialism and capitalism. You can have a fair and equitable society even with some capitalism sprinkled in. I, however, am not a Socialist.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Space research, exploration</td>
+      <td>All-in on space exploration and research. Black Holes fascinate me. I need to know MORE.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>State/Govt. overseeing and somewhat controlling the economy</td>
+      <td>In order to prevent inflation, crashes, crises, and crypto bros, stocks, companies abusing the ‘free’ market.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Targeted Wars (e.g against Palestinians)</td>
+      <td>Self-explanatory. Targeted wars are stupid.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Universal Basic Income (UBI)</td>
+      <td>No comment.</td>
+    </tr>
+    <tr>
+      <td><strong>AGAINST</strong></td>
+      <td>Unschooling, especially radical unschooling</td>
+      <td><a href="/post/2024/10/14/Unschooling-rabbithole.html"><strong>Unschooling can be detrimental to your child’s education.</strong></a> A proper curriculum cannot be replaced by simply giving your child a device and letting them choose what to learn. Some argue against conformity, suggesting that children shouldn’t have to follow classroom norms, especially those with ADHD. However, learning to adapt to societal expectations is essential for functioning in society. While there are exceptions for neurodivergent children, it’s crucial to ensure they receive a structured education, whether through Special Ed Schools or homeschooling with a proper curriculum and qualified teachers, rather than relying on apps or unqualified ‘educators’. Some may claim that real-life experiences, like grocery shopping, can teach valuable skills. However, foundational subjects like math should be taught in a structured environment, building on what they learn in school. <br><br> <strong>Research shows that unschooled children often perform worse than their peers who follow a structured curriculum in key areas like reading, writing, and math.</strong> <a href="https://files.eric.ed.gov/fulltext/EJ1363975.pdf">American Families’ Attitudes to Unschooling - A National Survey</a> <br><br> Studies indicate that unschooling does not consistently provide equitable educational experiences. For instance, Martin-Chang et al. (2011) found that children educated without structured lesson plans performed worse than those in public schools. <br><br> The notion that children shouldn’t learn subjects they dislike, such as math, is misguided. A basic education, including math, language, history, and science, is essential. These subjects cannot be replaced by informal experiences or apps; they should complement formal education. <br><br> Proposing to abolish education systems is a privileged stance. Instead of discarding them, we should work towards reforming and improving these systems for everyone. <br><br> Radical unschooling advocates often misunderstand the role of education. It’s vital to ensure children receive proper instruction, especially in critical developmental periods. If you believe your education system is lacking, advocate for change rather than abandonment. <br><br> <strong>Be cautious of radical unschoolers; their approach may not be in your child’s best interest.</strong> I hope the trend of unschooling fades away in favor of more effective educational practices.</td>
+    </tr>
+    <tr>
+      <td><strong>IMPARTIAL</strong></td>
+      <td>Wars (general wars)</td>
+      <td>Most wars are unnecessary.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Wealth redistribution</td>
+      <td>If person or company have more than $100m value or assets, increase tax and distribute excess towards programs or departments of the government’s choosing - exception being the Army or intelligence agencies, those shouldn’t be funded from this.</td>
+    </tr>
+    <tr>
+      <td><strong>FOR</strong></td>
+      <td>Work Unions</td>
+      <td>Work unions are always needed, in any sector, regardless if $EMPLOYER is good or bad, or if $REGIME/$IDEOLOGY supposedly doesn’t need unions.</td>
+    </tr>
+  </tbody>
+</table>
 
-| **My stance** | **Measure, something specific, law, right, etc.**   | **Description to explain why (optional)**    |
-| ------------- | --------------------------------------------------- | -------------------------------------------- |
-| **IMPARTIAL** | ACAB                                                | To suggest, or to generalize, that "All Cops are Bastards" sucks fucking ass, and I don't support this. There are some corrupt cops, and there are some good cops. Not everything's so black and white. |
-|  **AGAINST**  | Anarchism, Anarcho-$THING, Anarcho-communism, Stateless societies, anti-statism, liberationism | Bahahaha! Oh, you're serious? Bahahaha! Even the most basic, primitive human society has some form of governance similar to a state or government. |
-|  **AGAINST**  | Authoritarianism                                    | Never. Under no circumstance is this good. I give some sceptical leeway for 'benevolent dictators'. They're still dictators and all, but sometimes I guess you have to take control of a country that's gone too far off to bring it back to stability. |
-| **IMPARTIAL** | Big companies, corporations, businesses.            | Big companies aren't *inherently* bad. Big companies that become monopolies or oligopolies do. |
-|  **AGAINST**  | 'Carbon capture', 'carbon credits'                  | They're a scam, and ineffective in the grand scale of things. Not to mention it's GREENWASHING. |
-|  **AGAINST**  | Cars                                                | Not a car abolitionist, though. Cars have their utility and own degree of freedom, but we'd have less of them if we had excellent public transport and trains. |
-|    **FOR**    | CIA, FBI, NSA, intelligence agencies in general     | Fuck yeah, intelligence agencies are cool. Some secret programs need to exist for the sake of national and/or international security. |
-|  **AGAINST**  | Communism, Fascism, Nazism, any other ideology      | None of these are good. Fuck off. Shilling for the NK, CCP, URSS or being a tankie is the same. |
-|  **AGAINST**  | Corruption, cronyism, nepotism                      | Self-explanatory. I live in Romania, I see this on a daily basis, unfortunately. |
-|    **FOR**    | Drug decriminalisation (e.g light drugs, marijuana) | Sure, with the same laws as alcohol and tobacco. 18+, you shouldn't smoke pot and drive, etc. I don't support or promote drugs. |
-|    **FOR**    | FOSS, OSS, Closed-source, Source-available, etc.    | I'm not some hypocrite or some absolutist, however. Both FOSS and closed-source software have their advantages and disadvantages. |
-|    **FOR**    | Free speech (NOT including Hate Speech)             | *"Muh freedom to say the n-word, to be racist, nooo!"* Free speech good. Hate speech bad. Simple as. |
-|    **FOR**    | Immigration, reducing overreach of immigration/customs agencies | Agencies such as the US ICE and DHS have too much power. Lobotomize them, don't abolish the agencies. General immigration and customs enforcement is needed, but what the ICE does is just way above their pay grade, and their department. Stick to airports and country borders, dipshits. |
-|    **FOR**    | Increased education, healthcare funding             | Obvious. An educated and healthy population can't be controlled through psyops, dumb conspiracy theories, radical politics. Percentage of religion and spirituality would also decrease, what a lovely bonus! |
-|    **FOR**    | Increased state/government transparency             | No questions asked. We can't keep funding secret projects, literal coups, dictatorships, unjustified wars, etc. |
-|    **FOR**    | IP, Copyright law, Patents                          | With the mention that patents shouldn't forbid someone from doing the same thing, and IP should expire 10 years after creation, with the owner/creator of the IP being able to renew its IP ownership each 10 years, until they die, or pass of the IP to someone else. 50-70 years after the IP was made, it should enter into public domain, with no way of retraction or renewal. |
-|  **AGAINST**  | Mass surveillance (e.g. PRISM, Chat Control, IIS)   | Mass surveillance is an overwhelming no from me. |
-|    **FOR**    | Measures against climate change                     | Climate change is very real, very noticeable, and is here to stay. We need to urgently reduce our CO2 emissions, and remove some of the pollution from the atmosphere. This should have been done YEARS ago, DECADES, even, but the car and oil lobbies were/are too powerful. |
-|    **FOR**    | Minority rights (LGBTQIA+, natives, etc.)           | Self-explanatory. Everyone is equal.         |
-|  **AGAINST**  | Nationalism, legionarism, etc.                      | Yeah. Bad. |
-|    **FOR**    | Nuclear, fusion, renewable, green energy.           | All-in for all of these. Nuclear is still very much a valid option, until we get very efficient and powerful green energy. |
-|    **FOR**    | Polyamory                                           | Might seem strange to some, but yeah, I support polyamory. If it's all consensual and legal, go for it if that's your thing. Personally, I *could theoretically* fit in a poly relationship since I'm Aro, and generally I don't care if I do a thing or not. |
-|    **FOR**    | Private property, ownership, Stocks, Private equity | If living in a world where Socialist principles are somewhat applied, private, cooperative and collective ownership CAN exist. |
-|  **AGAINST**  | Project 2025                                        | Strongly opposed to this. It's literally the new fascist manifesto. |
-|    **FOR**    | Public healthcare, HRT, puberty blockers access     | Obvious. Privatized healthcare should still exist, but public healthcare should be more than enough for your average educated citizen, as per previous measure(s). HRT & puberty blockers should be 12+, available freely under public healthcare. |
-|  **AGAINST**  | Radical anticapitalism, or Radical anything         | No, just no. |
-| **IMPARTIAL** | Radicalism (radical vs gradual change)              | I usually prefer gradual change.             |
-|  **AGAINST**  | Refusal to work, work abolitionism, critique of work, anti-work | Let me guess, you're a "wage slave"? You don't like to work? However, I wouldn't want someone to be forced to work 40+ years of their life just to afford a house or something. I think 10-20 years of work should earn you enough to buy an apartment or a house that can fit a family. |
-|  **AGAINST**  | Right-wing libertarianism                           | Trust me bro, it'll work this time! If we add $CRYPTO, $NFT, $AI or $BUZZWORD into this, it'll be the best thing ever! Bahahaha! |
-|    **FOR**    | Separation of Church and State                      | Religion should be private.                  |
-|    **FOR**    | Socialism                                           | I usually stand by socialist ideas, as long as they don't undermine democracy or a mixed economic model that has the best of both socialism and capitalism. You can have a fair and equitable society even with some capitalism sprinkled in. I, however, am not a Socialist. |
-|    **FOR**    | Space research, exploration                         | All-in on space exploration and research. Black Holes fascinate me. I need to know MORE. |
-|    **FOR**    | State/Govt. overseeing and somewhat controlling the economy | In order to prevent inflation, crashes, crises, and crypto bros, stocks, companies abusing the 'free' market. |
-|  **AGAINST**  | Targeted Wars (e.g against Palestinians)            | Self-explanatory. Targeted wars are stupid.  |
-|    **FOR**    | Universal Basic Income (UBI)                        | No comment. |
-|  **AGAINST**  | Unschooling, especially radical unschooling         | [**Unschooling can be detrimental to your child's education.**]({{ site.baseurl }}/post/2024/10/14/Unschooling-rabbithole.html) A proper curriculum cannot be replaced by simply giving your child a device and letting them choose what to learn. Some argue against conformity, suggesting that children shouldn't have to follow classroom norms, especially those with ADHD. However, learning to adapt to societal expectations is essential for functioning in society. While there are exceptions for neurodivergent children, it's crucial to ensure they receive a structured education, whether through Special Ed Schools or homeschooling with a proper curriculum and qualified teachers, rather than relying on apps or unqualified 'educators'. Some may claim that real-life experiences, like grocery shopping, can teach valuable skills. However, foundational subjects like math should be taught in a structured environment, building on what they learn in school. <br><br> **Research shows that unschooled children often perform worse than their peers who follow a structured curriculum in key areas like reading, writing, and math.** [American Families' Attitudes to Unschooling - A National Survey](https://files.eric.ed.gov/fulltext/EJ1363975.pdf) <br><br> Studies indicate that unschooling does not consistently provide equitable educational experiences. For instance, Martin-Chang et al. (2011) found that children educated without structured lesson plans performed worse than those in public schools. <br><br> The notion that children shouldn't learn subjects they dislike, such as math, is misguided. A basic education, including math, language, history, and science, is essential. These subjects cannot be replaced by informal experiences or apps; they should complement formal education. <br><br> Proposing to abolish education systems is a privileged stance. Instead of discarding them, we should work towards reforming and improving these systems for everyone. <br><br> Radical unschooling advocates often misunderstand the role of education. It's vital to ensure children receive proper instruction, especially in critical developmental periods. If you believe your education system is lacking, advocate for change rather than abandonment. <br><br> **Be cautious of radical unschoolers; their approach may not be in your child's best interest.** I hope the trend of unschooling fades away in favor of more effective educational practices. |
-| **IMPARTIAL** | Wars (general wars)                                 | Most wars are unnecessary.                   |
-|    **FOR**    | Wealth redistribution                               | If person or company have more than $100m value or assets, increase tax and distribute excess towards programs or departments of the government's choosing - exception being the Army or intelligence agencies, those shouldn't be funded from this. |
-|    **FOR**    | Work Unions                                         | Work unions are always needed, in any sector, regardless if $EMPLOYER is good or bad, or if $REGIME/$IDEOLOGY supposedly doesn't need unions. |
-
-{% endexpand %}
+</details>
