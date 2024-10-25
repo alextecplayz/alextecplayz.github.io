@@ -7,7 +7,7 @@ description: "Call of Duty takes us into the Gulf War, and uncovers a dark consp
 date: 2024-10-24 20:00:00 +0200
 categories: Post
 fedicomments: true
-fedipostid:
+fedipostid: 113368029303356103
 image_banner_link: /images/post-thumbnails/CODBO6_24102024.webp
 image_banner_alt: The Call of Duty Black Ops 6 logo on a stripped black-orange background, with a partially visible logo for the fictional Advanced Technologies and Applications military facility, featuring the all-seeing (Illuminati) eye, a globe and three stars.
 metadata_proglang:
