@@ -5,7 +5,7 @@ description: >-
 baseurl: ""
 website: https://alextecplayz.github.io
 url: "https://alextecplayz.github.io"
-fedicommsrv: techhub.social
+fedicommsrv: "techhub.social"
 fediusername: "@AlexTECPlayz@techhub.social"
 lang: en
 ver_site: 1.6.0
