@@ -7,9 +7,13 @@
             <div class="flex row">
                 <p class="monospace white medium rem1-25 pop-up-title">Theme to use:</p>
                 <select name="theme" id="setting_theme" class="dropdown-dark grotesk medium rem1">
-                    <option value="theme_light">Light</option>
-                    <option value="theme_dark">Dark</option>
-                    <option value="theme_black">AMOLED Black</option>
+                    <option value="theme_calcitewhite">Calcite White</option>
+                    <option value="theme_catlatte">Catppuccin Latte</option>
+                    <option value="theme_obsidiangray">Obsidian Gray</option>
+                    <option value="theme_catfrappe">Catppuccin Frappe</option>
+                    <option value="theme_catmacchi">Catppuccin Macchiato</option>
+                    <option value="theme_catmocha">Catppuccin Mocha</option>
+                    <option value="theme_amoledblack">AMOLED Black</option>
                 </select>
             </div>
             <p class="monospace lightgray medium rem1-25">&emsp;</p>
@@ -20,13 +24,13 @@
             <p class="monospace lightgray italic medium rem0-75 pop-up-title">Session storage is wiped when closing the browser (default option, unchecked). Local storage saves the preferences indefinitely - however, they are not cookies.</p>
             <p class="monospace lightgray medium rem1-25">&emsp;</p>
             <p class="monospace lightgray medium rem1-25">&emsp;</p>
-            <p class="grotesk lightgray medium rem1 flex centered">Website v{{ site.ver_site }} | Obsidian v{{ site.ver_obsidian }}</p>
+            <a class="grotesk underline hover-italic lightgray medium rem1 flex centered" href="https://github.com/alextecplayz/alextecplayz.github.io">Website v{{ site.ver_site }} | Obsidian v{{ site.ver_obsidian }}</a>
         </div>
     </div>
 </div>
 
 <!-- Footer start -->
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="footer-left">
                     <div class="footer-legal">
                         <p class="footer-copyright-text grotesk semibold italic">© 2020-{{ site.t[page.lang].present }} AlexTECPlayz. {{ site.t[page.lang].allrights }}</p>
@@ -51,3 +55,35 @@
 <script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/external/sharedweb/js/common.js"></script>
 {% if page.highlight %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/external/sharedweb/js/highlight/highlight.min.js"></script>{% endif %}
 {% if page.highlight %}<script nonce="{{ site.data.nonce }}">hljs.highlightAll();</script>{% endif %}
+{% if page.fedicomments %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/external/sharedweb/js/dompurify/purify.min.js"></script>{% endif %}
+{% if page.fedicomments %}
+<script nonce="{{ site.data.nonce }}">
+    if (hasFeature("fedicomments")) {
+        function loadComments() {
+            document.getElementById("load-comments").innerHTML = "Loading comments...";
+            let existingIframe = document.getElementById('comments-iframe');
+            if (existingIframe) {
+                return;
+            }
+
+            const iframe = document.createElement('iframe');
+            iframe.setAttribute('scrolling', 'yes');
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.minHeight = '350px';
+            iframe.style.border = 'none';
+            iframe.id = 'comments-iframe';
+
+            const postId = "{{ page.fedipostid }}";
+            iframe.src = '{{ site.baseurl }}/iframe.html?postid=' + postId;
+
+            const commentsSection = document.getElementById("comments-iframe-parent");
+            commentsSection.appendChild(iframe);
+            commentsSection.classList.toggle('hidden');
+            document.getElementById("load-comments").innerHTML = "Loaded comments!";
+        }
+        document.getElementById("load-comments").addEventListener("click", loadComments);
+    }
+    window.addEventListener('message', function(event) {if (event.data.type === 'resize-iframe') {const iframe = document.getElementById('comments-iframe');if (iframe) {iframe.style.height = event.data.height + 'px';}}});
+</script>
+{% endif %}

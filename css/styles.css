@@ -1,6 +1,6 @@
 :root{--accent-color: var(--accent-color-atp);}
 
-.article-long-title, .article-long-desc, .article-long-date, .article-long-title:hover, .article-long-desc:hover, .article-long-date:hover, .article-title, .article-desc, .article-date, .article-title:hover, .article-desc:hover, .article-date:hover, .jumpgame-logo, .jumpgame-logo:hover, .project-hangar-logo, .project-hangar-logo:hover, .project-mountain-logo, .project-mountain-logo:hover, .project-odyssey-logo, .project-odyssey-logo:hover, .project-eiffel-logo, .project-eiffel-logo:hover, .project-vidal-logo, .project-vidal-logo:hover, .project-anubis-logo, .project-anubis-logo:hover, .post-section, .post-section:hover, .post-section-link, .post-section-link:hover, .in-queue, .in-queue:hover, .section-title, .section-permalink, .section-permalink:hover, .recommendation, .recommendation:hover, .recommendation-text, .recommendation-text:hover, .article-rvw, .article-rvw:hover, .landing-page, .landing-page-left, .landing-page-right, .sidebar, .doc-column-right, .checkbox-container, .checkbox-container:hover {transition: opacity 0.3s ease-in-out;}
+.article-long-title, .article-long-desc, .article-long-date, .article-long-title:hover, .article-long-desc:hover, .article-long-date:hover, .article-title, .article-desc, .article-date, .article-title:hover, .article-desc:hover, .article-date:hover, .jumpgame-logo, .jumpgame-logo:hover, .project-hangar-logo, .project-hangar-logo:hover, .project-mountain-logo, .project-mountain-logo:hover, .project-odyssey-logo, .project-odyssey-logo:hover, .project-eiffel-logo, .project-eiffel-logo:hover, .project-vidal-logo, .project-vidal-logo:hover, .project-anubis-logo, .project-anubis-logo:hover, .post-section, .post-section:hover, .post-section-link, .post-section-link:hover, .in-queue, .in-queue:hover, .section-title, .section-permalink, .section-permalink:hover, .recommendation, .recommendation:hover, .recommendation-text, .recommendation-text:hover, .article-rvw, .article-rvw:hover, .landing-page, .landing-page-left, .landing-page-right, .sidebar, .doc-column-right, .checkbox-container, .checkbox-container:hover, .rotracker-tracker, .rotracker-tracker:hover {transition: opacity 0.3s ease-in-out;}
 
 .placeholder-image-article, .article-long-image-size, .article-image-size, .article-image-size:hover, .article-long-image-size:hover, .article-banner, .project-image-banner, .project-image-banner:hover, .post-content, .article-long, .article-long:hover, .article-button-container, .article-button-light, .article-button-light:hover, .article-button-light, .darkgray, .article-button-light:hover .darkgray, .article-button-dark, .article-button-dark:hover, .articles-container, .article {transition: 0.3s;}
 
@@ -173,3 +173,11 @@
 .right {right: 0;}
 .bottom {bottom: 0;}
 .left {left: 0;}
+
+.rotracker-tracker {display: block; border: var(--rem0-25) solid var(--lightgray); padding: var(--rem0-75); margin: var(--rem0-75); background-color: var(--lightgray); color: var(--vantagray);}
+.rotracker-tracker:hover {border: var(--rem0-25) solid var(--lightgray); background-color: var(--vantagray); color: var(--lightgray);}
+.rotracker-tracker a{color: var(--accent-color-atp);}
+.rotracker-tracker a:hover {text-decoration-line: underline;}
+
+.about .post-content th:nth-child(1) {width: 7.5vw;}
+.about .post-content th:nth-child(2) {width: 25vw;}

@@ -21,6 +21,8 @@ body {background-color: var(--vantagray);}
 .notice-link-caution:hover {color: var(--caution); background-color: var(--darkgray);}
 .notice-link-danger:hover {color: var(--danger); background-color: var(--darkgray);}
 
+.bordered {border: 0.15rem solid var(--white); padding: var(--rem0-75); margin: var(--rem0-75);}
+
 .header {text-rendering: optimizeLegibility; display: inline-flex; flex-direction: row; align-items: center; justify-content: space-between; position: sticky; width: 100%;}
 .header-left {padding-left: var(--rem5); display: inline-flex; justify-content: flex-start; flex-direction: row; flex-wrap: nowrap; align-content: center; align-items: center;}
 .header-right {padding-right: var(--rem5); display: inline-flex; justify-content: flex-start; flex-direction: row; flex-wrap: nowrap; align-content: center; align-items: center; position: relative;}
@@ -122,3 +124,50 @@ div.horizontal-scrollbox a:hover {background: var(--accent-color); text-decorati
 .sidebar-list details summary::after {padding: 0; transition: 0.3s; display: inline-block; content: "→"; color: var(--warning); font-size: var(--rem1-5);}
 .sidebar-list details[open] > summary::after {transform: rotate(90deg);}
 .sidebar-list details summary::-webkit-details-marker {transition: 0.3s; display: inline-block; content: "→"; color: var(--warning); font-size: var(--rem1-5);}
+.details summary {padding: var(--rem1-25); color: var(--accent-color);}
+
+/* Comments */
+.comment-avatar {background-position: center; background-size: cover; border-radius: 0%; box-shadow: 0 0 2px var(--neutral); margin: 0; overflow: hidden; border: var(--rem0-25) solid var(--white); transition: transform 0.15s ease-in-out;}
+.comment-avatar:hover {transition: transform 0.15s ease-in-out; opacity: 80%;}
+#comments-wrapper {margin: var(--rem0); padding: var(--rem0);}
+.comment {display: grid; column-gap: var(--rem1); grid-template-areas: "avatar name" "avatar time" "avatar post" "...... interactions"; grid-template-columns: min-content; justify-items: start; margin: var(--rem0) auto var(--rem0) var(--rem-1); padding: var(--rem0-5); border-left: var(--rem0-25) solid var(--lightgray);}
+.comment-reply {margin-left: var(--rem1);}
+.comment-reply-to {margin-left: var(--rem3-5);}
+.comment .comment-avatar-link {grid-area: avatar;height: var(--rem4); position: relative; width: var(--rem4);}
+.comment .comment-avatar-link .comment-avatar {height: 100%; width: 100%;}
+.comment-avatar-link.comment-op:hover::after {opacity: 80%;}
+.comment .comment-avatar-link.comment-op::after {background-color: var(--accent-color); border-radius: 0%; bottom: -0.25rem; color: var(--vantagray); content: "✓"; display: block; font-size: var(--rem1-25); height: var(--rem1-15); line-height: var(--rem1-15); position: absolute; right: -0.25rem; text-align: center; width: var(--rem1-15); border-left: var(--rem0-25) solid var(--white); border-top: var(--rem0-25) solid var(--white);}
+.comment .comment-author {align-items: center; display: flex;  gap: 0.5em; grid-area: name;}
+.comment .comment-author .comment-op {color: var(--accent-color) !important;}
+.comment .comment-author .comment-instance {border-radius: 0px; color: var(--lightgray);font-size: smaller; font-weight: normal; padding: var(--rem0-25) var(--rem0-75);}
+.comment .comment-author .comment-instance:hover {opacity: 80%; text-decoration: none;}
+.comment .comment-author .comment-instance.comment-op {color: var(--accent-color);}
+.comment .author .comment-instance.comment-op::before {content: "✓"; margin-inline-end: var(--rem0-15); margin-inline-start: -0.15em;}
+.comment-datetime a {grid-area: time; line-height: 1.5rem; color: var(--lightgray); text-decoration: none !important;}
+.comment-permalink {padding: var(--rem0) var(--rem0-75);}
+.comment main {grid-area: post;}
+.comment main p {padding-top: var(--rem0-5); padding-bottom: var(--rem0-5);}
+.comment main p:first-child {margin-top: var(--rem0-25); padding-top: var(--rem0-15);}
+.comment main p:last-child {margin-bottom: 0; padding-bottom: var(--rem0-15);}
+.mention {color: var(--white); font-weight: 600;}
+.mention:hover {text-decoration: underline;}
+.comment footer {grid-area: interactions; border: var(--rem0-25) solid var(--white); padding: var(--rem1-15); font-size: var(--rem1-15);}
+.comment footer:hover {opacity: 80%;}
+.comment footer .comment-favourites {color: var(--white); text-decoration: none !important;}
+.comment footer .comment-favourites:hover {opacity: 80%; text-decoration: none;}
+.comment footer .comment-favourites::before {color: var(--danger); content: "♥"; font-size: var(--rem1-15); margin-inline-end: var(--rem0-25); text-decoration: none !important;}
+.comment .emoji {display: inline; height: 1.25em; vertical-align: middle; width: 1.25em;}
+.comment .hidden {display: none;}
+.comment a {color: var(--white); text-decoration: underline;}
+.comment a:hover {color: var(--accent-color);}
+.comment-image-grid, .comment-video-grid {display: grid; grid-template-areas: "a b" "c d"; gap: var(--rem0);}
+.comment-image-frame, .comment-video-frame {position: relative;}
+.comment-image-frame-button, .comment-video-frame-button {position: absolute; bottom: var(--rem1-15); right: var(--rem1-15); padding: var(--rem0-75); background: var(--darkgray); color: var(--lightgray) !important; border: 0.15rem solid var(--lightgray); text-decoration: none !important;}
+.comment-image-frame-button:hover, .comment-video-frame-button:hover {background: var(--lightgray); color: var(--darkgray) !important; border: 0.15rem solid var(--darkgray);}
+.comment-image, .comment-video {max-width: 80vw; padding: var(--rem0-25); width: 98.5%; height: auto; object-fit: cover; max-height: var(--rem15);}
+.comment-media-overlay {display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: var(--headerbg-dark-transparent); justify-content: center; align-items: center; z-index: 1000;}
+.comment-media-overlay-close {position: absolute; padding: var(--rem1-25); background: var(--darkgray); color: var(--lightgray); border: 0.15rem solid var(--lightgray); margin: var(--rem0-25); top: 0; right: 0; margin-top: 5rem; margin-right: 5rem;}
+.comment-media-overlay-close:hover {background: var(--lightgray); color: var(--darkgray); border: 0.15rem solid var(--darkgray);}
+.comment-indicator {font-size: var(--rem1-15);}
+.comment-metafooter {display: flex; flex-direction: row; border: none !important; padding: var(--rem0) !important; margin: var(--rem0) !important;}
+.comment-metafooter p {padding: var(--rem0) var(--rem0-1) !important; margin: var(--rem0) !important;}

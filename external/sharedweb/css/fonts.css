@@ -161,7 +161,7 @@
 .blaecitalic {font-family: 'Blaec', sans-serif; font-style: italic;}
 .grotesk {font-family: 'Space Grotesk', sans-serif !important;}
 .monospace {font-family: 'Space Mono', monospace !important; line-height: var(--rem1-375) !important;}
-.italic {font-style: italic !important;}
+em, .italic {font-style: italic !important;}
 .hover-italic:hover {font-style: italic !important;}
 .oblique {font-style: oblique !important;}
 .hover-oblique:hover {font-style: oblique !important;}

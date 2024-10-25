@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Webpage title -->
+    <title id="home">Post Comments (iframe)</title>
+    <!-- Website description -->
+    <meta name="description" content="AlexTECPlayz' website, featuring a blog and some other pages of interest.">
+    <!-- Viewport width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Document-Policy -->
+    <meta http-equiv="Document-Policy" content="require-trusted-types-for 'self' alextecplayz.github.io vantainteractive.com docs.vantainteractive.com store.vantainteractive.com api.vantainteractive.com legal.vantainteractive.com social.vantainteractive.com techhub.social;">
+    
+    <!-- CSP policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' *; style-src *; img-src *; connect-src *; font-src *; frame-src *;">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/external/sharedweb/css/fonts.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/external/sharedweb/css/obsidian-styles.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/external/sharedweb/css/screen-sizing.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/external/sharedweb/css/colors.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/external/sharedweb/css/default.min.css">
+    
+    <!-- Site features -->
+	  <meta name="feature-fedicomments" content="true"/>
+    <meta name="feature-hamburgermenu" content="false"/>
+	  <meta name="feature-iframe" content="true"/>
+    <meta name="feature-langswitcher" content="false"/>
+	  <meta name="feature-nofooter" content="false"/>
+    <meta name="feature-progress" content="false"/>
+    <meta name="feature-sidebar" content="false"/>
+    <meta name="feature-sitesettings" content="false"/>
+    <meta name="feature-stickyheader" content="false"/>
+	  <meta name="feature-theming" content="true" />
+    <meta name="feature-videoplayer" content="false"/>
+    
+</head>
+<body>
+	<div class="notice notice-caution">
+		<p class="black post-text rem1 monospace medium">Due to this website's security policy, the comments are displayed in an iframe element, which allows third-party domains to be accessed, in order to show media such as images, videos, audio (soon) and profile pictures from any Fediverse domains.</p>
+	</div>
+    <div id="comments-wrapper" class="comments-wrapper"></div>
+	<hr class="post">
+	<p class="post-text rem1 monospace medium lightgray">JavaScript code for the comments adapted from <a href="https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/" class="post-text rem1 monospace medium white underline">Carl Schwan's version</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" class="post-text rem1 monospace medium white underline">CC BY-SA 4.0</a>, with slight changes to make it work under an iframe for this website, and additional changes to suppoart more information, such as loading indicators about a profile (e.g bot, indexable, locked), loading one or more types of media (images, video) up to 4 media sources per type, per comment, and metadata such as the application name and comment language.</p>
+
+	<!-- Barebones settings window -->
+	<div class="pop-up settings-pop-up z-index100" id="settings-window">
+		<div class="pop-up-content">          
+			<p class="flex centered grotesk semibold rem2 white pop-up-title">Settings</p>
+			<button class="article-button-dark button-modal grotesk medium" id="settings-close-button">Close</button>
+			<div class="eula-scrollbox">
+				<div class="flex row">
+					<select name="theme" id="setting_theme" class="dropdown-dark grotesk medium rem1">
+						<option value="theme_calcitewhite">Calcite White</option>
+						<option value="theme_catlatte">Catppuccin Latte</option>
+						<option value="theme_obsidiangray">Obsidian Gray</option>
+						<option value="theme_catfrappe">Catppuccin Frappe</option>
+						<option value="theme_catmacchi">Catppuccin Macchiato</option>
+						<option value="theme_catmocha">Catppuccin Mocha</option>
+						<option value="theme_amoledblack">AMOLED Black</option>
+						<option value="theme_halloween">Halloween Dark</option>
+					</select>
+				</div>
+				<label class="checkbox-container monospace white medium rem1-25">Use local storage to save preference?
+					<input type="checkbox" unchecked="unchecked">
+					<span class="checkmark"></span>
+				  </label>
+			</div>
+		</div>
+	</div>
+
+    <script src="{{ site.baseurl }}/external/sharedweb/js/common.js"></script>
+    <script src="{{ site.baseurl }}/external/sharedweb/js/dompurify/purify.min.js"></script>
+    <script>
+        function escapeHtml(unsafe) {return unsafe .replace(/&/g, "&amp;") .replace(/</g, "&lt;") .replace(/>/g, "&gt;") .replace(/"/g, "&quot;") .replace(/'/g, "&#039;");}
+        function emojify(input, emojis) {let output = input; emojis.forEach(emoji => {let picture = document.createElement("picture"); let source = document.createElement("source"); source.setAttribute("srcset", escapeHtml(emoji.url)); source.setAttribute("media", "(prefers-reduced-motion: no-preference)"); let img = document.createElement("img"); img.className = "emoji"; img.setAttribute("src", escapeHtml(emoji.static_url)); img.setAttribute("alt", `:${ emoji.shortcode }:`); img.setAttribute("title", `:${ emoji.shortcode }:`); img.setAttribute("width", "20");img.setAttribute("height", "20"); picture.appendChild(source); picture.appendChild(img); output = output.replace(`:${ emoji.shortcode }:`, picture.outerHTML);}); return output;}
+		const commentsWrapper = document.getElementById('comments-wrapper');
+		function sendHeight() {const height = Math.max(document.body.scrollHeight, document.body.offsetHeight); window.parent.postMessage({ type: 'resize-iframe', height: height }, '*');}
+    
+        function loadComments(postId) {
+			let commentsWrapper = document.getElementById("comments-wrapper");
+            fetch('https://{{ site.fedicommsrv }}/api/v1/statuses/' + postId + '/context')
+              	.then(function(response) {return response.json();})
+              	.then(function(data) {
+                	let descendants = data['descendants'];
+                	if(descendants && Array.isArray(descendants) && descendants.length > 0) {
+                  	commentsWrapper.innerHTML = "";
+
+					let mediaOverlay = document.createElement("div");
+					mediaOverlay.className = "comment-media-overlay";
+					mediaOverlay.style.display = "none";
+					document.body.appendChild(mediaOverlay);
+
+					let closeButton = document.createElement("button");
+					closeButton.className = "comment-media-overlay-close button-modal grotesk medium";
+					closeButton.textContent = "X";
+					mediaOverlay.appendChild(closeButton);
+
+					closeButton.addEventListener("click", function() {
+    					mediaOverlay.style.display = "none";
+    					mediaOverlay.innerHTML = "";
+    					mediaOverlay.appendChild(closeButton);
+					});
+
+                  	descendants.forEach(function(status) {
+                    	if( status.account.display_name.length > 0 ) {
+                    	  status.account.display_name = escapeHtml(status.account.display_name);
+                    	  status.account.display_name = emojify(status.account.display_name, status.account.emojis);
+                    	} else {
+                    	  status.account.display_name = status.account.username;
+                    	};
+
+                    	let instance = "";
+                    	if( status.account.acct.includes("@") ) {
+                    	  instance = status.account.acct.split("@")[1];
+                    	} else {
+                    	  instance = "{{ site.fedicommsrv }}";
+                    	}
+                    	const isReply = status.in_reply_to_id !== "{{ page.fedipostid }}";
+                    	let op = false;
+						let bot = status.account.bot;
+						let locked = status.account.locked;
+						let group = status.account.group;
+						let discoverable = status.account.discoverable;
+						let indexable = status.account.indexable;
+						if(status.account.acct == "alextecplayz" ) {op = true;}
+						let appName = status.application ? status.application.name : "Unknown (unspecified/unavailable)";
+
+                    	status.content = emojify(status.content, status.emojis);
+
+                    	let avatarSource = document.createElement("source");
+                    	avatarSource.setAttribute("srcset", escapeHtml(status.account.avatar));
+                    	avatarSource.setAttribute("media", "(prefers-reduced-motion: no-preference)");
+
+                    	let avatarImg = document.createElement("img");
+                    	avatarImg.className = "comment-avatar";
+                    	avatarImg.setAttribute("src", escapeHtml(status.account.avatar_static));
+                    	avatarImg.setAttribute("alt", `@${ status.account.username }@${ instance } avatar`);
+
+                    	let avatarPicture = document.createElement("picture");
+                    	avatarPicture.appendChild(avatarSource);
+                    	avatarPicture.appendChild(avatarImg);
+
+                    	let avatar = document.createElement("a");
+                    	avatar.className = "comment-avatar-link";
+                    	avatar.setAttribute("href", status.account.url);
+                    	avatar.setAttribute("rel", "external nofollow");
+                    	avatar.setAttribute("title", `View profile at @${ status.account.username }@${ instance }`);
+                    	avatar.appendChild(avatarPicture);
+
+                    	let instanceBadge = document.createElement("a");
+                    	instanceBadge.className = "comment-instance";
+                    	instanceBadge.setAttribute("href", status.account.url);
+                    	instanceBadge.setAttribute("title", `@${ status.account.username }@${ instance }`);
+                    	instanceBadge.setAttribute("rel", "external nofollow");
+                    	instanceBadge.textContent = instance;
+
+                    	let display = document.createElement("span");
+                    	display.className = "comment-display";
+                    	display.setAttribute("itemprop", "author");
+                    	display.setAttribute("itemtype", "http://schema.org/Person");
+                    	display.innerHTML = status.account.display_name;
+
+                    	let header = document.createElement("header");
+                    	header.className = "comment-author white semibold grotesk rem1";
+                    	header.appendChild(display);
+                    	header.appendChild(instanceBadge);
+
+						let underheader = document.createElement("div");
+						underheader.className = "flex row";
+
+                    	let permalink = document.createElement("a");
+						permalink.classList = "comment-permalink medium monospace accent rem0-75";
+                    	permalink.setAttribute("href", status.url);
+                    	permalink.setAttribute("itemprop", "url");
+                    	permalink.setAttribute("title", `View comment at ${ instance }`);
+                    	permalink.setAttribute("rel", "external nofollow");
+						permalink.textContent = "Permalink";
+
+                    	let timestamp = document.createElement("time");
+                    	timestamp.setAttribute("datetime", status.created_at);
+                    	timestamp.className = "comment-datetime medium monospace white rem0-75";
+						timestamp.textContent = new Date( status.created_at ).toLocaleString('en-US', {dateStyle: "long", timeStyle: "short",});
+                    	underheader.appendChild(timestamp);
+						underheader.appendChild(permalink)
+
+                    	let main = document.createElement("main");
+                    	main.className = "comment-text rem1 medium monospace lightgray post-text";
+                    	main.setAttribute("itemprop", "text");
+                    	main.innerHTML = status.content;
+
+						let imagegrid = document.createElement("div");
+						let videogrid = document.createElement("div");
+						imagegrid.className = "comment-image-grid";
+						videogrid.className = "comment-video-grid";
+						if (status.media_attachments && Array.isArray(status.media_attachments)) {
+                        	status.media_attachments.forEach(function(media) {
+                        	    if (media.type === "image") {
+									let imagefig = document.createElement("figure");
+									let imagefigbtn = document.createElement("button");
+									imagefig.className = "comment-image-frame";
+									imagefigbtn.className = "comment-image-frame-button rem1 bold grotesk";
+									imagefigbtn.textContent = "⛶";
+                        	        let image = document.createElement("img");
+                        	        image.setAttribute("src", escapeHtml(media.url));
+                        	        image.setAttribute("alt", escapeHtml(media.description || "Image attachment"));
+                        	        image.className = "comment-image";
+                        	        if (media.description) {image.setAttribute("title", escapeHtml(media.description));}
+									image.onload = function() {sendHeight();};
+									imagefig.appendChild(image);
+									imagefig.appendChild(imagefigbtn);
+                        	        imagegrid.appendChild(imagefig);
+                        	    }
+								if (media.type === "video") {
+									let videofig = document.createElement("figure");
+									let videofigbtn = document.createElement("button");
+									videofig.className = "comment-video-frame";
+									videofigbtn.className = "comment-video-frame-button rem1 bold grotesk";
+									videofigbtn.textContent = "⛶";
+									let video = document.createElement("video");
+									video.setAttribute("src", escapeHtml(media.url));
+									video.setAttribute("alt", escapeHtml(media.description || "Video attachment"));
+									video.className = "comment-video";
+									if (media.description) {video.setAttribute("title", escapeHtml(media.description));}
+									video.onload = function() {sendHeight();};
+									videofig.appendChild(video);
+									videofig.appendChild(videofigbtn);
+									videogrid.appendChild(videofig);
+								}
+                        	});
+							main.appendChild(imagegrid);
+							main.appendChild(videogrid);
+                    	}
+
+						let metafooter = document.createElement("footer");
+						metafooter.className = "comment-metafooter";
+						let appname = document.createElement("p");
+						appname.className = "comment-appname rem0-75";
+						appname.textContent = "Posted through the " + appName + " application, ";
+						let commlang = document.createElement("p");
+						commlang.className = "comment-lang rem0-75";
+						commlang.textContent = "using the " + status.language + " language";
+						metafooter.appendChild(appname);
+						metafooter.appendChild(commlang);
+						main.appendChild(metafooter);
+
+                    	let comment = document.createElement("article");
+                    	comment.id = `comment-${ status.id }`;
+                    	comment.className = isReply ? "comment comment-reply" : "comment";
+                    	comment.setAttribute("itemprop", "comment");
+                    	comment.setAttribute("itemtype", "http://schema.org/Comment");
+                    	comment.appendChild(avatar);
+                    	comment.appendChild(header);
+                    	comment.appendChild(underheader);
+                    	comment.appendChild(main);
+						if(status.favourites_count > 0) {
+							let interactions = document.createElement("footer");
+                    	  	let faves = document.createElement("a");
+                    	  	faves.className = "comment-favourites";
+                    	  	faves.setAttribute("href", `${ status.url }/favourites`);
+                    	  	faves.setAttribute("title", `Favorites from ${ instance }`);
+                    	  	faves.textContent = status.favourites_count;
+                    	  	interactions.appendChild(faves);
+							comment.appendChild(interactions);
+                    	}
+
+                    	if(op === true) {
+                    	  	comment.classList.add("comment-op");
+                      		avatar.classList.add("comment-op");
+							display.classList.add("comment-op");
+                      		avatar.setAttribute("title", "Blog post author; " + avatar.getAttribute("title"));
+                      		instanceBadge.classList.add("comment-op");
+                      		instanceBadge.setAttribute("title", "Blog post author: " + instanceBadge.getAttribute("title"));
+                    	}
+
+						if(bot === true) {
+							let indicbot = document.createElement("p");
+							indicbot.className = "comment-indicator comment-indicbot";
+							indicbot.setAttribute("title", `Account is automated`);
+							indicbot.textContent = "🤖";
+							header.appendChild(indicbot);
+						}
+
+						if(locked === true) {
+							let indiclock = document.createElement("p");
+							indiclock.className = "comment-indicator comment-indiclock";
+							indiclock.setAttribute("title", `Account is locked`);
+							indiclock.textContent = "🔒";
+							header.appendChild(indiclock);
+						}
+
+						if(group === true) {
+							let indicgroup = document.createElement("p");
+							indicgroup.className = "comment-indicator comment-indicgroup";
+							indicgroup.setAttribute("title", `Account is part of a group`);
+							indicgroup.textContent = "👥";
+							header.appendChild(indicgroup);
+						}
+
+						if(discoverable === true) {
+							let indicdiscv = document.createElement("p");
+							indicdiscv.className = "comment-indicator comment-indicdiscv";
+							indicdiscv.setAttribute("title", `Account is discoverable`);
+							indicdiscv.textContent = "🌐";
+							header.appendChild(indicdiscv);
+						}
+
+						if(indexable === true) {
+							let indicindex = document.createElement("p");
+							indicindex.className = "comment-indicator comment-indicindex";
+							indicindex.setAttribute("title", `Account is indexable`);
+							indicindex.textContent = "🗃️";
+							header.appendChild(indicindex);
+						}
+
+						commentsWrapper.addEventListener("click", function(event) {
+						    if (event.target.matches('.comment-image-frame-button, .comment-video-frame-button, .comment-audio-frame-button')) {
+						        const button = event.target;
+						        const imagefig = button.parentElement;
+						        const imgElement = imagefig.querySelector('img');
+								const videofig = button.parentElement;
+								const vidElement = videofig.querySelector('video');
+
+						        if (imgElement) {
+						            const fullSizeImage = document.createElement("img");
+						            fullSizeImage.setAttribute("src", escapeHtml(imgElement.getAttribute('src')));
+						            fullSizeImage.setAttribute("alt", escapeHtml(imgElement.getAttribute('alt')));
+						            fullSizeImage.style.maxWidth = "90%";
+						            fullSizeImage.style.maxHeight = "90%";
+									fullSizeImage.style.position = "absolute";
+									fullSizeImage.style.top = "12.5rem";
+
+						            mediaOverlay.style.display = "flex";
+						            mediaOverlay.innerHTML = "";
+						            mediaOverlay.appendChild(closeButton);
+						            mediaOverlay.appendChild(fullSizeImage);
+						        }
+
+								if (vidElement) {
+									const fullSizeVideo = document.createElement("video");
+									fullSizeVideo.setAttribute("src", escapeHtml(vidElement.getAttribute('src')));
+									fullSizeVideo.setAttribute("alt", escapeHtml(vidElement.getAttribute('alt')));
+									fullSizeVideo.style.maxWidth = "90%";
+						            fullSizeVideo.style.maxHeight = "90%";
+									fullSizeVideo.style.position = "absolute";
+									fullSizeVideo.style.top = "12.5rem";
+									fullSizeVideo.setAttribute('controls', 'controls');
+
+									mediaOverlay.style.display = "flex";
+									mediaOverlay.innerHTML = "";
+									mediaOverlay.appendChild(closeButton);
+									mediaOverlay.appendChild(fullSizeVideo);
+								}
+						    }
+						});
+
+                    commentsWrapper.innerHTML += DOMPurify.sanitize(comment.outerHTML);
+                });
+			}
+        });}
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const postId = urlParams.get('postid');
+            if (!postId) {console.error("No postId found in URL parameters."); return;}
+            loadComments(postId);
+            const observer = new MutationObserver(function(mutations) {mutations.forEach(function(mutation) {sendHeight();});});
+            observer.observe(commentsWrapper, { childList: true, subtree: true });
+            window.addEventListener('resize', sendHeight);
+        });
+        window.addEventListener('message', function(event) {
+            if (event.data.type === 'resize-iframe') {const iframe = document.getElementById('comments-iframe'); if (iframe) {iframe.style.height = event.data.height + 'px';}}
+			else if (event.data.type === 'set-theme') {const theme = event.data.theme; updateTheme(theme);}
+        });
+		document.querySelectorAll('img').forEach(img => {img.onload = function() {sendHeight();};});
+		window.addEventListener('load', function() {sendHeight();});
+    </script>
+</body>
+</html>
