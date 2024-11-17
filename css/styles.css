@@ -174,10 +174,5 @@
 .bottom {bottom: 0;}
 .left {left: 0;}
 
-.rotracker-tracker {display: block; border: var(--rem0-25) solid var(--lightgray); padding: var(--rem0-75); margin: var(--rem0-75); background-color: var(--lightgray); color: var(--vantagray);}
-.rotracker-tracker:hover {border: var(--rem0-25) solid var(--lightgray); background-color: var(--vantagray); color: var(--lightgray);}
-.rotracker-tracker a{color: var(--accent-color-atp);}
-.rotracker-tracker a:hover {text-decoration-line: underline;}
-
 .about .post-content th:nth-child(1) {width: 7.5vw;}
 .about .post-content th:nth-child(2) {width: 25vw;}

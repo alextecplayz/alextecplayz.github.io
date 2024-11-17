@@ -40,15 +40,15 @@ Currently, I am waiting for a few interviews in a couple of places, hopefully I 
 
 ## Contact
 If you have any questions, suggestions or something else, here's where you can contact me:
-- E-mail: [*alextec70@protonmail.com*](mailto:alextec70@protonmail.com)
-- Mastodon: [*@alextecplayz@techhub.social*](https://techhub.social/@AlexTECPlayz) (*I'd like to self-host my own Mastodon instance someday, however*)
-- Matrix: [*@alextecplayz:matrix.org*](https://matrix.to/#/@alextecplayz:matrix.org)
+- E-mail: [*alextec70@protonmail.com*](mailto:alextec70@protonmail.com) or [*alextec70@outlook.com*](mailto:alextec70@outlook.com)
+- Mastodon: [*@alextecplayz@techhub.social*](https://techhub.social/@AlexTECPlayz)
+- Matrix: [*@alextecplayz:matrix.org*](https://matrix.to/#/@alextecplayz:matrix.org) (*Note that I'm not active on Matrix, I check in once every month, but I don't use it that often*)
 
 I won't accept friend requests on Steam. Unless I really know you, there's no chance I'll accept your friend request.
 
-I have accounts on platforms like Instagram/Threads ([@alextecplayz](https://instagram.com/alextecplayz) / [@alextecplayz@threads.net](https://threads.net/alextecplayz)), reddit ([u/TECPlayz2-0](https://new.reddit.com/user/TECPlayz2-0)), Discord (alextecplayz) and Twitter ([@realTECPlayz](https://twitter.com/realTECPlayz)), but **I don't use them anymore**.
+I have accounts on platforms like Instagram/Threads ([@alextecplayz](https://instagram.com/alextecplayz) / [@alextecplayz@threads.net](https://threads.net/alextecplayz)), reddit ([u/TECPlayz2-0](https://new.reddit.com/user/TECPlayz2-0)), Discord (alextecplayz) and Twitter ([@AlexTECPlayz](https://twitter.com/AlexTECPlayz)) (*was [@realTECPlayz](https://web.archive.org/web/20230320004115/twitter.com/realTECPlayz) but I changed the username on November 13, 2024*), but **I don't use them anymore**. I do not have a Signal, Threema, Session, or some other account. If you see someone claiming to be me on some platform, let me know.
 
-If you really must contact me, it's best to message me on Mastodon or send me an email. I will not see or answer messages sent on other platforms. I might use Discord if I want to send out playtest invitations to people I know, but I don't use it for anything else. Neither I or Vanta Interactive have a Discord server. Messages unrelated to playtests or game feedback will **not** be read or replied to.
+If you really must contact me, it's best to message me on Mastodon or send me an email. I will not see or answer messages sent on other platforms.
 
 ## Worldview
 
@@ -86,7 +86,7 @@ Quite long, so it's behind a collapsed section, but here are many, many things i
     <tr>
       <td><strong>IMPARTIAL</strong></td>
       <td>Big companies, corporations, businesses.</td>
-      <td>Big companies aren’t <em>inherently</em> bad. Big companies that become monopolies or oligopolies do.</td>
+      <td>Big companies aren’t <em>inherently</em> bad. Big companies that become monopolies or oligopolies are bad, however.</td>
     </tr>
     <tr>
       <td><strong>AGAINST</strong></td>
@@ -101,7 +101,7 @@ Quite long, so it's behind a collapsed section, but here are many, many things i
     <tr>
       <td><strong>FOR</strong></td>
       <td>CIA, FBI, NSA, intelligence agencies in general</td>
-      <td>Fuck yeah, intelligence agencies are cool. Some secret programs need to exist for the sake of national and/or international security.</td>
+      <td>Fuck yeah, intelligence agencies are cool. Some secret programs need to exist for the sake of national and/or international security. <i class="italic">Oh, but look what $AGENCY did in the 80s, 90s, etc.</i> This isn't BECAUSE of the intelligence agency's existence. It's because some agencies get an ego and start operating way out of their legal limits, and there's no one to hold them accountable for their mistakes.<br><br>An intelligence agency is not inherently bad or evil. They can be massively helpful in exposing and leading to the arrest of organized crime groups, as history has proven time and time again. They can be massively helpful in protecting their country's interests, as is the case for the US, as history has proven time and time again.</td>
     </tr>
     <tr>
       <td><strong>AGAINST</strong></td>
@@ -116,7 +116,7 @@ Quite long, so it's behind a collapsed section, but here are many, many things i
     <tr>
       <td><strong>FOR</strong></td>
       <td>Drug decriminalisation (e.g light drugs, marijuana)</td>
-      <td>Sure, with the same laws as alcohol and tobacco. 18+, you shouldn’t smoke pot and drive, etc. I don’t support or promote drugs.</td>
+      <td>Sure, with the same laws as alcohol and tobacco. 18+, you shouldn’t smoke pot and drive, etc. I don’t support or promote drugs. Weed's not great, especially in high concentration.</td>
     </tr>
     <tr>
       <td><strong>FOR</strong></td>
@@ -147,6 +147,11 @@ Quite long, so it's behind a collapsed section, but here are many, many things i
       <td><strong>FOR</strong></td>
       <td>IP, Copyright law, Patents</td>
       <td>With the mention that patents shouldn’t forbid someone from doing the same thing, and IP should expire 10 years after creation, with the owner/creator of the IP being able to renew its IP ownership each 10 years, until they die, or pass of the IP to someone else. 50-70 years after the IP was made, it should enter into public domain, with no way of retraction or renewal.</td>
+    </tr>
+    <tr>
+      <td><strong>IMPARTIAL</strong></td>
+      <td>Kinks, kink-shaming</td>
+      <td>I don't kink-shame <i>...out loud</i>. Look, I get general kinks, I'm fine with them, but there's a line between stuff that's cool and stuff that's objectionable, if not straight-up reprehensible. I'm sorry, but I will instantly block anyone that's into scat, piss, inflation, pooltoys, chastity, farts, vore, fatfur, pregnant sex, urethral play, sounding, macros and micros, blood, needle-play, guro, gore, diapers/ABDL, masochism, and obviously against incest, massive age gaps (e.g. 22 with 60) and anything illegal. Fuck off outta here with this stuff, it's horrible. What's worse is the people on Fedi that share this stuff without using ALT text, tags or just text that contains kink-related words that I can block - which means that occasionally I'll stumble upon some pooltoy, inflation or fatfur photo(s) on my timeline. I'll unfollow and possibly block both accounts involved, in such instances.</td>
     </tr>
     <tr>
       <td><strong>AGAINST</strong></td>
@@ -246,7 +251,7 @@ Quite long, so it's behind a collapsed section, but here are many, many things i
     <tr>
       <td><strong>AGAINST</strong></td>
       <td>Unschooling, especially radical unschooling</td>
-      <td><a href="/post/2024/10/14/Unschooling-rabbithole.html"><strong>Unschooling can be detrimental to your child’s education.</strong></a> A proper curriculum cannot be replaced by simply giving your child a device and letting them choose what to learn. Some argue against conformity, suggesting that children shouldn’t have to follow classroom norms, especially those with ADHD. However, learning to adapt to societal expectations is essential for functioning in society. While there are exceptions for neurodivergent children, it’s crucial to ensure they receive a structured education, whether through Special Ed Schools or homeschooling with a proper curriculum and qualified teachers, rather than relying on apps or unqualified ‘educators’. Some may claim that real-life experiences, like grocery shopping, can teach valuable skills. However, foundational subjects like math should be taught in a structured environment, building on what they learn in school. <br><br> <strong>Research shows that unschooled children often perform worse than their peers who follow a structured curriculum in key areas like reading, writing, and math.</strong> <a href="https://files.eric.ed.gov/fulltext/EJ1363975.pdf">American Families’ Attitudes to Unschooling - A National Survey</a> <br><br> Studies indicate that unschooling does not consistently provide equitable educational experiences. For instance, Martin-Chang et al. (2011) found that children educated without structured lesson plans performed worse than those in public schools. <br><br> The notion that children shouldn’t learn subjects they dislike, such as math, is misguided. A basic education, including math, language, history, and science, is essential. These subjects cannot be replaced by informal experiences or apps; they should complement formal education. <br><br> Proposing to abolish education systems is a privileged stance. Instead of discarding them, we should work towards reforming and improving these systems for everyone. <br><br> Radical unschooling advocates often misunderstand the role of education. It’s vital to ensure children receive proper instruction, especially in critical developmental periods. If you believe your education system is lacking, advocate for change rather than abandonment. <br><br> <strong>Be cautious of radical unschoolers; their approach may not be in your child’s best interest.</strong> I hope the trend of unschooling fades away in favor of more effective educational practices.</td>
+      <td><strong>Unschooling can be detrimental to your child’s education.</strong> A proper curriculum cannot be replaced by simply giving your child a device and letting them choose what to learn. Some argue against conformity, suggesting that children shouldn’t have to follow classroom norms, especially those with ADHD. However, learning to adapt to societal expectations is essential for functioning in society. While there are exceptions for neurodivergent children, it’s crucial to ensure they receive a structured education, whether through Special Ed Schools or homeschooling with a proper curriculum and qualified teachers, rather than relying on apps or unqualified ‘educators’. Some may claim that real-life experiences, like grocery shopping, can teach valuable skills. However, foundational subjects like math should be taught in a structured environment, building on what they learn in school. <br><br> <strong>Research shows that unschooled children often perform worse than their peers who follow a structured curriculum in key areas like reading, writing, and math.</strong> <a href="https://files.eric.ed.gov/fulltext/EJ1363975.pdf">American Families’ Attitudes to Unschooling - A National Survey</a> <br><br> Studies indicate that unschooling does not consistently provide equitable educational experiences. For instance, Martin-Chang et al. (2011) found that children educated without structured lesson plans performed worse than those in public schools. <br><br> The notion that children shouldn’t learn subjects they dislike, such as math, is misguided. A basic education, including math, language, history, and science, is essential. These subjects cannot be replaced by informal experiences or apps; they should complement formal education. <br><br> Proposing to abolish education systems is a privileged stance. Instead of discarding them, we should work towards reforming and improving these systems for everyone. <br><br> Radical unschooling advocates often misunderstand the role of education. It’s vital to ensure children receive proper instruction, especially in critical developmental periods. If you believe your education system is lacking, advocate for change rather than abandonment. <br><br> <strong>Be cautious of radical unschoolers; their approach may not be in your child’s best interest.</strong> I hope the trend of unschooling fades away in favor of more effective educational practices.</td>
     </tr>
     <tr>
       <td><strong>IMPARTIAL</strong></td>
