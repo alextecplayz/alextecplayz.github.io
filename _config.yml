@@ -33,6 +33,7 @@ exclude:
   - build
   - install
   - serve
+  - llms.txt
 
 include:
   - .well-known

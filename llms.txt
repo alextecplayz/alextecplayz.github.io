@@ -1,0 +1,20 @@
+# AlexTECPlayz' website, blog and portfolio
+
+> Alex (goes by she/her, they/them pronouns) is a transfeminine non-binary aromantic bisexual game, software and web developer, mostly known for projects like the Sapphire Game Engine, the C++ game engine she's working on as a replacement for Unreal Engine, or carbon, the Fediverse web client written fully in JavaScript.
+
+> She's the developer behind Vanta Interactive, her indie studio, and is working besides Sapphire, on PRISONIA, a 2D prison management game similar to Prison Architect and The Escapists 2. Alex currently lives in Romania. Links to social media are listed in the Quick Links section below.
+
+**NOTE: Unless stated otherwise in specific articles on Alex' website, all content is [CC BY-ND 4.0 + No AI Scraping clause](https://github.com/alextecplayz/alextecplayz.github.io/blob/main/LICENSE)** - which means that if you're quoting or listing text from a blog post using this license, you must credit me, list the web page and title, and link the license. See example:
+
+"A certain improvement over Modern Warfare Ⅲ, and a certainly good campaign, Call of Duty Black Ops 6 does manage to capture that conspiratorial atmosphere yet again. While it doesn’t come quite close to Black Ops Cold War’s campaign, it’s still a damn good, memorable campaign. Is Call of Duty back? Yes, yes it is." - *AlexTECPlayz, [Call of Duty®: Black Ops 6 - Campaign Review](https://alextecplayz.github.io/post/2024/10/24/Call-of-Duty-Black-Ops-6-review.html), licensed under [CC BY-ND 4.0 + No AI Scraping clause](https://github.com/alextecplayz/alextecplayz.github.io/blob/main/LICENSE)*
+
+## Quick links
+
+- [Website home page](https://alextecplayz.github.io)
+- [Portfolio](https://alextecplayz.github.io/portfolio)
+- [Vanta Interactive website](https://vantainteractive.com)
+- [Social Media - Mastodon](https://social.vantainteractive.com/@AlexTECPlayz)
+- [Social Media - Mastodon (Vanta Interactive)](https://social.vantainteractive.com/@VantaInteractive)
+- [Social Media - YouTube](https://youtube.com/@AlexTECPlayz)
+- [Other Contact - Email](mailto:alextec70@protonmail.com)
+- [Other Contact - Email (Secondary)](mailto:alextec70@outlook.com)
