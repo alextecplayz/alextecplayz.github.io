@@ -10,7 +10,7 @@
         <meta http-equiv="Document-Policy" content="require-trusted-types-for 'self' alextecplayz.github.io vantainteractive.com docs.vantainteractive.com store.vantainteractive.com api.vantainteractive.com legal.vantainteractive.com social.vantainteractive.com techhub.social;">
         
         <!-- CSP policy -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' alextecplayz.github.io vantainteractive.com docs.vantainteractive.com store.vantainteractive.com api.vantainteractive.com legal.vantainteractive.com social.vantainteractive.com techhub.social files.techhub.social; script-src 'self' 'nonce-{{ site.data.nonce }}' 'unsafe-inline'; style-src 'self' 'nonce-{{ site.data.nonce }}'; img-src 'self' data: i.ibb.co lh3.googleusercontent.com techhub.social files.techhub.social; font-src 'self';">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' alextecplayz.github.io vantainteractive.com docs.vantainteractive.com store.vantainteractive.com api.vantainteractive.com legal.vantainteractive.com social.vantainteractive.com techhub.social files.techhub.social; script-src 'self' 'nonce-{{ site.data.nonce }}' 'unsafe-inline'; style-src 'self' 'nonce-{{ site.data.nonce }}'; img-src 'self' data: alextecplayz.github.io i.ibb.co lh3.googleusercontent.com techhub.social files.techhub.social github.com raw.githubusercontent.com; font-src 'self';">
 
         <!-- CSS Stylesheets -->
         <link rel="stylesheet" href="{{ site.baseurl }}/external/sharedweb/css/fonts.css"/>
@@ -55,15 +55,17 @@
         
         <!-- Miscellaneous -->
         <meta name="google-site-verification" content="joH1YJawAM-RE8HORdtuNlD7RJ_tpDkNrMFQdnUmO40" />
+        <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
+        <meta name="site-baseurl" href="{{ site.url }}" />
         
         <!-- Site features -->
         <meta name="feature-hamburgermenu" content="false"/>
-	      <meta name="feature-iframe" content="true"/>
+	<meta name="feature-iframe" content="true"/>
         <meta name="feature-langswitcher" content="false"/>
-	      <meta name="feature-nofooter" content="false"/>
+	<meta name="feature-nofooter" content="false"/>
         <meta name="feature-progress" content="false"/>
         <meta name="feature-sidebar" content="false"/>
         <meta name="feature-sitesettings" content="true"/>
         <meta name="feature-stickyheader" content="true"/>
-	      <meta name="feature-theming" content="true" />
+	<meta name="feature-theming" content="true" />
         <meta name="feature-videoplayer" content="false"/>

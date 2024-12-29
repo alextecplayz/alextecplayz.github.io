@@ -1,18 +1,29 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Scrap Mechanic - Review"
 description: "I say this with a heavy heart, but Scrap Mechanic's development is really painfully slow even though it's been 6 years in Early Access."
 date: 2022-12-03 21:18:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2022
+  - Review
+  - Game Review
+  - Scrap Mechanic
+  - Early Access
+  - Game
+  - Games
+  - Gaming
+  - Steam
 image_banner_link: /images/post-thumbnails/ScrapMechanic_03122022.webp
 image_banner_alt: 
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
 timetoread: PT8M
-
 review: true
 review_product_name: Scrap Mechanic
 review_product_asin: 
@@ -30,7 +41,6 @@ review_negativenote3: Development is incredibly slow
 review_negativenote4: Slow peer-to-peer multiplayer, no dedicated servers
 review_negativenote5: Performance could be improved
 review_rating: 4
-
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#review-tldr">Review TLDR</a><br><a class="header-button monospace semibold" href="#modding">Modding</a><br><a class="header-button monospace semibold" href="#updates">Updates</a><br><a class="header-button monospace semibold" href="#the-game-engine">The Game Engine</a><br><a class="header-button monospace semibold" href="#platform-support">Platform Support</a><br><a class="header-button monospace semibold" href="#creative-mode">Creative Mode</a><br><a class="header-button monospace semibold" href="#survival-mode">Survival Mode</a><br><a class="header-button monospace semibold" href="#challenge-mode">Challenge Mode</a><br><a class="header-button monospace semibold" href="#character-customization">Character Customization</a><br><a class="header-button monospace semibold" href="#anticheatdrm">Anticheat/DRM</a><br><a class="header-button monospace semibold" href="#dedicated-servers">Dedicated Servers</a><br><a class="header-button monospace semibold" href="#early-access-for-6-years-and-still-going">Early Access for 6 years and still going...</a><br><a class="header-button monospace semibold" href="#conclusion">Conclusion</a>
 ---
 

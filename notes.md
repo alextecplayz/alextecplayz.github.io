@@ -1,11 +1,188 @@
 ---
-layout: post
+layout: notes
+type: page
 lang: en
 locale: en_US
 title: "Notes"
 description: "/notes is a page where I usually post shorter content or move my comments from platforms like Twitter, reddit that I want to keep or to link back to, in order to prevent unauthorized AI scraping and training."
 date: 2024-08-05
-categories: Post
+categories:
+  - Post
+  - Note
+tags:
+  - Notes
+  - Website
+  - linkbacks
+  - AI scraping
+notes:
+  - title: "Why are you still rooting your android? [reddit/1b5dhio]"
+    description: "My comment on this reddit post, archived here"
+    date: "2024-03-03 13:48:23 +0200"
+    id: "reddit/1b5dhio"
+    url: "/notes#why-are-you-still-rooting-your-android-reddit1b5dhio"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2024
+      - Android root
+      - Android rooting
+      - tracking
+      - Privacy
+      - Security
+      - ad blocking
+      - data minimization
+      - Termux
+      - Gboard
+      - data backup
+      - data restore
+      - LSPosed
+      - microG
+      - Magisk
+      - KernelSU
+      - Android root modules
+      - VPN
+      - DNS
+      - openVPN
+      - personalDNSfilter
+      - AFWall
+      - firewall
+      - Google Photos
+      - Android kernel
+      - Android kernel manager
+      - Android kernel monitor
+  - title: "Facebook app on Android [reddit/1aw9lqi]"
+    description: "My comment on this reddit post, archived here"
+    date: "2024-02-21 16:05:45 +0200"
+    id: "reddit/1aw9lqi"
+    url: "/notes#facebook-app-on-android-reddit1aw9lqi"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2024
+      - Facebook
+      - Meta
+      - Android
+      - Android app
+      - Android apps
+      - Privacy
+      - tracking
+      - data minimization
+      - Android root
+      - Android rooting
+  - title: "Does anyone know what LGBT people were like back in the stone ages? [reddit/1asmc0g]"
+    description: "My comment on this reddit post, archived here"
+    date: "2024-02-17 00:47:25 +0200"
+    id: "reddit/1asmc0g"
+    url: "/notes#does-anyone-know-what-lgbt-people-were-like-back-in-the-stone-ages-reddit1asmc0g"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2024
+      - LGBT
+      - history
+      - LGBT history
+      - opinion
+      - social hierarchies
+      - social hierarchy
+      - culture
+      - hunter-gatherer culture
+  - title: "Am I the only one who started to hate the subject 'Romanian language and literature'? [reddit/18glzip]"
+    description: "My comment on this reddit post, archived here"
+    date: "2023-12-13 01:52:08 +0200"
+    id: "reddit/18glzip"
+    url: "/notes#am-i-the-only-one-who-started-to-hate-the-subject-romanian-language-and-literature-reddit18glzip"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2023
+      - Romania
+      - Romanian education system
+      - education
+      - education system
+      - school subjects
+  - title: "Is it too hard for some to respect my decisions? [reddit/18pgjhp]"
+    description: "My comment on this reddit post, archived here"
+    date: "2023-12-24 13:33:39 +0200"
+    id: "reddit/18pgjhp"
+    url: "/notes#is-it-too-hard-for-some-to-respect-my-decisions-reddit18pgjhp"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2023
+      - LGBT
+      - Aromantic
+      - Aromanticism
+      - Asexual
+      - Asexuality
+      - sexual orientation
+      - romantic orientation
+      - romantic attraction
+      - source citing
+  - title: "What is the best way to clean a project to package it [reddit/18wz6kn]"
+    description: "My comment on this reddit post, archived here"
+    date: "2024-01-02 22:52:00 +0200"
+    id: "reddit/18wz6kn"
+    url: "/notes#what-is-the-best-way-to-clean-a-project-to-package-it-reddit18wz6kn"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2024
+      - Unreal Engine
+      - Unreal Engine 4
+      - Unreal Engine 5
+      - Android game development
+      - Game development
+      - Content management
+      - Storage space
+      - Reducing game storage usage
+  - title: "GrapheneOS better than dumb phones? [reddit/1ah5tpt]"
+    description: "My comment on this reddit post, archived here"
+    date: "2024-02-02 15:29:07 +0200"
+    id: "reddit/1ah5tpt"
+    url: "/notes#grapheneos-better-than-dumb-phones--reddit1ah5tpt"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2024
+      - GrapheneOS
+      - Android
+      - Smartphone
+      - Smartphones
+      - Technology
+      - Tech
+      - Dumb phone
+      - Dumb phones
+      - Google Pixel
+      - Linux
+      - BSD
+      - source code
+      - open-source
+      - Privacy
+      - Security
+      - tracking
+  - title: "How to delete a Gmail account - and take back your privacy! [reddit/1ams1hw]"
+    description: "My comment on this reddit post, archived here"
+    date: "2024-02-10 15:05:55 +0200"
+    id: "reddit/1ams1hw"
+    url: "/notes#how-to-delete-a-gmail-account---and-take-back-your-privacy-reddit1ams1hw"
+    type: note
+    categories:
+      - Note
+    tags:
+      - 2024
+      - Privacy
+      - Gmail
+      - Data retrieval
+      - Data deletion
+      - Account deletion
+      - Data collection
 image_banner_link:
 image_banner_alt:
 metadata_proglang:
@@ -31,7 +208,7 @@ Ironically enough, the [gibberish generator I use](https://thinkzone.wlonk.com/G
 - LSPosed modules
 - Termux, programs run through Termux such as Btop (task manager with terminal UI, root is needed to read certain data)
 - VPN (OpenVPN for pDNSf) + personalDNSfilter in root mode (filterlist that allows me to block IP addresses and web addresses in a simple and customizable interface, with support for additional filterlists that can be imported from wherever you want) // Basically always-on VPN + adblocking, malware website blocking, privacy improvements in general because trackers are blocked outright
-- AFWall+ firewall to block or allow apps to use certain network features such as LAN, Mobile Data, Wi-Fi, VPN)
+- AFWall+ firewall to block or allow apps to use certain network features such as LAN, Mobile Data, Wi-Fi, VPN
 - the ability to access /data/data/ for apps that ONLY store their data there, instead of Android/data (e.g. Megapolis. GTA LCS - games that only keep their save files and preferences in /data/data/, so you can't transfer from a different device or use old saves without root)
 - Lucky Patcher can patch apps using root instead of having to create new modified apps that I need to then reinstall (which might involve backing up the apps' /data/data/ folder to avoid losing data)
 - unlimited Google Photos storage (can be done through root or through certain custom ROMs, like I do)
@@ -51,7 +228,7 @@ If you need to use the app, create a Work Profile using Shelter, install the app
 
 If you want to take it to the extreme, you can try modifying the app, patching it, whatever, so you can deny access to even more stuff. In total, the Facebook app has 88 permissions, Facebook Lite has 70. The majority of these are not directly exposed in the user interface of the system, they're referred to as 'appops'. These much more granular and precise permissions allow Facebook to, in addition to the access granted by the permissions I listed in the paragraph above, access the list of apps installed on the device, access your Google account, access your billing information, control Wi-Fi, NFC, audio settings, prevent your phone from going to sleep (keeping screen awake), etc. These can be disabled through patches with or without root, depending on the app used.
 
-Lucky Patcher (not available on any storefront, has its own dedicated website) works with root and non-root (root = direct patch to installed app, non-root = patch app or APK file, you need to uninstall existing Facebook app before installing patched file). There is also App Ops (available on Google Play) that does this with Shizuku, so you don't need root, but it might be finicky and some features are limited to a purchasable license from Google Play).
+Lucky Patcher (not available on any storefront, has its own dedicated website) works with root and non-root (root = direct patch to installed app, non-root = patch app or APK file, you need to uninstall existing Facebook app before installing patched file). There is also App Ops (available on Google Play) that does this with Shizuku, so you don't need root, but it might be finicky and some features are limited to a purchasable license from Google Play.
 
 ---
 
@@ -93,8 +270,6 @@ Contează 'norocul' pe care îl ai să ajungi la un profesor, sau o profesoară 
 
 *Scuze dacă am scris prea mult, am nevoie de somn* 😅
 
----
-
 **[English] / [Engleză]**
 
 The purpose of the subject, in a proper education system and good teachers, would be to encourage and/or develop critical, analytical thinking, not to memorize essays several pages long for an exam at the end of the twelfth grade. Most of the texts in the current syllabus make sense if you skim through them, which can still help you today.
@@ -126,8 +301,6 @@ Aromanticismul și Asexualitatea sunt cât se poate de reale. Vezi:
 
 - Hammack, P.L., Frost, D.M., & Hughes, S.D. (2018/19). Queer Intimacies: A New Paradigm for the Study of Relationship Diversity. The Journal of Sex Research, 56(4-5), 556-592. - [eScholarship - UC Santa Cruz](https://escholarship.org/uc/item/285899t4)
 - Bulmer, M., & Izuma, K. (2018). Implicit and explicit attitudes toward sex and romance in asexuals. The Journal of Sex Research, 55(8), 962-974. - [White Rose ePrints (PDF)](https://eprints.whiterose.ac.uk/114509/1/Final_manuscript.pdf)
-
----
 
 **[English] / [Engleză]**
 
@@ -256,3 +429,5 @@ I recommend these websites as well:
 [JustGetMyData](https://justgetmydata.com/) - Direct links to a good amount of popular websites to download or access the data they have on you
 
 [JustDeleteMe](https://justdeleteme.xyz/) - Direct links to deleting accounts on popular websites, where possible. Some have black color coding that inform you that you can't delete your account, but this doesn't mean the account can't get banned, for example. Some forums can't delete your account, so you can ask to be banned instead.
+
+---

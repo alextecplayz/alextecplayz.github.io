@@ -1,11 +1,18 @@
 ---
 layout: post
+type: page
 lang: en
 locale: en_US
 title: "Terms of Service"
 description: "The site's Terms of Service."
 date: 2024-04-10
-categories: Post
+categories:
+  - Page
+tags:
+  - Legal
+  - Terms of Service
+  - Terms
+  - Website
 image_banner_link:
 image_banner_alt:
 metadata_proglang:

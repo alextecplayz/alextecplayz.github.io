@@ -1,11 +1,21 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "New YouTube gesture feature, now in testing"
 description: "YouTube is getting a new feature probably no one asked for. Here is my opinion."
 date: 2021-08-07 16:06:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2021
+  - Technology
+  - Tech
+  - Google
+  - YouTube
+  - Software
+  - News
 image_banner_link: /images/post-thumbnails/YouTube_07082021.webp
 image_banner_alt: The YouTube logo on a circular gradient with a red circle in the middle, and a gray background
 metadata_proglang:

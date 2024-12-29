@@ -1,11 +1,18 @@
 ---
 layout: post
+type: page
 lang: en
 locale: en_US
 title: "Privacy Policy"
 description: "The site's Privacy Policy."
 date: 2024-04-10
-categories: Post
+categories:
+  - Page
+tags:
+  - Legal
+  - Privacy Policy
+  - Privacy
+  - Website
 image_banner_link:
 image_banner_alt:
 metadata_proglang:

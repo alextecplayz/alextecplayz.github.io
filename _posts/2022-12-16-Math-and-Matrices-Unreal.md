@@ -1,11 +1,26 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Exploring the Use of Math and Matrices in Video Games and Unreal Engine 5"
 description: "In this article, we take a closer look at the use of math and matrices in video games, and explore how the latest version of the Unreal Engine makes use of them."
 date: 2022-12-16 16:06:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2022
+  - Presentation
+  - Outdated
+  - Math
+  - Technology
+  - Tech
+  - Gaming
+  - Game AI
+  - Unreal Engine
+  - Unreal Engine 5
+  - Unreal Engine AI
+  - Grand Theft Auto
 image_banner_link: /images/post-thumbnails/MathMatrices_16122022.webp
 image_banner_alt: 
 metadata_proglang:
@@ -57,7 +72,12 @@ Sports games also rely on matrices to represent and manipulate the 3D models of 
 
 Some examples of popular games that use matrices in their development include Grand Theft Auto: San Andreas, Forza Horizon, and FIFA. In GTA, matrices are used to represent and manipulate the 3D models of weapons, vehicles, entities, and environments. They're also used as data storage, as they're capable of storing vast amounts of data (e.g. A car's properties, a NPC's position). In Forza Horizon 5, matrices are used to represent and manipulate the 3D models of vehicles and tracks. And in FIFA, matrices are used to represent and manipulate the 3D models of players, stadiums, and other objects.
 
-![A GIF of a few cars racing in the desert in Forza Horizon 5](https://i.ibb.co/hfVPHKv/giphy.gif "A GIF of a few cars racing in the desert in Forza Horizon 5")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/fh5gif.gif" alt="A GIF of a few cars racing in the desert in Forza Horizon 5" title="A GIF of a few cars racing in the desert in Forza Horizon 5">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+  </div>
+</figure>
 
 Here's Grand Theft Auto: San Andreas, using matrices (structs) to store parameters used in the game:
 
@@ -80,7 +100,14 @@ struct CMatrix
 Text source ([Pastebin](https://pastebin.com/f5ed36b9))
 
 ‎
-![An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house.](https://i.ibb.co/jLdL4kt/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.png "An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house.")
+
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house.">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Here's another example, this time with the struct of a vehicle, where properties like mass, primary and secondary paint, and car grip values are stored. (Do note that this struct fragment has been heavily shortened in this code block to reduce unnecessary stuff.)
 
@@ -102,9 +129,21 @@ struct CVehicle
 
 Text source ([Pastebin](https://pastebin.com/f5ed36b9))
 
-![An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.](https://i.ibb.co/XkwKtLL/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.jpg "An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.")
-‎
-![An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.](https://i.ibb.co/hF6hkcw/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.jpg "An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
+
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Generally, matrices are used for data storage, 3D graphics and to manipulate objects' size, position, rotation, orientation, among other things.
 
@@ -112,13 +151,23 @@ Generally, matrices are used for data storage, 3D graphics and to manipulate obj
 
 Unreal Engine 5 is the latest version of the popular game engine developed by Epic Games, and it makes extensive use of matrices to represent and manipulate 3D objects and their transformations. In Unreal Engine 5, matrices are used to represent the position, orientation, and scale of objects in the game world, allowing developers to easily move, rotate, and scale objects as needed. Matrices are also used to perform a wide range of other transformations, such as deforming objects to match the shape of a terrain or animating objects to match a character's movements.
 
-![Two spinning cubes in Unreal Engine 5.1](https://i.ibb.co/B2XyZjf/Cubes.gif "Two spinning cubes in Unreal Engine 5.1")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Cubes.gif" alt="Two spinning cubes in Unreal Engine 5.1" title="Two spinning cubes in Unreal Engine 5.1">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Cubes.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+  </div>
+</figure>
 
 Unreal Engine 5 also makes use of matrices in its real-time rendering engine, which uses matrices to transform 3D objects into the 2D images that are displayed on the screen. This allows Unreal Engine 5 to accurately represent the position, orientation, and scale of objects in the game world, as well as the perspective of the camera. Matrices are also used in Unreal Engine 5's physics simulation, which uses matrices to represent the motion and interactions of objects in the game world.
 
 In addition, Unreal Engine 5 makes use of matrices in its artificial intelligence systems, which use matrices to represent the state and behavior of NPCs (non-player characters) in the game world. Matrices are used to represent the positions, orientations, and velocities of NPCs, as well as their relationships with other NPCs and the environment. This allows Unreal Engine 5 to simulate the behavior of NPCs in a realistic and responsive manner.
 
-![A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level](https://i.ibb.co/ZxsBnXc/UE5-AI.gif "A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/UE5-AI.gif" alt="A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level" title="A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/UE5-AI.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+  </div>
+</figure>
 
 Overall, the use of matrices in Unreal Engine 5 is crucial for its advanced features and realistic graphics, and it plays a central role in the development of modern games using this game engine.
 

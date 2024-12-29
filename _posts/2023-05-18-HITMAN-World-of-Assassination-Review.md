@@ -1,18 +1,32 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "HITMAN World of Assassination - Review"
 description: "The game is now the 'definitive' place to play all 3 HITMAN games from the trilogy, which is great, although I do not agree at all with their decision to unlist HITMAN and HITMAN 2."
 date: 2023-05-18 19:32:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2023
+  - Review
+  - Game Review
+  - Outdated
+  - HITMAN World of Assassination
+  - HITMAN 3
+  - HITMAN trilogy
+  - Hitman franchise
+  - Game
+  - Games
+  - Gaming
+  - Steam
 image_banner_link: /images/post-thumbnails/HITMANWOA_18052023.webp
 image_banner_alt: HITMAN World of Assassination logo on a red background
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
 timetoread: PT8M
-
 review: true
 review_product_name: HITMAN 3
 review_product_asin: B08X26LLCD
@@ -30,7 +44,6 @@ review_negativenote3:
 review_negativenote4: 
 review_negativenote5: 
 review_rating: 6
-
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#hitman-world-of-assassination-delisting-of-old-games">HITMAN World of Assassination, delisting of old games</a><br><a class="header-button monospace semibold" href="#freelancer">Freelancer</a><br><a class="header-button monospace semibold" href="#freelancer-improvements">Freelancer improvements</a><br><a class="header-button monospace semibold" href="#hitman-iii">HITMAN III</a><br><a class="header-button monospace semibold" href="#main-maps">Main maps</a><br><a class="header-button monospace semibold" href="#ambrose-island">Ambrose Island</a><br><a class="header-button monospace semibold" href="#vr-mode">VR mode</a><br><a class="header-button monospace semibold" href="#past-issues-that-might-still-be-issues-in-the-next-hitmanioi-game">Past issues that might still be in the next Hitman/IOI game</a><br><a class="header-button monospace semibold" href="#offline-mode">Offline mode</a><br><a class="header-button monospace semibold" href="#overall-review">Overall review</a><br><a class="header-button monospace semibold" href="#any-potential-big-updates">Any potential big updates</a><br><a class="header-button monospace semibold" href="#pricing">Pricing</a><br><a class="header-button monospace semibold" href="#still-a-negative-review">Still a negative review</a>
 ---
 

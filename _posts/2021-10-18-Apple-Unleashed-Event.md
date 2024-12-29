@@ -1,11 +1,26 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Apple's 'Unleashed' Event 18 October - Everything revealed"
 description: "Everything revealed at Apple's event."
 date: 2021-10-18 16:06:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2021
+  - Technology
+  - Tech
+  - Apple
+  - Apple Event
+  - Computers
+  - Hardware
+  - Apple Mac
+  - Apple Music
+  - Apple HomePod
+  - Apple AirPods
+  - Apple processors
 image_banner_link: /images/post-thumbnails/Apple_18102021.webp
 image_banner_alt: 
 metadata_proglang:
@@ -19,102 +34,261 @@ Siri can now play one of the many more new playlists curated by Apple Music's sp
 
 New Apple Music Voice plan that lets you access everything for just $4.99/month using Siri, starts in 17 regions.
 
-![Apple Music Voice plan banner](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/am-voicepl.png "Apple Music Voice plan banner")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/am-voicepl.webp" alt="Apple Music Voice plan banner" title="Apple Music Voice plan banner">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/am-voicepl.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/am-voicepl.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 ## HomePod Mini
 New colours: Yellow, Orange, Blue, available November.
 
-![All the new colours for the HomePod Mini](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/homepodmini-newcols.png "All the new colours for the HomePod Mini")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/homepodmini-newcols.webp" alt="All the new colours for the HomePod Mini" title="All the new colours for the HomePod Mini">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/homepodmini-newcols.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/homepodmini-newcols.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 ## AirPods 3rd Gen
 AirPods 3rd generation look
 
-![The new design for the AirPods 3rd generation](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/ap-3rdgen.png "The new design for the AirPods 3rd generation")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/3rdgen-airpods.webp" alt="AirPods 3rd generation" title="AirPods 3rd generation">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/3rdgen-airpods.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/3rdgen-airpods.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
+
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/ap-3rdgen.webp" alt="The new design for the AirPods 3rd generation" title="The new design for the AirPods 3rd generation">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/ap-3rdgen.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/ap-3rdgen.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 AirPods 3rd generation case
 
-![The new design for the AirPods 3rd generation case](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/ap-case.png "The new design for the AirPods 3rd generation case")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/ap-case.webp" alt="The new design for the AirPods 3rd generation case" title="The new design for the AirPods 3rd generation case">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/ap-case.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/ap-case.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 AirPods 3rd generation pricing
 
-![The price of the AirPods 3rd generation](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/3rdpods-price.png "The price of the AirPods 3rd generation")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/3rdpods-price.webp" alt="The price of the AirPods 3rd generation" title="The price of the AirPods 3rd generation">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/3rdpods-price.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/3rdpods-price.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 ## Mac
 Macbook Pro TLDR banner
 
-![TLDR; banner for the Macbook Pro](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-banner.png "TLDR; banner for the Macbook Pro")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-banner.webp" alt="TLDR; banner for the Macbook Pro" title="TLDR; banner for the Macbook Pro">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-banner.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-banner.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Thickness and weight comparison between the two variants.
 
-![Photo showing the comparison of the thickness and weight between the two Mac book variants](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-thickness.png "Photo showing the comparison of the thickness and weight between the two Mac book variants")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-thickness.webp" alt="Photo showing the comparison of the thickness and weight between the two Mac book variants" title="Photo showing the comparison of the thickness and weight between the two Mac book variants">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-thickness.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-thickness.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Keyboard
 
-![The keyboard](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-kb.png "The keyboard")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-kb.webp" alt="The keyboard" title="The keyboard">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-kb.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-kb.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Left side (ports)
 
-![The left ports](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-leftports.png "The left ports")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-leftports.webp" alt="The left ports" title="The left ports">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-leftports.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-leftports.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Right side (ports)
 
-![The right ports](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-rightports.png "The right ports")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-rightports.webp" alt="The right ports" title="The right ports">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-rightports.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-rightports.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 TLDR banner with everything new on the Macbook Pro
 
-![Banner of Macbook Pro](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-banner.png "Banner of Macbook Pro")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-banner.webp" alt="Banner of Macbook Pro" title="Banner of Macbook Pro">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-banner.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-banner.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 TLDR banner with everything new on the M1 PRO
 
-![TLDR banner with everything new on the M1 PRO](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/m1pro-table.png "TLDR banner with everything new on the M1 PRO")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/m1pro-table.webp" alt="TLDR banner with everything new on the M1 PRO" title="TLDR banner with everything new on the M1 PRO">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/m1pro-table.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/m1pro-table.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 TLDR banner with everything new on the M1 MAX
 
-![TLDR banner with everything new on the M1 MAX](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/m1max-table.png "TLDR banner with everything new on the M1 MAX")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/m1max-table.webp" alt="TLDR banner with everything new on the M1 MAX" title="TLDR banner with everything new on the M1 MAX">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/m1max-table.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/m1max-table.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 M1 PRO logo
-![M1 Pro logo](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1pro-logo.png "M1 Pro logo")
+
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1pro-logo.webp" alt="M1 Pro logo" title="M1 Pro logo">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1pro-logo.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1pro-logo.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Big chunky boi
 
-![The M1 Pro chip](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1pro.png "The M1 Pro chip")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1pro.webp" alt="The M1 Pro chip" title="The M1 Pro chip">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1pro.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1pro.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 M1 MAX logo
 
-![M1 Max logo](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1max-logo.png "M1 Max logo")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1max-logo.webp" alt="M1 Max logo" title="M1 Max logo">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1max-logo.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1max-logo.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Huge chonker
 
-![The M1 Max chip](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1max.png "The M1 Max chip")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1max.webp" alt="The M1 Max chip" title="The M1 Max chip">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-m1max.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-m1max.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 14.2" variant
 
-![The 14.2 inch Macbook Pro](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-142i.png "The 14.2 inch Macbook Pro")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-142i.webp" alt="The 14.2 inch Macbook Pro" title="The 14.2 inch Macbook Pro">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-142i.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-142i.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 16.2" variant
 
-![The 16.2 inch Macbook Pro](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-162i.png "The 16.2 inch Macbook Pro")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-162i.webp" alt="The 16.2 inch Macbook Pro" title="The 16.2 inch Macbook Pro">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-162i.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-162i.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 The notch's introduction.
 
-![The notch](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-notch.png "The notch")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-notch.webp" alt="The notch" title="The notch">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-notch.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-notch.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Notch, again.
 
-![The notch on the macOS desktop screen](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/MacbookPro-Notch.png "The notch on the macOS desktop screen")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/MacbookPro-Notch.webp" alt="The notch on the macOS desktop screen" title="The notch on the macOS desktop screen">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/MacbookPro-Notch.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/MacbookPro-Notch.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Some apps will be able to hide the notch.
 
-![A screenshot of a renderer viewport, that displays the title bar under the notch](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-editor.png "A screenshot of a renderer viewport, that displays the title bar under the notch")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-editor.webp" alt="A screenshot of a renderer viewport, that displays the title bar under the notch" title="A screenshot of a renderer viewport, that displays the title bar under the notch">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-editor.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-editor.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 10 hours battery life
 
-![10 hours Additional video playback](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-10hrs.png "10 hours Additional video playback")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-10hrs.webp" alt="10 hours Additional video playback" title="10 hours Additional video playback">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-10hrs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-10hrs.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 *Muffled laughter:* Haven't they heard of AMOLED displays!?
 
-![World's best notebook display](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-bestdisplay.png "World's best notebook display")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-bestdisplay.webp" alt="World's best notebook display" title="World's best notebook display">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-bestdisplay.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-bestdisplay.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 Pricing: 14.2 inch MacBook Pro: $1999 | 16.2 inch MacBook Pro: $2499
 
-! [Both laptops](https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-vars.png "Both laptops")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-vars.webp" alt="Both laptops" title="Both laptops">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/apple-unleashed-2021/mbp-vars.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alexhowell2a.github.io/master/assets/images/apple/aapl-18-oct-21/mbp-vars.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>

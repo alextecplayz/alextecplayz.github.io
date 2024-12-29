@@ -1,11 +1,20 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Visual Overhaul"
 description: "The website has finally received a fresh visual overhaul! See what is new, here."
 date: 2022-12-16 16:06:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2022
+  - Website
+  - Update
+  - Changelog
+  - Overhaul
+  - State of affairs
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
 image_banner_alt: 
 metadata_proglang:
@@ -42,7 +51,13 @@ Here's some of the new elements that I've used. This is a code block:
 {% endhighlight %}
 
 This is a GIF or an image:
-![A GIF of a few cars racing in the desert in Forza Horizon 5](https://i.ibb.co/hfVPHKv/giphy.gif "A GIF of a few cars racing in the desert in Forza Horizon 5")
+
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/fh5gif.gif" alt="A GIF of a few cars racing in the desert in Forza Horizon 5" title="A GIF of a few cars racing in the desert in Forza Horizon 5">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+  </div>
+</figure>
 
 I'm also working on a media player that goes well with the new website, along other things. Stay tuned for more, soon!
 

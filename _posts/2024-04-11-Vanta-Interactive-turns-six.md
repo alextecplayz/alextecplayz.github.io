@@ -1,11 +1,30 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Vanta Interactive turns SIX!"
 description: "Six years of (behind the scenes) indie game development, new website and the future."
 date: 2024-04-11 11:11:11 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2024
+  - Vanta Interactive
+  - Update
+  - Birthday
+  - State of affairs
+  - History
+  - JumpGame
+  - GRAV0RTAL
+  - PRISONIA
+  - Project Hangar
+  - Project Mountain
+  - Unreal Engine
+  - Unreal Engine 4
+  - Unreal Engine 5
+  - Sapphire Game Engine
+  - Sapphire
 image_banner_link: /images/post-thumbnails/VantaInteractive_GridBanner.webp
 image_banner_alt: The black "VANTA" logo for Vanta Interactive, on a dark blue to gray grid background that uses subtle light gray for the grid markings.
 metadata_proglang:
@@ -38,7 +57,13 @@ The blog was hosted using Google's Blogger platform, and we were using a free th
 
 We had a secondary website for one of our projects at the time, GRAV0RTAL, also hosted by Blogger.
 
-![The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS.](https://i.ibb.co/f982Frk/VI-Site-Archive-GV2020.png "The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS.")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/VI-Site-Archive-GV2020.webp" alt="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS." title="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS.">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/VI-Site-Archive-GV2020.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/VI-Site-Archive-GV2020.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 The blog uses the free 'Basil' theme from SoraTemplates, loaded the FontAwesome and LinearIcons CSS, Testimonial CSS from Flickity, Animate CSS, jQuery min, WowJS, SlickNav Responsive Mobile Menu, jquery-match-height, Flickity, Waypoints, jquery-counterup, jQuery One Page Nav Plugin and SmoothScroll.
 
@@ -46,7 +71,13 @@ The blog uses the free 'Basil' theme from SoraTemplates, loaded the FontAwesome 
 
 In late 2020, I switched to using the 'Slides' theme from FreeHTML5 for the Vanta Interactive blogger website, pictured below:
 
-![The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS.](https://i.ibb.co/4JxmkZb/VI-Site-Archive-2021.png "The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS.")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/VI-Site-Archive-2021.webp" alt="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS." title="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS.">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/VI-Site-Archive-2021.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/VI-Site-Archive-2021.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 As was the trend back then, most of the header buttons used to link to sections of the home page. 'About' would lead to the About Us section. We had pages for /games and /software, but they were blank, and the idea was to update them, but that never happened, for whatever reason. The page contained an ungodly amount of third-party CSS and JS code, such as Bootstrap CSS, some obfuscated JS that even to this day I have no idea what it was for, and at the end we had Waypoint JS, Easing JS, Stellar JS and Magnific Popup JS.
 
@@ -68,7 +99,13 @@ Funnily, or, surprisingly enough, **as of April 2024, Vanta Interactive is six y
 
 What am I using today? Simple HTML, Obsidian CSS with some customizations specific to each website's use case, and very little JS. All fonts, css and js are loaded from the repository, because I have principles now. I care about privacy and security. I don't want to collect cookies, or to bombard the users with cookie pop-ups. How the times have changed.
 
-![Screenshot of the current Vanta Interactive website](https://i.ibb.co/FqCnnyn/mainsite.png "Screenshot of the current Vanta Interactive website")
+<figure class="image-frame">
+  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/mainsite.webp" alt="Screenshot of the current Vanta Interactive website" title="Screenshot of the current Vanta Interactive website">
+  <div class="image-frame-buttons">
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/mainsite.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/mainsite.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+  </div>
+</figure>
 
 *Note the goof in the top left corner, where the icon is used: The screenshot was taken during Ace Visibility Day, so the logo was using the Ace flag variant - because yes, the Vanta Interactive logo has variants for the 'main' queer flags ^w^*
 

@@ -5,8 +5,10 @@
     --rem0-15: 0.15rem;
     --rem0-2: 0.2rem;
     --rem0-25: 0.25rem;
+    --rem0-35: 0.35rem;
     --rem0-5: 0.5rem;
     --rem0-75: 0.75rem;
+    --rem0-8: 0.8rem;
     --rem0-9375: 0.9375rem;
     --rem-1: -1rem;
     --rem1: 1rem;
@@ -37,108 +39,6 @@
     --rem15: 15rem;
     --rem20: 20rem;
     --rem25: 25rem;
-
-    @media screen and (max-width: 1500px) and ( min-width: 1250px) {
-        --rem0-5: 0.25rem;
-        --rem0-75: 0.5rem;
-        --rem1: 0.75rem;
-        --rem1-15: 1rem;
-        --rem1-25: 1.25rem;
-        --rem1-5: 1.15rem;
-        --rem2: 1.5rem;
-        --rem2-25: 2.25rem;
-        --rem2-5: 2rem;
-        --rem3: 2.5rem;
-        --rem3-5: 3rem;
-        --rem4: 3.5rem;
-        --rem4-5: 4rem;
-        --rem4-75: 4.25rem;
-        --rem5: 4.5rem;};
-
-    @media screen and (max-width: 1250px) and ( min-width: 1170px) {
-        --rem0-5: 0.15rem;
-        --rem0-75: 0.25rem;
-        --rem1: 0.85rem;
-        --rem1-15: 1.05rem;
-        --rem1-25: 1.25rem;
-        --rem1-5: 1rem;
-        --rem2: 1.15rem;
-        --rem2-25: 2.25rem;
-        --rem2-5: 1.5rem;
-        --rem3: 2rem;
-        --rem3-5: 2.5rem;
-        --rem4: 3rem;
-        --rem4-5: 3.5rem;
-        --rem4-75: 3.75rem;
-        --rem5: 4rem;};
-
-    @media screen and (max-width: 1170px) and (min-width: 950px) {
-        --rem0-5: 0.10rem;
-        --rem0-75: 0.15rem;
-        --rem1: 0.85rem;
-        --rem1-15: 1.05rem;
-        --rem1-25: 1.25rem;
-        --rem1-5: 0.75rem;
-        --rem2: 1rem;
-        --rem2-25: 2.25rem;
-        --rem2-5: 1.15rem;
-        --rem3: 1.5rem;
-        --rem3-5: 2rem;
-        --rem4: 2.5rem;
-        --rem4-5: 3rem;
-        --rem4-75: 3.25rem;
-        --rem5: 3.5rem;};
-
-    @media screen and (max-width: 950px) and (min-width: 725px) {
-        --rem0-5: 0.65rem;
-        --rem0-75: 0.75rem;
-        --rem1: 0.85rem;
-        --rem1-15: 1.15rem;
-        --rem1-25: 1.25rem;
-        --rem1-5: 1.35rem;
-        --rem2: 1.45rem;
-        --rem2-25: 1.5rem;
-        --rem2-5: 1.65rem;
-        --rem3: 1.75rem;
-        --rem3-5: 1.85rem;
-        --rem4: 2rem;
-        --rem4-5: 2.15rem;
-        --rem4-75: 2.25rem;
-        --rem5: 2.35rem;}
-
-    @media screen and (max-width: 725px) and (min-width: 425px) {
-        --rem0-5: 0.5rem;
-        --rem0-75: 0.65rem;
-        --rem1: 0.75rem;
-        --rem1-15: 0.85rem;
-        --rem1-25: 1.05rem;
-        --rem1-5: 1.15rem;
-        --rem2: 1.25rem;
-        --rem2-25: 1.35rem;
-        --rem2-5: 1.45rem;
-        --rem3: 1.5rem;
-        --rem3-5: 1.65rem;
-        --rem4: 1.75rem;
-        --rem4-5: 1.85rem;
-        --rem4-75: 1.95rem;
-        --rem5: 2rem;};
-
-    @media screen and (max-width: 425px) and (min-width: 150px) {
-        --rem0-5: 0.25rem;
-        --rem0-75: 0.5rem;
-        --rem1: 0.65rem;
-        --rem1-15: 0.75rem;
-        --rem1-25: 0.85rem;
-        --rem1-5: 1rem;
-        --rem2: 1rem;
-        --rem2-25: 1.15rem;
-        --rem2-5: 1.25rem;
-        --rem3: 1.35rem;
-        --rem3-5: 1.5rem;
-        --rem4: 1.65rem;
-        --rem4-5: 1.75rem;
-        --rem4-75: 1.80rem;
-        --rem5: 1.85rem;};
 }
 
 @font-face {font-family: 'Blaec'; font-display: swap; src: url('../fonts/Blaec/Blaec.woff2') format('woff2'); font-style: normal;}
@@ -160,12 +60,12 @@
 .blaec {font-family: 'Blaec', sans-serif; font-style: normal;}
 .blaecitalic {font-family: 'Blaec', sans-serif; font-style: italic;}
 .grotesk {font-family: 'Space Grotesk', sans-serif !important;}
-.monospace {font-family: 'Space Mono', monospace !important; line-height: var(--rem1-375) !important;}
-em, .italic {font-style: italic !important;}
+.monospace {font-family: 'Space Mono', monospace !important; line-height: var(--rem1-375)}
+em, i, .italic {font-style: italic !important;}
 .hover-italic:hover {font-style: italic !important;}
 .oblique {font-style: oblique !important;}
 .hover-oblique:hover {font-style: oblique !important;}
-.underline {text-decoration: underline !important;}
+.underline, .link:hover {text-decoration: underline !important;}
 .overline {text-decoration: overline !important;}
 .strikethrough {text-decoration: line-through !important;}
 .wavy {text-decoration: wavy !important;}
@@ -175,8 +75,7 @@ em, .italic {font-style: italic !important;}
 .regular {font-weight: 400 !important;}
 .medium {font-weight: 500 !important;}
 .semibold {font-weight: 600 !important;}
-.bold {font-weight: 700 !important;}
-.centered {justify-content: center;}
+strong, b, .bold {font-weight: 700 !important;}
 .ltr {direction: ltr !important;}
 .rtl {direction: rtl !important;}
 .column {flex-direction: column !important;}
@@ -185,21 +84,23 @@ em, .italic {font-style: italic !important;}
 .row-reverse {flex-direction: row-reverse !important;}
 .justify-start {justify-content: flex-start;}
 .justify-end {justify-content: flex-end;}
+.justify-center {justify-content: center;}
+.align-start {align-items: start;}
+.align-center {align-items: center;}
+.align-end {align-items: end;}
 .relative {position: relative;}
 .absolute {position: absolute;}
 .fixed {position: fixed;}
 .redacted {letter-spacing: -0.25px !important;}
 .superscript {font-variant-position: super;}
 .subscript {font-variant-position: sub;}
-
-.line-height-rem1 {line-height: var(--rem1);}
-.line-height-rem2 {line-height: var(--rem2);}
-.line-height-rem3 {line-height: var(--rem3);}
+p strong {font-weight: 700;}
 
 .rem0-01 {font-size: var(--rem0-01);}
 .rem0-1 {font-size: var(--rem0-1);}
 .rem0-5 {font-size: var(--rem0-5);}
 .rem0-75 {font-size: var(--rem0-75);}
+.rem0-8 {font-size: var(--rem0-8);}
 .rem1 {font-size: var(--rem1);}
 .rem1-15 {font-size: var(--rem1-15);}
 .rem1-25 {font-size: var(--rem1-25);}

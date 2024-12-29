@@ -1,11 +1,22 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Pixel 6 Series announced"
 description: "Pixel 6 and Pixel 6 Pro are official!"
 date: 2021-08-03 16:06:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2021
+  - Technology
+  - Tech
+  - Google
+  - Google Pixel
+  - Pixel 6
+  - Smartphones
+  - News
 image_banner_link: /images/post-thumbnails/Pixel6_03082021.webp
 image_banner_alt: 
 metadata_proglang:

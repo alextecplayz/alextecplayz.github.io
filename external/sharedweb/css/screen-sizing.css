@@ -1,3 +1,146 @@
+@media screen and (max-width: 1500px) and ( min-width: 1250px) {
+    :root {
+        --rem0-5: 0.25rem;
+        --rem0-75: 0.5rem;
+        --rem1: 0.75rem;
+        --rem1-15: 1rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 1.15rem;
+        --rem2: 1.5rem;
+        --rem2-25: 2.25rem;
+        --rem2-5: 2rem;
+        --rem3: 2.5rem;
+        --rem3-5: 3rem;
+        --rem4: 3.5rem;
+        --rem4-5: 4rem;
+        --rem4-75: 4.25rem;
+        --rem5: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 1250px) and ( min-width: 1170px) {
+    :root {
+        --rem0-5: 0.15rem;
+        --rem0-75: 0.25rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.05rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 1rem;
+        --rem2: 1.15rem;
+        --rem2-25: 2.25rem;
+        --rem2-5: 1.5rem;
+        --rem3: 2rem;
+        --rem3-5: 2.5rem;
+        --rem4: 3rem;
+        --rem4-5: 3.5rem;
+        --rem4-75: 3.75rem;
+        --rem5: 4rem;
+    }
+}
+
+@media screen and (max-width: 1170px) and (min-width: 950px) {
+    :root {
+        --rem0-5: 0.10rem;
+        --rem0-75: 0.15rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.05rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 0.75rem;
+        --rem2: 1rem;
+        --rem2-25: 2.25rem;
+        --rem2-5: 1.15rem;
+        --rem3: 1.5rem;
+        --rem3-5: 2rem;
+        --rem4: 2.5rem;
+        --rem4-5: 3rem;
+        --rem4-75: 3.25rem;
+        --rem5: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 950px) and (min-width: 725px) {
+    :root {
+        --rem0-5: 0.65rem;
+        --rem0-75: 0.75rem;
+        --rem1: 0.85rem;
+        --rem1-15: 1.15rem;
+        --rem1-25: 1.25rem;
+        --rem1-5: 1.35rem;
+        --rem2: 1.45rem;
+        --rem2-25: 1.5rem;
+        --rem2-5: 1.65rem;
+        --rem3: 1.75rem;
+        --rem3-5: 1.85rem;
+        --rem4: 2rem;
+        --rem4-5: 2.15rem;
+        --rem4-75: 2.25rem;
+        --rem5: 2.35rem;
+    }
+}
+
+@media screen and (max-width: 725px) and (min-width: 425px) {
+    :root {
+        --rem0-5: 0.5rem;
+        --rem0-75: 0.65rem;
+        --rem1: 0.75rem;
+        --rem1-15: 0.85rem;
+        --rem1-25: 1.05rem;
+        --rem1-5: 1.15rem;
+        --rem2: 1.25rem;
+        --rem2-25: 1.35rem;
+        --rem2-5: 1.45rem;
+        --rem3: 1.5rem;
+        --rem3-5: 1.65rem;
+        --rem4: 1.75rem;
+        --rem4-5: 1.85rem;
+        --rem4-75: 1.95rem;
+        --rem5: 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 150px) {
+    :root {
+        --rem0-5: 0.25rem;
+        --rem0-75: 0.5rem;
+        --rem1: 0.65rem;
+        --rem1-15: 0.75rem;
+        --rem1-25: 0.85rem;
+        --rem1-5: 1rem;
+        --rem2: 1rem;
+        --rem2-25: 1.15rem;
+        --rem2-5: 1.25rem;
+        --rem3: 1.35rem;
+        --rem3-5: 1.5rem;
+        --rem4: 1.65rem;
+        --rem4-5: 1.75rem;
+        --rem4-75: 1.80rem;
+        --rem5: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 1170px) and (min-width: 0px) {
+    .mobile-bottomnav {display: flex;}
+    .header-right .header-buttons {display: none;}
+    .recommendations-container {flex-direction: column;}
+    .footer {padding-bottom: var(--rem7);}
+    .portfolio-grid {display: flex; flex-direction: column;}
+    .post-content {margin: var(--rem0) var(--rem0) var(--rem0) var(--rem0) !important;}
+    .post-header-sticky {right: var(--rem1) !important; top: var(--rem1-5) !important; max-width: 75vw !important;}
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+    @keyframes slide-bottom {0% { transform: translateY(0); } 100% { transform: translateY(100px);} }
+    .share-pop-up {display: flex !important;}
+    .share-pop-up .pop-up-content {max-width: 100% !important; bottom: 0 !important; position: absolute !important; padding-bottom: var(--rem0) !important; animation: slide-bottom 0.3s cubic-bezier(0.600, -0.280, 0.735, 0.045) 0s 1 reverse none;}
+    .settings-pop-up .pop-up-content, .search-pop-up .pop-up-content {max-width: 100% !important; width: 100%;}
+    .button-modal {margin: var(--rem0) !important;}
+    .post-navigation {display: flex !important; flex-direction: column !important;}
+    .checkbox-container {padding-left: var(--rem5) !important;}
+    .radio-container p {padding-left: var(--rem5) !important;}
+    .post-content {margin: var(--rem0) var(--rem0) var(--rem0) var(--rem0) !important;}
+    .post-header-sticky {right: var(--rem1) !important; top: var(--rem1-5) !important; width: 65vw !important;}
+}
+
 /* If screen size less than 1500px wide, do.. */
 @media screen and (max-width: 1500px) and ( min-width: 1250px) {
     .articles-container {padding: 1.5rem;}
@@ -8,9 +151,8 @@
     .article-button-container {display: flex; padding: 0.25rem;}
     .article-button-dark, .article-button-light {padding: 1.25rem;}
     .placeholder-image-article {max-width: 801px !important; max-height: 534px !important; width: 100%; height: auto;}
-    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
-    .article-long-image-size {max-width: 801px !important; max-height: 534px !important; width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: 299px !important; max-height: 168px !important; width: auto !important; height: 100% !important;}
+    /*.article-long-image-size {max-width: 801px !important; max-height: 534px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 299px !important; max-height: 168px !important; width: auto !important; height: 100% !important;}*/
 }
 
 /* If screen size less than 1250px wide, do.. */
@@ -26,9 +168,8 @@
     .article-button-container {display: flex; padding: 0.25rem;}
     .article-button-light, .article-button-dark {padding: 1.25rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
-    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
-    .article-long-image-size {max-width: 801px !important; max-height: 534px !important; width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: 299px !important; max-height: 168px !important; width: auto !important; height: 100% !important;}
+    /*.article-long-image-size {max-width: 801px !important; max-height: 534px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 299px !important; max-height: 168px !important; width: auto !important; height: 100% !important;}*/
 }
 
 /* If screen size less than 1170px wide, do.. */
@@ -44,17 +185,15 @@
     .article-button-container {display: flex; padding: 0.15rem;}
     .article-button-light, .article-button-dark {padding: 1.15rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px;width: 100%; height: auto;}
-    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px;width: auto; height: 100%;}
-    .article-long-image-size {max-width: 566px !important; max-height: 378px !important; width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: 211px !important; max-height: 119px !important; width: auto !important; height: 100% !important;}
+    /*.article-long-image-size {max-width: 566px !important; max-height: 378px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 211px !important; max-height: 119px !important; width: auto !important; height: 100% !important;}*/
 }
 
 /* If screen size less than 950px wide, do.. */
 @media screen and (max-width: 950px) and (min-width: 725px) {
     .header-logo {width: calc(3.125rem / 1.5); height: calc(3.125rem / 1.5);}
     .header-buttons {flex-wrap: wrap;}
-    .header-left {padding-left: unset;}
-    .header-right {padding-top: 1rem; padding-right: unset;}
+    .header-right {padding-top: 1rem;}
     .articles-container {padding: 1.5rem;}
     .article-long-left, .padding-long-right {padding: 0.5rem;}
     .article-long {margin: 0.25rem; padding: 1rem;}
@@ -65,45 +204,43 @@
     .article-button-container {display: flex; padding: 0.25rem;}
     .article-button-light, .article-button-dark {padding: 1.25rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
-    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
-    .article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
+    /*.article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
         width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: calc(299px / 2) !important; max-height: calc(168px / 2) !important; width: auto !important; height: 100% !important;}
-    .post-image-max1080p, .post-image-max720p, .post-image-max480p {padding: 0.25rem 0.5rem 0.25rem 0.5rem !important;}
+    .article-image-size {max-width: calc(299px / 2) !important; max-height: calc(168px / 2) !important; width: auto !important; height: 100% !important;}*/
+    .post-navigation {display: flex !important; flex-direction: column !important;}
 }
 
 /* If screen size less than 725px wide, do.. */
 @media screen and (max-width: 725px) and (min-width: 425px) {
     .header-logo {width: calc(3.125rem / 1.5); height: calc(3.125rem / 1.5);}
-    .header-left {padding-left: 0rem;}
-    .header-right {padding-top: 1rem; padding-right: 0rem;}
+    .header-right {padding-top: 1rem;}
     .in-queue {padding: 0rem;}
     .articles-container {padding: 0.5rem;}
-    .article-long-left, .padding-long-right {padding: 0.5rem;}
+    .article-long-left, .padding-long-right {padding: 0rem;}
+    .article-long-left, .article-long-right {max-width: unset !important;}
     .article-long {padding: 0.5rem;}
     .article-long:hover {padding: 0.5rem;}
     .article-long-title, .article-title {padding-bottom: 0.5rem;}
     .article, .article-long, .in-queue {flex-direction: column;}
     .article-button-container {display: flex; padding: 0.20rem;}
-    .article-button-light, .article-button-dark {padding: 1.20rem;}
+    .article-button-light, .article-button-dark {padding: var(--rem1);}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
-    .post-image-portrait-mode {max-width: 2322px; max-height: 4128px; width: auto; height: 100%;}
     /*.article-long-image-size { max-width: 358px !important; max-height: 234px !important; width: auto !important; height: 100% !important;}*/
-    .article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
+    /*.article-long-image-size {max-width: calc(801px / 2) !important; max-height: calc(534px / 2) !important;
         width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: calc(299px / 3) !important; max-height: calc(168px / 3) !important; width: auto !important; height: 100% !important;}
-    .post-image-max1080p, .post-image-max720p, .post-image-max480p {padding: 0.05rem 0.25rem 0.05rem 0.25rem !important;}
+    .article-image-size {max-width: calc(299px / 3) !important; max-height: calc(168px / 3) !important; width: auto !important; height: 100% !important;}*/
+    .searchbox-filters {flex-direction: column;}
+    .searchbox-filters .recommendation {width: 100%;}
+    .post-navigation {display: flex !important; flex-direction: column !important;}
 }
 
 /* If screen size less than 425px wide, do.. */
 @media screen and (max-width: 425px) and (min-width: 398px) {
     .notice {padding: 0.45rem;}
-    .header {padding: 0.75rem; align-items: flex-start;}
     .header-logo {width: calc(3.125rem / 3); height: calc(3.125rem / 3);}
     .logo-sticky {top: 1rem; left: 3rem;}
     .header-buttons {flex-wrap: wrap;}
-    .header-left {padding-left: unset; align-items: start;}
-    .header-right {padding-right: unset;}
+    .header-left {align-items: start;}
     .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important;}
     .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
     .double-article {flex-direction: column;}
@@ -119,23 +256,23 @@
     .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
     .article-button-light, .article-button-dark {padding: 1rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
-    .article-long-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
-    .article-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
+    /*.article-long-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}
+    .article-image-size {max-width: 359px !important; max-height: 202px !important; width: auto !important; height: 100% !important;}*/
     .footer {padding: 0.15rem; padding-bottom: 1rem;}
     .footer-logo {width: 2rem; height: 2rem;}
     .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
     .section-permalink, .section-title {padding: 0.5rem;}
+    .searchbox-filters {flex-direction: column;}
+    .searchbox-filters .recommendation {width: 100%;}
 }
 
-/* If screen size less than 425px wide, do.. */
+/* If screen size less than 398px wide, do.. */
 @media screen and (max-width: 398px) and (min-width: 340px) {
     .notice {padding: 0.45rem;}
-    .header {padding: 0.75rem; align-items: flex-start;}
-    .header-logo {width: calc(3.125rem / 3); height: calc(3.125rem / 3);}
+    .header-logo {width: calc(3.125rem / 2); height: calc(3.125rem / 2);}
     .logo-sticky {top: 1rem; left: 3rem;}
     .header-buttons {flex-wrap: wrap;}
-    .header-left {padding-left: unset; align-items: start;}
-    .header-right {padding-right: unset;}
+    .header-left {align-items: start;}
     .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important;}
     .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
     .double-article {flex-direction: column;}
@@ -151,23 +288,23 @@
     .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
     .article-button-light, .article-button-dark {padding: 0.75rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
-    .article-image-size {max-width: 300px !important; max-height: 169px; width: auto !important; height: 100% !important;}
-    .article-long-image-size {max-width: 300px !important; max-height: 169px !important; width: auto !important; height: 100% !important;}
+    /*.article-image-size {max-width: 300px !important; max-height: 169px; width: auto !important; height: 100% !important;}
+    .article-long-image-size {max-width: 300px !important; max-height: 169px !important; width: auto !important; height: 100% !important;}*/
     .footer {padding: 0.15rem; padding-bottom: 1rem;}
     .footer-logo {width: 2rem; height: 2rem;}
     .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
     .section-permalink, .section-title {padding: 0.5rem;}
+    .searchbox-filters {flex-direction: column;}
+    .searchbox-filters .recommendation {width: 100%;}
 }
 
-/* If screen size less than 425px wide, do.. */
-@media screen and (max-width: 340px) and (min-width: 150px) {
+/* If screen size less than 340px wide, do.. */
+@media screen and (max-width: 340px) and (min-width: 275px) {
     .notice {padding: 0.45rem;}
-    .header {padding: 0.75rem; align-items: flex-start;}
-    .header-logo {width: calc(3.125rem / 3); height: calc(3.125rem / 3);}
+    .header-logo {width: calc(3.125rem / 2.5); height: calc(3.125rem / 2.5);}
     .logo-sticky {top: 1rem; left: 3rem;}
     .header-buttons {flex-wrap: wrap;}
-    .header-left {padding-left: unset; align-items: start;}
-    .header-right {padding-right: unset;}
+    .header-left {align-items: start;}
     .header-button {padding: 0.25rem 0.15rem 0.25rem 0.15rem !important;}
     .articles-container {display: flex; flex-direction: column; padding: 0rem; margin: 0.25rem;}
     .double-article {flex-direction: column;}
@@ -183,10 +320,19 @@
     .article-button-container {display: flex; flex-direction: row; padding: 0.15rem;}
     .article-button-light, .article-button-dark {padding: 0.75rem;}
     .placeholder-image-article {max-width: 1920px; max-height: 1080px; width: 100%; height: auto;}
-    .article-image-size {max-width: 250px !important; max-height: 141px; width: auto !important; height: 100% !important;}
-    .article-long-image-size {max-width: 250px !important; max-height: 141px !important; width: auto !important; height: 100% !important;}
-    .footer {padding: 0.15rem; padding-bottom: 1rem;}
+    /*.article-image-size {max-width: 250px !important; max-height: 141px; width: auto !important; height: 100% !important;}
+    .article-long-image-size {max-width: 250px !important; max-height: 141px !important; width: auto !important; height: 100% !important;}*/
+    .footer {padding: 0.15rem; padding-bottom: 5rem;}
     .footer-logo {width: 2rem; height: 2rem;}
     .footer-left {padding: 2rem 1rem 1rem 1rem !important;}
     .section-permalink, .section-title {padding: 0.5rem;}
+    .searchbox-filters {flex-direction: column;}
+    .searchbox-filters .recommendation {width: 100%;}
+    .image-frame-buttons {flex-direction: column;}
+    .image-frame-button {padding: var(--rem0-5); margin: var(--rem0);}
+    .image-frame-button .lucide {width: 15px !important; height: 15px !important;}
 }
+ /* Anything lower than 275px is unsupported */
+ @media screen and (max-width: 274px) and (min-width: 0px) {
+    .search-container, .post, .post-content, .articles-container {display: none !important;}
+ }

@@ -1,11 +1,16 @@
 ---
 layout: post
+type: page
 lang: en
 locale: en_US
 title: "Alex recommends"
 description: "A list of websites, projects or people I recommend or don't recommend"
 date: 2024-04-10
-categories: Post
+categories:
+  - Page
+tags:
+  - Recommends
+  - AlexTECPlayz
 image_banner_link:
 image_banner_alt:
 metadata_proglang:

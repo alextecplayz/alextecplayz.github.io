@@ -1,11 +1,24 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Announcing Prisonia"
 description: "Design, build and manage prisons, in a brand new game from Vanta Interactive."
 date: 2024-06-01 00:00:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2024
+  - PRISONIA
+  - Vanta Interactive
+  - Update
+  - Announcement
+  - Game Announcement
+  - Game
+  - Games
+  - Gaming
+  - State of affairs
 image_banner_link: /images/post-thumbnails/PRISONIA_01062024.webp
 image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', white text, a thick black stroke around the title, on a 'prison jumpsuit orange' circle gradient to gray grid background that uses subtle light gray for the grid markings.
 metadata_proglang:

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: index
 lang: en
 locale: en_US
 title: Home

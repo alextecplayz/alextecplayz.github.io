@@ -1,12 +1,27 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 
 title: "Galaxy Unpacked August 2021 - All reveals"
 description: "Find out everything Samsung has revealed during the August Unpacked event."
 date: 2021-08-11 16:06:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2021
+  - Technology
+  - Tech
+  - Samsung
+  - Galaxy Unpacked
+  - Samsung Galaxy
+  - Galaxy Buds
+  - Galaxy Flip
+  - Galaxy Fold
+  - Galaxy Watch
+  - Smartphones
+  - Hardware
 image_banner_link: /images/post-thumbnails/GU_11082021.webp
 image_banner_alt: 
 metadata_proglang:

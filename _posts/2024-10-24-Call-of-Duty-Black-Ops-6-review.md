@@ -1,11 +1,24 @@
 ---
 layout: post
+type: post
 lang: en
 locale: en_US
 title: "Call of Duty®: Black Ops 6 - Campaign Review"
 description: "Call of Duty takes us into the Gulf War, and uncovers a dark conspiracy brewing inside the CIA. Also, could BO6 be better than BOCW?"
 date: 2024-10-24 20:00:00 +0200
-categories: Post
+categories:
+  - Post
+tags:
+  - 2024
+  - Review
+  - Game Review
+  - Call of Duty
+  - Call of Duty series
+  - Call of Duty Black Ops
+  - Call of Duty Black Ops 6
+  - Game
+  - Games
+  - Gaming
 fedicomments: true
 fedipostid: 113368029303356103
 image_banner_link: /images/post-thumbnails/CODBO6_24102024.webp
@@ -14,7 +27,6 @@ metadata_proglang:
 metadata_platforms:
 metadata_timespan:
 timetoread: PT30M
-
 review: true
 review_product_name: Call of Duty® - Black Ops 6
 review_product_asin: B09Z7HJL29
@@ -32,8 +44,7 @@ review_negativenote3:
 review_negativenote4: 
 review_negativenote5: 
 review_rating: 8
-
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br>
+toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#soundtrack">Soundtrack</a><br><a class="header-button monospace semibold" href="#story">Story</a><br>
 ---
 
 **SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**

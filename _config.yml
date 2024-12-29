@@ -1,72 +1,740 @@
+---
 title: AlexTECPlayz
 email: alextec70@outlook.com
-description: >- 
-  My site. It has a blog.
+description: My site. It has a blog.
 baseurl: ""
 website: https://alextecplayz.github.io
-url: "https://alextecplayz.github.io"
-fedicommsrv: "techhub.social"
+url: https://alextecplayz.github.io
+fedicommsrv: techhub.social
 fediusername: "@AlexTECPlayz@techhub.social"
 lang: en
-ver_site: 1.6.0
-ver_obsidian: 1.6.0
+ver_site: 1.7.0
+ver_obsidian: 1.7.0
+ver_searchlight: 1.7.0
 search: true
 search_full_content: true
 lunr:
   search_within_pages: true
-
 twitter_username: "@realTECPlayz"
 mastodon_username: "@AlexTECPlayz@techhub.social"
 
-author: "AlexTECPlayz"
-author_description: "Alex is a developer that occasionally reviews games, software and tech, and her website includes ramblings, reviews, blog posts of any kind, and much more."
-
 # Build settings
+output_configuration: production
+author: AlexTECPlayz
+author_description: Alex is a developer that occasionally reviews games,
+  software and tech, and her website includes ramblings, reviews, blog posts of
+  any kind, and much more.
 plugins:
   - jekyll-feed
 
 exclude:
-  - CHANGELOG.md
   - README.md
   - SECURITY.md
   - LICENSE
   - build
   - install
   - serve
-  - llms.txt
+  - serve-dev
+  - _disabled_plugins
 
 include:
   - .well-known
   - _includes
   - _layouts
   - js
+  - CHANGELOG.md
+  - llms.txt
 
+# Custom emojis
+emoji_map:
+  aegis:
+    path: "/images/custom_emojis/aegis.webp"
+    alt: "The Aegis logo"
+  amazon:
+    path: "/images/custom_emojis/amazon.webp"
+    alt: "The Amazon logo"
+  amd:
+    path: "/images/custom_emojis/amd.webp"
+    alt: "The AMD logo, with symbol above the text"
+  amd-symbol:
+    path: "/images/custom_emojis/amd-symbol.webp"
+    alt: "The AMD symbol"
+  android:
+    path: "/images/custom_emojis/android.webp"
+    alt: "The flat green Android robot head logo"
+  apple:
+    path: "/images/custom_emojis/apple.webp"
+    alt: "The white Apple logo on a black square"
+  atp:
+    path: "/images/custom_emojis/atp.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the logo for AlexTECPlayz."
+  atp-aro:
+    path: "/images/custom_emojis/atp-aro.webp"
+    alt: "An octogon using the Aromantic flag (five horizontal stripes using the following colors: dark green, green, white, light gray, black) as its background with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Aromantic' variant of the logo for AlexTECPlayz."
+  atp-bi:
+    path: "/images/custom_emojis/atp-bi.webp"
+    alt: "An octogon using the Bisexual flag (three horizontal stripes using the following colors: reddish pink, purple, blue, where the purple stripe is slimmer than the other two color stripes) as its background with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Bisexual' variant of the logo for AlexTECPlayz."
+  atp-christmas:
+    path: "/images/custom_emojis/atp-christmas.webp"
+    alt: "A bright red octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Christmas' variant of the logo for AlexTECPlayz."
+  atp-christmas-snow:
+    path: "/images/custom_emojis/atp-christmas-snow.webp"
+    alt: "A bright red octogon with snowflakes in the background, with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Christmas Snow' variant of the logo for AlexTECPlayz."
+  atp-ghost:
+    path: "/images/custom_emojis/atp-ghost.webp"
+    alt: "A bright white octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Ghost' variant of the logo for AlexTECPlayz, intended for halloween."
+  atp-glitch1:
+    path: "/images/custom_emojis/atp-glitch1.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. The octogon has some chromatic aberration effects. It's the first 'Glitch' variant of the logo for AlexTECPlayz."
+  atp-glitch2:
+    path: "/images/custom_emojis/atp-glitch2.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. The octogon has some very subtle chromatic aberration and texture effects. It's the second 'Glitch' variant of the logo for AlexTECPlayz."
+  atp-glitch3:
+    path: "/images/custom_emojis/atp-glitch3.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. There's a filter on top of the octogon that makes whole image more dark gray. It's the third 'Glitch' variant of the logo for AlexTECPlayz."
+  atp-glitch4:
+    path: "/images/custom_emojis/atp-glitch4.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. There's a filter on top of the octogon that makes the whole image more dark red, and some chromatic aberration effects, coupled with a grunge texture. It's the fourth 'Glitch' variant of the logo for AlexTECPlayz."
+  atp-glitch5:
+    path: "/images/custom_emojis/atp-glitch5.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. There's a brightening filter on top of the octogon that makes the whole image more washed out and lighter, more pinkish. It's the fifth 'Glitch' variant of the logo for AlexTECPlayz."
+  atp-gray:
+    path: "/images/custom_emojis/atp-gray.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. There's a black and white filter on top of the image that makes it all gray. It's the 'Gray' variant of the logo for AlexTECPlayz."
+  atp-grunge:
+    path: "/images/custom_emojis/atp-grunge.webp"
+    alt: "A magenta octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. There's a grunge texture filter over the image. It's the 'Grunge' variant of the logo for AlexTECPlayz."
+  atp-halloween:
+    path: "/images/custom_emojis/atp-halloween.webp"
+    alt: "A bright orange octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Halloween' variant of the logo for AlexTECPlayz."
+  atp-nb:
+    path: "/images/custom_emojis/atp-nb.webp"
+    alt: "An octogon using the non-binary (four horizontal colored stripes using the following colors, in order: yellow, white, purple, black) as the background, with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Non-Binary' or 'Enby' variant of the logo for AlexTECPlayz."
+  atp-night:
+    path: "/images/custom_emojis/atp-night.webp"
+    alt: "A dark purple octogon with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. There's a streetlight visible to the left of the dog in the background. It's the 'Night' variant of the logo for AlexTECPlayz."
+  atp-pride:
+    path: "/images/custom_emojis/atp-pride.webp"
+    alt: "An octogon using the Pride flag (a rainbow) as the background, with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Pride' variant of the logo for AlexTECPlayz."
+  atp-trans:
+    path: "/images/custom_emojis/atp-trans.webp"
+    alt: "An octogon using the Trans flag (five horizontal colored stripes using the following color combination: light blue, light pink, white, light pink, light blue) as the background, with a robotic dog known as 'Flash' from the game Jetpack Joyride 2, looking towards the right. It's the 'Trans' variant of the logo for AlexTECPlayz."
+  bd:
+    path: "/images/custom_emojis/bd.webp"
+    alt: "The Bitdefender logo using a white uppercase letter 'B' on a red square"
+  bdavf:
+    path: "/images/custom_emojis/bdavf.webp"
+    alt: "The logo for Bitdefender Antivirus - Free"
+  bitcoin:
+    path: "/images/custom_emojis/bitcoin.webp"
+    alt: "The Bitcoin logo, which is a yellow circle with a B"
+  bitwarden:
+    path: "/images/custom_emojis/bitwarden.webp"
+    alt: "The white Bitwarden logo"
+  bsky:
+    path: "/images/custom_emojis/bsky.webp"
+    alt: "The Bluesky Social logo, which is a flat white butterfly"
+  buckwheat:
+    path: "/images/custom_emojis/buckwheat.webp"
+    alt: "The Buckwheat logo"
+  carbon:
+    path: "/images/custom_emojis/carbon.webp"
+    alt: "A large, muted blue-green gradient bold lowercase letter 'c' in the centre of a black background. It's the logo for 'carbon', an opinionated Fediverse and Mastodon client written using only JavaScript, using the Obsidian Design system that's in development by AlexTECPlayz published under her indie studio name, Vanta Interactive."
+  catima:
+    path: "/images/custom_emojis/catima.webp"
+    alt: "The Catima logo"
+  chatgpt:
+    path: "/images/custom_emojis/chatgpt.webp"
+    alt: "The ChatGPT logo"
+  chrome:
+    path: "/images/custom_emojis/chrome.webp"
+    alt: "The Chrome browser logo"
+  chromecanary:
+    path: "/images/custom_emojis/chromecanary.webp"
+    alt: "The Chrome (Canary) logo"
+  chromecef:
+    path: "/images/custom_emojis/chromecef.webp"
+    alt: "The Chromium Embedded Framework (CEF) logo"
+  chromium:
+    path: "/images/custom_emojis/chromium.webp"
+    alt: "The Chromium logo"
+  cloudflare:
+    path: "/images/custom_emojis/cloudflare.webp"
+    alt: "The Cloudflare logo"
+  cobalt:
+    path: "/images/custom_emojis/cobalt.webp"
+    alt: "The cobalt.tools logo, which is two '>>' white arrows on a black square"
+  codeberg:
+    path: "/images/custom_emojis/codeberg.webp"
+    alt: "The Codeberg logo, which is an iceberg or a tall mountain peak over a blue circle"
+  cromite:
+    path: "/images/custom_emojis/cromite.webp"
+    alt: "The Cromite browser logo"
+  cryptpad:
+    path: "/images/custom_emojis/cryptpad.webp"
+    alt: "The Cryptpad"
+  css:
+    path: "/images/custom_emojis/css.webp"
+    alt: "The CSS logo, which is a purple square with the top right and bottom left corners rounded, and big white bold 'CSS' text in the bottom right corner."
+  databackup:
+    path: "/images/custom_emojis/databackup.webp"
+    alt: "The Data Backup logo"
+  davx5:
+    path: "/images/custom_emojis/davx5.webp"
+    alt: "The DAVx5 (DAVx⁵) logo"
+  debian:
+    path: "/images/custom_emojis/debian.webp"
+    alt: "The Debian logo"
+  discord:
+    path: "/images/custom_emojis/discord.webp"
+    alt: "The blue Discord logo"
+  discord-white:
+    path: "/images/custom_emojis/discord-white.webp"
+    alt: "The white Discord logo"
+  dot-black:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-black.webp"
+    alt: "A black dot"
+  dot-blue:
+    path: "images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-cyan.webp"
+    alt: "A cyan blue dot"
+  dot-blue-dark:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-dark-blue.webp"
+    alt: "A dark blue dot"
+  dot-orange:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-orange.webp"
+    alt: "An orange dot"
+  dot-pink:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-pink.webp"
+    alt: "A pink dot"
+  dot-purple:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-purple.webp"
+    alt: "A purple dot"
+  dot-red:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-red.webp"
+    alt: "A red dot"
+  dot-white:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-white.webp"
+    alt: "A white dot"
+  dot-yellow:
+    path: "/images/custom_emojis/packs/24143-dots-color-pack-emojigg-pack/dot-yellow.webp"
+    alt: "A yellow dot"
+  dropbox:
+    path: "/images/custom_emojis/dropbox.webp"
+    alt: "The Dropbox logo, which is a white open box"
+  ea:
+    path: "/images/custom_emojis/ea.webp"
+    alt: "The Electronic Arts logo, which is black uppercase text 'EA' over a white circle"
+  element:
+    path: "/images/custom_emojis/element.webp"
+    alt: "The Element logo"
+  ente:
+    path: "/images/custom_emojis/ente.webp"
+    alt: "The ente logo, which is a big white lowercase letter 'e' on a green square"
+  epicgames:
+    path: "/images/custom_emojis/epicgames.webp"
+    alt: "The Epic Games logo"
+  epicgamesstore:
+    path: "/images/custom_emojis/epicgamesstore.webp"
+    alt: "The Epic Games Store logo"
+  ethereum:
+    path: "/images/custom_emojis/ethereum.webp"
+    alt: "The Ethereum logo"
+  fedi:
+    path: "/images/custom_emojis/fedi.webp"
+    alt: "The white Fediverse logo"
+  firefox:
+    path: "/images/custom_emojis/firefox.webp"
+    alt: "The Firefox logo, which is an orange to yellow fox around a purple ball"
+  firefoxbeta:
+    path: "/images/custom_emojis/firefoxbeta.webp"
+    alt: "The Firefox Beta logo, which is the same as the Firefox logo, only with a deep light cyan blue badge in the bottom right corner with the black text 'BETA'"
+  firefoxdev:
+    path: "/images/custom_emojis/firefoxdev.webp"
+    alt: "The Firefox Developer Edition logo, which is a deep blue variant of the Firefox logo"
+  firefoxfocus:
+    path: "/images/custom_emojis/firefoxfocus.webp"
+    alt: "The Firefox Focus logo, which is an inverted (purple) variant of the Firefox logo"
+  firefoxnightly:
+    path: "/images/custom_emojis/firefoxnightly.webp"
+    alt: "The Firefox Nightly logo, which is a gradient blue to purple variant of the Firefox logo"
+  flash-l:
+    path: "/images/custom_emojis/flash-l.webp"
+    alt: "A light gray robotic dog with black joints, yellow sclera, black pupils, a yellow tail and a yellow circular light on the front chest, known as 'Flash', from the game Jetpack Joyride, looking towards the left."
+  flash-r:
+    path: "/images/custom_emojis/flash-r.webp"
+    alt: "A light gray robotic dog with black joints, yellow sclera, black pupils, a yellow tail and a yellow circular light on the front chest, known as 'Flash', from the game Jetpack Joyride, looking towards the right."
+  forgejo:
+    path: "/images/custom_emojis/forgejo.webp"
+    alt: "The Forgejo logo"
+  gdrive:
+    path: "/images/custom_emojis/gdrive.webp"
+    alt: "The Google Drive triangle logo"
+  git:
+    path: "/images/custom_emojis/git.webp"
+    alt: "The git logo"
+  github:
+    path: "/images/custom_emojis/github.webp"
+    alt: "The GitHub octocat logo"
+  gitlab:
+    path: "/images/custom_emojis/gitlab.webp"
+    alt: "The GitLab logo"
+  glitchsoc:
+    path: "/images/custom_emojis/glitchsoc.webp"
+    alt: "A glitched cube, which is the logo used by Mastodon Glitch Edition"
+  godot:
+    path: "/images/custom_emojis/godot.webp"
+    alt: "The Godot logo"
+  google:
+    path: "/images/custom_emojis/google.webp"
+    alt: "The Google 'G' logo"
+  google-gboard:
+    path: "/images/custom_emojis/google-gboard.webp"
+    alt: "The Gboard logo"
+  google-gemini:
+    path: "/images/custom_emojis/google-gemini.webp"
+    alt: "The Google Gemini logo, which is a four-corner star using a slight purple to blue horizontal gradient"
+  google-gmail:
+    path: "/images/custom_emojis/google-gmail.webp"
+    alt: "The Gmail logo"
+  google-photos:
+    path: "/images/custom_emojis/google-photos.webp"
+    alt: "The Google Photos logo"
+  google-play:
+    path: "/images/custom_emojis/google-play.webp"
+    alt: "The Google Play logo"
+  google-play-games:
+    path: "/images/custom_emojis/google-play-games.webp"
+    alt: "The Google Play Games logo"
+  google-recorder:
+    path: "/images/custom_emojis/google-recorder.webp"
+    alt: "The Google Recorder logo"
+  grapheneos:
+    path: "/images/custom_emojis/grapheneos.webp"
+    alt: "The GrapheneOS logo"
+  hackernews:
+    path: "/images/custom_emojis/hackernews.webp"
+    alt: "The Hacker News logo, which is a big thin black uppercase letter 'Y' on a white square"
+  hp:
+    path: "/images/custom_emojis/hp.webp"
+    alt: "The blue Hewlett-Packard (HP) logo"
+  html5:
+    path: "/images/custom_emojis/html5.webp"
+    alt: "The HTML 5 logo"
+  iceshrimp:
+    path: "/images/custom_emojis/iceshrimp.webp"
+    alt: "The Iceshrimp logo"
+  innertune:
+    path: "/images/custom_emojis/innertune.webp"
+    alt: "The Innertune logo, which is a light blue music note inside a dark blue bordered circle"
+  inrev:
+    path: "/images/custom_emojis/inrev.webp"
+    alt: "The black two-line text 'IN REVIEW' spelled out in the centre of a white square"
+  intel:
+    path: "/images/custom_emojis/intel.webp"
+    alt: "The Intel logo with the words 'intel' on a cyan blue square"
+  itchio:
+    path: "/images/custom_emojis/itchio.webp"
+    alt: "The Itch.Io store logo"
+  js:
+    path: "/images/custom_emojis/js.webp"
+    alt: "The JavaScript logo, which is a yellow square with big bold 'JS' text in the bottom right corner"
+  kaspersky:
+    path: "/images/custom_emojis/kaspersky.webp"
+    alt: "The Kaspersky logo, which is a black lowercase letter 'k' in the centre of a lime green hexagon with black borders"
+  kernelsu:
+    path: "/images/custom_emojis/kernelsu.webp"
+    alt: "The KernelSU logo, which is a checker tile using black and white"
+  kofi:
+    path: "/images/custom_emojis/kofi.webp"
+    alt: "The Ko-Fi logo, which is a cartoonish coffee cup with a red heart in the middle of the side of the cup"
+  lexmark:
+    path: "/images/custom_emojis/lexmark.webp"
+    alt: "The Lexmark logo"
+  liberapay:
+    path: "/images/custom_emojis/liberapay.webp"
+    alt: "The LiberaPay logo"
+  localsend:
+    path: "/images/custom_emojis/localsend.webp"
+    alt: "The LocalSend logo"
+  look4sat:
+    path: "/images/custom_emojis/look4sat.webp"
+    alt: "The Look4Sat logo"
+  lucide:
+    path: "/images/custom_emojis/lucide.webp"
+    alt: "The Lucide Icons logo"
+  luckypatcher:
+    path: "/images/custom_emojis/luckypatcher.webp"
+    alt: "The Lucky Patcher logo"
+  magisk:
+    path: "/images/custom_emojis/magisk.webp"
+    alt: "The Magisk logo"
+  mastodon:
+    path: "/images/custom_emojis/mastodon.webp"
+    alt: "The Mastodon logo, colorful"
+  mastodon-white:
+    path: "/images/custom_emojis/mastodon-white.webp"
+    alt: "The Mastodon logo, but flat white"
+  mcbedrock:
+    path: "/images/custom_emojis/mcbedrock.webp"
+    alt: "The Minecraft: Bedrock Edition logo, which is a texture of the side of the grass block"
+  mcedu:
+    path: "/images/custom_emojis/mcedu.webp"
+    alt: "The Minecraft Education (formerly known as Minecraft: Education Edition) logo, which is a texture of the side of the bookshelf block"
+  mcedupreview:
+    path: "/images/custom_emojis/mcedupreview.webp"
+    alt: "The Minecraft Education (Preview) (formerly known as Minecraft: Education Edition (Beta)) logo, which is a texture of the side of the bookshelf block, but with a few missing books"
+  mediafire:
+    path: "/images/custom_emojis/mediafire.webp"
+    alt: "The Mediafire logo, which is a white flame oriented towards the right positioned horizontally in the centre of a deep blue square"
+  megaio:
+    path: "/images/custom_emojis/megaio.webp"
+    alt: "The MEGA logo, which is a big white 'M' letter in the centre of a red circle"
+  megalodon:
+    path: "/images/custom_emojis/megalodon.webp"
+    alt: "The Megalodon logo"
+  meta:
+    path: "/images/custom_emojis/meta.webp"
+    alt: "The Meta Platforms Inc. logo"
+  microg:
+    path: "/images/custom_emojis/microg.webp"
+    alt: "The microG logo"
+  microsoft:
+    path: "/images/custom_emojis/microsoft.webp"
+    alt: "The Microsoft logo (symbol)"
+  microsoft-copilot:
+    path: "/images/custom_emojis/microsoft-copilot.webp"
+    alt: "The Microsoft Copilot logo"
+  microsoft-edge:
+    path: "/images/custom_emojis/microsoft-edge.webp"
+    alt: "The Microsoft Edge logo"
+  microsoft-windows:
+    path: "/images/custom_emojis/microsoft-windows.webp"
+    alt: "The Microsoft Windows logo"
+  mintcalc:
+    path: "/images/custom_emojis/mintcalc.webp"
+    alt: "The Mint Calculator logo"
+  missing:
+    path: "/images/custom_emojis/missing.webp"
+    alt: "A black upside-down triangle on a gray square. The triangle is somewhat segmented, suggesting an imperfection, a glitch, or that something is missing."
+  molly:
+    path: "/images/custom_emojis/molly.webp"
+    alt: "The Molly logo, which is a letter 'M' composed from only circles of various colors, on a flat purple circle chat bubble"
+  monero:
+    path: "/images/custom_emojis/monero.webp"
+    alt: "The Monero logo"
+  moshidon:
+    path: "/images/custom_emojis/moshidon.webp"
+    alt: "The Moshidon logo, which is an uppercase and a lowercase pink 'Mo' on a dark grayish purple square"
+  mull:
+    path: "/images/custom_emojis/mull.webp"
+    alt: "The Mull browser logo"
+  nextdns:
+    path: "/images/custom_emojis/nextdns.webp"
+    alt: "The NextDNS logo, which is a blue shield on a dark blue square"
+  nothing-recorder:
+    path: "/images/custom_emojis/nothing-recorder.webp"
+    alt: "Nothing recorder"
+  num1:
+    path: "/images/custom_emojis/1.webp"
+    alt: "A black number 1 in the centre of a white square"
+  num2:
+    path: "/images/custom_emojis/2.webp"
+    alt: "A black number 2 in the centre of a white square"
+  num3:
+    path: "/images/custom_emojis/3.webp"
+    alt: "A black number 3 in the centre of a white square"
+  num4:
+    path: "/images/custom_emojis/4.webp"
+    alt: "A black number 4 in the centre of a white square"
+  num5:
+    path: "/images/custom_emojis/5.webp"
+    alt: "A black number 5 in the centre of a white square"
+  num6:
+    path: "/images/custom_emojis/6.webp"
+    alt: "A black number 6 in the centre of a white square"
+  num7:
+    path: "/images/custom_emojis/7.webp"
+    alt: "A black number 7 in the centre of a white square"
+  num8:
+    path: "/images/custom_emojis/8.webp"
+    alt: "A black number 8 in the centre of a white square"
+  num9:
+    path: "/images/custom_emojis/9.webp"
+    alt: "A black number 9 in the centre of a white square"
+  num10:
+    path: "/images/custom_emojis/10.webp"
+    alt: "A black number 10 in the centre of a white square"
+  nvidia:
+    path: "/images/custom_emojis/nvidia.webp"
+    alt: "The NVIDIA logo and symbol"
+  octogon:
+    path: "/images/custom_emojis/octogon.webp"
+    alt: "A white shape of an octagon."
+  odyssey:
+    path: "/images/custom_emojis/odyssey.webp"
+    alt: "The logo of Voidbound Odyssey (Project Odyssey) written with bold red letters"
+  openttd:
+    path: "/images/custom_emojis/openttd.webp"
+    alt: "The OpenTTD logo"
+  ovpnpdnsf:
+    path: "/images/custom_emojis/ovpnpdnsf.webp"
+    alt: "The logo for 'OpenVPN for personalDNSfilter'"
+  panopticon1:
+    path: "/images/custom_emojis/panopticon1.webp"
+    alt: "An upside-down white triangle in the centre of a black square"
+  panopticon2:
+    path: "/images/custom_emojis/panopticon2.webp"
+    alt: "An upside-down white triangle seen only partially from the right side of a black square"
+  panopticon3:
+    path: "/images/custom_emojis/panopticon3.webp"
+    alt: "A gray upside-down triangle with a smaller gray upside-down triangle with thin black borders inside it, in the centre of a black square"
+  panopticon3-b:
+    path: "/images/custom_emojis/panopticon3-b.webp"
+    alt: "A gray upside-down triangle with a smaller gray upside-down triangle with thin black borders inside it, in the centre of a black square. In the smaller upside-down triangle there are two black triangles that resemble a rhomb, with text on all three sides of the outer upside-down triangle, spelling out 'BUREAU', 'IN AUCTORITATE' 'SPERAMUS', which is latin for 'IN AUTHORITY' 'WE TRUST'"
+  paypal:
+    path: "/images/custom_emojis/paypal.webp"
+    alt: "The PayPal 'PP' logo"
+  pdnsf:
+    path: "/images/custom_emojis/pdnsf.webp"
+    alt: "The personalDNSfilter"
+  perplexity:
+    path: "/images/custom_emojis/perplexity.webp"
+    alt: "The Perplexity AI logo"
+  prisonia:
+    path: "/images/custom_emojis/prisonia.webp"
+    alt: "A square letter P with thick black borders and white text, in the centre of a bright orange square. It's the initial / logo for the prison management game PRISONIA"
+  prisonia-bop:
+    path: "/images/custom_emojis/prisonia-bop.webp"
+    alt: "A light gray badge similar to badges used to resemble authorities such as the United States Central Intelligence Agency (the CIA) or the Federal Bureau of Investigations (the FBI). The text around the inside of the badge reads 'BUREAU OF PRISONS - UNIT OF CORRECTIONS'. It's a fictional badge created to resemble the fictional version of the United States Federal Bureau of Prisons for the prison management game PRISONIA"
+  prisonia-nobg:
+    path: "/images/custom_emojis/prisonia-nobg.webp"
+    alt: "A square letter P with thick black borders and white text, in the centre of a transparent square. It's the initial / logo for the prison management game PRISONIA"
+  prognoza:
+    path: "/images/custom_emojis/prognoza.webp"
+    alt: "The Prognoza weather app logo, which is a light yellow sun circle behind a gray cloud, on a white square background"
+  proshot:
+    path: "/images/custom_emojis/proshot.webp"
+    alt: "The ProShot pro photography app logo, which is a camera viewfinder"
+  radicale:
+    path: "/images/custom_emojis/radicale.webp"
+    alt: "The Radicale CalDAV & CardDAV logo, which is a cartoon art style depiction of a radish"
+  rating-adult:
+    path: "/images/custom_emojis/rating_adult.webp"
+    alt: "A rating sticker used by Vanta Interactive to indicate that a product is destined towards adults. The sticker uses a thick black letter A above smaller, thin text spelling 'ADULT', on a bright red background for the big initial, and light gray for the smaller text. The whole sticker has a thick black border around it."
+  rating-everyone:
+    path: "/images/custom_emojis/rating_everyone.webp"
+    alt: "A rating sticker used by Vanta Interactive to indicate that a product is destined towards everyone. The sticker uses a thick black letter E above smaller, thin text spelling 'EVERYONE', on a bright lime green background for the big initial, and light gray for the smaller text. The whole sticker has a thick black border around it."
+  rating-notrated:
+    path: "/images/custom_emojis/rating_notrated.webp"
+    alt: "A rating sticker used by Vanta Interactive to indicate that a product is not rated. The sticker uses two thick black letters N and R underneath, above smaller, thin text spelling 'NOT RATED', on a gray background for the big initial, and light gray for the smaller text. The whole sticker has a thick black border around it."
+  rating-teen:
+    path: "/images/custom_emojis/rating_teen.webp"
+    alt: "A rating sticker used by Vanta Interactive to indicate that a product is destined towards teenagers. The sticker uses a thick black letter T above smaller, thin text spelling 'TEEN', on a gold yellow background for the big initial, and light gray for the smaller text. The whole sticker has a thick black border around it."
+  rating-young:
+    path: "/images/custom_emojis/rating_young.webp"
+    alt: "A rating sticker used by Vanta Interactive to indicate that a product is destined towards young children. The sticker uses a thick black letter Y above smaller, thin text spelling 'YOUNG', on a bright pink background for the big initial, and light gray for the smaller text. The whole sticker has a thick black border around it."
+  razer:
+    path: "/images/custom_emojis/razer.webp"
+    alt: "The Razer green symbol"
+  revolut:
+    path: "/images/custom_emojis/revolut.webp"
+    alt: "The Revolut logo"
+  rpi:
+    path: "/images/custom_emojis/rpi.webp"
+    alt: "The Raspberry Pi 'raspberry' logo"
+  saber:
+    path: "/images/custom_emojis/saber.webp"
+    alt: "The Saber note-taking app logo, which is a thin black letter 'S' drawn on a note-it"
+  samsung-food:
+    path: "/images/custom_emojis/samsung-food.webp"
+    alt: "The Samsung Food logo"
+  samsung-health:
+    path: "/images/custom_emojis/samsung-health.webp"
+    alt: "The Samsung Health logo"
+  samsung-notes:
+    path: "/images/custom_emojis/samsung-notes.webp"
+    alt: "The Samsung Notes logo"
+  sapphire:
+    path: "/images/custom_emojis/sapphire.webp"
+    alt: "A hexagon with bright magenta background, thick black borders around its edges, and a black semibold letter S in the centre of it. It's the logo for the Vanta Interactive-developed game engine, Sapphire."
+  scrcpy:
+    path: "/images/custom_emojis/scrcpy.webp"
+    alt: "The scrcpy logo"
+  shelter:
+    path: "/images/custom_emojis/shelter.webp"
+    alt: "The Shelter app logo, which is a baby chick in an egg"
+  shizuku:
+    path: "/images/custom_emojis/shizuku.webp"
+    alt: "The Shizuku logo"
+  signal:
+    path: "/images/custom_emojis/signal.webp"
+    alt: "The Signal logo, which is a flat white circular chat bubble with a white dotted line around it, on a subtle blue to deep darker blue gradient square"
+  snapseed:
+    path: "/images/custom_emojis/snapseed.webp"
+    alt: "The Snapseed logo, which is a green leaf next to a white square"
+  stackwallet:
+    path: "/images/custom_emojis/stackwallet.webp"
+    alt: "The Stack Wallet logo"
+  steam:
+    path: "/images/custom_emojis/steam.webp"
+    alt: "The Steam logo"
+  steamdeckblackpink:
+    path: "/images/custom_emojis/steamdeckblackpink.webp"
+    alt: "The white Steam Deck symbol with the red circle, on a black square background"
+  steamdeckblue:
+    path: "/images/custom_emojis/steamdeckblue.webp"
+    alt: "The black Steam Deck symbol on a gradient blue to purple square background"
+  steamdeckpink:
+    path: "/images/custom_emojis/steamdeckpink.webp"
+    alt: "The white Steam Deck symbol on a gradient pink to red square background"
+  steamdeckwhite:
+    path: "/images/custom_emojis/steamdeckwhite.webp"
+    alt: "The black Steam Deck symbol on a white square background"
+  stremio:
+    path: "/images/custom_emojis/stremio.webp"
+    alt: "The Stremio logo"
+  telegram:
+    path: "/images/custom_emojis/telegram.webp"
+    alt: "The Telegram logo, which is a flat white paper airplane angled towards the top right, on a lighter blue circle"
+  termux:
+    path: "/images/custom_emojis/termux.webp"
+    alt: "The Termux logo, which is a terminal icon, using the '>_' characters on a black square background"
+  theotown:
+    path: "/images/custom_emojis/theotown.webp"
+    alt: "The TheoTown logo"
+  trailsense:
+    path: "/images/custom_emojis/trailsense.webp"
+    alt: "The Trail Sense logo, which is a compass pointing North, on a black circle"
+  ubuntu:
+    path: "/images/custom_emojis/ubuntu.webp"
+    alt: "The Ubuntu logo"
+  unreal:
+    path: "/images/custom_emojis/unreal.webp"
+    alt: "The flat white Unreal Engine logo"
+  vi-atp:
+    path: "/images/custom_emojis/vi-atp.webp"
+    alt: ""
+  vi-bw:
+    path: "/images/custom_emojis/vi-bw.webp"
+    alt: ""
+  vi-hngo:
+    path: "/images/custom_emojis/vi-hngo.webp"
+    alt: ""
+  vi-mg:
+    path: "/images/custom_emojis/vi-mg.webp"
+    alt: ""
+  vi-or:
+    path: "/images/custom_emojis/vi-or.webp"
+    alt: ""
+  vi-pride:
+    path: "/images/custom_emojis/vi-pride.webp"
+    alt: ""
+  visoc:
+    path: "/images/custom_emojis/visoc.webp"
+    alt: ""
+  vi-vy:
+    path: "/images/custom_emojis/vi-vy.webp"
+    alt: ""
+  vi-wb:
+    path: "/images/custom_emojis/vi-wb.webp"
+    alt: ""
+  vio-b:
+    path: "/images/custom_emojis/vio-b.webp"
+    alt: ""
+  vio-hngob:
+    path: "/images/custom_emojis/vio-hngob.webp"
+    alt: ""
+  vio-hngow:
+    path: "/images/custom_emojis/vio-hngow.webp"
+    alt: ""
+  vio-mgb:
+    path: "/images/custom_emojis/vio-mgb.webp"
+    alt: ""
+  vio-mgw:
+    path: "/images/custom_emojis/vio-mgw.webp"
+    alt: ""
+  vio-orb:
+    path: "/images/custom_emojis/vio-orb.webp"
+    alt: ""
+  vio-orw:
+    path: "/images/custom_emojis/vio-orw.webp"
+    alt: ""
+  vio-rb:
+    path: "/images/custom_emojis/vio-rb.webp"
+    alt: ""
+  vio-retrob:
+    path: "/images/custom_emojis/vio-retrob.webp"
+    alt: ""
+  vio-vyb:
+    path: "/images/custom_emojis/vio-vyb.webp"
+    alt: ""
+  vio-vyw:
+    path: "/images/custom_emojis/vio-vyw.webp"
+    alt: ""
+  vio-w:
+    path: "/images/custom_emojis/vio-w.webp"
+    alt: ""
+  vos:
+    path: "/images/custom_emojis/vos.webp"
+    alt: ""
+  vscodium:
+    path: "/images/custom_emojis/vscodium.webp"
+    alt: "The VSCodium logo, which is a blue coral on a circle white background"
+  warning:
+    path: "/images/custom_emojis/warning.webp"
+    alt: "A pixelated 'warning stripes' tile-able floor using alternate black and hazard yellow, from the prison management game PRISONIA."
+  whatsapp:
+    path: "/images/custom_emojis/whatsapp.webp"
+    alt: "The WhatsApp logo, which is a big white 'call' icon in the middle of a white circular border made to look like a circular chat bubble, on a deep light lime green square"
+  whatsappbusiness:
+    path: "/images/custom_emojis/whatsappbusiness.webp"
+    alt: "The WhatsApp Business logo, which is a big white uppercase letter 'B' in the middle of a white circular border made to look like a circular chat bubble, on a deep light lime green square"
+  xbox:
+    path: "/images/custom_emojis/xbox.webp"
+    alt: "The green XBOX symbol"
+  xbox-white:
+    path: "/images/custom_emojis/xbox-white.webp"
+    alt: "The white XBOX symbol"
+  youtube:
+    path: "/images/custom_emojis/youtube.webp"
+    alt: "The red YouTube badge logo"
+  youtube-dark:
+    path: "/images/custom_emojis/youtube_dark.webp"
+    alt: "The white YouTube badge logo on a dark square background"
+  youtube-red:
+    path: "/images/custom_emojis/youtube_red.webp"
+    alt: "The white YouTube badge logo on a red square background"
+  zen:
+    path: "/images/custom_emojis/zen.webp"
+    alt: "The orange Zen Browser logo"
+
+# Language, translations
 collections:
   en:
     output: true
     permalink: /:title
 
 t:
-    en:
-        posts: Posts
-        projects: Projects
-        games: Games
-        software: Software
-        portfolio: Portfolio
-        apps: Apps
-        about: About
-        support: Support
-        uses: Uses
-        notes: Notes
-        search: Search
-        tos: Terms of Service
-        privacy: Privacy Policy
-        status: Status
-        present: Present
-        allrights: All rights reserved.
-        readmore: Read More
-        postshead: 
-        pagenotfound: The requested page could not be found.
-        homepage: Return to the home page
-        home: Index
-        toc: Table of Contents
+  en:
+    posts: Posts
+    projects: Projects
+    games: Games
+    software: Software
+    portfolio: Portfolio
+    apps: Apps
+    about: About
+    support: Support
+    uses: Uses
+    notes: Notes
+    search: Search
+    tos: Terms of Service
+    privacy: Privacy Policy
+    status: Status
+    present: Present
+    allrights: All rights reserved.
+    readmore: Read More
+    postshead: null
+    pagenotfound: The requested page could not be found.
+    homepage: Return to the home page
+    home: Index
+    toc: Table of Contents
