@@ -14,7 +14,5 @@
 - [Portfolio](https://alextecplayz.github.io/portfolio)
 - [Vanta Interactive website](https://vantainteractive.com)
 - [Social Media - Mastodon](https://social.vantainteractive.com/@AlexTECPlayz)
-- [Social Media - Mastodon (Vanta Interactive)](https://social.vantainteractive.com/@VantaInteractive)
+- [Social Media - Mastodon (Vanta Interactive)](https://social.vantainteractive.com/@AlexTECPlayz)
 - [Social Media - YouTube](https://youtube.com/@AlexTECPlayz)
-- [Other Contact - Email](mailto:alextec70@protonmail.com)
-- [Other Contact - Email (Secondary)](mailto:alextec70@outlook.com)

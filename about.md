@@ -46,9 +46,7 @@ Currently, I am waiting for a few interviews in a couple of places, hopefully I 
 
 ## Contact
 If you have any questions, suggestions or something else, here's where you can contact me:
-- E-mail: [*alextec70@protonmail.com*](mailto:alextec70@protonmail.com) or [*alextec70@outlook.com*](mailto:alextec70@outlook.com)
 - Mastodon: [*@alextecplayz@techhub.social*](https://techhub.social/@AlexTECPlayz)
-- Matrix: [*@alextecplayz:matrix.org*](https://matrix.to/#/@alextecplayz:matrix.org) (*Note that I'm not active on Matrix, I check in once every month, but I don't use it that often*)
 
 I won't accept friend requests on Steam. Unless I really know you, there's no chance I'll accept your friend request.
 
