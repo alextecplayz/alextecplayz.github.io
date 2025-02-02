@@ -44,7 +44,7 @@ review_negativenote3:
 review_negativenote4: 
 review_negativenote5: 
 review_rating: 6
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#hitman-world-of-assassination-delisting-of-old-games">HITMAN World of Assassination, delisting of old games</a><br><a class="header-button monospace semibold" href="#freelancer">Freelancer</a><br><a class="header-button monospace semibold" href="#freelancer-improvements">Freelancer improvements</a><br><a class="header-button monospace semibold" href="#hitman-iii">HITMAN III</a><br><a class="header-button monospace semibold" href="#main-maps">Main maps</a><br><a class="header-button monospace semibold" href="#ambrose-island">Ambrose Island</a><br><a class="header-button monospace semibold" href="#vr-mode">VR mode</a><br><a class="header-button monospace semibold" href="#past-issues-that-might-still-be-issues-in-the-next-hitmanioi-game">Past issues that might still be in the next Hitman/IOI game</a><br><a class="header-button monospace semibold" href="#offline-mode">Offline mode</a><br><a class="header-button monospace semibold" href="#overall-review">Overall review</a><br><a class="header-button monospace semibold" href="#any-potential-big-updates">Any potential big updates</a><br><a class="header-button monospace semibold" href="#pricing">Pricing</a><br><a class="header-button monospace semibold" href="#still-a-negative-review">Still a negative review</a>
+toc: true
 ---
 
 ## HITMAN World of Assassination, delisting of old games

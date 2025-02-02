@@ -42,7 +42,7 @@ review_negativenote3: The game takes a MONOLITHIC 171GB of storage with all cont
 review_negativenote4: Game is EOL when it comes to updates. The game will never receive AMD FSR2, FSR3, Intel XeSS, or NVIDIA DLSS 3.5, that could massively improve performance on all systems.
 review_negativenote5: Mediocre game story with some peaks, but mostly mids and a few lows. The motifs and themes regarding propaganda, truth/lies are massively under-utilized, and it all gets ruined by the un-serious tone of the characters. Everything feels rushed, overlooked and quickly abandoned.
 review_rating: 6
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#the-good">The Good</a><br><a class="header-button monospace semibold" href="#the-bad">The Bad</a>
+toc: true
 ---
 
 | **Game** | Far Cry 6 |

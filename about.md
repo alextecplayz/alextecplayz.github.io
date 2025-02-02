@@ -40,6 +40,7 @@ I'm also slightly interested in stuff like hormones, psychology and how the huma
 
 I worked for a month as an on-site freelancer at a small hospital's laboratory section, I worked in Excel, Word, registered lab test results and adapted the majority of a general management standard to a newer standard for a lab inspection (dozens and dozens of documents). Before this, I already worked with an acquaintance who works there, on the same kind of documents.
 
+// To be updated February 3, when I sign the contract at my new workplace.
 Currently, I am waiting for a few interviews in a couple of places, hopefully I get a full-time job by the end of the year, because I want to start HRT as soon as possible. *(If you're from Romania, or specifically Transylvania, maybe even from Cluj, and know an LGBTQIA+-friendly doctor that can prescribe me HRT, feel free to contact me, I'd appreciate this a lot.)*
 
 **I am open to work** if you want a no-frills website using static generators such as Jekyll, with just enough JS for fancier stuff, no tracking or analytics provided. If you're interested, [contact me](#contact), and we'll have a quick chat to see if I'm up for the task.

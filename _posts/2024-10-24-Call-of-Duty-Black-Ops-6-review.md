@@ -44,7 +44,7 @@ review_negativenote3:
 review_negativenote4: 
 review_negativenote5: 
 review_rating: 8
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#soundtrack">Soundtrack</a><br><a class="header-button monospace semibold" href="#story">Story</a><br>
+toc: true
 ---
 
 **SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**

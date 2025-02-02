@@ -22,7 +22,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#specifications">Specifications</a><br><a class="header-button monospace semibold" href="#cameras">Cameras</a><br><a class="header-button monospace semibold" href="#the-new-tensor-chip">The new Tensor chip</a><br><a class="header-button monospace semibold" href="#battery">Battery</a><br><a class="header-button monospace semibold" href="#my-opinion">My Opinion</a>
+toc: true
 ---
 
 *After months of waiting for official news from Google on the Pixel 6 lineup, Google broke the silence with some pretty promising words, like the phone's capabilities and specifications, along with a release date: this fall. Both the Google Pixel 6 and the 6 Pro will be powered by Google's new SOC (System-on-Chip), Tensor, which Google claims to be a competitor to the latest chips from Qualcomm, Huawei, Apple and Samsung.*

@@ -2,6 +2,8 @@
 .hintrc
 /.ignore/
 .vscode
+.env
+.env-licensekeys
 
 wiki
 

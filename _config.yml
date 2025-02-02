@@ -36,6 +36,9 @@ exclude:
   - serve
   - serve-dev
   - _disabled_plugins
+  - New Text File.txt
+  - .env
+  - .env-licensekeys
 
 include:
   - .well-known

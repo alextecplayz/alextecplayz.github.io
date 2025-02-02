@@ -23,7 +23,7 @@ image_banner_alt: A screenshot of Minecraft using shaders and the Terralith terr
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#what-does-terralith-add">What does Terralith add?</a><br><a class="header-button monospace semibold" href="#review">Review</a><br><a class="header-button monospace semibold" href="#gallery">Gallery</a><br><a class="header-button monospace semibold" href="#final-words-on-the-datapack">Final words on the datapack</a>
+toc: true
 ---
 
 *I stumbled upon one of AsianHalfSquat's videos, where he showcased a new datapack that is, in my opinion, the holy grail of Minecraft world generation. Combine this with something like Complementary Shaders, and you've got yourself an amazing time in Minecraft.*

@@ -22,7 +22,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#pros-and-cons">Pros and Cons</a><br><a class="header-button monospace semibold" href="#cameras">Cameras</a><br><a class="header-button monospace semibold" href="#design">Design</a><br><a class="header-button monospace semibold" href="#battery">Battery</a><br><a class="header-button monospace semibold" href="#performance">Performance</a><br><a class="header-button monospace semibold" href="#variant-comparison">Variant comparison</a><br><a class="header-button monospace semibold" href="#conclusion">Conclusion</a>
+toc: true
 ---
 
 *This June's A22 5G is looking impressive on paper, but the software just isn't there. I bought this phone a week ago, it's better in some cases, but sometimes worse than my A10.*

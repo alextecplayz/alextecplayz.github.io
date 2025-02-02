@@ -27,7 +27,7 @@ metadata_proglang:
 metadata_platforms:
 metadata_timespan:
 highlight: true
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#preface--what-im-talking-about">Preface | What I'm talking about</a><br><a class="header-button monospace semibold" href="#introduction--what-are-matrices">Introduction | What are matrices?</a><br><a class="header-button monospace semibold" href="#matrices-in-popular-games">Matrices in popular games</a><br><a class="header-button monospace semibold" href="#matrices-in-unreal-engine-5">Matrices in Unreal Engine 5</a><br><a class="header-button monospace semibold" href="#conclusion">Conclusion</a><br>
+toc: true
 ---
 
 *Mathematics and matrices play a crucial role in the development and design of modern video games. From character movement and animation to physics and lighting, math is at the heart of many of the features and functions we take for granted in today's games. In this article, we will take a closer look at the use of math and matrices in video games, and explore how the latest version of the Unreal Engine, Unreal Engine 5, makes use of these important tools to create stunning and immersive game worlds.*
@@ -96,10 +96,8 @@ struct CMatrix
 	float	Position	[3];	// 0x30 || 48
 };
 {% endhighlight %}
-‎
-Text source ([Pastebin](https://pastebin.com/f5ed36b9))
 
-‎
+Text source ([Pastebin](https://pastebin.com/f5ed36b9))
 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house.">
@@ -116,14 +114,14 @@ Here's another example, this time with the struct of a vehicle, where properties
 // CVehicle (size 0xA18 || 2584)
 // Structure used to store information on vehicles in use
 // ------------------
-‎
+
 struct CVehicle
 {
-	float	Mass		// 0x8C || 140
-	unsigned char	PrimaryColours	[2];	// 0x434 || 1076
+	float		Mass				// 0x8C || 140
+	unsigned char	PrimaryColours		[2];	// 0x434 || 1076
 	unsigned char	SecondaryColours	[2];	// 0x436 || 1078
-	CPed*	PedsInVehicle	[8];	// 0x460 || 1120 (Driver is the first)
-	float	Health;			// 0x4C0 || 1216
+	CPed*		PedsInVehicle		[8];	// 0x460 || 1120 (Driver is the first)
+	float		Health;				// 0x4C0 || 1216
 };
 {% endhighlight %}
 

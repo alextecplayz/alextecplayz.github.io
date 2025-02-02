@@ -26,7 +26,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#apple-music">Apple Music</a><br><a class="header-button monospace semibold" href="#homepod-mini">HomePod Mini</a><br><a class="header-button monospace semibold" href="#airpods-3rd-gen">AirPods 3rd Gen</a><br><a class="header-button monospace semibold" href="#mac">Mac</a>
+toc: true
 ---
 
 ## Apple Music

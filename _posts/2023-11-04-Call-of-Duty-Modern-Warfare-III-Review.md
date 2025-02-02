@@ -43,7 +43,7 @@ review_negativenote4: Makarov seems very toned down, his face can be compared to
 review_negativenote5: The campaign as a whole is convoluted, seemingly coming to an abrupt end for whatever reason, and is generally very short. If you have played Call of Duty games before, and are quite good at the game, or trying to speedrun it, you could finish it in less than 3 hours. Regular players will finish the campaign in less than 6 hours
 review_rating: 3
 
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#tldr">TLDR</a><br><a class="header-button monospace semibold" href="#the-good">The Good</a><br><a class="header-button monospace semibold" href="#the-bad">The Bad</a>
+toc: true
 ---
 
 **SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**

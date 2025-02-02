@@ -27,7 +27,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a>
+toc: true
 ---
 *Galaxy Fold 3 5G, Flip 3 5G, Galaxy Buds 2 & Galaxy Watch 4 series were unveiled today at Samsung's Galaxy Unpacked August 2021 event.*
 

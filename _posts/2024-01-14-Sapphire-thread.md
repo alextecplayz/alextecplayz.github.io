@@ -37,7 +37,7 @@ image_banner_alt: The Sapphire Engine logo, a few engine screenshots and VSCode 
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#the-what">The What</a><br><a class="header-button monospace medium italic" href="#why-did-you-choose-the-name-sapphire">Why did you choose the name Sapphire?</a><br><a class="header-button monospace semibold" href="#the-why">The Why</a><br><a class="header-button monospace semibold" href="#the-when">The When</a><br><a class="header-button monospace semibold" href="#internal-roadmap">Internal Roadmap</a><br><a class="header-button monospace medium italic" href="#foundation">Foundation</a><br><a class="header-button monospace medium italic" href="#core">Core</a><br><a class="header-button monospace medium italic" href="#advancement-1">Advancement 1</a><br><a class="header-button monospace medium italic" href="#advancement-2">Advancement 2</a><br><a class="header-button monospace medium italic" href="#future-maintenance-expansion">Future maintenance, expansion</a>
+toc: true
 ---
 
 **NOTE:** This page may be more up-to-date than the [Vanta Interactive Docs](https://docs.vantainteractive.com/en/sapphire/) regarding Sapphire.

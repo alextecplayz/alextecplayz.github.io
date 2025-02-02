@@ -30,7 +30,7 @@ image_banner_alt: The black "VANTA" logo for Vanta Interactive, on a dark blue t
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#studio-history">Studio History</a><br><a class="header-button monospace semibold" href="#site-history">Site History</a><br><a class="header-button monospace medium" href="#version-3">Version 3</a><br><a class="header-button monospace medium" href="#version-4">Version 4</a><br><a class="header-button monospace medium" href="#version-5">Version 5</a><br><a class="header-button monospace medium" href="#version-6-present">Version 6 (Present)</a><br><a class="header-button monospace semibold" href="#future">Future</a>
+toc: true
 ---
 
 ## Studio history

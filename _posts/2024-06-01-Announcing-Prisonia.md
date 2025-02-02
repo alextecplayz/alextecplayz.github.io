@@ -24,7 +24,7 @@ image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', whit
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#the-why">The Why?</a><br><a class="header-button monospace semibold" href="#early-access">Early Access</a><br><a class="header-button monospace semibold" href="#how-much">How much?</a>
+toc: true
 ---
 
 It's time for a game announcement, no? Introducing **Prisonia**, a top-down 2D prison management game that blends mechanics from games such as Prison Architect and The Escapists 2, and builds upon them with additional features, and much more in the future.

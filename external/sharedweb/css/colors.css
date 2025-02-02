@@ -22,6 +22,8 @@
     --vantagray: #242424;
     --headerbg-dark-transparent: #1c1d2580;
 
+    --gold: #dbd13e;
+
     --pass: #5dc948;
     --warning: #f8ff9c;
     --danger: #cc565c;
@@ -34,21 +36,32 @@
 .lightgray-hover:hover, .darkgray-hover:hover {transition: 0.3s;}
 ::selection, ::-moz-selection {color: var(--black) !important; background-color: var(--accent-color) !important;}
 .accent-color {color: var(--accent-color) !important;}
+.accent-color-bg {background-color: var(--accent-color) !important;}
 .white {color: var(--white) !important;}
+.white-bg {background-color: var(--white) !important;}
 .lightgray {color: var(--lightgray) !important;}
 .lightgray-hover:hover {color: var(--lightgray) !important;}
+.lightgray-bg {background-color: var(--lightgray) !important;}
 .darkgray {color: var(--darkgray) !important;}
 .darkgray-hover:hover {color: var(--darkgray) !important;}
+.darkgray-bg {background-color: var(--darkgray) !important;}
 .black {color: var(--black) !important;}
+.black-bg {background-color: var(--black) !important;}
 .bg-transparent {background-color: var(--transparent) !important;}
+.bg-darktransparent {background-color: var(--headerbg-dark-transparent) !important;}
 .text-active {background-color: var(--accent-color) !important; color: var(--darkgray) !important;}
 .text-active:hover {color: var(--accent-color) !important; background-color: var(--darkgray) !important;}
 
 .vantagray {color: var(--vantagray) !important;}
+.vantagray-bg {background-color: var(--vantagray) !important;}
 .pass {color: var(--pass) !important;}
+.pass-bg {background-color: var(--pass) !important;}
 .warning {color: var(--warning) !important;}
+.warning-bg {background-color: var(--warning) !important;}
 .danger {color: var(--danger) !important;}
+.danger-bg {background-color: var(--danger) !important;}
 .caution {color: var(--caution) !important;}
+.caution-bg {background-color: var(--caution) !important;}
 
 .jumpgame {color: var(--jumpgame);}
 .project-mountain {color: var(--project-mountain);}

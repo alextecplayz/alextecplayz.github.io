@@ -21,7 +21,7 @@ image_banner_alt: The YouTube logo on a circular gradient with a red circle in t
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#what-is-it">What is it</a><br><a class="header-button monospace semibold" href="#flaws">Flaws</a>
+toc: true
 ---
 
 ## What is it

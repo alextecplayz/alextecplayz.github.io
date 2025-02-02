@@ -24,7 +24,7 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#january">January</a><br><a class="header-button monospace semibold" href="#february">February</a><br><a class="header-button monospace semibold" href="#march">March</a><br><a class="header-button monospace semibold" href="#april">April</a><br><a class="header-button monospace semibold" href="#may">May</a><br><a class="header-button monospace semibold" href="#june">June</a><br><a class="header-button monospace semibold" href="#july">July</a><br><a class="header-button monospace semibold" href="#august">August</a><br><a class="header-button monospace semibold" href="#september">September</a><br><a class="header-button monospace semibold" href="#october">October</a><br><a class="header-button monospace semibold" href="#november">November</a><br><a class="header-button monospace semibold" href="#december">December</a><br><a class="header-button monospace semibold" href="#2025">2025</a><br><a class="header-button monospace semibold" href="#summary">Summary</a><br>
+toc: true
 ---
 
 Happy holidays, for the remainder of the holidays that continue through for the first few days / weeks after the New Year. Another year dawns upon us all, with both things to fear, but to also be happy about (or not). In this blog post, I'll try to look back through each month of 2024, to outline what I've managed to achieve this year. I can categorically say that 2024 has been MUCH better than 2023, and I'm hoping 2025 will be better.

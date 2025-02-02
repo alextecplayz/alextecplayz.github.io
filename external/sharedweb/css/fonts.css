@@ -41,8 +41,8 @@
     --rem25: 25rem;
 }
 
-@font-face {font-family: 'Blaec'; font-display: swap; src: url('../fonts/Blaec/Blaec.woff2') format('woff2'); font-style: normal;}
-@font-face {font-family: 'Blaec'; font-display: swap; src: url('../fonts/Blaec/BlaecItalic.woff2') format('woff2'); font-style: italic;}
+@font-face {font-family: 'Blaec'; font-display: swap; src: url('../fonts/Blaec/Blaec.ttf') format('truetype'); font-style: normal;}
+@font-face {font-family: 'Blaec'; font-display: swap; src: url('../fonts/Blaec/BlaecItalic.ttf') format('truetype'); font-style: italic;}
 
 @font-face {font-family: 'Space Grotesk'; font-display: swap; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal;}
 @font-face {font-family: 'Space Grotesk'; font-display: swap; src: url('../fonts/SpaceGrotesk/SpaceGrotesk-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal;}

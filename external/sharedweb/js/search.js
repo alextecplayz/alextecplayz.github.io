@@ -250,7 +250,21 @@ if (document.getElementById('site_search')) {
         });
     
         if (!matchFound) {
-            resultsContainer.innerHTML = `<div class="flex row align-center"><p class="grotesk medium white rem1-15">No results found for "${query}". Try again or&nbsp;<a class="accent-color link rem1-15 medium" href="https://alextecplayz.github.io">Return home</a></p></div>`;
+            const noResultsMessage = document.createElement('div');
+            noResultsMessage.className = 'flex row align-center';
+
+            const messageParagraph = document.createElement('p');
+            messageParagraph.className = 'grotesk medium white rem1-15';
+            messageParagraph.textContent = `No results found for "${query}". Try again or `;
+                    
+            const homeLink = document.createElement('a');
+            homeLink.className = 'accent-color link rem1-15 medium';
+            homeLink.href = 'https://alextecplayz.github.io';
+            homeLink.textContent = 'Return home';
+                    
+            messageParagraph.appendChild(homeLink);
+            noResultsMessage.appendChild(messageParagraph);
+            resultsContainer.appendChild(noResultsMessage);
         }
 
         toggleSnippetVisibility();

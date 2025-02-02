@@ -34,6 +34,26 @@ tags:
   - Tutorials
 sitemap: false
 videos:
+  - title: "Deus Ex: Mankind Divided - End Credits Cutscene Music"
+    description: "Extracted music that plays during a cutscene during the end credits of the game, since this wasn't included in the soundtrack, unfortunately."
+    url: "https://www.youtube-nocookie.com/embed/GQTom6B4A3E"
+    date: "2025-01-24 03:20:15 +0200"
+    image_banner_link: "/images/video-thumbnails/GQTom6B4A3E.webp"
+    image_banner_alt: ""
+    type: video
+    categories:
+      - Video
+    tags:
+      - 2025
+      - Deus Ex
+      - Deus Ex series
+      - Deus Ex Mankind Divided
+      - Game
+      - Games
+      - Gaming
+      - YouTube
+      - Music
+      - Extracted music
   - title: "Call of Duty: Black Ops 6 - 'The Truth Lies' trailer music"
     description: "Credit goes to Activision and Huckvale, this seems to be a remix of the 'Traction' song from Huckvale's Bandcamp: https://huckvale.bandcamp.com/track/traction"
     url: "https://www.youtube-nocookie.com/embed/PBTfjTatoTc"

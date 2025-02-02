@@ -21,7 +21,7 @@ layout: index
 
             <p class="monospace medium lightgray rem1">Okay, but really, what do <i>I</i> do?</p>
             <p class="monospace medium lightgray rem1">I'm working on my own game engine, <a class="accent-color link" href="{{ site.baseurl }}/post/2024/01/14/Sapphire-thread.html">Sapphire</a> and <a class="accent-color link" href="https://vantainteractive.com/en/games/Prisonia">PRISONIA</a>, which runs on Sapphire, as well as <a class="accent-color link" href="{{ site.baseurl }}/portfolio#Translations">contribute to translations to projects like Penpot, Bluesky, Megalodon</a></p>
-
+            <br><br>
             <p class="monospace semibold white rem1-15">Some recommendations:</p>
             <div class="recommendations-container">
                 <div class="recommendation">
@@ -29,6 +29,9 @@ layout: index
                 </div>
                 <div class="recommendation">
                     <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/notes"><i data-lucide="notebook-text"></i> /notes</a>
+                </div>
+                <div class="recommendation">
+                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/now"><i data-lucide="history"></i> Now</a>
                 </div>
                 <div class="recommendation">
                     <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/videos"><i data-lucide="video"></i> /videos</a>
@@ -48,6 +51,9 @@ layout: index
                 <div class="recommendation">
                     <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/support"><i data-lucide="gem"></i> /support</a>
                 </div>
+                <div class="recommendation">
+                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/sitemap"><i data-lucide="map"></i> All pages</a>
+                </div>
             </div>
 
             <p class="monospace medium lightgray rem1">Or, just search on the whole website below:</p>
@@ -59,7 +65,11 @@ layout: index
 
             <p class="grotesk semibold lightgray rem1-5">Latest post:</p>
             {% assign posts=site.posts | where:"lang", page.lang %}
+            {% if site.posts.first.paidcontent %}
+            <div class="article article-paid">
+            {% else if %}
             <div class="article">
+            {% endif %}
                 <div class="article-left">
                     {% if site.posts.first.image_banner_link %}
                         <img class="article-image-size" src="{{ site.posts.first.image_banner_link }}" alt="{{ site.posts.first.image_banner_alt }}" title="{{ site.posts.first.image_banner_alt }}">
@@ -78,6 +88,9 @@ layout: index
                     </div>
                     <div class="article-categories">
                         {% for category in site.posts.first.categories %}
+                            {% if site.posts.first.paidcontent %}
+                                <a class="article-category grotesk medium rem1 article-paid" href="{{ site.baseurl }}/categories/subscribers-only-content">Subscribers-only content</a>
+                            {% endif %}
                             <a class="article-category grotesk medium rem1" href="{{ site.baseurl }}/categories/{{ category | replace: ' ', '-' | downcase }}">{{ category }}</a>{% unless forloop.last %}{% endunless %}
                         {% endfor %}
                         {% for tag in site.posts.first.tags %}
@@ -89,7 +102,11 @@ layout: index
 
             <p class="grotesk semibold lightgray rem1-5">Currently working on:</p>
             {% assign specificPost = site.posts | where: "title", "Sapphire Game Engine thread" | first %}
+            {% if specificPost.paidcontent %}
+            <div class="article article-paid">
+            {% else if %}
             <div class="article">
+            {% endif %}
                 <div class="article-left">
                     {% if specificPost.image_banner_link %}
                         <img class="article-image-size" src="{{ specificPost.image_banner_link }}" alt="{{ specificPost.image_banner_alt }}" title="{{ specificPost.image_banner_alt }}">
@@ -108,6 +125,9 @@ layout: index
                     </div>
                     <div class="article-categories">
                         {% for category in specificPost.categories %}
+                            {% if specificPost.paidcontent %}
+                                <a class="article-category grotesk medium rem1 article-paid" href="{{ site.baseurl }}/categories/subscribers-only-content">Subscribers-only content</a>
+                            {% endif %}
                             <a class="article-category grotesk medium rem1" href="{{ site.baseurl }}/categories/{{ category | replace: ' ', '-' | downcase }}">{{ category }}</a>{% unless forloop.last %}{% endunless %}
                         {% endfor %}
                         {% for tag in specificPost.tags %}

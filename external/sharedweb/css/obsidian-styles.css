@@ -2,11 +2,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 a {text-decoration: none;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block}
 body {line-height:1; font-family: 'Space Grotesk', sans-serif;}
-ol,ul { list-style:none}
+ol,ul {list-style:none}
 blockquote,q {quotes:none}
 blockquote:before,blockquote:after,q:before,q:after {content:''; content:none}
 table {border-collapse:collapse; border-spacing:0}
-body {background-color: var(--vantagray);}
+body {background: var(--vantagray);}
 
 .notice, .notice-link, .notice-link:hover, .notice-outline, .notice-offline, .notice-warning, .notice-link-warning, .notice-link-warning:hover, .header, .header-left, .header-right, .header-branding, .header-branding:hover, .header-brandname, .header-brandname:hover, .header-logo, .header-logo:hover, .header-button, .header-buttons, .header-buttons, .header-menu, .header-menu:hover, .div.horizontal-scrollbox a:hover, .button, .button:hover, .button-outline, .footer, .footer-text, .footer-copyright-text, .footer-branding, .footer-branding:hover, .footer-brandname:hover, .footer-logo:hover .footer-brandname, .footer-brandname, .footer-logo, .link-white, .link-white:hover, .subheader, .subheader-left, .subheader-right, .subheader-branding, .subheader-branding:hover, .subheader-brandname:hover, .subheader-logo:hover .subheader-brandname, .subheader-logo, .subheader-button, .subheader-button:hover, .subheader-buttons, .search-results, .searchbox:hover, .searchbox-container, .searchbox-helpers:hover, .about-pop-up .button-modal, .filters-pop-up .button-modal, .tutorial-pop-up .button-modal, .about-pop-up .pop-up-content, .filters-pop-up .pop-up-content, .tutorial-pop-up .pop-up-content, .button-search, .button-search:hover, .button-clear, .button-clear:hover, .button-tutorial, .button-tutorial:hover, .button-filters, .button-filters:hover, .button-about, .button-about:hover, .button-modal, .button-modal:hover, .searchresult, .searchresult:hover, .progress-bar-container, .progress-bar, .progress-bar-text {transition: opacity 0.3s ease-in-out;}
 
@@ -34,7 +34,7 @@ body {background-color: var(--vantagray);}
 .header-logo {width: var(--rem2-75); height: var(--rem2-75); display: flex; align-items: center; transition: transform 0.3s ease-in-out; transform: translate(0, 0); display: block; max-width: 100%; height: auto; margin: var(--rem0-1); opacity: 100%;
 }
 .header-logo:hover {opacity: 80%;}
-.logo-sticky {position: fixed; padding: var(--rem0); top: var(--rem1-5); left: var(--rem4-2); transition: transform 0.3s ease-in-out; transform: translate(-100%, 100%); z-index: 100;}
+.logo-sticky {position: fixed; padding: var(--rem0); top: var(--rem1-5); left: var(--rem4-2); transition: transform 0.3s ease-in-out; transform: translate(-100%, 100%); z-index: 100; border: 0.25rem solid var(--white);}
 .header-button {height: 100%; display: flex; flex-direction: row; align-items: center; justify-content: flex-start; font-weight: 500; line-height: 100%; color: var(--lightgray); margin-left: var(--rem0-9375); margin-right: var(--rem0-9375); padding: var(--rem0-25);}
 .header-button:hover {color: var(--accent-color);}
 .header-buttons {display: flex;}
@@ -104,7 +104,7 @@ div.horizontal-scrollbox a:hover {background: var(--accent-color); text-decorati
 .from-the-right {display: flex; align-items: flex-end;}
 .banner8831 {width: 88px !important; height: 31px !important; image-rendering: pixelated !important;}
 .pop-up { display: none; justify-content: center; align-items: center; position: fixed; overflow: auto; background-color: var(--headerbg-dark-transparent); padding: var(--rem2); transition: opacity 0.3s ease-in-out; top: 0; left: 0; right: 0; bottom: 0;}
-.pop-up-content { background-color: var(--vantagray); padding: var(--rem2); margin: auto; width: 80%; max-width: 600px; transition: opacity 0.3s ease-in-out; position: relative; border: var(--rem0-25) solid var(--lightgray);}
+.pop-up-content { background: var(--vantagray); padding: var(--rem2); margin: auto; width: 80%; max-width: 600px; transition: opacity 0.3s ease-in-out; position: relative; border: var(--rem0-25) solid var(--lightgray);}
 .settings-pop-up .button-modal {position: absolute; top: var(--rem1); right: var(--rem1); cursor: pointer;}
 .settings-pop-up .pop-up-content { position: relative;}
 .pop-up-title { padding: var(--rem1);}
