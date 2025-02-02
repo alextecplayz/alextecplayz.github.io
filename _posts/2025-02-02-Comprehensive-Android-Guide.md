@@ -19,8 +19,8 @@ tags:
   - Security
   - How-to
   - Android
-fedicomments: false
-fedipostid: 
+fedicomments: true
+fedipostid: 113936059393427853
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
 image_banner_alt: 
 metadata_proglang:
