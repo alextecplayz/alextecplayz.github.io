@@ -226,6 +226,7 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 .image-frame-buttons {position: absolute; bottom: var(--rem0-25); right: var(--rem0-25); padding: var(--rem1); gap: 4px; display: flex; flex-direction: row;}
 .image-frame-button {padding: var(--rem1); background: var(--darkgray); color: var(--lightgray); border: 0.15rem solid var(--lightgray); margin: var(--rem0-25);}
 .image-frame-button:hover {background: var(--lightgray); color: var(--darkgray); border: 0.15rem solid var(--darkgray);}
+.post-content .overflow-scroll .image-frame img {max-width: fit-content !important;}
 
 .space-evenly {justify-content: space-evenly;}
 .height-100 {height: 100%;}
