@@ -38,12 +38,13 @@ I'm also slightly interested in stuff like hormones, psychology and how the huma
 
 ## What I do as well
 
-I worked for a month as an on-site freelancer at a small hospital's laboratory section, I worked in Excel, Word, registered lab test results and adapted the majority of a general management standard to a newer standard for a lab inspection (dozens and dozens of documents). Before this, I already worked with an acquaintance who works there, on the same kind of documents.
+I worked for a month as an on-site freelancer at a small hospital's laboratory section, I worked in Excel, Word, registered lab test results and adapted the majority of a general management standard to a newer standard for a lab inspection (dozens and dozens of documents). Before this, I already worked at home with an acquaintance who works there, on the same kind of documents.
 
-// To be updated February 3, when I sign the contract at my new workplace.
-Currently, I am waiting for a few interviews in a couple of places, hopefully I get a full-time job by the end of the year, because I want to start HRT as soon as possible. *(If you're from Romania, or specifically Transylvania, maybe even from Cluj, and know an LGBTQIA+-friendly doctor that can prescribe me HRT, feel free to contact me, I'd appreciate this a lot.)*
+I now started working from February 3 at a Romanian courier shipping company, in the position of 'Dispatch', where I pretty much do just office work regarding packages and package tracking. If new orders are placed after noon (12), they're postponed until tomorrow. For the orders that are placed before that, I assign couriers based on their coverage area. That's what I did on my first day, at least. I expect to learn more, such as generating AWBs from e-mails (so, if orders aren't placed via the site/selfAWB or the app), and more kinds of orders, shipping types, other situations such as cancellations, etc. Myself included, there's 4 people in the Dispatch department. Couple more in Customer Support, and a couple more in other departments, HR and leadership. Everyone's friendly, chill and casual.
 
-**I am open to work** if you want a no-frills website using static generators such as Jekyll, with just enough JS for fancier stuff, no tracking or analytics provided. If you're interested, [contact me](#contact), and we'll have a quick chat to see if I'm up for the task.
+In the summer I'll apply to college, so if I get accepted, I'll quit working here by the end of August since they don't have part-time or hybrid/remote positions for this kind of work.
+
+And since I got this out of the way, I'll look into donating my 3.5% income tax as well, ideally I'd divide it to multiple NGOs, but I'm not sure if I'd still do that, or just support one NGO from this income tax, since it's a small % of my already rather small salary, anyway. So right now I'm divided between Starea Natiei or MozaiQ.
 
 ## Contact
 If you have any questions, suggestions or something else, here's where you can contact me:
