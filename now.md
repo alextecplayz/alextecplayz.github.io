@@ -16,6 +16,30 @@ tags:
   - Chronology
 ---
 
+#### Play queue
+
+*Sorted alphabetically*
+
+- Control: Ultimate Edition (not just for the Constructed Spaces spot, but just because it's a damn good game visually, and the architecture, the layouts, the environments are top-tier)
+- DOOM (2016) - stopped playing halfway through(?), will replay from the beginning
+- Grand Theft Auto IV: The Complete Edition - surprisingly, contrary to everyone else's experience with the PC port, GTAIV (and then later, GTAIVTC) has ran nothing but smooth. Heck, it ran great on a previous 2GB RAM computer whose RAM was corrupt, and a 512MB graphics card. Periodic replay of IV and EFLC.
+- Grand Theft Auto: San Andreas - periodic replay using mods to 'fix' the PC port by downgrading to 1.0, and bring it up to speed with modern resolutions and FPS, and restoring content
+- Half-Life 2 + Episode 1, Episode 2, Lost Coast, Portal, Portal 2 - a yearly tradition in which I play these Valve titles at least once (but usually twice or more) in a year
+- Hello Neighbor (can you believe that I have [45 HOURS on Steam](https://steamcommunity.com/id/alextecplayz/recommended/521890) in this game?)
+- HITMAN: World of Assassination (recurring)
+- Minecraft: Bedrock Edition (recurring, I've been playing it every month or so since it came out on mobile)
+- Minecraft: Story Mode (both seasons, they're average games, but if I want to also talk about the soundtracks later this year, then it only makes sense to replay the games again, plus it brings back some nostalgia from 2016 when S1 came out, good times...)
+- Portal Stories: Mel, Aperture Tag
+- Tomb Raider (2013) - stopped playing halfway through(?) because of a button mashing sequence that I couldn't perform, will replay from the beginning
+- Watch_Dogs and Watch_Dogs 2 (couldn't play WD2 back when my PC had a shit GPU, and didn't play it since)
+
+#### Watch queue
+
+*Sorted alphabetically*
+
+- [Captain America: Brave New World](https://www.imdb.com/title/tt14513804/), bet your ass I'm watching this, it seems *VERY* interesting! It really has those conspiracy undertones that I very much like, as seen by my high ratings of the campaigns of Call of Duty: Cold War and [Call of Duty: Black Ops 6](https://alextecplayz.github.io/post/2024/10/24/Call-of-Duty-Black-Ops-6-review.html)
+- [Fired on Mars](https://www.imdb.com/title/tt27507828/), seems interesting
+
 ### 2025
 
 #### February
@@ -25,6 +49,14 @@ I'm starting two mini-post series!
 - Constructed Spaces, in which I would cover game environments, how they're developed, inspired from, gameplay and player effects. So far, in my queue I've added CONTROL and Call of Duty: Black Ops 6
 - Vibes & Scores, in which I would write about game soundtracks. So far, in my queue I've added Atomic Heart, Call of Duty: Black Ops Cold War, Minecraft, Minecraft Dungeons, and both seasons of Minecraft: Story Mode (as their own separate posts).
 - HITMAN World of Assassination review (has been postponed from January)
+- Feb 8:
+  - Watched [Cassandra](https://www.imdb.com/title/tt29135600/), a good horror movie about a woman that was turned into a smart home / robot after finding out that she won't live much longer with cancer, had a malformed baby, and becoming a robot was her last wish. A family buys the house decades later and the robot turns on them gradually. It's a six-episode show that I think you *should* watch.
+  - Watched the first three episodes of [Invincible - Season 3](https://www.imdb.com/title/tt6741278/episodes/?season=3), also a fucking banger.
+  - Watched the first two episodes of [Common Side Effects](https://www.imdb.com/title/tt28093628/), it's also a banger. I'm looking forward to the conspiracy unraveling further as the show progresses.
+  - Feb 6-7 I binge watched seasons 1 and 2 of [The White Lotus](https://www.imdb.com/title/tt13406094/) in preparation for Season 3.
+- Feb 7: First week of work! We're four people in the dispatch department, the work is easy to do but can easily get boring. Thankfully, I bought myself some [headphones](https://electronics.sony.com/audio/headphones/truly-wireless-earbuds/p/wfc700n-b) and a [power bank](https://www.samsung.com/ie/mobile-accessories/battery-pack-20-000mah-beige-usb-c-eb-p4520xuegeu/), so I won't get bored on my 2h commute (45min in the morning, ~1h20 in the evening), or at work. Also did a couple more things:
+  - Listened to Odetari's latest album, [HEAVY LOVE](https://music.youtube.com/playlist?list=OLAK5uy_mKGd8f-dnooscEnPYusCpMEmOr7NXJ7Po), which is a massive banger and is now in my commute playlist
+- Feb 3: First day of work! More thoughts later in the week.
 - Feb 2: Small improvements to the site, for the new things to come:
   - Using Liquid to automatically generate the TOC instead of doing it manually
   - Lists now use vertical lines similar to `old.reddit.com` to emphasize the sublevel of the list contents
@@ -35,7 +67,7 @@ I'm starting two mini-post series!
   - Updated /external/sharedweb's highlight.js code
   - Updated /external/sharedweb's Blaec font to use TTF instead of Woff2, because it kept generating warnings
   - Also created a visual [/sitemap](https://alextecplayz.github.io/sitemap) to more easily navigate around the site
-  - This will be followed by a Vanta Interactive site update as well, to bring it up to speed with the latest Obisidan changes and guidelines
+  - This will be followed by a Vanta Interactive site update as well, to bring it up to speed with the latest Obsidian changes and guidelines
 
 #### January
 

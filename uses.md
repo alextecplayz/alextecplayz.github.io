@@ -48,6 +48,12 @@ Software, hardware and services that I use for various things, personal and prof
 - [Daily driver] Xiaomi Redmi Note 11 (4/64GB, Android 14 using PixysOS custom ROM / spes, NOT the 4G or China variant, this one uses Snapdragon 680 4G)
 - [Previous] Samsung Galaxy A10 (2/32GB, Android 11-14 using custom ROMs such as crDroid and LineageOS)
 
+## Accessories
+
+- [Sony MDR-EX15AP Wired Headphones (Black)](https://electronics.sony.com/audio/headphones/in-ear/p/mdrex15ap-b) - wired earphones, were used with my phone (for which, they sound great but they're not loud enough on public transport), they're now used with my PC and they sound absolutely dreadful after a certain range (I tried using EasyEffects to combat this, to no effect). Otherwise, they'd be great, but on Linux the audio seems to be fucked if I set the volume over 100% in GNOME, since there appears to be a sound ceiling range for the bass and some other effects where the earphones simply can't sound good. This did NOT happen on Android, and I didn't even use an app!
+- [Sony WF-C700N Truly Wireless Headphones (Green)](https://electronics.sony.com/audio/headphones/truly-wireless-earbuds/p/wfc700n-b) - wireless earphones, they sound great on my phone, using the Sony Sound Connect app, which allows me to disable sound. I'd love if Sony made earphones that had a detachable (magnetic) wire, so that I could use the earphones in a wired or wireless mode, because I'd love to use these with my PC, but since there's no bluetooth dongle, I can't, and I'm not buying a USB Bluetooth dongle (*[or am I?](https://mediagalaxy.ro/adaptor-usb-bluetooth-asus-usb-bt500-3mbps-v5-0/cpd/ADBUSBBT500/)*).
+- [Samsung 20,000 mAh Battery Pack (45W Super Fast Charging 2.0)](https://www.samsung.com/ie/mobile-accessories/battery-pack-20-000mah-beige-usb-c-eb-p4520xuegeu/) - 20,000 mAh power bank that I can carry with me in my backpack to work, so that I can ensure my phone and wireless earphones would always have enough battery. Sure, I can also just charge my phone (and I can, I did), but this would also be helpful if I ever bought a laptop or something - I plan on getting a Framework 16 someday, perhaps this summer if I have enough money? I'd buy a new keyboard and a new monitor to hook it up to, if that's the case. I'll repurpose the current PC for something, perhaps a different server, if I upgrade it to 32GB of RAM?
+
 ## Software
 
 ### Operating Systems
