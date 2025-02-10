@@ -30,8 +30,10 @@ tags:
 - Minecraft: Bedrock Edition (recurring, I've been playing it every month or so since it came out on mobile)
 - Minecraft: Story Mode (both seasons, they're average games, but if I want to also talk about the soundtracks later this year, then it only makes sense to replay the games again, plus it brings back some nostalgia from 2016 when S1 came out, good times...)
 - Portal Stories: Mel, Aperture Tag
-- Tomb Raider (2013) - stopped playing halfway through(?) because of a button mashing sequence that I couldn't perform, will replay from the beginning
 - Watch_Dogs and Watch_Dogs 2 (couldn't play WD2 back when my PC had a shit GPU, and didn't play it since)
+
+**Finished**
+- Tomb Raider (2013) - [Wrote a review as well](https://alextecplayz.github.io/post/2025/02/10/Tomb-Raider-2013-Review.html) about how shit it is. Previously stopped playing halfway through(?) because of a button mashing sequence that I couldn't perform, will replay from the beginning
 
 #### Watch queue
 
