@@ -70,8 +70,11 @@ layout: post
                 <p class="post-title rem2-5 white grotesk semibold" itemprop="name headline">{{ page.title }}</p>
                 {% if page.date %}
                     <p class="post-meta">
-                        <time class="dt-published rem1 white monospace medium" datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}
-                    </time></p>
+                        <time class="dt-published rem1 white monospace medium" datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
+                        {% if page.ledate %}
+                            <p class="dt-published rem1 lightgray monospace medium italic">Last edited on <time class="dt-edited rem1 lightgray monospace medium italic" datetime="{{ page.ledate | date: '%Y-%m-%d' }}" itemprop="dateEdited">{{ page.ledate | date: "%B %d, %Y" }}</time></p>
+                        {% endif %}
+                    </p>
                 {% endif %}
                 <p class="monospace rem1-15 lightgray">{{ page.metadata_proglang }} {{ page.metadata_platforms }} {{ page.metadata_timespan }}</p>
                 {% if page.indicator_type and page.indicator_class and page.indicator_text_onpage %}
@@ -140,22 +143,20 @@ layout: post
                         <a class="article-tag grotesk medium rem1" href="{{ site.baseurl }}/tags/{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}
                     {% endfor %}
                 </div>
+                {% if page.fedicomments %}
                 <div id="comments" class="comments-section">
                     <hr>
                     <h2 id="comments-header">Comments</h2>
                     <p class="post-text rem1-25 grotesk medium white">Comments from the Fediverse</p>
-                    {% if page.fedicomments %}
                         {% if page.fedipostid %}
                             <button class="article-button-dark button-modal grotesk medium" id="load-comments">Load comments</button>
                             <p class="post-text rem1 monospace medium lightgray italic">Note that comments may not load if the Fediverse server handling the API requests determines that too many requests were performed in a short timeframe.</p>
                             <div class="bordered hidden" id="comments-iframe-parent"></div>
                         {% else if %}
-                        <p class="post-text rem1 monospace medium lightgray">Oops, this page does not yet have an assigned post ID, which means that comments cannot be loaded!</p>
+                            <p class="post-text rem1 monospace medium lightgray">This page doesn't have a post linked on the Fediverse by its author, therefore comments cannot be displayed.</p>
                         {% endif %}
-                    {% else if %}
-                        <p class="post-text rem1 monospace medium lightgray">This page doesn't have a post linked on the Fediverse by its author, therefore comments cannot be displayed.</p>
-                    {% endif %}
                 </div>
+                {% endif %}
 
                 {% if page.license %}
                     <p>{{ page.license }}</p>

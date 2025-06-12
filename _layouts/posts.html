@@ -25,7 +25,7 @@ layout: posts
                 <div class="article-long-left">
                     {% if site.posts.first.image_banner_link %}
                         <img class="article-long-image-size" src="{{ site.posts.first.image_banner_link }}" alt="{{ site.posts.first.image_banner_alt }}" title="{{ site.posts.first.image_banner_alt }}">
-                    {% else if %}
+                    {% else %}
                         <img class="article-long-image-size" src="{{ site.baseurl }}/images/post-thumbnails/Missing.webp" alt="No thumbnail available" title="No thumbnail available">
                     {% endif %}
                 </div>
@@ -56,13 +56,17 @@ layout: posts
 
             <p class="rem2 grotesk white semibold">Also check out my various series of articles (COMING SOON):</p>
             <div class="post-series-slider">
+                <a href="{{ site.baseurl }}/categories/code-and-explore/" class="post-series-item">
+                    <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/code/codeandexplore.webp" alt="" title="">
+                    <p class="rem1 monospace white semibold">[NEW] Code & Explore</p>
+                </a>
                 <a href="{{ site.baseurl }}/categories/constructed-places/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/architecture/constructedspaces.webp" alt="" title="">
-                    <p class="rem1 monospace white semibold">Constructed Spaces</p>
+                    <p class="rem1 monospace white semibold">[SOON] Constructed Spaces</p>
                 </a>
                 <a href="{{ site.baseurl }}/categories/vibes-and-scores/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/music/vibes&scores.webp" alt="" title="">
-                    <p class="rem1 monospace white semibold">Vibes & Scores</p>
+                    <p class="rem1 monospace white semibold">[SOON] Vibes & Scores</p>
                 </a>
             </div>
 
@@ -104,6 +108,7 @@ layout: posts
                 </div>
             </div>
         {% endfor %}
+        </div>
 
         {% include footer.html %}
 </body>

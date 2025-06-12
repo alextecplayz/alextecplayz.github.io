@@ -47,6 +47,8 @@ include:
   - js
   - CHANGELOG.md
   - llms.txt
+  - cv.txt
+  - cv.pdf
 
 # Custom emojis
 emoji_map:

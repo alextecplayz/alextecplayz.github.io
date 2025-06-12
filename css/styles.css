@@ -57,7 +57,7 @@ body {position: relative; width: 100%; height: 100%; overflow-x: hidden;}
 .article-tag:hover {border: var(--rem0-15) solid var(--white) !important; color: var(--white) !important; background-color: var(--vantagray) !important;}
 .article-category .emoji, .article-tag .emoji {margin-top: unset !important; margin-bottom: unset !important;}
 .post .article-category, .post .article-tag {text-decoration: none !important; display: flex; flex-shrink: 0; flex-direction: row; justify-content: center; align-content: center; padding: var(--rem0-75); gap: 5px;}
-.article-paid {border: 0.15rem solid var(--gold) !important;}
+.article-paid {border: 0.15rem solid var(--gold) !important; max-width: unset !important; word-break: normal; line-break: normal;}
 
 .article-button-container {display: flex; padding: 0rem;}
 .article .article-button-container .article-button-light:last-of-type, .article-long .article-button-container .article-button-light:last-of-type, .article-button-container .article-button-dark:last-of-type {width: 50% !important;}
@@ -104,7 +104,9 @@ label {cursor: pointer; display: inline-block;}
 .show {display:block !important;}
 .text-spacing {padding-top: var(--rem0-5); padding-bottom: var(--rem0-5);}
 .flex {display: flex !important;}
-.noflex {display: inline;}
+.flex-inline {display: inline-flex;}
+.noflex-block {display: block;}
+.noflex-inline {display: inline;}
 .button-margin-left {margin-left: var(--rem0-5);}
 .button-margin-right {margin-right: var(--rem0-5);}
 .section-title, .section-permalink {padding: var(--rem0-5);}
@@ -187,6 +189,7 @@ label {cursor: pointer; display: inline-block;}
 .footnote::before {content: "["; font-variant-position: super;}
 .footnote::after {content: "]"; font-variant-position: super;}
 .footnotes {font-style: italic; font-size: var(--rem1);}
+.footnotes::before {content: 'Footnotes'; font-family: 'Space Mono'; font-weight: 700; font-style: normal !important; font-size: var(--rem1-5) !important; color: var(--caution) !important;}
 .emoji {height: var(--rem1-25) !important; width: var(--rem1-25) !important; margin-bottom: -4px; object-fit: contain !important;}
 .emoji:hover {opacity: 1 !important;}
 

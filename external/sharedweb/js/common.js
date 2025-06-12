@@ -328,6 +328,14 @@ if (hasFeature("sitesettings")) {
                     root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
                     root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
                 break;
+                case 'theme_brightbook':
+                    root.style.setProperty('--black', '#ffffff'); root.style.setProperty('--white', '#6b5949');
+                    root.style.setProperty('--darkgray', '#ead7c2'); root.style.setProperty('--lightgray', '#6b5949');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#cc4fad');
+                    root.style.setProperty('--magenta', '#99099e'); root.style.setProperty('--vantagray', '#f5ebe1');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#ed333b');
+                    root.style.setProperty('--caution', '#ff7800'); root.style.setProperty('--pass', '#41a82c');
+                break;
                 case 'theme_sunnyocean':
                     root.style.setProperty('--black', '#90e0ef'); root.style.setProperty('--white', '#023e8a');
                     root.style.setProperty('--darkgray', '#ade8f4'); root.style.setProperty('--lightgray', '#03045e');
