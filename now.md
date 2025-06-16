@@ -33,13 +33,13 @@ tags:
 - Watch_Dogs and Watch_Dogs 2 (couldn't play WD2 back when my PC had a shit GPU, and didn't play it since)
 
 **Finished**
-- Tomb Raider (2013) - [Wrote a review as well](https://alextecplayz.github.io/post/2025/02/10/Tomb-Raider-2013-Review.html) about how shit it is. Previously stopped playing halfway through(?) because of a button mashing sequence that I couldn't perform, will replay from the beginning
+- Tomb Raider (2013) - [Wrote a review as well](https://alextecplayz.com/post/2025/02/10/Tomb-Raider-2013-Review.html) about how shit it is. Previously stopped playing halfway through(?) because of a button mashing sequence that I couldn't perform, will replay from the beginning
 
 #### Watch queue
 
 *Sorted alphabetically*
 
-- [Captain America: Brave New World](https://www.imdb.com/title/tt14513804/), bet your ass I'm watching this, it seems *VERY* interesting! It really has those conspiracy undertones that I very much like, as seen by my high ratings of the campaigns of Call of Duty: Cold War and [Call of Duty: Black Ops 6](https://alextecplayz.github.io/post/2024/10/24/Call-of-Duty-Black-Ops-6-review.html)
+- [Captain America: Brave New World](https://www.imdb.com/title/tt14513804/), bet your ass I'm watching this, it seems *VERY* interesting! It really has those conspiracy undertones that I very much like, as seen by my high ratings of the campaigns of Call of Duty: Cold War and [Call of Duty: Black Ops 6](https://alextecplayz.com/post/2024/10/24/Call-of-Duty-Black-Ops-6-review.html)
 - [Fired on Mars](https://www.imdb.com/title/tt27507828/), seems interesting
 
 ### 2025
@@ -64,11 +64,11 @@ I'm starting two mini-post series!
   - Lists now use vertical lines similar to `old.reddit.com` to emphasize the sublevel of the list contents
   - More themes!
   - More CSS adjustments to make things even more refined.
-  - Added a [/playground](https://alextecplayz.github.io/playground) page that I use for theme and CSS testing and development
-  - Added a [/now](https://alextecplayz.github.io/now) page, I'd like to update it daily, but it probably will be updated weekly, if I don't have time at the end of the day for it
+  - Added a [/playground](https://alextecplayz.com/playground) page that I use for theme and CSS testing and development
+  - Added a [/now](https://alextecplayz.com/now) page, I'd like to update it daily, but it probably will be updated weekly, if I don't have time at the end of the day for it
   - Updated /external/sharedweb's highlight.js code
   - Updated /external/sharedweb's Blaec font to use TTF instead of Woff2, because it kept generating warnings
-  - Also created a visual [/sitemap](https://alextecplayz.github.io/sitemap) to more easily navigate around the site
+  - Also created a visual [/sitemap](https://alextecplayz.com/sitemap) to more easily navigate around the site
   - This will be followed by a Vanta Interactive site update as well, to bring it up to speed with the latest Obsidian changes and guidelines
 
 #### January

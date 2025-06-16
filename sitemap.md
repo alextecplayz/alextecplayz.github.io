@@ -16,36 +16,36 @@ tags:
   - All pages
 ---
 
-[Website index](https://alextecplayz.github.io)
-- [/ai.txt](https://alextecplayz.github.io/ai.txt) (*robots.txt, but supposedly used by AI crawlers?*)
-- [/feed.xml](https://alextecplayz.github.io/feed.xml) - RSS Feed
-- [/llms.txt](https://alextecplayz.github.io/llms.txt) (*some information and quick links to be used by LLMs*)
-- [/manifest.json](https://alextecplayz.github.io/manifest.json) - Progressive Web App manifest
-- [/robots.txt](https://alextecplayz.github.io/robots.txt)
-- [/sitemap.xml](https://alextecplayz.github.io/sitemap.xml) - Website sitemap.xml
-- **[404](https://alextecplayz.github.io/404)** - Website 404 page
-- **[/about](https://alextecplayz.github.io/about)** - About AlexTECPlayz and about the website
+[Website index](https://alextecplayz.com)
+- [/ai.txt](https://alextecplayz.com/ai.txt) (*robots.txt, but supposedly used by AI crawlers?*)
+- [/feed.xml](https://alextecplayz.com/feed.xml) - RSS Feed
+- [/llms.txt](https://alextecplayz.com/llms.txt) (*some information and quick links to be used by LLMs*)
+- [/manifest.json](https://alextecplayz.com/manifest.json) - Progressive Web App manifest
+- [/robots.txt](https://alextecplayz.com/robots.txt)
+- [/sitemap.xml](https://alextecplayz.com/sitemap.xml) - Website sitemap.xml
+- **[404](https://alextecplayz.com/404)** - Website 404 page
+- **[/about](https://alextecplayz.com/about)** - About AlexTECPlayz and about the website
 - **/categories** - Website categories index
-  - [Note category](https://alextecplayz.github.io/categories/note)
-  - [Page category](https://alextecplayz.github.io/categories/page)
-  - [Portfolio category](https://alextecplayz.github.io/categories/portfolio)
-  - [Post category](https://alextecplayz.github.io/categories/post)
-  - [Roadmap category](https://alextecplayz.github.io/categories/roadmap)
-  - [Videos category](https://alextecplayz.github.io/categories/videos)
-- **[Changelog](https://alextecplayz.github.io/CHANGELOG.html)** - Website changelog
-- **[/notes](https://alextecplayz.github.io/notes)** - Website notes index
-  - [Am I the only one who started to hate the subject “Romanian language and literature”? [reddit/18glzip]](https://alextecplayz.github.io/notes#am-i-the-only-one-who-started-to-hate-the-subject-romanian-language-and-literature-reddit18glzip)
-  - [Does anyone know what LGBT people were like back in the stone ages? [reddit/1asmc0g]](https://alextecplayz.github.io/notes#does-anyone-know-what-lgbt-people-were-like-back-in-the-stone-ages-reddit1asmc0g)
-  - [Facebook app on Android [reddit/1aw9lqi]](https://alextecplayz.github.io/notes#facebook-app-on-android-reddit1aw9lqi)
-  - [GrapheneOS better than dumb phones ? [reddit/1ah5tpt]](https://alextecplayz.github.io/notes#grapheneos-better-than-dumb-phones--reddit1ah5tpt)
-  - [How to delete a Gmail account - and take back your privacy! [reddit/1ams1hw]](https://alextecplayz.github.io/notes#how-to-delete-a-gmail-account---and-take-back-your-privacy-reddit1ams1hw)
-  - [Is it too hard for some to respect my decisions? [reddit/18pgjhp]](https://alextecplayz.github.io/notes#is-it-too-hard-for-some-to-respect-my-decisions-reddit18pgjhp)
-  - [What is the best way to clean a project to package it [reddit/18wz6kn]](https://alextecplayz.github.io/notes#what-is-the-best-way-to-clean-a-project-to-package-it-reddit18wz6kn)
-  - [Why are you still rooting your android? [reddit/1b5dhio]](https://alextecplayz.github.io/notes#why-are-you-still-rooting-your-android-reddit1b5dhio)
-- [/now](https://alextecplayz.github.io/now) - A page that chronologically lists stuff that's happening in my life, such as work, upcoming projects, etc.
-- **[/portfolio](https://alextecplayz.github.io/portfolio)** - AlexTECPlayz' portfolio
+  - [Note category](https://alextecplayz.com/categories/note)
+  - [Page category](https://alextecplayz.com/categories/page)
+  - [Portfolio category](https://alextecplayz.com/categories/portfolio)
+  - [Post category](https://alextecplayz.comories/post)
+  - [Roadmap category](https://alextecplayz.comories/roadmap)
+  - [Videos category](https://alextecplayz.com/categories/videos)
+- **[Changelog](https://alextecplayz.com/CHANGELOG.html)** - Website changelog
+- **[/notes](https://alextecplayz.com/notes)** - Website notes index
+  - [Am I the only one who started to hate the subject “Romanian language and literature”? [reddit/18glzip]](https://alextecplayz.com/notes#am-i-the-only-one-who-started-to-hate-the-subject-romanian-language-and-literature-reddit18glzip)
+  - [Does anyone know what LGBT people were like back in the stone ages? [reddit/1asmc0g]](https://alextecplayz.com/notes#does-anyone-know-what-lgbt-people-were-like-back-in-the-stone-ages-reddit1asmc0g)
+  - [Facebook app on Android [reddit/1aw9lqi]](https://alextecplayz.com/notes#facebook-app-on-android-reddit1aw9lqi)
+  - [GrapheneOS better than dumb phones ? [reddit/1ah5tpt]](https://alextecplayz.com/notes#grapheneos-better-than-dumb-phones--reddit1ah5tpt)
+  - [How to delete a Gmail account - and take back your privacy! [reddit/1ams1hw]](https://alextecplayz.com/notes#how-to-delete-a-gmail-account---and-take-back-your-privacy-reddit1ams1hw)
+  - [Is it too hard for some to respect my decisions? [reddit/18pgjhp]](https://alextecplayz.com/notes#is-it-too-hard-for-some-to-respect-my-decisions-reddit18pgjhp)
+  - [What is the best way to clean a project to package it [reddit/18wz6kn]](https://alextecplayz.com/notes#what-is-the-best-way-to-clean-a-project-to-package-it-reddit18wz6kn)
+  - [Why are you still rooting your android? [reddit/1b5dhio]](https://alextecplayz.com/notes#why-are-you-still-rooting-your-android-reddit1b5dhio)
+- [/now](https://alextecplayz.com/now) - A page that chronologically lists stuff that's happening in my life, such as work, upcoming projects, etc.
+- **[/portfolio](https://alextecplayz.com/portfolio)** - AlexTECPlayz' portfolio
   - **Games**
-    - [Announcing PRISONIA](https://alextecplayz.github.io/post/2024/06/01/Announcing-Prisonia)
+    - [Announcing PRISONIA](https://alextecplayz.com/post/2024/06/01/Announcing-Prisonia)
   - **Translations**
     - *Contributions*
       - [Catima](https://hosted.weblate.org/projects/catima/-/ro/)
@@ -67,35 +67,35 @@ tags:
   - **Videos**
     - *(check videos section at the bottom of the list)*
   - **Voxel Art**
-    - [Frosted Planet](https://alextecplayz.github.io/portfolio/frostedplanet)
-    - [Miscellaneous voxel models showcase](https://alextecplayz.github.io/portfolio/misc-voxel)
-    - [Project Anubis / AEDIS](https://alextecplayz.github.io/portfolio/anubis)
+    - [Frosted Planet](https://alextecplayz.com/portfolio/frostedplanet)
+    - [Miscellaneous voxel models showcase](https://alextecplayz.com/portfolio/misc-voxel)
+    - [Project Anubis / AEDIS](https://alextecplayz.com/portfolio/anubis)
   - **Websites**
-    - [AlexTECPlayz website](https://alextecplayz.github.io/)
+    - [AlexTECPlayz website](https://alextecplayz.com/)
     - [Vanta Interactive website](https://vantainteractive.com/)
     - [Vanta Interactive Docs website](https://docs.vantainteractive.com/)
-- **[/posts](https://alextecplayz.github.io/posts)** - Website posts index (*in descending publishing order*)
-  - [HITMAN World of Assassination - Re-Review](https://alextecplayz.github.io/post/2025/01/01/HITMANWOARereview.html)
-  - [2024 Year In Review](https://alextecplayz.github.io/post/2024/12/30/Year-In-Review.html)
-  - [Call of Duty®: Black Ops 6 - Campaign Review](https://alextecplayz.github.io/post/2024/10/24/Call-of-Duty-Black-Ops-6-review.html)
-  - [Announcing Prisonia](https://alextecplayz.github.io/post/2024/06/01/Announcing-Prisonia.html)
-  - [Vanta Interactive turns SIX!](https://alextecplayz.github.io/post/2024/04/11/Vanta-Interactive-turns-six.html)
-  - [Sapphire Game Engine thread](https://alextecplayz.github.io/post/roadmap/2024/01/14/Sapphire-thread.html)
-  - [Far Cry 6 - Review [6/10]](https://alextecplayz.github.io/post/2023/11/17/Far-Cry-6-Review.html)
-  - [Call of Duty: Modern Warfare III - Review [3/10]](https://alextecplayz.github.io/post/2023/11/04/Call-of-Duty-Modern-Warfare-III-Review.html)
-  - [HITMAN 3 / World of Assassination - Review](https://alextecplayz.github.io/post/2023/05/18/HITMAN-World-of-Assassination-Review.html)
-  - [Visual Overhaul](https://alextecplayz.github.io/post/2022/12/16/Visual-Overhaul.html)
-  - [Exploring the Use of Math and Matrices in Video Games and Unreal Engine 5](https://alextecplayz.github.io/post/2022/12/16/Math-and-Matrices-Unreal.html)
-  - [Scrap Mechanic - Review](https://alextecplayz.github.io/post/2022/12/03/Scrap-Mechanic-Review.html)
-  - [An update.](https://alextecplayz.github.io/post/2022/05/15/An-update.html)
-  - [Apple's 'Unleashed' Event 18 October - Everything revealed](https://alextecplayz.github.io/post/2021/10/18/Apple-Unleashed-Event.html)
-  - [Samsung Galaxy A22 5G Review: Good, on paper](https://alextecplayz.github.io/post/2021/10/10/Samsung-Galaxy-A22-5G-Review.html)
-  - [Galaxy Unpacked August 2021 - All reveals](https://alextecplayz.github.io/post/2021/08/11/Galaxy-Unpacked-August-2021.html)
-  - [Terralith is the culmination of Minecraft world generation, and it's a datapack!](https://alextecplayz.github.io/post/2021/08/08/Terralith-review.html)
-  - [New YouTube gesture feature, now in testing](https://alextecplayz.github.io/post/2021/08/07/New-YouTube-gesture-feature.html)
-  - [Pixel 6 Series announced](https://alextecplayz.github.io/post/2021/08/03/Pixel-6-announced.html)
-  - [HITMAN 2 Review](https://alextecplayz.github.io/post/2021/06/03/HITMAN-2-Review.html)
-- **[/privacy](https://alextecplayz.github.io/privacy)** - Website Privacy Policy
+- **[/posts](https://alextecplayz.com/posts)** - Website posts index (*in descending publishing order*)
+  - [HITMAN World of Assassination - Re-Review](https://alextecplayz.com/post/2025/01/01/HITMANWOARereview.html)
+  - [2024 Year In Review](https://alextecplayz.com/post/2024/12/30/Year-In-Review.html)
+  - [Call of Duty®: Black Ops 6 - Campaign Review](https://alextecplayz.com/post/2024/10/24/Call-of-Duty-Black-Ops-6-review.html)
+  - [Announcing Prisonia](https://alextecplayz.com/post/2024/06/01/Announcing-Prisonia.html)
+  - [Vanta Interactive turns SIX!](https://alextecplayz.com/post/2024/04/11/Vanta-Interactive-turns-six.html)
+  - [Sapphire Game Engine thread](https://alextecplayz.com/post/roadmap/2024/01/14/Sapphire-thread.html)
+  - [Far Cry 6 - Review [6/10]](https://alextecplayz.com/post/2023/11/17/Far-Cry-6-Review.html)
+  - [Call of Duty: Modern Warfare III - Review [3/10]](https://alextecplayz.com/post/2023/11/04/Call-of-Duty-Modern-Warfare-III-Review.html)
+  - [HITMAN 3 / World of Assassination - Review](https://alextecplayz.com/post/2023/05/18/HITMAN-World-of-Assassination-Review.html)
+  - [Visual Overhaul](https://alextecplayz.com/post/2022/12/16/Visual-Overhaul.html)
+  - [Exploring the Use of Math and Matrices in Video Games and Unreal Engine 5](https://alextecplayz.com/post/2022/12/16/Math-and-Matrices-Unreal.html)
+  - [Scrap Mechanic - Review](https://alextecplayz.com/post/2022/12/03/Scrap-Mechanic-Review.html)
+  - [An update.](https://alextecplayz.com/post/2022/05/15/An-update.html)
+  - [Apple's 'Unleashed' Event 18 October - Everything revealed](https://alextecplayz.com2021/10/18/Apple-Unleashed-Event.html)
+  - [Samsung Galaxy A22 5G Review: Good, on paper](https://alextecplayz.com/post/2021/10/10/Samsung-Galaxy-A22-5G-Review.html)
+  - [Galaxy Unpacked August 2021 - All reveals](https://alextecplayz.com/post/2021/08/11/Galaxy-Unpacked-August-2021.html)
+  - [Terralith is the culmination of Minecraft world generation, and it's a datapack!](https://alextecplayz.com/post/2021/08/08/Terralith-review.html)
+  - [New YouTube gesture feature, now in testing](https://alextecplayz.com/post/2021/08/07/New-YouTube-gesture-feature.html)
+  - [Pixel 6 Series announced](https://alextecplayz.com/post/2021/08/03/Pixel-6-announced.html)
+  - [HITMAN 2 Review](https://alextecplayz.com/post/2021/06/03/HITMAN-2-Review.html)
+- **[/privacy](https://alextecplayz.com/privacy)** - Website Privacy Policy
 - **/projects** (*home page and subpages work in progress*) - Website projects index
   - AEDIS (*Project Anubis*)
   - JumpGame
@@ -105,13 +105,13 @@ tags:
   - *Project Mountain*
   - *Project Odyssey*
   - *Project Vidal*
-- **[/recommends](https://alextecplayz.github.io/recommends)** - AlexTECPlayz recommends...
-- **[/search](https://alextecplayz.github.io/search)** - Website search
-- **[/sitemap](https://alextecplayz.github.io/sitemap.html)** - Website sitemap, but in a human-readable form
-- **[/support](https://alextecplayz.github.io/support)** - Support AlexTECPlayz
-- **[/terms](https://alextecplayz.github.io/terms)** - Website Terms of Service
-- **[/uses](https://alextecplayz.github.io/uses)** - AlexTECPlayz uses...
-- **[/videos](https://alextecplayz.github.io/videos)** - Website videos index (*in descending publishing order*)
+- **[/recommends](https://alextecplayz.com/recommends)** - AlexTECPlayz recommends...
+- **[/search](https://alextecplayz.com/search)** - Website search
+- **[/sitemap](https://alextecplayz.com/sitemap.html)** - Website sitemap, but in a human-readable form
+- **[/support](https://alextecplayz.com/support)** - Support AlexTECPlayz
+- **[/terms](https://alextecplayz.com/terms)** - Website Terms of Service
+- **[/uses](https://alextecplayz.com/uses)** - AlexTECPlayz uses...
+- **[/videos](https://alextecplayz.com/videos)** - Website videos index (*in descending publishing order*)
   - [Deus Ex: Mankind Divided - End Credits Cutscene Music](https://www.youtube-nocookie.com/embed/GQTom6B4A3E)
   - [Call of Duty: Black Ops 6 - 'The Truth Lies' trailer music](https://www.youtube-nocookie.com/embed/PBTfjTatoTc)
   - [UE5.3 MassAI Tutorial - NPCs, StateTrees, ZoneGraphs](https://www.youtube-nocookie.com/embed/GN1HMtmNTv4)

@@ -6,6 +6,7 @@ locale: en_US
 title: "February-May 2025"
 description: "What's been going on with me? What's with the absence?"
 date: 2025-06-09 12:37:00 +0200
+ledate: 2025-06-12 21:04:11 +0200
 indicator_type:
 indicator_class:
 indicator_text:
@@ -26,6 +27,7 @@ metadata_platforms:
 metadata_timespan:
 toc: true
 nsfw: true
+nsfw_cw: "This post mentions sexual content such as mentions of dildo use and anal play."
 ---
 
 Hello! Things have happened in these past few months - bad and good! Sorry for my absence on the blog, although this is probably somehing you're used to - if I have ANY readers, and not just rambling alone here. Either way, here's a, to-the-best-of-my-abilities recap since February.
@@ -92,3 +94,7 @@ With that said, I suppose I'm looking for work. Again. The plan is to apply to s
 <br>
 
 Thank you for reading all of this stuff. Really. It might read as a rant at times, but it's not. It's just my unfiltered mind on a hot midnight in June, wondering what the hell are my plans for the future...
+
+<br>
+
+**JUNE 12 EDIT:** I told HR on Tuesday (June 10) that I'm searching for fully remote work in IT and that I can't stay in the reception department anymore. Today, the right hand of the franchisor reached out to me after hearing that I might be quitting, and offered me my old position (at the Dispatch department), with a large salary increase (currently earning 2800 RON / €558 / $640 net pay) to a whopping 5000 RON (€995 / $1151), and that I'd start Monday. That is most definitely an offer I can't refuse. I'll see if this salary increase turns out to be true, and will update this post (and my CV) accordingly.

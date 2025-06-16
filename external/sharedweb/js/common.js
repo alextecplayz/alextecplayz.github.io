@@ -103,6 +103,26 @@ if (hasFeature("sitesettings")) {
     settingsButton.addEventListener('click', showSettingsWindow);
     settingsWindowClose.addEventListener('click', hideSettingsWindow);
 
+    if (document.getElementById('nsfwcontent-content')) {
+        const nsfwContent = document.getElementById('nsfwcontent-content');
+        const nsfwWindow = document.getElementById('nsfwcontent-window');
+        const nsfwProceed = document.getElementById('nsfw-proceed-button');
+        const nsfwHome = document.getElementById('nsfw-home-button');
+
+        function unhideNsfw() {
+            nsfwContent.classList.remove('hidden');
+            nsfwWindow.classList.remove('flex');
+            nsfwWindow.classList.add('hidden');
+        }
+
+        function goBackHome() {
+            window.history.back();
+        }
+
+        nsfwProceed.addEventListener('click', unhideNsfw);
+        nsfwHome.addEventListener('click', goBackHome);
+    }
+
     if (document.getElementById('paidcontent-content')) {
         function hexToBytes(hex) {
             const bytes = [];

@@ -219,7 +219,7 @@ Stop being a puritan. Just, stop. No one wins in this situation.
 
 Puritan politics suck ass. "Brave statements only" on this blog, I know.
 
-Let me address some stuff beforehand: If you were to check my [/about](https://alextecplayz.github.io/about#worldview) page, you'd see that I have a Worldview section where I give my broad sweeping or granular opinions on stuff, including wars, genocide, etc. Flat-out, some wars are unnecessary and genocide is one of the most reprehensible things ever. I unequivocally condemn genocide, as should anyone regardless of their political leaning, ideology, whether they're a (psycho, socio)path or not, etc.
+Let me address some stuff beforehand: If you were to check my [/about](https://alextecplayz.com/about#worldview) page, you'd see that I have a Worldview section where I give my broad sweeping or granular opinions on stuff, including wars, genocide, etc. Flat-out, some wars are unnecessary and genocide is one of the most reprehensible things ever. I unequivocally condemn genocide, as should anyone regardless of their political leaning, ideology, whether they're a (psycho, socio)path or not, etc.
 
 If I was a US citizen with a right to vote, lived in a swing state, and had to vote in the 2024 US elections, would I have voted for Biden/Harris? Abso-fucking-lutely. A non-negotiable pro-Dem vote from me.
 

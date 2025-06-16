@@ -5,9 +5,9 @@
 	"short_name": "AlexTECPlayz",
 	"id": "atp-web",
 	"description": "My site. It has a blog, portfolio and my occasional ramblings.",
-	"start_url": "https://alextecplayz.github.io",
+	"start_url": "https://alextecplayz.com",
 	"dir": "ltr",
-	"scope": "https://alextecplayz.github.io",
+	"scope": "https://alextecplayz.com",
 	"orientation": "any",
 	"display": "fullscreen",
 	"display_override": [
@@ -21,22 +21,22 @@
 	"shortcuts": [
 		{
 			"name": "Search",
-			"url": "https://alextecplayz.github.io/search",
+			"url": "https://alextecplayz.com/search",
 			"description": "Search the entire website"
 		},
 		{
 			"name": "Posts",
-			"url": "https://alextecplayz.github.io/posts",
+			"url": "https://alextecplayz.com/posts",
 			"description": "Browse all posts"
 		},
 		{
 			"name": "Portfolio",
-			"url": "https://alextecplayz.github.io/portfolio",
+			"url": "https://alextecplayz.com/portfolio",
 			"description": "Browse the portfolio"
 		},
 		{
 			"name": "Notes",
-			"url": "https://alextecplayz.github.io/notes",
+			"url": "https://alextecplayz.com/notes",
 			"description": "Browse all notes"
 		}
 	],
@@ -49,49 +49,49 @@
 	],
   	"icons": [
 		{
-			"src": "https://alextecplayz.github.io/favicon/android-chrome-192x192.png",
+			"src": "https://alextecplayz.com/favicon/android-chrome-192x192.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/android-chrome-384x384.png",
+			"src": "https://alextecplayz.com/favicon/android-chrome-384x384.png",
 			"sizes": "384x384",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/favicon-512x512.png",
+			"src": "https://alextecplayz.com/favicon/favicon-512x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/maskable_icon_x128.png",
+			"src": "https://alextecplayz.com/favicon/maskable_icon_x128.png",
 			"sizes": "128x128",
 			"type": "image/png",
 			"purpose": "maskable"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/maskable_icon_x192.png",
+			"src": "https://alextecplayz.com/favicon/maskable_icon_x192.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "maskable"
   		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/maskable_icon_x384.png",
+			"src": "https://alextecplayz.com/favicon/maskable_icon_x384.png",
 			"sizes": "384x384",
 			"type": "image/png",
 			"purpose": "maskable"
   		},
   		{
-			"src": "https://alextecplayz.github.io/favicon/maskable_icon_x512.png",
+			"src": "https://alextecplayz.com/favicon/maskable_icon_x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "maskable"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/monochrome_icon_x512.png",
+			"src": "https://alextecplayz.com/favicon/monochrome_icon_x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "monochrome"
@@ -99,210 +99,210 @@
 	],
 	"screenshots": [
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/S24U-Homepage.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/S24U-Homepage.png",
 			"sizes": "1296x2808",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/S24U-Search.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/S24U-Search.png",
 			"sizes": "1296x2808",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/S24U-Portfolio.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/S24U-Portfolio.png",
 			"sizes": "1296x2808",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/S24U-Article.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/S24U-Article.png",
 			"sizes": "1296x2808",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/S24U-About.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/S24U-About.png",
 			"sizes": "1296x2808",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/TabS10U-Homepage.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/TabS10U-Homepage.png",
 			"sizes": "2960x1848",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/TabS10U-Search.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/TabS10U-Search.png",
 			"sizes": "2960x1848",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/TabS10U-Portfolio.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/TabS10U-Portfolio.png",
 			"sizes": "2960x1848",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/TabS10U-Article.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/TabS10U-Article.png",
 			"sizes": "2960x1848",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/TabS10U-About.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/TabS10U-About.png",
 			"sizes": "2960x1848",
 			"type": "image/png",
 			"platform": "android",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iP15Pro-Homepage.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iP15Pro-Homepage.png",
 			"sizes": "1371x2970",
 			"type": "image/png",
 			"platform": "ios",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iP15Pro-Search.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iP15Pro-Search.png",
 			"sizes": "1371x2970",
 			"type": "image/png",
 			"platform": "ios",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iP15Pro-Portfolio.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iP15Pro-Portfolio.png",
 			"sizes": "1371x2970",
 			"type": "image/png",
 			"platform": "ios",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iP15Pro-Article.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iP15Pro-Article.png",
 			"sizes": "1371x2970",
 			"type": "image/png",
 			"platform": "ios",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iP15Pro-About.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iP15Pro-About.png",
 			"sizes": "1371x2970",
 			"type": "image/png",
 			"platform": "ios",
 			"form_factor": "narrow"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iPP13-Homepage.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iPP13-Homepage.png",
 			"sizes": "2960x2219",
 			"type": "image/png",
 			"platform": "ipados",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iPP13-Search.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iPP13-Search.png",
 			"sizes": "2960x2219",
 			"type": "image/png",
 			"platform": "ipados",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iPP13-Portfolio.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iPP13-Portfolio.png",
 			"sizes": "2960x2219",
 			"type": "image/png",
 			"platform": "ipados",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iPP13-Article.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iPP13-Article.png",
 			"sizes": "2960x2219",
 			"type": "image/png",
 			"platform": "ipados",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/iPP13-About.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/iPP13-About.png",
 			"sizes": "2960x2219",
 			"type": "image/png",
 			"platform": "ipados",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Homepage.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Homepage.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "windows",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Search.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Search.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "windows",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Portfolio.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Portfolio.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "windows",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Article.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Article.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "windows",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-About.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-About.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "windows",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Homepage.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Homepage.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "macos",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Search.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Search.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "macos",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Portfolio.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Portfolio.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "macos",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-Article.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-Article.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "macos",
 			"form_factor": "wide"
 		},
 		{
-			"src": "https://alextecplayz.github.io/favicon/screenshots/W10-About.png",
+			"src": "https://alextecplayz.com/favicon/screenshots/W10-About.png",
 			"sizes": "1920x1080",
 			"type": "image/png",
 			"platform": "macos",

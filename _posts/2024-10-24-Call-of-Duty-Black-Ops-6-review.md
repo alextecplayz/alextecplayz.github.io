@@ -64,7 +64,7 @@ toc: true
 | **Review score** | **8/10** |
 
 ## TLDR
-A certain improvement over Modern Warfare Ⅲ (which received a [scathing 3/10 rating from me](http://alextecplayz.github.io/post/2023/11/04/Call-of-Duty-Modern-Warfare-III-Review.html), and many others), and a certainly good campaign, Call of Duty Black Ops 6 does manage to capture that conspiratorial atmosphere yet again. While it doesn't come quite close to Black Ops Cold War's campaign (9/10 rating from me), it's still a damn good, memorable campaign. Is Call of Duty back? Yes, yes it is.
+A certain improvement over Modern Warfare Ⅲ (which received a [scathing 3/10 rating from me](https://alextecplayz.com/post/2023/11/04/Call-of-Duty-Modern-Warfare-III-Review.html), and many others), and a certainly good campaign, Call of Duty Black Ops 6 does manage to capture that conspiratorial atmosphere yet again. While it doesn't come quite close to Black Ops Cold War's campaign (9/10 rating from me), it's still a damn good, memorable campaign. Is Call of Duty back? Yes, yes it is.
 
 If I had to rate only the campaign (as I do in this article), it's an 8/10. If I had to rate the whole game (Campaign + MP + Zombies), it's a 7/10. $70 is way too much for this. If I could only pay for the campaign, it would be much better (*especially if it would be playable on Linux through Proton, at the very least*), at a $25-30 price tag. The only modern campaign I'd be willing to spend more on than this would be BOCW, which could be sold for $45 and still be damn great.
 

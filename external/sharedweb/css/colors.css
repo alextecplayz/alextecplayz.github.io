@@ -63,6 +63,11 @@
 .caution {color: var(--caution) !important;}
 .caution-bg {background-color: var(--caution) !important;}
 
+.border-pass {border: var(--rem0-25) solid var(--pass);}
+.border-warning {border: var(--rem0-25) solid var(--warning);}
+.border-danger {border: var(--rem0-25) solid var(--danger);}
+.border-caution {border: var(--rem0-25) solid var(--caution);}
+
 .jumpgame {color: var(--jumpgame);}
 .project-mountain {color: var(--project-mountain);}
 .project-hangar {color: var(--project-hangar);}

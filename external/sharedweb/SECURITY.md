@@ -11,7 +11,7 @@
 | VI 2.0-release (current)  | :white_check_mark: |
 | VI 1.0                    | :x:                |
 
-Where `ATP` refers to websites under the `AlexTECPlayz` umbrella, such as [the ATP website](https://alextecplayz.github.io), and `VI` refers to websites under the `Vanta Interactive` umbrella, such as [the main VI website](https://vantainteractive.com), [the VI legal website](https://legal.vantainteractive.com), and [the VI Docs website](https://docs.vantainteractive.com).
+Where `ATP` refers to websites under the `AlexTECPlayz` umbrella, such as [the ATP website](https://alextecplayz.com), and `VI` refers to websites under the `Vanta Interactive` umbrella, such as [the main VI website](https://vantainteractive.com), [the VI legal website](https://legal.vantainteractive.com), and [the VI Docs website](https://docs.vantainteractive.com).
 
 ## Reporting a Vulnerability
 

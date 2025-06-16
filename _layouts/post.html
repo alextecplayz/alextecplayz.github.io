@@ -101,6 +101,33 @@ layout: post
                         </div>
                     </div>
                 </div>
+                {% else if page.nsfw %}
+                <div class="post-text-nsfw">
+                    <div class="hidden" id="nsfwcontent-content">
+                        {{ content }}
+                    </div>
+                    <div class="pop-up inline-pop-up flex" id="nsfwcontent-window">
+                        <div class="pop-up-content border-danger article-nsfw">
+                            <div class="pop-up-content-titlebar">
+                                <p class="flex centered grotesk semibold rem2 white pop-up-title">NSFW warning!<i data-lucide="octagon-alert"></i></p>
+                            </div>
+                            <div class="pop-up-scrollbox">
+                                <p class="monospace white medium rem1-25">This post contains Not Safe For Work content.</p>
+                                <p class="monospace lightgray medium rem1-25">&nbsp;</p>
+                                {% if page.nsfw_cw %}
+                                <p class="monospace lightgray medium rem1-25">{{ page.nsfw_cw }}</p>
+                                {% else if %}
+                                <p class="monospace lightgray medium rem1-25">This post may content adult content such as explicit sexual language, however the post does not provide specific information as to the content presented.</p>
+                                {% endif %}
+                                <p class="monospace lightgray medium rem1-25">&nbsp;</p>
+                                <div class="flex row">
+                                    <button class="article-button-dark button-modal grotesk medium" id="nsfw-proceed-button">Proceed (I am over 18)</button>
+                                    <button class="article-button-dark button-modal grotesk medium" id="nsfw-home-button">Return to the homepage</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {% else if %}
                 <div>
                     {{ content }}

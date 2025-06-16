@@ -55,6 +55,7 @@ body {position: relative; width: 100%; height: 100%; overflow-x: hidden;}
 .article-category:hover {border: var(--rem0-15) solid var(--accent-color) !important; color: var(--accent-color) !important; background-color: var(--vantagray) !important;}
 .article-tag {display: flex; flex-shrink: 0; flex-direction: row; justify-content: center; align-content: center; border: var(--rem0-15) solid var(--lightgray); padding: var(--rem0-75); color: var(--lightgray) !important; gap: 5px;}
 .article-tag:hover {border: var(--rem0-15) solid var(--white) !important; color: var(--white) !important; background-color: var(--vantagray) !important;}
+.article-tag-nsfw {display: flex; flex-shrink: 0; flex-direction: row; justify-content: center; align-content: center; border: var(--rem0-15) solid var(--danger); padding: var(--rem0-75); color: var(--danger) !important; gap: 5px;}
 .article-category .emoji, .article-tag .emoji {margin-top: unset !important; margin-bottom: unset !important;}
 .post .article-category, .post .article-tag {text-decoration: none !important; display: flex; flex-shrink: 0; flex-direction: row; justify-content: center; align-content: center; padding: var(--rem0-75); gap: 5px;}
 .article-paid {border: 0.15rem solid var(--gold) !important; max-width: unset !important; word-break: normal; line-break: normal;}

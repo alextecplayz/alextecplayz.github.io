@@ -66,7 +66,7 @@ I entered data such as the results of the laboratory analyses in Excel and Word,
 This activity required my full attention to ensure that I did not enter invalid or non-compliant results. It also included 'regular office work', which included printing papers with the requested changes, printing entire standards dossiers, receiving, inspecting, and entering information from product sheets related to laboratory equipment and consumables, laboratory centrifuge results, and similar laboratory devices.
 
 **February-June 2025 — Customer Information Officer - Fan Courier Cluj-Napoca**\
-*Cluj-Napoca — Dispatch Department (February 3-May 26) — Full-time (8-10 hours), 2800RON / €558 / $640 (net pay) salary per month*
+*Cluj-Napoca — Dispatch Department (February 3-May 26) — Full-time (8-10 hours), 2800 RON / €558 / $640 (net pay) salary per month*
 
 The activity consisted of using 3 main programs — Microsoft Excel, and two internal programs, one used for entering pickup orders, sending/placing (changing each order's status) them to the couriers' PDAs, changing statuses, checking the pickup address, etc.; and a program for checking expeditions' statuses in the warehouse (e.g., which zone of the local warehouse, shelf), as well as generating Excel and in-program reports on statuses of courier shipments, and the streets they operate on, daily, calling or responding to courier phone calls regarding certain expeditions (e.g., if the order was picked up by another courier, if the order was cancelled, if the order was re-directed to be picked up from a different address).
 

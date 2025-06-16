@@ -1,4 +1,4 @@
-### alextecplayz.github.io
+### alextecplayz.com
 My website. It has a blog and pages.
 
 ##### Run it locally:

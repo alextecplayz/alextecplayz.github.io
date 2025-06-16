@@ -1,6 +1,6 @@
 # AlexTECPlayz posts, documentation, legal content is made available
 # for your personal, non-commercial use, subject to our Terms of Service
-# available here: https://alextecplayz.github.io/terms
+# available here: https://alextecplayz.com/terms
 
 # Use of any device, tool, or process designed to data mine or scrape the
 # content using automated means is prohibited without prior written permission
@@ -11,7 +11,7 @@
 # and/or large language models (LLMs);
 # (3) creating or providing archived or cached data sets containing our content to others; and/or
 # (4) any commercial purposes.
-# Access https://alextecplayz.github.io/about for assistance or contact information.
+# Access https://alextecplayz.com/about for assistance or contact information.
 
 # ai.txt, robots.txt use list from DarkVisitors (darkvisitors.com)
 

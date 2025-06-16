@@ -56,7 +56,7 @@ if (document.getElementById('site_search')) {
         });
     }
 
-    // Gets the query parameters from the URL (https://alextecplayz.github.io/search?query=param)
+    // Gets the query parameters from the URL (https://alextecplayz.com/search?query=param)
     function getQueryParameter(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
@@ -259,7 +259,7 @@ if (document.getElementById('site_search')) {
                     
             const homeLink = document.createElement('a');
             homeLink.className = 'accent-color link rem1-15 medium';
-            homeLink.href = 'https://alextecplayz.github.io';
+            homeLink.href = 'https://alextecplayz.com';
             homeLink.textContent = 'Return home';
                     
             messageParagraph.appendChild(homeLink);
