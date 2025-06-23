@@ -15,6 +15,16 @@ layout: post
         {% include mobile.html %}
 
         <div class="post-content post">
+            {% capture words %}
+              {{ content | number_of_words | minus: 130 }}
+            {% endcapture %}
+            {% if words contains '-' %}
+              {% assign timetoread = '0 minutes' %}
+            {% else %}
+              {% assign timetoread = words | plus: 130 | divided_by: 130 | append: ' minutes' %}
+              {% assign total_minutes = words | plus: 130 | divided_by: 130 %}
+            {% endif %}
+
             {% assign toc_html = "" %}
             {% assign headers = content | split: '<h' %}
             
@@ -68,14 +78,22 @@ layout: post
                     <p class="monospace rem1 lightgray italic">{{ page.image_banner_subtitle }}</p>
                 {% endif %}
                 <p class="post-title rem2-5 white grotesk semibold" itemprop="name headline">{{ page.title }}</p>
-                {% if page.date %}
+                <div class="flex row">
+                    {% if page.date %}
                     <p class="post-meta">
-                        <time class="dt-published rem1 white monospace medium" datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
-                        {% if page.ledate %}
-                            <p class="dt-published rem1 lightgray monospace medium italic">Last edited on <time class="dt-edited rem1 lightgray monospace medium italic" datetime="{{ page.ledate | date: '%Y-%m-%d' }}" itemprop="dateEdited">{{ page.ledate | date: "%B %d, %Y" }}</time></p>
-                        {% endif %}
+                        <time class="rem1 white monospace medium" datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
                     </p>
-                {% endif %}
+                    {% endif %}
+                    {% if page.ledate %}
+                        <p class="rem1 lightgray monospace medium italic">Last edited on <time class="dt-edited rem1 lightgray monospace medium italic" datetime="{{ page.ledate | date: '%Y-%m-%d' }}" itemprop="dateEdited">&nbsp;{{ page.ledate | date: "%B %d, %Y" }}</time></p>
+                    {% endif %}
+                    <p class="timetoread rem1 lightgray monospace medium">&nbsp;Time to read: {{ timetoread }}</p>
+                    <div class="flex row rem1 lightgray monospace medium align-center">
+                        <p class="viewcount rem1 lightgray monospace medium">&nbsp;View count:&nbsp;</p>
+                        <div class="rem1 lightgray monospace medium" id="gc-viewcount-stats"></div>
+                    </div>
+                </div>
+                
                 <p class="monospace rem1-15 lightgray">{{ page.metadata_proglang }} {{ page.metadata_platforms }} {{ page.metadata_timespan }}</p>
                 {% if page.indicator_type and page.indicator_class and page.indicator_text_onpage %}
                     <p class="{{ page.indicator_type }} {{ page.indicator_class }} notice-text vantagray monospace semibold">{{ page.indicator_text_onpage }}</p>
@@ -101,7 +119,7 @@ layout: post
                         </div>
                     </div>
                 </div>
-                {% else if page.nsfw %}
+                {% elsif page.nsfw %}
                 <div class="post-text-nsfw">
                     <div class="hidden" id="nsfwcontent-content">
                         {{ content }}
@@ -128,7 +146,7 @@ layout: post
                         </div>
                     </div>
                 </div>
-                {% else if %}
+                {% else %}
                 <div>
                     {{ content }}
                 </div>
@@ -196,6 +214,17 @@ layout: post
         </div>
         
         <!-- Schema.org -->
+        {% assign hours = total_minutes | divided_by: 60 %}
+        {% assign minutes = total_minutes | modulo: 60 %}
+
+        {% assign timetoreadschema = 'PT' %}
+        {% if hours > 0 %}
+          {% assign timetoreadschema = timetoreadschema | append: hours | append: 'H' %}
+        {% endif %}
+        {% if minutes > 0 %}
+          {% assign timetoreadschema = timetoreadschema | append: minutes | append: 'M' %}
+        {% endif %}
+
         {% if page.review %}
             <!-- https://developers.google.com/search/docs/appearance/structured-data/review-snippet#json-ld -->
             <script nonce="{{ site.data.nonce }}" type="application/ld+json">
@@ -308,7 +337,7 @@ layout: post
                         "@type": "URL",
                         "name": "{{ site.baseurl }}/{{ image_banner_link }}"
                     },
-                    "timeRequired": "{{ page.timetoread }}",
+                    "timeRequired": "{{ timetoreadschema }}",
                     "reviewRating": {
                         "@type": "Rating",
                         "ratingValue": "{{ page.review_rating }}",

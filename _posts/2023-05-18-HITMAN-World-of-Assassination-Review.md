@@ -26,7 +26,6 @@ image_banner_alt: HITMAN World of Assassination logo on a red background
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT8M
 review: true
 review_product_name: HITMAN 3
 review_product_asin: B08X26LLCD

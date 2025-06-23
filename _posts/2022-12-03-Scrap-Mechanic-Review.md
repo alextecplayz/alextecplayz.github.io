@@ -23,7 +23,6 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT8M
 review: true
 review_product_name: Scrap Mechanic
 review_product_asin: 

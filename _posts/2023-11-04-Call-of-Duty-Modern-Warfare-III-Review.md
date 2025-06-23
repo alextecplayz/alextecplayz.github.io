@@ -23,8 +23,6 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT5M
-
 review: true
 review_product_name: Call of Duty - Modern Warfare Ⅲ
 review_product_asin: B0CFTFG12B

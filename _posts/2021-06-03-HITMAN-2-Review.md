@@ -25,7 +25,6 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT6M
 review: true
 review_product_name: HITMAN 2
 review_product_asin: B082X62ZH5

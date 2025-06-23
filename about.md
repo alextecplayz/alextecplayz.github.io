@@ -22,7 +22,7 @@ toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a c
 
 Hi! I'm Alex, she/they.
 
-I'm 19, Transfem, Aromantic, Bisexual, Non-Binary, living in Romania for the time being, but I'm split between staying or moving the fuck out of the country due to general bad QoL, bad politics, corruption and climate change. I'm also an Atheist, have been since I was at least 12, but the signs were always there.
+I'm 20, Transfem, Aromantic, Bisexual, Non-Binary, living in Romania for the time being, but I'm split between staying or moving the fuck out of the country due to general bad QoL, bad politics, corruption and climate change. I'm also an Atheist, have been since I was at least 12, but the signs were always there.
 
 ## What I do
 

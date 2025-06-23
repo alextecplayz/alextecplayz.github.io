@@ -24,7 +24,6 @@ image_banner_alt:
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT10M
 review: true
 review_product_name: "Tomb Raider (2013)"
 review_product_asin: 0700099875

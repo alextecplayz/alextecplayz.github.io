@@ -26,7 +26,6 @@ image_banner_alt: The Call of Duty Black Ops 6 logo on a stripped black-orange b
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT30M
 review: true
 review_product_name: Call of Duty® - Black Ops 6
 review_product_asin: B09Z7HJL29

@@ -24,7 +24,6 @@ image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient ba
 metadata_proglang:
 metadata_platforms:
 metadata_timespan:
-timetoread: PT10M
 review: true
 review_product_name: Far Cry 6
 review_product_asin: B0BMMDR66P
