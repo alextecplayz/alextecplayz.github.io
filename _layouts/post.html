@@ -79,17 +79,20 @@ layout: post
                 {% endif %}
                 <p class="post-title rem2-5 white grotesk semibold" itemprop="name headline">{{ page.title }}</p>
                 <div class="flex row">
+                    <a class="rem1 white monospace medium" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml"><i data-lucide="rss"></i> RSS Feed</a>
                     {% if page.date %}
-                    <p class="post-meta">
+                    <p class="post-meta align-center">
+                        &nbsp;
+                        <i data-lucide="calendar"></i>
                         <time class="rem1 white monospace medium" datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
                     </p>
                     {% endif %}
                     {% if page.ledate %}
-                        <p class="rem1 lightgray monospace medium italic">Last edited on <time class="dt-edited rem1 lightgray monospace medium italic" datetime="{{ page.ledate | date: '%Y-%m-%d' }}" itemprop="dateEdited">&nbsp;{{ page.ledate | date: "%B %d, %Y" }}</time></p>
+                        <p class="rem1 lightgray monospace medium italic"><i data-lucide="calendar-clock"></i> Last edited on <time class="dt-edited rem1 lightgray monospace medium italic" datetime="{{ page.ledate | date: '%Y-%m-%d' }}" itemprop="dateEdited">&nbsp;{{ page.ledate | date: "%B %d, %Y" }}</time></p>
                     {% endif %}
-                    <p class="timetoread rem1 lightgray monospace medium">&nbsp;Time to read: {{ timetoread }}</p>
+                    <p class="timetoread rem1 lightgray monospace medium">&nbsp;<i data-lucide="hourglass"></i> Time to read: {{ timetoread }}</p>
                     <div class="flex row rem1 lightgray monospace medium align-center">
-                        <p class="viewcount rem1 lightgray monospace medium">&nbsp;View count:&nbsp;</p>
+                        <p class="viewcount rem1 lightgray monospace medium">&nbsp;<i data-lucide="eye"></i> View count:&nbsp;</p>
                         <div class="rem1 lightgray monospace medium" id="gc-viewcount-stats"></div>
                     </div>
                 </div>

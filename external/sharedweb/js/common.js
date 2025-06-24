@@ -7,19 +7,66 @@ function hasFeature(featureName) {
 var currentDate = new Date();
 var bannerContainer = document.getElementById('bannerContainer');
 
-// Probably works?
-function lazyLoadImages() {
-    const images = document.querySelectorAll('img[data-src]');
-    const observer = new IntersectionObserver((entries, observer) => {entries.forEach(entry => {
+// Better lazy load image using Intersection Observer API
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages;    
+
+  // Select only <img> elements that are children of .post-content
+  lazyloadImages = document.querySelectorAll(".post-content img");
+
+  // Set data-src from src for lazy loading
+  lazyloadImages.forEach(function(image) {
+    if (image.src) {
+      image.dataset.src = image.src; // Copy src to data-src
+      image.src = ""; // Clear the src to prevent loading
+      // THIS WILL ADD NS_BINDING_ABORTED ERRORS TO THE BROWSER CONSOLE!
+      // It's totally fine for now imo, it just cuts the image loading
+      // since it clears the src="" until it's needed.
+    }
+  });
+
+  if ("IntersectionObserver" in window) {
+    var imageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
         if (entry.isIntersecting) {
-            const image = entry.target;
-            image.src = image.getAttribute('data-src');
-            observer.disconnect();
+          var image = entry.target;
+          image.src = image.dataset.src; // Set the src from data-src
+          imageObserver.unobserve(image); // Stop observing the image
         }
-    });});
-    images.forEach(image => {observer.observe(image);});
-};
-document.addEventListener('DOMContentLoaded', () => {lazyLoadImages();});
+      });
+    });
+
+    lazyloadImages.forEach(function(image) {
+      imageObserver.observe(image); // Start observing each image
+    });
+  } else {  
+    var lazyloadThrottleTimeout;
+
+    function lazyload () {
+      if(lazyloadThrottleTimeout) {
+        clearTimeout(lazyloadThrottleTimeout);
+      }    
+
+      lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src; // Set the src from data-src
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+      }, 20);
+    }
+
+    document.addEventListener("scroll", lazyload);
+    window.addEventListener("resize", lazyload);
+    window.addEventListener("orientationChange", lazyload);
+  }
+});
 
 // Sticky, scrolling logo that attaches and detaches from the header itself.
 if (hasFeature("stickyheader")) {
