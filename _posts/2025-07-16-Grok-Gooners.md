@@ -20,7 +20,7 @@ tags:
   - Gooners
   - Slop
 fedicomments: true
-fedipostid: 
+fedipostid: 114865573167814570
 image_banner_link: /images/post-thumbnails/slop/2025-07-16-Grok-Gooners.webp
 image_banner_alt: 
 metadata_proglang:
