@@ -1,4 +1,4 @@
-/*! `cpp` grammar compiled for Highlight.js 11.10.0 */
+/*! `cpp` grammar compiled for Highlight.js 11.11.1 */
   (function(){
     var hljsGrammar = (function () {
   'use strict';
@@ -252,6 +252,8 @@
       'counting_semaphore',
       'deque',
       'false_type',
+      'flat_map',
+      'flat_set',
       'future',
       'imaginary',
       'initializer_list',
@@ -577,7 +579,7 @@
         [
           PREPROCESSOR,
           { // containers: ie, `vector <int> rooms (9);`
-            begin: '\\b(deque|list|queue|priority_queue|pair|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array|tuple|optional|variant|function)\\s*<(?!<)',
+            begin: '\\b(deque|list|queue|priority_queue|pair|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array|tuple|optional|variant|function|flat_map|flat_set)\\s*<(?!<)',
             end: '>',
             keywords: CPP_KEYWORDS,
             contains: [

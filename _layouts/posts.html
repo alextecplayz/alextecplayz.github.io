@@ -36,7 +36,7 @@ layout: posts
                     <p class="{{ site.posts.first.indicator_type }} {{ site.posts.first.indicator_class}} vantagray monospace semibold rem1">{{ site.posts.first.indicator_text }} | {{ site.posts.first.indicator_text_onpage }}</p>
                     <div class="article-button-container">
                         <a class="article-button-light grotesk medium" href="{{ site.posts.first.url }}">Read More <i data-lucide="arrow-right"></i></a>
-                        <a class="article-button-light grotesk medium" data-share-url="{{ site.posts.first.url }}" data-share-title="{{ site.posts.first.title }}" data-share-description="{{ site.posts.first.description }}" data-share-date="{{ site.posts.first.date | date_to_xmlschema }}" data-share-thumbnail="{{ site.posts.first.image_banner_link }}"><i data-lucide="share"></i> Share</a>
+                        <p class="article-button-light grotesk medium" data-share-url="{{ site.posts.first.url }}" data-share-title="{{ site.posts.first.title }}" data-share-description="{{ site.posts.first.description }}" data-share-date="{{ site.posts.first.date | date_to_xmlschema }}" data-share-thumbnail="{{ site.posts.first.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
                         {% assign categories = site.posts.first.categories %}
@@ -59,18 +59,18 @@ layout: posts
 
             <p class="rem2 grotesk white semibold">Also check out my various series of articles (COMING SOON):</p>
             <div class="post-series-slider">
-                <a href="{{ site.baseurl }}/categories/code-and-explore/" class="post-series-item">
+                <div data-href="{{ site.baseurl }}/categories/code-and-explore/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/code/codeandexplore.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[NEW] Code & Explore</p>
-                </a>
-                <a href="{{ site.baseurl }}/categories/constructed-places/" class="post-series-item">
+                </div>
+                <div data-href="{{ site.baseurl }}/categories/constructed-places/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/architecture/constructedspaces.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[SOON] Constructed Spaces</p>
-                </a>
-                <a href="{{ site.baseurl }}/categories/vibes-and-scores/" class="post-series-item">
+                </div>
+                <div data-href="{{ site.baseurl }}/categories/vibes-and-scores/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/music/vibes&scores.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[SOON] Vibes & Scores</p>
-                </a>
+                </div>
             </div>
 
             {% for post in site.posts offset:1 %}
@@ -95,7 +95,7 @@ layout: posts
                     <p class="{{ post.indicator_type }} {{ post.indicator_class}} vantagray monospace semibold rem1">{{ post.indicator_text }} | {{ post.indicator_text_onpage }}</p>
                     <div class="article-button-container">
                         <a class="article-button-light grotesk medium" href="{{ post.url }}">Read More <i data-lucide="arrow-right"></i></a>
-                        <a class="article-button-light grotesk medium" data-share-url="{{ post.url }}" data-share-title="{{ post.title }}" data-share-description="{{ post.description }}" data-share-date="{{ post.date | date_to_xmlschema }}" data-share-thumbnail="{{ post.image_banner_link }}"><i data-lucide="share"></i> Share</a>
+                        <p class="article-button-light grotesk medium" data-share-url="{{ post.url }}" data-share-title="{{ post.title }}" data-share-description="{{ post.description }}" data-share-date="{{ post.date | date_to_xmlschema }}" data-share-thumbnail="{{ post.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
                         {% for category in post.categories %}

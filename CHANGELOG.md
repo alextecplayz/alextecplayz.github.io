@@ -19,6 +19,12 @@ metadata_timespan:
 toc: <a class="header-button monospace semibold" href="#landing">Top</a><br>
 ---
 
+## [1.7.5] | Glossary, more themes (July 2025)
+ - Added a glossary, so if you're on the site, you can see clickable (and tappable, NOT hoverable!) dotted lines under words that have an entry in the glossary\
+ Examples include [[:donaldtrump:Donald Trump]], [[:elonmusk:Elon Musk]], [[:nostrbro:Nostrbros]], [[:andrewtate:Andrew Tate]]\
+ The glossary is inspired from [RichDom2185/jekyll-auto-tooltips](https://github.com/RichDom2185/jekyll-auto-tooltips), because I initially wanted to use this, but it just seemingly didn't work, so I settled for my custom solution instead, a Jekyll plugin, while keeping the same markup as before, because it's intuitive.
+ - Added more themes as well, because they look nice, and I can't get enough of customization
+
 ## [1.7.0] | Search, Mobile (Dec 25, 2024)
  - Added (almost) full-text search based on a revamped version of [project searchlight](https://github.com/alextecplayz/proto-searchlight)
  - Revamped sitemap to use custom `Vedalia` namespace with custom XML tags that make search all that more capable

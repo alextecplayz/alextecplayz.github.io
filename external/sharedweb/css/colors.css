@@ -12,7 +12,7 @@
     --project-jailbird: #ff9900;
 
     --black: #000000;
-    --darkgray: #3a3a3a;
+    --darkgray: #363636;
     --lightgray: #c5c5c5;
     --white: #ffffff;
     --transparent: #00000000;
@@ -31,6 +31,11 @@
     
     --accent-color-atp: #dd8ac8;
     --accent-color-vi : #c5c5c5;
+
+    --flag-trans: linear-gradient(180deg,rgba(79, 220, 224, 1) 0%, rgba(79, 220, 224, 1) 20%, rgba(252, 181, 255, 1) 20%, rgba(252, 181, 255, 1) 25%, rgba(252, 181, 255, 1) 40%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 60%, rgba(252, 181, 255, 1) 60%, rgba(252, 181, 255, 1) 75%, rgba(252, 181, 255, 1) 80%, rgba(79, 220, 224, 1) 80%, rgba(79, 220, 224, 1) 100%);
+    --flag-bi: linear-gradient(180deg,rgba(215, 1, 113, 1) 0%, rgba(215, 1, 113, 1) 45%, rgba(156, 79, 151, 1) 45%, rgba(156, 79, 151, 1) 65%, rgba(0, 53, 169, 1) 65%, rgba(0, 53, 169, 1) 100%);
+    --flag-aro: linear-gradient(180deg,rgba(61, 165, 66, 1) 0%, rgba(61, 165, 66, 1) 20%, rgba(167, 211, 121, 1) 20%, rgba(167, 211, 121, 1) 40%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(169, 169, 169, 1) 60%, rgba(169, 169, 169, 1) 80%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 100%);
+    --flag-nb: linear-gradient(180deg,rgba(255, 245, 52, 1) 0%, rgba(255, 245, 52, 1) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(155, 90, 208, 1) 50%, rgba(155, 90, 208, 1) 75%, rgba(46, 46, 46, 1) 75%, rgba(46, 46, 46, 1) 100%);
 }
 
 .lightgray-hover:hover, .darkgray-hover:hover {transition: 0.3s;}

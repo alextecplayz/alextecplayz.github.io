@@ -24,43 +24,21 @@ layout: index
             <br><br>
             <p class="monospace semibold white rem1-15">Some recommendations:</p>
             <div class="recommendations-container">
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/posts"><i data-lucide="newspaper"></i> /posts</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/notes"><i data-lucide="notebook-text"></i> /notes</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/now"><i data-lucide="history"></i> Now</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/videos"><i data-lucide="video"></i> /videos</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/uses"><i data-lucide="monitor-smartphone"></i> /uses</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/recommends"><i data-lucide="star"></i> /recommends</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/about"><i data-lucide="badge-info"></i> /about</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/portfolio"><i data-lucide="folder-open"></i> /portfolio</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/support"><i data-lucide="gem"></i> /support</a>
-                </div>
-                <div class="recommendation">
-                    <a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/sitemap"><i data-lucide="map"></i> All pages</a>
-                </div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/posts"><i data-lucide="newspaper"></i> /posts</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/notes"><i data-lucide="notebook-text"></i> /notes</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/now"><i data-lucide="history"></i> Now</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/videos"><i data-lucide="video"></i> /videos</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/uses"><i data-lucide="monitor-smartphone"></i> /uses</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/recommends"><i data-lucide="star"></i> /recommends</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/about"><i data-lucide="badge-info"></i> /about</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/portfolio"><i data-lucide="folder-open"></i> /portfolio</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/support"><i data-lucide="gem"></i> /support</a></div>
+                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/sitemap"><i data-lucide="map"></i> All pages</a></div>
             </div>
 
             <p class="monospace medium lightgray rem1">Or, just search on the whole website below:</p>
             <div class="searchbox-container">
-                <form id="site_search">
-                    <input class="searchbox monospace italic search-input rem1" type="text" id="search-box" name="query" placeholder="Enter your search term..."> 
-                </form>
+                <form id="site_search"><input class="searchbox monospace italic search-input rem1" type="text" id="search-box" name="query" placeholder="Enter your search term..."></form>
             </div>
 
             <p class="grotesk semibold lightgray rem1-5">Latest post:</p>
@@ -84,7 +62,7 @@ layout: index
                     <p class="{{ site.posts.first.indicator_type }} {{ site.posts.first.indicator_class}} vantagray monospace semibold rem1">{{ site.posts.first.indicator_text }} | {{ site.posts.first.indicator_text_onpage }}</p>
                     <div class="article-button-container">
                         <a class="article-button-light grotesk medium" href="{{ site.posts.first.url }}?utm_source=atp&utm_medium=site&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
-                        <a class="article-button-light grotesk medium" data-share-url="{{ site.posts.first.url }}" data-share-title="{{ site.posts.first.title }}" data-share-description="{{ site.posts.first.description }}" data-share-date="{{ site.posts.first.date | date_to_xmlschema }}" data-share-thumbnail="{{ site.posts.first.image_banner_link }}"><i data-lucide="share"></i> Share</a>
+                        <p class="article-button-light grotesk medium" data-share-url="{{ site.posts.first.url }}" data-share-title="{{ site.posts.first.title }}" data-share-description="{{ site.posts.first.description }}" data-share-date="{{ site.posts.first.date | date_to_xmlschema }}" data-share-thumbnail="{{ site.posts.first.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
                         {% for category in site.posts.first.categories %}
@@ -106,18 +84,18 @@ layout: index
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/AlexTECPlayz_GridBanner.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[NEW] Playground</p>
                 </a> -->
-                <a href="{{ site.baseurl }}/categories/code-and-explore/" class="post-series-item">
+                <div data-href="{{ site.baseurl }}/categories/code-and-explore/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/code/codeandexplore.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[SOON] Code and Explore</p>
-                </a>
-                <a href="{{ site.baseurl }}/categories/constructed-places/" class="post-series-item">
+                </div>
+                <div data-href="{{ site.baseurl }}/categories/constructed-places/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/architecture/constructedspaces.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[SOON] Constructed Spaces</p>
-                </a>
-                <a href="{{ site.baseurl }}/categories/vibes-and-scores/" class="post-series-item">
+                </div>
+                <div data-href="{{ site.baseurl }}/categories/vibes-and-scores/" class="post-series-item">
                     <img class="post-series-item-image-size" src="{{ site.baseurl }}/images/post-thumbnails/series/music/vibes&scores.webp" alt="" title="">
                     <p class="rem1 monospace white semibold">[SOON] Vibes and Scores</p>
-                </a>
+                </div>
             </div>
 
             <p class="grotesk semibold lightgray rem1-5">Currently working on:</p>
@@ -141,7 +119,7 @@ layout: index
                     <p class="{{ specificPost.indicator_type }} {{ specificPost.indicator_class}} vantagray monospace semibold rem1">{{ specificPost.indicator_text }} | {{ specificPost.indicator_text_onpage }}</p>
                     <div class="article-button-container">
                         <a class="article-button-light grotesk medium" href="{{ specificPost.url }}?utm_source=atp&utm_medium=site&utm_campaign=sapphirepromo&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
-                        <a class="article-button-light grotesk medium" data-share-url="{{ specificPost.url }}" data-share-title="{{ specificPost.title }}" data-share-description="{{ specificPost.description }}" data-share-date="{{ specificPost.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ specificPost.image_banner_link }}"><i data-lucide="share"></i> Share</a>
+                        <p class="article-button-light grotesk medium" data-share-url="{{ specificPost.url }}" data-share-title="{{ specificPost.title }}" data-share-description="{{ specificPost.description }}" data-share-date="{{ specificPost.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ specificPost.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
                         {% for category in specificPost.categories %}
@@ -174,7 +152,7 @@ layout: index
                     <p class="{{ featuredPage.indicator_type }} {{ featuredPage.indicator_class}} vantagray monospace semibold rem1">{{ featuredPage.indicator_text }} | {{ featuredPage.indicator_text_onpage }}</p>
                     <div class="article-button-container">
                         <a class="article-button-light grotesk medium" href="{{ featuredPage.url }}?utm_source=atp&utm_medium=site&utm_campaign=featuredpost&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
-                        <a class="article-button-light grotesk medium" data-share-url="{{ featuredPage.url }}" data-share-title="{{ featuredPage.title }}" data-share-description="{{ featuredPage.description }}" data-share-date="{{ featuredPage.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ featuredPage.image_banner_link }}"><i data-lucide="share"></i> Share</a>
+                        <p class="article-button-light grotesk medium" data-share-url="{{ featuredPage.url }}" data-share-title="{{ featuredPage.title }}" data-share-description="{{ featuredPage.description }}" data-share-date="{{ featuredPage.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ featuredPage.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
                         {% for category in featuredPage.categories %}
@@ -204,7 +182,7 @@ layout: index
                     <p class="{{ specificPage.indicator_type }} {{ specificPage.indicator_class}} vantagray monospace semibold rem1">{{ specificPage.indicator_text }} | {{ specificPage.indicator_text_onpage }}</p>
                     <div class="article-button-container">
                         <a class="article-button-light grotesk medium" href="{{ specificPage.url }}">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
-                        <a class="article-button-light grotesk medium" data-share-url="{{ specificPage.url }}" data-share-title="{{ specificPage.title }}" data-share-description="{{ specificPage.description }}" data-share-date="{{ specificPage.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ specificPage.image_banner_link }}"><i data-lucide="share"></i> Share</a>
+                        <p class="article-button-light grotesk medium" data-share-url="{{ specificPage.url }}" data-share-title="{{ specificPage.title }}" data-share-description="{{ specificPage.description }}" data-share-date="{{ specificPage.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ specificPage.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
                         {% for category in specificPage.categories %}

@@ -1,4 +1,4 @@
-/*! `ruby` grammar compiled for Highlight.js 11.10.0 */
+/*! `ruby` grammar compiled for Highlight.js 11.11.1 */
   (function(){
     var hljsGrammar = (function () {
   'use strict';
@@ -355,7 +355,7 @@
       },
       {
         className: 'params',
-        begin: /\|/,
+        begin: /\|(?!=)/,
         end: /\|/,
         excludeBegin: true,
         excludeEnd: true,

@@ -8,7 +8,7 @@ url: https://alextecplayz.com
 fedicommsrv: techhub.social
 fediusername: "@AlexTECPlayz@techhub.social"
 lang: en
-ver_site: 1.7.0
+ver_site: 1.7.5
 ver_obsidian: 1.7.0
 ver_searchlight: 1.7.0
 search: true
@@ -743,3 +743,171 @@ t:
     homepage: Return to the home page
     home: Index
     toc: Table of Contents
+
+tooltips:
+  # Dictionary
+  - name: awb
+    desc: Air Waybill, or more commonly known as an AWB or a [tracking number](https://en.wikipedia.org/wiki/Tracking_number), most commonly used in tracking parcels, shipments, despite the name it's based on having a [different meaning altogether](https://en.wikipedia.org/wiki/Air_waybill).
+  - name: balkanism
+    desc: |
+         circus, noise, commotion, uproar, confusion (Romanian: țigăneală, romnâeală)
+         
+         Specific in countries part of the Balkans (Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Greece, Kosovo, Montenegro, North Macedonia, Romania, Serbia, Slovenia, Turkey), balkanism is usually a collection of actions related to confusion, corruption, idiocy, mostly aimed at, or from, governments or politics as a whole. It is most often used as a negative, or a pejorative, where a country or region is in perpetual political conflict, ethnic distrust, and fragmentation.
+         
+         Example of balkanism: The July 2025 political shitshow and absolute, utter circus, happening with the Romanian education system, and the Romanian job market. Well, most things in the Romanian government are a vile, disgusting balkanism.
+  - name: fomo
+    desc: FOMO, or Fear of Missing Out, is a tactic used commonly in the games industry, predominantly in 'live service' games, or games that receive content on a timely basis. Examples of this include HITMAN World of Assassination, where Elusive Targets are vehicles for FOMO cosmetics such as map-specific suit and item reskins. Additionally, FOMO is employed through the use of content that can be exclusively obtained by watching Twitch and TikTok content related to HITMAN. [Wikipedia](https://en.wikipedia.org/wiki/Fear_of_missing_out)
+  - name: gapps
+    desc: Google Play Apps, or Google Play Services. GAPPS generally means Google Play Services, plus other Google-provided apps such as Google, YouTube, Gmail, Google Maps, that come pre-installed on an Android device that comes equipped with Google Play Services.
+  - name: griftiverse
+    desc: A broader group or topic that is filled with grifters, con artists, scams, etc. People part of such a Griftiverse include Andrew and his brother, Tristan Tate, Shiva Ayyadurai, Elon Musk, and most pseudo-science, pseudo-reality shmucks, anti-vax and snake oil sellers you'll find online.
+  - name: grok
+    desc: Grok, the AI chatbot from Elon Musk's Twitter/X. Alternatively nicknamed "Gork". Gork (noun, medical slang, usually disparaging) stands for *"a terminal patient whose brain is nonfunctional and the rest of whose body can be kept functioning only by the extensive use of mechanical devices and nutrient solutions"*. [Merriam-Webster](https://www.merriam-webster.com/medical/gork)
+  - name: idiotoid
+    desc: |
+          idiotoid (pl. idiotoids), idiotoism
+    
+          Based on the Romanian slang for dumbass-oid, idiot-oid *(Romanian tâmpitoid, tâmpitoidism, tâmpitoizi)*, can be used as a synonym for idiotic. The `-oid` suffix usually means that it's a second composition element of scientific composition with the meaning of "in the form of".
+  - name: llm
+    desc: Large Language Model, a language model trained with supervised machine learning designed for natural language processing tasks, such as language / text generation. LLMs are NOT the saving grace people in the Griftiverse make it out to be. It's NOT self-aware, it has no consciousness, creativity, etc. It's not human, intelligent, and should not be anthropomorphized. [Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)
+  - name: moscowite
+    desc: Which belongs to, Originates from, regarding Moscow or moscowits. Conjugation - Moscowite, Moscowites (Romanian conjugation - moscovit, moscoviți (masculine), moscovită, moscovite (feminine)). Synonym - Russian. French - moscovite [DexOnline](https://dexonline.ro/definitie/moscovit)
+  - name: nostrbro
+    desc: |
+         Nostrbro (plural Nostrbros) - basically libertarian techno-punk cryptobros that love using Nostr shitholes, such as [eden.nostr.land](https://njump.me/r/eden.nostr.land). God they love using this platform, it's so childish and cringe. Here are some examples of the posts you'll find on it:
+         
+         "Bandwidth" [Post](https://njump.me/nevent1qqsqqqqq74dl3gjljqg2g4qxv7cpgphssszmvvn6jd2y8uy7cexgucspz4mhxue69uhk2er9dchxummnw3ezumrpdejqygrjl9642q0p53ry7unhmpsjpan70alv82zw76qne3mqd067ppc07v0qkljk)
+         
+         "Hehe nuts" [Post](https://njump.me/nevent1qqsqqqqqpset4w2vff5cnh3nns26kp8nt924rdkn3dt6z4zw4kcva2qpz4mhxue69uhk2er9dchxummnw3ezumrpdejqygx7y700yamuegp99vyxtmqm75m47vsj9lx6vh7lyga90zr33ug9lukzus2h)
+         
+         "The people.
+          Taking my money.
+          Are not going to provide.
+          The services they are taking it for.
+          Opt out.
+          #Bitcoin
+          #Plebchain" [Post](https://njump.me/nevent1qqsqque74622g3lway449euvj80tmwzvj6hpdx8t6vvywn5xwg2vyngpz4mhxue69uhk2er9dchxummnw3ezumrpdejqygq2eegggvs4sn7xw96tdm2f35hsx06rnz3znene0pfc3w6dukjxpsnr43pm)
+          
+          "Pleb dinner now, then drinks all night. DM me." [Post](https://njump.me/nevent1qqsqz5jd537swtkxwenj3ekzzpsx7ptw6wsulsau5g6tln02asjxgycpz4mhxue69uhk2er9dchxummnw3ezumrpdejqygyshxlvw3ufdz89z5f9t94tvdgtlejxza4vw46zyagx8y3vtl4qzqruwkxd)
+          
+          "Dinner time!
+          #proofofsteak #steakchain #foodstr #castironcooking #grownostr" [Post](https://njump.me/nevent1qqsqydwy9eger6t3ezfy7kylcgw2hffltt8f5687jag3dux2ggl57nspz4mhxue69uhk2er9dchxummnw3ezumrpdejqygrwld6wv6m76laeldachrcju8am40nlgkpr5vapftrqejfyz2z4xc0n674h)
+          
+          One of my preferred insults for Nostrbros is to tell them to [go back to peddling shitcoins and eating their steak on the chain or whatever](https://techhub.social/@alextecplayz/114785623853142835).
+  - name: ordinary
+    desc: |
+         **If the current word has this as a glossary tooltip, it does NOT refer to ordinary, as in 'regular', 'frequent', 'normal'!**
+         
+         Ordinary in this sense, is based on the negative, or pejorative Romanian meaning of the word.
+         
+         Ordinary, as in awful, rude, vile, disgusting, vulgar, bad.
+         
+         Example: Ordinary balkanism. *"This is an example of ordinary balkanism"* - vile balkanism.
+  - name: schnook
+    desc: (slang) a stupid or unimportant person, dolt. [Merriam Webster](https://www.merriam-webster.com/dictionary/schnook)
+  - name: shlub
+    desc: (slang) a stupid, worthless, or unattractive person. [Merriam Webster](https://www.merriam-webster.com/dictionary/shlub)
+  - name: ue5lumen
+    desc: Lumen is Unreal Engine 5's fully dynamic global illumination and reflections system, designed for next-gen consoles and computers. Lumen can render diffuse interreflection with infinite bounces. [Unreal Engine 5 Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/lumen-global-illumination-and-reflections-in-unreal-engine)
+  - name: ue5nanite
+    desc: Nanite is Unreal Engine 5's virtualized geometry system which uses a new internal mesh format and rendering technology to render pixel scale detail and high object counts. It intelligently does work on only the detail that can be perceived and no more. Nanite's data format is also highly compressed, and supports fine-grained streaming with automatic level of detail. [Unreal Engine 5 Documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine)
+  - name: voiceactor
+    desc: Voice Actor (often abbreviated as VA). [Merriam Webster](https://www.merriam-webster.com/dictionary/voice%20actor)
+
+  # File extensions
+  - name: 7z
+    desc: 7zip archive and file format. [Wikipedia](https://en.wikipedia.org/wiki/7z)
+  - name: apk
+    desc: Android Package file format, usually an installable application or application component part of an Android bundle. [Wikipedia](https://en.wikipedia.org/wiki/Apk_(file_format))
+  - name: jxl
+    desc: the JPEG-XL file format. [Wikipedia](https://en.wikipedia.org/wiki/JPEG_XL)
+  - name: vpk
+    desc: Valve Pack file format, used in Source Engine and Source 2. [Valve Developer Community](https://developer.valvesoftware.com/wiki/VPK_(file_format))
+
+  # ATP, VI
+  - name: atp
+    desc: AlexTECPlayz
+  - name: prisonia
+    desc: PRISONIA, Vanta Interactive's top-down 2D prison management simulator game currently in development using the Sapphire Engine, and previously, Unreal Engine. [Website](https://vantainteractive.com/en/games/prisonia)
+  - name: sapphire
+    desc: Sapphire Game Engine, a proprietary hard fork of the Godot Engine with custom changes on top, used by Vanta Interactive (and therefore, AlexTECPlayz) to develop games. PRISONIA is an example of such a game. [Website](https://vantainteractive.com/en/sapphire)
+  - name: vi
+    desc: Vanta Interactive, Alex' indie game development studio. [Website](https://vantainteractive.com)
+  
+  # Tools, Services, Utilities, Apps
+  - name: adsbex
+    desc: "[ADS-B Exchange](https://globe.adsbexchange.com/), an open-source flight tracker, with optional API for personal, non-profit or enterprise usage"
+  - name: aegis
+    desc: "[Aegis Authenticator](https://getaegis.app), the gold standard for open-source and secure 2FA authenticators on Android. Has encrypted automatic icons, Material You and custom icon pack support."
+  - name: bitwarden
+    desc: "[Bitwarden](https://bitwarden.com), pretty much the gold standard when it comes to open-source, secure, self-hostable, with fantastic UI and UX, password managers."
+  - name: cobalt
+    desc: "[cobalt](https://cobalt.tools) - open-source, no-frills, no-bullshit media downloader for a lot of sites."
+  - name: forgejo
+    desc: "[Forgejo](https://forgejo.org), an open-source git forge."
+  - name: godot
+    desc: "[Godot](https://godotengine.org), a cross-platform, open-source, MIT-licensed game editor and game engine. Works on Android, iOS, Linux, macOS, Windows, visionOS, the web, and on consoles through third-party providers. Sapphire Game Engine is a hard fork of this."
+
+  # Gaming
+  - name: barb
+    desc: Build A Rocket Boy, developers of EVERYWHERE and MindsEye, published by IO Interactive.
+  - name: epicgames
+    desc: Epic Games, a game development and publishing studio lead by Tim Sweeney.
+  - name: ioi
+    desc: "IO Interactive, developers and publishers of the Hitman series, and the HITMAN World of Assassination trilogy. Fantastic games ruined by a greedy, out-of-touch leadership."
+
+  # Companies
+  
+  # People
+  - name: andrewtate
+    desc: |
+          Turbo misogynist and criminal. Leads the 'Hustlers University', where wannabe "alpha males" learn how to mistreat and harass women and minorities, because that's apparently appealing to most women (no, it's not - as a woman, this creeps me the fuck out and is a massive red flag) and is supposedly a masculine thing to do.
+
+          In his view, women are there to serve *him*, there's no equality whatsoever - what he says goes - women are there to cook, clean, have and take care of kids while he's out there half-naked smoking a cigar telling other men what to do, in a sort of homoerotic fantasy that seemingly doesn't seem at all questionable.
+
+          Involved in human trafficking and multiple sexual abuse scandals, loves to harass and abuse women for all kinds of reasons. No wonder most women that know about him are thoroughly disgusted, if not outright sickened by his views and actions. [RationalWiki](https://rationalwiki.org/wiki/Andrew_Tate), [Wikipedia](https://en.wikipedia.org/wiki/Andrew_Tate)
+  - name: bradcohn
+    desc: "[pseudo-science shill](https://bradcohn.substack.com/archive), [liar](https://techhub.social/deck/@alextecplayz/112870624253728702)"
+  - name: donaldtrump
+    desc: |
+          What isn't there to say about this sociopathic cunt that's the 45th and 47th POTUS?
+
+          Rapist, sexual abuser, racist, senile bastard. Famous liar and conman, convicted felon, conspiracy theorist, fascist, neo-Nazi simp, Russian KGB agent (unconfirmed, under the codename Krasnov), leader of his MAGA cult of personality, unbelievable narcissist and cruel, sadistic fuck that had a disastruous first presidency, and the current one is significantly worse, both for his own MAGA supporters and everyone else. Bombed Iran, didn't stop Russia from continuing its war on Ukraine, didn't stop Israel from continuing its genocide in Palestine. So much for the 'pro-peace' president that's famously been in Putin's pocket even before becoming 45th POTUS.
+
+          Severely anti-LGBTQ+, pro white supremacy, neo-Nazism, fascism, a complete denialist of climate change, anti-immigration, Trump was found guilty of 34 charges that have been later elevated to felony charges due to being part of a conspiracy that tried to influence the 2016 presidential election. Also indicted on two cases related to his efforts to overturn the 2020 presidential election and 2021 coup attempt, plus being charged with espionage due to mishandling of classified documents. Donny over here just doesn't give up, regardless of how much shit he does.
+
+          And despite all of this, his reputation was high enough for him to become the 47th POTUS following the 2024 presidential election. Jesus fucking Christ.
+
+          **Nicknames:** *Agent Orange, Krasnov, Orange Man, Drumpf, The Donald, Teflon Don, Inmate 47, Trumpanzee*
+          **Pseudonyms:** *John Barron, John Miller, Carolin Gallego, David Dennison* [RationalWiki](https://rationalwiki.org/wiki/Donald_Trump), [Wikipedia](https://en.wikipedia.org/wiki/Donald_Trump)
+  - name: drewdevault
+    desc: "[Defends pedophiles, watches loli/shota content](https://dmpwn.info/), all while having penned [the Stallman Report](https://stallman-report.org/), ironically enough."
+  - name: elonmusk
+    desc: |
+          Former illegal immigrant, fascist/Nazi simp, robber baron, turbo manchild and sometimes the world's richest person. Racist, antisemitic, erratic and moronic, Musk is a force to be reckoned with when it comes to moronic ideas and worldviews.
+          
+          Comes from Apartheid South Africa, inherited some of daddy's emerald mine money, tried to name himself the 'founder' of Tesla, currently runs Tesla ([into the ground](https://en.wikipedia.org/wiki/Criticism_of_Tesla,_Inc.)), SpaceX (into space or blowing up on launch), launched the 1-year lifespan Starlink 'constellation' to further increase [the amount of waste in space and putting the lives of people on space stations at risk](https://en.wikipedia.org/wiki/Starlink#Increased_risk_of_satellite_collision), and currently working on a spy satellite network using a $1.8 billion contract signed with the National Reconnaissance Office), The Boring Company ([already in the ground](https://en.wikipedia.org/wiki/The_Boring_Company#Criticism) and Neuralink ([into monkey brains, killing them](https://www.wired.com/story/elon-musk-pcrm-neuralink-monkey-deaths/)).
+          
+          Bought [Twitter for $44 billion](https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk), renamed it to X, [turns it into a right-wing, nazi and fascist hellscape](https://en.wikipedia.org/wiki/Twitter_under_Elon_Musk#Reactions_and_commentary), tries to make it the 'everything app', suspiciously similar to CCP/Tencent's WeChat.
+          
+          Thinks Europe will have a civil war, sucks daddy Trump off like the dog he is, and tampers the 2024 US Presidential Election by fucking around against Kamala Harris and US Democratic Party accounts.
+          
+          Likes to censor people, suspiciously similar to the CCP/Tencent's WeChat.
+          
+          And lastly, his own daughter dumped his ass because he's a transphobe.
+
+          **Nicknames:** *Emerald Boy, Elron, Elron Musk, Felon Musk, Felonious Musk, L Ron Musk, Muskrat, Muskovich (ro: Muscovici), Musktard, Apartheid Clyde, Space Karen, Elongated Muskrat, Elmo, E Ron Hubbard, Sissy SpaceX, Phony Stark, Cyber Cuck, Melon Tusk, Chief Twat, His Headupassedness, Elonia, pasty homunculus, Elon Husk, Muskolini, Willy Elonka, Elmo Sunk, Costco Caligula, Willy Wanker* [RationalWiki](https://rationalwiki.org/wiki/Elon_Musk), [Wikipedia](https://en.wikipedia.org/wiki/Elon_Musk)
+  - name: raypeat
+    desc: "[conspiracy theorist, quack, pseudo-science promoter](https://rationalwiki.org/wiki/Ray_Peat). Rest In Piss."
+  - name: shivaayyadurai
+    desc: |
+          Claims to be “the inventor of Email”, he’s a COVID-19 and anti-vax grifter and imbecile. His [Wikipedia page](https://en.wikipedia.org/wiki/Shiva_Ayyadurai) should be more than enough information, unless you want to go down a rabbit hole.
+          
+          As of 2024, he wants to become a presidential candidate of the United States of America. FUNNILY ENOUGH, he hates Elon Musk, thinks he’s a Satanist for adding 6666 followers/hour to @netanyahu’s Twitter account, removing likes and followers from Shiva’s Twitter account, and nicknames the idiots who buy the Cybertruck MAGAtards. Lots of respect for that, but still, Shiva is a lunatic through and through.
+  
+  # Miscellaneous
+  - name: btc
+    desc: Bitcoin, a popular cryptocurrency. [Wikipedia](https://en.wikipedia.org/wiki/Bitcoin)
+  - name: tslaq
+    desc: "Collective of skeptics, short-sellers, and researchers who openly criticize Tesla (cashtag $TSLA on stock markets) and Elon Musk. The collective is often present on reddit, Twitter/X and Mastodon."
+  

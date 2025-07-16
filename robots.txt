@@ -13,6 +13,9 @@
 # (4) any commercial purposes.
 # Access https://alextecplayz.com/about for assistance or contact information.
 
+# AI CRAWLER ACCESS IS ALLOWED VIA A PAY-PER-CRAWL SYSTEM
+# https://blog.cloudflare.com/introducing-pay-per-crawl/
+
 # ai.txt, robots.txt use list from DarkVisitors (darkvisitors.com)
 
 # Sitemap

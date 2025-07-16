@@ -113,8 +113,7 @@ label {cursor: pointer; display: inline-block;}
 .section-title, .section-permalink {padding: var(--rem0-5);}
 .section-permalink:hover {padding: var(--rem0-5); color: var(--accent-color); text-decoration: underline;}
 .icon-search:after {-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); display: block; content: "\26B2";}
-.article-banner {position: relative; overflow: hidden; height: 35vw; flex-direction: row !important;}
-.article-long .article-banner {padding: unset !important;}
+.article-banner {position: relative; overflow: hidden; height: fit-content; flex-direction: row !important;}
 .project-image-banner {width: fit-content !important; height: auto !important;object-fit: cover !important;}
 .project-image-banner:hover {width: fit-content !important; height: auto !important; object-fit: cover !important; opacity: 75% !important;}
 .banner-button-container {bottom: 45px; right: 15px;}
@@ -124,7 +123,8 @@ label {cursor: pointer; display: inline-block;}
 .menu-spacing {border: 0.15rem solid var(--white); width: 100%; margin-top: var(--rem1-5); margin-bottom: var(--rem1-5);}
 
 .page-content {background-color: var(--vantagray); height: 100%; flex-wrap: nowrap; display: flex;}
-.post {height: 100%; flex-grow: 1; width: auto; padding: var(--rem1) var(--rem1) var(--rem1) var(--rem3) !important; margin: 0rem 0rem 0rem var(--rem1) !important;}
+.post {height: 100%; flex-grow: 1; width: auto;}
+.post-content-header {height: fit-content !important; display: flex; flex-direction: column;}
 .post-header {display: flex; align-items: flex-start; margin: 0rem var(--rem1) 0rem var(--rem1); background: var(--vantagray); width: -moz-available !important; width: -webkit-fill-available !important; transition: transform 0.3s ease-in-out !important; overflow-x: hidden;}
 .post-header-sticky {position: fixed !important; padding: 0rem; top: var(--rem1-5); transition: transform 0.3s ease-in-out !important; z-index: 100; overflow-x: hidden;}
 .post-header details {overflow-y: auto !important; max-height: 25vh !important; scroll-behavior: smooth; overflow-x: hidden; padding: var(--rem0-35) var(--rem1) var(--rem0-35) var(--rem3) !important;}
@@ -147,7 +147,7 @@ label {cursor: pointer; display: inline-block;}
 .post-content .post-text-paidcontent {line-break: anywhere !important;}
 .post-content hr, hr {color: transparent; content: ""; width: 99%; border-top: var(--rem0-15) solid var(--lightgray);}
 .post-content p em {font-style: italic;}
-.post-content p strong, .post-content table strong {font-weight: 600;}
+.post-content p strong, .post-content table strong {font-weight: 600; line-height: 1;}
 .post-content .article-button-dark, .post-content .article-button-light {text-decoration: none !important;}
 .post-content a {color: var(--white); text-decoration: underline;}
 .post-content a:hover {background-color: var(--accent-color); color: var(--vantagray);}
@@ -168,12 +168,12 @@ label {cursor: pointer; display: inline-block;}
 .post-content ul li, .post-content ol li {padding-left: var(--rem1-5) !important; padding-top: var(--rem0-25); padding-bottom: var(--rem0-25);}
 .post-content ul li::before {content: '─'; padding-right: 1rem !important; padding-left: var(--rem0-5) !important; font-weight: 600; color: var(--white);}
 .post-content ul li em {font-style: italic;}
-.post-content ul li strong {font-weight: 600;}
+.post-content ul li strong {font-weight: 600; line-height: 1;}
 .post-content ol {list-style-type: decimal-leading-zero; list-style-position: inside;}
 .post-content ol li::before {content: none !important;}
 .post-content ol li::marker {font-weight: 600; color: var(--white); padding-left: 1rem !important;}
 .post-content ul, .post-content ol {position: relative;}
-.post-content ul::before, .post-content ol::before {content: ''; position: absolute; display: block; width: 3px; background: var(--darkgray); left: 2px; top: 8px; bottom: -2px;}
+.post-content ul::before, .post-content ol::before {content: ''; position: absolute; display: block; width: 3px; background: var(--flag-trans); left: 2px; top: 8px; bottom: -2px;}
 .post-content .heading-linker {margin-right: var(--rem0-5);}
 .post-content h1 {padding: var(--rem1) 0rem var(--rem1) 0rem; font-style: normal; font-weight: 800; font-size: var(--rem3) !important; color: var(--white); line-height: normal !important;}
 .post-content h2 {padding: var(--rem1) 0rem var(--rem1) 0rem; font-style: normal; font-weight: 700; font-size: var(--rem2) !important; color: var(--white); line-height: normal !important;}
@@ -185,7 +185,6 @@ label {cursor: pointer; display: inline-block;}
 .post-content img:hover {transition: 0.3s; opacity: 50%;}
 .post-content .shape {width: var(--rem2); height: var(--rem2); color: var(--white);}
 .post-content code {background: var(--darkgray);}
-.highlight, .hljs {background-color: var(--headerbg-dark-transparent) !important; color: var(--lightgray) !important;}
 .footnote {font-style: italic; font-variant-position: super;}
 .footnote::before {content: "["; font-variant-position: super;}
 .footnote::after {content: "]"; font-variant-position: super;}
@@ -194,20 +193,10 @@ label {cursor: pointer; display: inline-block;}
 .emoji {height: var(--rem1-25) !important; width: var(--rem1-25) !important; margin-bottom: -4px; object-fit: contain !important;}
 .emoji:hover {opacity: 1 !important;}
 
-.highlight {background: var(--darkgray) !important; padding: var(--rem0);}
+.highlight {padding: var(--rem0);}
 .highlight::before {content: 'Code block'; font-family: 'Space Grotesk'; font-weight: 600; display: block; background: var(--black) !important; padding: var(--rem0-75);}
 pre.highlight {padding: var(--rem1);}
 pre.highlight::before {content: unset !important; width: unset !important; padding: unset !important; background: unset !important;}
-
-.hljs-number {color: var(--accent-color) !important;}
-.hljs-comment {color: var(--lightgray) !important;}
-.hljs-title {color: var(--danger) !important;}
-.hljs-type {color: var(--pass) !important;}
-.hljs-keyword {color: var(--white) !important;}
-.hljs-string {color: var(--magenta) !important;}
-.hljs-attr {color: var(--warning) !important;}
-.hljs-name {color: var(--caution) !important;}
-.hljs-tag {color: var(--white) !important;}
 
 .post-series-slider {display: flex; flex-direction: row; overflow-y: hidden; overflow-x: scroll; padding: var(--rem0-5); justify-content: start;}
 .post-series-item {display: flex; flex-direction: column; overflow: hidden; justify-content: center; align-items: center; align-content: center; border: var(--rem0-15) solid var(--white); padding: var(--rem0-5); margin: var(--rem0-5);}
@@ -346,3 +335,14 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 .lightrope li::after {content: ""; top: calc(0 - (28px /2)); left: calc(12px -3); position: absolute; width: calc(40px +12); height: calc((28px/3) *2); border-bottom: solid #222 2px; border-radius:50%;}
 .lightrope li:last-child::after {content:none; }
 .lightrope li:first-child {margin-left:-40px;}
+
+/* Based on autotooltips https://github.com/RichDom2185/jekyll-auto-tooltips */
+.def-tooltip {position: relative; display: inline-block;}
+.def-tooltip a { color: inherit !important; text-decoration: underline dotted !important;}
+.def-tooltip .popup {width: 50vw; height: 25vh; overflow-y: scroll; box-sizing: border-box; padding: var(--rem1) var(--rem1-25); background-color: var(--darkgray); color: var(--white); font-size: small; font-style: normal; position: fixed; bottom: var(--rem1); right: var(--rem1); text-align: start; visibility: hidden; opacity: 0; white-space: pre-wrap !important; border: var(--rem0-15) solid var(--accent-color); padding-top: var(--rem2-75); z-index: 100;}
+.def-tooltip .popup::before {content: "Glossary"; position: absolute; font-family: "Space Grotesk"; color: var(--accent-color); background-color: var(--black); top: 0; left: 0; right: 0; padding: var(--rem0-35);}
+.def-tooltip:focus > .popup, .def-tooltip:active > .popup, .def-tooltip.active > .popup {opacity: 1; visibility: visible;}
+.def-tooltip .popup a {text-decoration: underline solid !important;}
+
+.review-image-size {width: var(--rem15) !important; object-fit: scale-down !important;}
+.review-box .article-right::before {content: "Verdict:"; color: var(--accent-color); font-family: "Space Grotesk"; font-size: var(--rem1-15);}

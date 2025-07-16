@@ -12,21 +12,32 @@
             <div class="flex row">
                 <p class="monospace white medium rem1-25 pop-up-title">Theme to use:</p>
                 <select name="theme" id="setting_theme" class="dropdown-dark grotesk medium rem1">
-                    <option value="theme_calcitewhite">Calcite White</option>
-                    <option value="theme_cream">Orange Cream</option>
-                    <option value="theme_sunnyforest">Sunny Forest</option>
-                    <option value="theme_sunnyocean">Sunny Ocean</option>
-                    <option value="theme_brightbook">Bright Book</option>
-                    <option value="theme_deeppastelpink">Deep Pastel Pink</option>
-                    <option value="theme_catlatte">Catppuccin Latte</option>
-                    <option value="theme_obsidiangray">Obsidian Gray</option>
-                    <option value="theme_darkforest">Dark Forest</option>
-                    <option value="theme_deepocean">Deep Ocean</option>
-                    <option value="theme_m3darkpink">Material You Dark Colorful Pink</option>
-                    <option value="theme_catfrappe">Catppuccin Frappe</option>
-                    <option value="theme_catmacchi">Catppuccin Macchiato</option>
-                    <option value="theme_catmocha">Catppuccin Mocha</option>
-                    <option value="theme_amoledblack">AMOLED Black</option>
+                    <option disabled>Light Themes ──────────</option>
+                    <option data-themetype="light" value="theme_calcitewhite">Calcite White</option>
+                    <option data-themetype="light" value="theme_slate">Slate Gray</option>
+                    <option data-themetype="light" value="theme_cream">Orange Cream</option>
+                    <option data-themetype="light" value="theme_sunnyforest">Sunny Forest</option>
+                    <option data-themetype="light" value="theme_sunnyocean">Sunny Ocean</option>
+                    <option data-themetype="light" value="theme_brightbook">Bright Book</option>
+                    <option data-themetype="light" value="theme_deeppastelpink">Deep Pastel Pink</option>
+                    <option data-themetype="light" value="theme_catlatte">Catppuccin Latte</option>
+                    <option disabled>Dark Themes ──────────</option>
+                    <option data-themetype="dark" value="theme_obsidiangray">Obsidian Gray</option>
+                    <option data-themetype="dark" value="theme_transdark">Trans-Dark</option>
+                    <option data-themetype="dark" value="theme_darkforest">Dark Forest</option>
+                    <option data-themetype="dark" value="theme_deepocean">Deep Ocean</option>
+                    <option data-themetype="dark" value="theme_sepiapink">Sepia Pink</option>
+                    <option data-themetype="dark" value="theme_m3darkpink">Material You Dark Colorful Pink</option>
+                    <option data-themetype="dark" value="theme_catfrappe">Catppuccin Frappe</option>
+                    <option data-themetype="dark" value="theme_catmacchi">Catppuccin Macchiato</option>
+                    <option data-themetype="dark" value="theme_catmocha">Catppuccin Mocha</option>
+                    <option data-themetype="dark" value="theme_carmineaqua">Carmine Aqua</option>
+                    <option data-themetype="dark" value="theme_orangeterm">Orange Terminal</option>
+                    <option data-themetype="dark" value="theme_matrixterm">Matrix Terminal</option>
+                    <option data-themetype="dark" value="theme_amoledblack">AMOLED Black</option>
+                    <option disabled>Custom Themes ──────────</option>
+                    <option data-themetype="dark" value="theme_prisoniadark">PRISONIA Dark</option>
+                    <option data-themetype="dark" value="theme_odysseydark">Odyssey Dark</option>
                 </select>
             </div>
             <p class="monospace lightgray medium rem1-25">&emsp;</p>
@@ -123,7 +134,6 @@
 }, 200)
 </script>
 
-<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/js/license_keys.js"></script>
 {% if site.output_configuration == 'production' %}
 <script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/external/sharedweb/js/common.min.js"></script>
 {% else if %}

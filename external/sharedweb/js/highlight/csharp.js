@@ -1,4 +1,4 @@
-/*! `csharp` grammar compiled for Highlight.js 11.10.0 */
+/*! `csharp` grammar compiled for Highlight.js 11.11.1 */
   (function(){
     var hljsGrammar = (function () {
   'use strict';
@@ -122,11 +122,14 @@
       'alias',
       'and',
       'ascending',
+      'args',
       'async',
       'await',
       'by',
       'descending',
+      'dynamic',
       'equals',
+      'file',
       'from',
       'get',
       'global',
@@ -142,7 +145,10 @@
       'or',
       'orderby',
       'partial',
+      'record',
       'remove',
+      'required',
+      'scoped',
       'select',
       'set',
       'unmanaged',

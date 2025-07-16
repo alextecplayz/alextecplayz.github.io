@@ -68,6 +68,29 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+// Tooltip popups remain open when clicking on them, helpful for touchscreen
+document.addEventListener('DOMContentLoaded', function() {
+    const tooltips = document.querySelectorAll('.def-tooltip');
+
+    tooltips.forEach(tooltip => {
+        const popup = tooltip.querySelector('.popup');
+
+        tooltip.addEventListener('click', function(event) {
+            // Prevent the click event from bubbling up to the document
+            event.stopPropagation();
+            // Toggle the active class
+            tooltip.classList.toggle('active');
+        });
+    });
+
+    // Close the tooltip when clicking outside
+    document.addEventListener('click', function() {
+        tooltips.forEach(tooltip => {
+            tooltip.classList.remove('active');
+        });
+    });
+});
+
 // Sticky, scrolling logo that attaches and detaches from the header itself.
 if (hasFeature("stickyheader")) {
     document.addEventListener('DOMContentLoaded', function() {
@@ -170,139 +193,30 @@ if (hasFeature("sitesettings")) {
         nsfwHome.addEventListener('click', goBackHome);
     }
 
-    if (document.getElementById('paidcontent-content')) {
-        function hexToBytes(hex) {
-            const bytes = [];
-            for (let i = 0; i < hex.length; i += 2) {
-                bytes.push(parseInt(hex.substr(i, 2), 16));
-            }
-            return new Uint8Array(bytes);
-        }
-
-        async function decryptKey(ciphertextHex, ivHex, authTagHex) {
-            const encryptionKeyHex = "f82e23239f46a97f220d448b724c519e16da4db444722fb9920b31620b4bf5fb";
-            const encryptionKey = hexToBytes(encryptionKeyHex);
-            const iv = hexToBytes(ivHex);
-            const authTag = hexToBytes(authTagHex);
-            const ciphertext = hexToBytes(ciphertextHex);
-
-            try {
-                const cryptoKey = await window.crypto.subtle.importKey(
-                    "raw",
-                    encryptionKey,
-                    { name: "AES-GCM" },
-                    false,
-                    ["decrypt"]
-                );
-        
-                const decryptedData = await window.crypto.subtle.decrypt(
-                    { name: "AES-GCM", iv, additionalData: new Uint8Array(), tagLength: 128 },
-                    cryptoKey,
-                    new Uint8Array([...ciphertext, ...authTag])
-                );
-        
-                return new TextDecoder().decode(decryptedData);
-            } catch (error) {
-                console.error("Decryption failed:", error);
-                return null;
-            }
-        }
-
-        const licenseBox = document.getElementById('license-box');
-        const paidContentContent = document.getElementById('paidcontent-content');
-        const paidContentWindow = document.getElementById('paidcontent-window');
-
-        const licenseForm = document.getElementById('paidcontent-license');
-        licenseForm.addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent page reload
-            checkLicenseKey();
-        });
-
-        async function checkLicenseKey() {
-            const licenseKey = licenseBox.value.trim();
-            let isValidKey = false;
-    
-            for (const encryptedKey of window.validKeys) {
-                const decryptedKey = await decryptKey(
-                    encryptedKey.ciphertext,
-                    encryptedKey.iv,
-                    encryptedKey.auth_tag
-                );
-        
-                if (decryptedKey === licenseKey) {
-                    // Valid license key found
-                    paidContentContent.classList.remove('hidden');
-                    paidContentWindow.classList.remove('flex');
-                    isValidKey = true; // Set flag to true
-                    // Decrypt post content
-                    const encryptedPostContent = document.querySelector('#paidcontent-content p').innerText;
-                    await decryptPostContent(encryptedPostContent);
-                    break; // Exit loop once we find a match
-                }
-            }
-        
-            if (!isValidKey) {
-                alert("Invalid license key. Please try again.");
-            }
-        }
-
-        async function decryptPostContent(encryptedContent) {
-            try {
-                // Parse JSON from the encrypted content string
-                const parsedContent = JSON.parse(encryptedContent.replace(/“/g, '"').replace(/”/g, '"'));
-                const ciphertext = parsedContent.ciphertext;
-                const iv = parsedContent.iv;
-                const authTag = parsedContent.auth_tag;
-        
-                // Decrypt using AES-GCM
-                const decryptedHTML = await decryptKey(ciphertext, iv, authTag);
-                
-                // Display decrypted content if successful
-                if (decryptedHTML) {
-                    paidContentContent.innerHTML = decryptedHTML; // Set inner HTML to decrypted content
-                    paidContentContent.classList.remove('hidden'); // Show the content
-                    paidContentWindow.style.display = 'none'; // Hide warning window
-                } else {
-                    alert("Failed to decrypt content.");
-                }
-            } catch (error) {
-                console.error("Error parsing or decrypting post content:", error);
-            }
-        }          
-
-        function loadLicenseSettings() {
-            const license = localStorage.getItem('license') || sessionStorage.getItem('license');
-            if (license) {licenseBox.value = license; checkLicenseKey();}
-        }
-
-        function saveLicenseSettings() {
-            const useLocalStorage = useLocalStorageCheckbox.checked;
-            const license = licenseBox.value;
-
-            if (useLocalStorage) {
-                localStorage.setItem('license', license);
-            } else {
-                sessionStorage.setItem('license', license);
-                localStorage.removeItem('license');
-            }
-        }
-
-        loadLicenseSettings();
-        useLocalStorageCheckbox.addEventListener('change', saveLicenseSettings);
-        licenseBox.addEventListener('input', saveLicenseSettings); 
-    }
-
     // Theming and effects support.
     if (hasFeature("theming")) {
         const themeSelect = document.getElementById('setting_theme');
         const effectOverlay = document.getElementById('effect-overlay');
         const effectsSelect = document.getElementById('setting_effects');
+        let currentThemeLink = null;
+
+        function loadCSS(filePath) {
+            if (!currentThemeLink) {
+                // Create the link element if it doesn't exist
+                currentThemeLink = document.createElement('link');
+                currentThemeLink.rel = 'stylesheet';
+                document.head.appendChild(currentThemeLink);
+            }
+            // Change the href to the new CSS file
+            currentThemeLink.href = filePath;
+        }
         
         // We're saving and loading from local or session storage. Not using cookies at all, there's no reason to.
         function loadThemeSettings() {
             const useLocalStorage = localStorage.getItem('useLocalStorage') === 'true' || sessionStorage.getItem('useLocalStorage') === 'true';
             const theme = localStorage.getItem('theme') || sessionStorage.getItem('theme');
             const effect = localStorage.getItem('effect') || sessionStorage.getItem('effect');
+            const isDarkTheme = localStorage.getItem('isDarkTheme') === 'true' || sessionStorage.getItem('isDarkTheme') === 'true';
 
             if (useLocalStorage) {useLocalStorageCheckbox.checked = true;} else {useLocalStorageCheckbox.checked = false;}
             if (theme) {themeSelect.value = theme; updateTheme(theme);}
@@ -312,14 +226,17 @@ if (hasFeature("sitesettings")) {
         function saveThemeSettings() {
             const useLocalStorage = useLocalStorageCheckbox.checked;
             const theme = themeSelect.value;
+            const isDarkTheme = themeSelect.options[themeSelect.selectedIndex].getAttribute('data-themetype') === 'dark';
             const effect = effectsSelect.value;
 
             if (useLocalStorage) {
                 localStorage.setItem('theme', theme);
+                localStorage.setItem('isDarkTheme', isDarkTheme);
                 localStorage.setItem('effect', effect);
                 localStorage.setItem('useLocalStorage', 'true');
             } else {
                 sessionStorage.setItem('theme', theme);
+                sessionStorage.setItem('isDarkTheme', isDarkTheme);
                 sessionStorage.setItem('effect', effect);
                 sessionStorage.setItem('useLocalStorage', 'false');
                 localStorage.removeItem('theme');
@@ -335,14 +252,19 @@ if (hasFeature("sitesettings")) {
         themeSelect.value = 'theme_obsidiangray';
         loadThemeSettings();
 
-        function updateTheme(theme) {
+        function updateTheme(theme, isDarkTheme) {
             const root = document.documentElement;
+            const selectedOption = themeSelect.options[themeSelect.selectedIndex];
+            if (isDarkTheme === undefined) {
+                isDarkTheme = selectedOption.getAttribute('data-themetype') === 'dark';
+            }
+
             switch (theme) {
                 // This is where themes are declared.
                 // 'Main' themes
                 case 'theme_obsidiangray':
                     root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#ffffff');
-                    root.style.setProperty('--darkgray', '#3a3a3a'); root.style.setProperty('--lightgray', '#c5c5c5');
+                    root.style.setProperty('--darkgray', '#363636'); root.style.setProperty('--lightgray', '#c5c5c5');
                     root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#dd8ac8');
                     root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#242424');
                     root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
@@ -350,7 +272,7 @@ if (hasFeature("sitesettings")) {
                 break;
                 case 'theme_calcitewhite':
                     root.style.setProperty('--black', '#ffffff'); root.style.setProperty('--white', '#000000');
-                    root.style.setProperty('--darkgray', '#c5c5c5'); root.style.setProperty('--lightgray', '#3a3a3a');
+                    root.style.setProperty('--darkgray', '#c5c5c5'); root.style.setProperty('--lightgray', '#363636');
                     root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#cc4fad');
                     root.style.setProperty('--magenta', '#99099e'); root.style.setProperty('--vantagray', '#D4D4D4');
                     root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#ed333b');
@@ -358,7 +280,7 @@ if (hasFeature("sitesettings")) {
                 break;
                 case 'theme_amoledblack':
                     root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#ffffff');
-                    root.style.setProperty('--darkgray', '#3a3a3a'); root.style.setProperty('--lightgray', '#c5c5c5');
+                    root.style.setProperty('--darkgray', '#363636'); root.style.setProperty('--lightgray', '#c5c5c5');
                     root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#dd8ac8');
                     root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#000000');
                     root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
@@ -378,7 +300,7 @@ if (hasFeature("sitesettings")) {
                 case 'theme_odysseydark':
                     root.style.setProperty('--black', '#222'); root.style.setProperty('--white', '#F77');
                     root.style.setProperty('--darkgray', '#35292d'); root.style.setProperty('--lightgray', '#bfa7a7');
-                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#ce7cb9');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#ff9c9c');
                     root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#252126');
                     root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
                     root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
@@ -395,6 +317,63 @@ if (hasFeature("sitesettings")) {
                     root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
                     root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
                 break;
+
+                case 'theme_slate':
+                    root.style.setProperty('--black', '#f8f9fa'); root.style.setProperty('--white', '#343a40');
+                    root.style.setProperty('--darkgray', '#adb5bd'); root.style.setProperty('--lightgray', '#212529');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#cc4fad');
+                    root.style.setProperty('--magenta', '#99099e'); root.style.setProperty('--vantagray', '#adb5bd');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#ed333b');
+                    root.style.setProperty('--caution', '#ff7800'); root.style.setProperty('--pass', '#41a82c');
+                break; // from https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+                case 'theme_carmineaqua':
+                    root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#ffffff');
+                    root.style.setProperty('--darkgray', '#363636'); root.style.setProperty('--lightgray', '#89c9c7');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#eb6d65');
+                    root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#333333');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
+                    root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
+                break; // from https://coolors.co/palette/89c9c7-ffffff-333333-f5f5f5-eb6d65
+                case 'theme_orangeterm':
+                    root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#fffcf2');
+                    root.style.setProperty('--darkgray', '#363636'); root.style.setProperty('--lightgray', '#fffcf2');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#eb5e28');
+                    root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#252422');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
+                    root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
+                break; // from https://coolors.co/palette/fffcf2-ccc5b9-403d39-252422-eb5e28
+                case 'theme_matrixterm':
+                    root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#8fb996');
+                    root.style.setProperty('--darkgray', '#111d13'); root.style.setProperty('--lightgray', '#709775');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#a1cca5');
+                    root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#111d13');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
+                    root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
+                break; // from https://coolors.co/palette/a1cca5-8fb996-709775-415d43-111d13
+                case 'theme_transdark':
+                    root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#fd9dd0');
+                    root.style.setProperty('--darkgray', '#242424'); root.style.setProperty('--lightgray', '#6fb2fc');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#fff');
+                    root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#242424');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
+                    root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
+                break; // from https://coolors.co/palette/e38cff-ffffff-6fb2fc-fd9dd0-ffffff-e38cff
+                case 'theme_sepiapink':
+                    root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#FAA4BD');
+                    root.style.setProperty('--darkgray', '#533B4D'); root.style.setProperty('--lightgray', '#FAE3C6');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#F564A9');
+                    root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#533B4D');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
+                    root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
+                break; // from https://colorhunt.co/palette/533b4df564a9faa4bdfae3c6
+                case 'theme_deepspace':
+                    root.style.setProperty('--black', '#000000'); root.style.setProperty('--white', '#74CEB6');
+                    root.style.setProperty('--darkgray', '#222222'); root.style.setProperty('--lightgray', '#169976');
+                    root.style.setProperty('--brand', '#a0a0a0'); root.style.setProperty('--accent-color', '#1DCD9F');
+                    root.style.setProperty('--magenta', '#fcb5ff'); root.style.setProperty('--vantagray', '#212121');
+                    root.style.setProperty('--warning', '#f8ff9c'); root.style.setProperty('--danger', '#cc565c');
+                    root.style.setProperty('--caution', '#ff9d47'); root.style.setProperty('--pass', '#5dc948');
+                break; // from https://colorhunt.co/palette/0000002222221dcd9f169976 but using #212121 instead of #000000
                 case 'theme_brightbook':
                     root.style.setProperty('--black', '#ffffff'); root.style.setProperty('--white', '#6b5949');
                     root.style.setProperty('--darkgray', '#ead7c2'); root.style.setProperty('--lightgray', '#6b5949');
@@ -494,6 +473,12 @@ if (hasFeature("sitesettings")) {
                     root.style.setProperty('--caution', '#E87F2A'); root.style.setProperty('--pass', '#81B07D');
                 break;
             }
+
+            if (isDarkTheme) {
+                loadCSS('/external/sharedweb/css/atom-one-dark.css');
+            } else {
+                loadCSS('/external/sharedweb/css/atom-one-light.css');
+            }
         }
 
         function applyEffect(effect) {
@@ -566,7 +551,8 @@ if (hasFeature("sitesettings")) {
 
         themeSelect.addEventListener('change', () => {
             const theme = themeSelect.value;
-            updateTheme(theme);
+            const isDarkTheme = themeSelect.options[themeSelect.selectedIndex].getAttribute('data-themetype') === 'dark';
+            updateTheme(theme, isDarkTheme);
             saveThemeSettings();
         });
 
@@ -749,7 +735,7 @@ if (hasFeature("nofooter")) {
 // Gets all elements that have the format <a data-share-url="" data-share-title="" data-share-description="" data-share-date="" data-share-thumbnail="">
 // Creates a share item for each, extracts the data attribute, checks for Web Share API support, and then creates one share dialog with those attributes
 // That is opened by pressing the according share button. Works on /search, /pages, index, posts and pages on the ATP website, may be used on VI later
-if (document.querySelectorAll('a[data-share-url][data-share-title][data-share-description][data-share-date][data-share-thumbnail]')) {
+if (document.querySelectorAll('p[data-share-url][data-share-title][data-share-description][data-share-date][data-share-thumbnail]')) {
     function refreshShareItems() {
         async function shareItem(event) {
             event.preventDefault();
@@ -844,7 +830,7 @@ if (document.querySelectorAll('a[data-share-url][data-share-title][data-share-de
         }
   
         const shareLinks = document.querySelectorAll(
-          'a[data-share-url][data-share-title][data-share-description][data-share-date][data-share-thumbnail]'
+          'p[data-share-url][data-share-title][data-share-description][data-share-date][data-share-thumbnail]'
         );
   
         shareLinks.forEach((link) => {

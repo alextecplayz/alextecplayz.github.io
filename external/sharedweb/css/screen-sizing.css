@@ -119,6 +119,7 @@
 }
 
 @media screen and (max-width: 1170px) and (min-width: 0px) {
+    .def-tooltip .popup {bottom: var(--rem5-75) !important;}
     .mobile-bottomnav {display: flex;}
     .header-right .header-buttons {display: none;}
     .recommendations-container {flex-direction: column;}
@@ -139,6 +140,7 @@
     .radio-container p {padding-left: var(--rem5) !important;}
     .post-content {margin: var(--rem0) var(--rem0) var(--rem0) var(--rem0) !important;}
     .post-header-sticky {right: var(--rem1) !important; top: var(--rem1-5) !important; width: 65vw !important;}
+    .def-tooltip .popup {bottom: var(--rem5-75) !important; left: var(--rem1); right: var(--rem1); width: unset !important;}
 }
 
 /* If screen size less than 1500px wide, do.. */

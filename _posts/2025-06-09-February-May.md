@@ -28,7 +28,7 @@ metadata_timespan:
 toc: true
 nsfw: true
 timetoread: PT16M31S
-nsfw_cw: "This post mentions sexual content such as mentions of dildo use and anal play."
+nsfw_cw: "This post contains sexual content such as mentions of dildo use and anal play."
 ---
 
 Hello! Things have happened in these past few months — bad and good! Sorry for my absence on the blog, although this is probably something you're used to — if I have ANY readers — and not just rambling alone here. Either way, here's a to-the-best-of-my-abilities recap since February.
