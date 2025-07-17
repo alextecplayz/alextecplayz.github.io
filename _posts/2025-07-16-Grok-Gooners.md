@@ -85,7 +85,7 @@ During his 2024 presidential campaign, the Orange Con Man talked about releasing
             <figure class="image-frame">
                 <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-slimfast-trump.webp" alt="A parody ad for SlimFast, a 'food replacement' product that causes diarrhea. In the background is the famous White House-posted image of Donald Trump's face on the Superman (2025) movie's poster. The tag-line reads 'SHIT YOURSELF THIN(tm)', a phrase I've shamelessly stolen from a video produced by OrdinaryThings on replacement food products that included SlimFast." title="A parody ad for SlimFast, a 'food replacement' product that causes diarrhea. In the background is the famous White House-posted image of Donald Trump's face on the Superman (2025) movie's poster. The tag-line reads 'SHIT YOURSELF THIN(tm)', a phrase I've shamelessly stolen from a video produced by OrdinaryThings on replacement food products that included SlimFast.">
                 <div class="image-frame-buttons">
-                    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-wayfair-couchfucker.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-slimfast-trump.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
                 </div>
             </figure>
             <figure class="image-frame">

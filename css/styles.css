@@ -220,6 +220,7 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 .image-frame-button {padding: var(--rem1); background: var(--darkgray); color: var(--lightgray); border: 0.15rem solid var(--lightgray); margin: var(--rem0-25);}
 .image-frame-button:hover {background: var(--lightgray); color: var(--darkgray); border: 0.15rem solid var(--darkgray);}
 .post-content .overflow-scroll .image-frame img {max-width: fit-content !important;}
+.image-frame img {background-color: var(--black); color: var(--lightgray); content: "Placeholder. If you're seeing this, the image has not loaded yet."; transition: opacity 0.3s ease-in-out;}
 
 .space-evenly {justify-content: space-evenly;}
 .height-100 {height: 100%;}
@@ -347,7 +348,12 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 .review-image-size {width: var(--rem15) !important; object-fit: scale-down !important;}
 .review-box .article-right::before {content: "Verdict:"; color: var(--accent-color); font-family: "Space Grotesk"; font-size: var(--rem1-15);}
 
-.atpads-container {border: var(--rem0-15) solid var(--lightgray) !important; padding: var(--rem0-25); position: relative; margin-top: var(--rem2);}
+.atpads-container {padding: var(--rem0-25); position: relative; margin-top: var(--rem2); width: 100%; justify-content: center !important; display: flex;}
 .atpads-container.slop::before {content: '<< The content continues after these non-sponsored (and totally legit!1!!) advertisements >>'; font-style: italic; font-family: 'Space Mono'; color: var(--lightgray); font-size: var(--rem1); top: -5.5%; position: absolute;}
-.atpads-container::after {content: ''; position: absolute; top: -0.5rem; left: -0.5rem; padding: var(--rem0-35); background-color: var(--white); height: var(--rem2); width: var(--rem4); background-image: url(../images/post-media/slop/atpads-badge.webp); background-repeat: no-repeat; background-size: contain; z-index: 10;}
+.atpads-container .image-frame:first-of-type::after {content: ''; position: absolute; top: -0.5rem; left: -0.5rem; padding: var(--rem0-35); background-color: var(--white); height: var(--rem2); width: var(--rem4); background-image: url(../images/post-media/slop/atpads-badge.webp); background-repeat: no-repeat; background-size: contain; z-index: 10;}
+.atpads-container .image-frame {border: var(--rem0-15) solid var(--lightgray) !important; }
 .atpads-container img {object-fit: contain !important; width: auto; height: calc(var(--rem2) * 15) !important;}
+.atpads-container .image-frame:first-child:not(:only-child) {border-right: none !important;} /* Remove the right border from the first image-frame only if there are multiple image-frames */
+.atpads-container .image-frame:not(:first-child) {border-left: none !important;} /* Remove the left border from all image-frames except the first one */
+.atpads-container .image-frame:not(:last-child) {border-right: none !important;} /* Remove the right border from all image-frames except the last one */
+/* Could I have implemented this any other way? A wrapper that contains all image-frame elements, under atpads-container? Sure. But I didn't, because I'm still trying to generate image frames automatically, which might interfere. */
