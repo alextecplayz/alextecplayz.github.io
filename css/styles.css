@@ -346,3 +346,8 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 
 .review-image-size {width: var(--rem15) !important; object-fit: scale-down !important;}
 .review-box .article-right::before {content: "Verdict:"; color: var(--accent-color); font-family: "Space Grotesk"; font-size: var(--rem1-15);}
+
+.atpads-container {border: var(--rem0-15) solid var(--lightgray) !important; padding: var(--rem0-25); position: relative; margin-top: var(--rem2);}
+.atpads-container.slop::before {content: '<< The content continues after these non-sponsored (and totally legit!1!!) advertisements >>'; font-style: italic; font-family: 'Space Mono'; color: var(--lightgray); font-size: var(--rem1); top: -5.5%; position: absolute;}
+.atpads-container::after {content: ''; position: absolute; top: -0.5rem; left: -0.5rem; padding: var(--rem0-35); background-color: var(--white); height: var(--rem2); width: var(--rem4); background-image: url(../images/post-media/slop/atpads-badge.webp); background-repeat: no-repeat; background-size: contain; z-index: 10;}
+.atpads-container img {object-fit: contain !important; width: auto; height: calc(var(--rem2) * 15) !important;}
