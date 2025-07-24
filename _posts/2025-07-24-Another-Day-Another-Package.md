@@ -16,8 +16,8 @@ tags:
   - 2025
   - Romania
   - Slop
-fedicomments: false
-fedipostid:
+fedicomments: true
+fedipostid: 114910267060749952
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
 image_banner_alt: 
 metadata_proglang:
