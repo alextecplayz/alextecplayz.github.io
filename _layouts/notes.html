@@ -6,12 +6,16 @@ layout: notes
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="true"/>
+        <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="true"/>
+        </div>
     </head>
 <body class="{{ page.class }}">
         {% include header.html %}
         {% include notice-container.html %}
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
 
         <div class="post-content post">
             {% if page.toc %}
@@ -60,6 +64,8 @@ layout: notes
                 <hr>
             </div>
         </div>
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
 </body>

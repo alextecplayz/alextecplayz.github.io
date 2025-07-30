@@ -60,8 +60,8 @@ We had a secondary website for one of our projects at the time, GRAV0RTAL, also 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/VI-Site-Archive-GV2020.webp" alt="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS." title="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS.">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/VI-Site-Archive-GV2020.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/VI-Site-Archive-GV2020.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/VI-Site-Archive-GV2020.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/VI-Site-Archive-GV2020.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 
@@ -74,8 +74,8 @@ In late 2020, I switched to using the 'Slides' theme from FreeHTML5 for the Vant
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/VI-Site-Archive-2021.webp" alt="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS." title="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS.">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/VI-Site-Archive-2021.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/VI-Site-Archive-2021.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/VI-Site-Archive-2021.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/VI-Site-Archive-2021.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 
@@ -102,8 +102,8 @@ What am I using today? Simple HTML, Obsidian CSS with some customizations specif
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/mainsite.webp" alt="Screenshot of the current Vanta Interactive website" title="Screenshot of the current Vanta Interactive website">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/mainsite.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/mainsite.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/mainsite.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/mainsite.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 

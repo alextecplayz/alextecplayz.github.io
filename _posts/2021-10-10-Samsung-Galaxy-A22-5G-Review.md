@@ -55,8 +55,8 @@ It has a Night Mode which is more like Night Vision to me sometimes, a basic Pro
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/20211009-210308.webp" alt="Casi, my cockatoo, looking at a photo I took of it" title="Casi, my cockatoo, looking at a photo I took of it">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/20211009-210308.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/20211009-210308.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/20211009-210308.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/20211009-210308.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 
@@ -70,8 +70,8 @@ It is one of the more unique designs from the Galaxy A series, along with its 4G
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/20211009-135710.webp" alt="The back of the device, with a matte gradient finish. The phone is set on a wooden table." title="The back of the device, with a matte gradient finish. The phone is set on a wooden table.">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/20211009-135710.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/20211009-135710.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/20211009-135710.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/20211009-135710.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 

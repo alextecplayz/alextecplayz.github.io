@@ -6,7 +6,9 @@ layout: portfolio
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="false"/>
+        <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="false"/>
+        </div>
     </head>
 <body>
         {% include header.html %}
@@ -14,6 +16,8 @@ layout: portfolio
         {% include notice-container.html %}
 
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
 
         <div class="articles-container">
             <div class="post-content">
@@ -142,6 +146,8 @@ layout: portfolio
                 <p class="article-long-desc rem1 lightgray semibold monospace italic">Contributed to OrganicMaps translations into Romanian</p>
             </div>
         </div>
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
 </body>

@@ -21,8 +21,36 @@ const siteBaseUrl = getSiteBaseUrl();
 var currentDate = new Date();
 var bannerContainer = document.getElementById('bannerContainer');
 
-// Better lazy load image using Intersection Observer API
+function reCallSetupEvents() {
+	// A function that re-calls all events, such as events used by meta feature- tags.
+	// Currently used only by streamContent(), since when loading new content by
+	// modifying the DOM, it does not (re-)load events such as  DOMContentLoaded
+
+	// In order of the common.js file:
+	setupLazyloadImages();
+	setupTooltips();
+	if (hasFeature("stickyheader")) {setupStickyHeader();}
+	// langswitcher is part of header, isn't modified so doesn't need setup
+	// sitesettings is part of header & footer, isn't modified so no setup
+	// sidebar is getting rewritten part of new wip VI Docs, no setup yet
+	if (hasFeature("videoplayer")) {setupVideoPlayer();}
+	if (hasFeature("progress")) {setupProgressBar();}
+	if (hasFeature("stickypostheader")) {setupStickyPostHeader();}
+	if (hasFeature("nofooter")) {setupNoFooter();}
+	if (hasFeature("fedicomments")) {
+		if (document.getElementById("load-comments")) {
+			document.getElementById("load-comments").addEventListener("click", loadComments);
+		}
+	} // part of footer.html JS
+	refreshShareItems();
+};
+
 document.addEventListener("DOMContentLoaded", function() {
+	reCallSetupEvents();
+});
+
+// Better lazy load image using Intersection Observer API
+function setupLazyloadImages() {
   var lazyloadImages;    
 
   // Select only <img> elements that are children of .post-content
@@ -82,10 +110,10 @@ document.addEventListener("DOMContentLoaded", function() {
 	window.addEventListener("resize", lazyload);
 	window.addEventListener("orientationChange", lazyload);
   }
-});
+};
 
 // Tooltip popups remain open when clicking on them, helpful for touchscreen
-document.addEventListener('DOMContentLoaded', function() {
+function setupTooltips() {
 	const tooltips = document.querySelectorAll('.def-tooltip');
 
 	tooltips.forEach(tooltip => {
@@ -105,48 +133,46 @@ document.addEventListener('DOMContentLoaded', function() {
 			tooltip.classList.remove('active');
 		});
 	});
-});
+};
 
 // Sticky, scrolling logo that attaches and detaches from the header itself.
-if (hasFeature("stickyheader")) {
-	document.addEventListener('DOMContentLoaded', function() {
-		var headerLogo = document.getElementById('logo');
-		var isScrollingDown = false;
-		var logoStickyPosition = { top: 1.5 * 16, left: 4.5 * 16 };
-		var scrollThreshold = headerLogo.offsetTop - logoStickyPosition.top;
-		var isLogoSticky = false;
-		var isInitialScroll = true;
+function setupStickyHeader() {
+	var headerLogo = document.getElementById('logo');
+	var isScrollingDown = false;
+	var logoStickyPosition = { top: 1.5 * 16, left: 4.5 * 16 };
+	var scrollThreshold = headerLogo.offsetTop - logoStickyPosition.top;
+	var isLogoSticky = false;
+	var isInitialScroll = true;
 
-		// scroll-linked positioning effect, Firefox will warn about this.
-		function handleScroll() {
-			var scrollY = window.pageYOffset || document.documentElement.scrollTop; // pageYOffset is deprecated, will replace
-			var currentScrollDown = scrollY > scrollThreshold;
+	// scroll-linked positioning effect, Firefox will warn about this.
+	function handleScroll() {
+		var scrollY = window.pageYOffset || document.documentElement.scrollTop; // pageYOffset is deprecated, will replace
+		var currentScrollDown = scrollY > scrollThreshold;
 
-			if (currentScrollDown !== isScrollingDown) {
-				isScrollingDown = currentScrollDown;
-				if (isScrollingDown) {
-					headerLogo.classList.add('logo-sticky');
-					isLogoSticky = true;
-				} else {
-					headerLogo.classList.remove('logo-sticky');
-					isLogoSticky = false;
-				}
+		if (currentScrollDown !== isScrollingDown) {
+			isScrollingDown = currentScrollDown;
+			if (isScrollingDown) {
+				headerLogo.classList.add('logo-sticky');
+				isLogoSticky = true;
+			} else {
+				headerLogo.classList.remove('logo-sticky');
+				isLogoSticky = false;
+			}
 
-				if (isScrollingDown) {
-					headerLogo.style.transform = 'translate(-95%, 0%)';
-				} else {
-					headerLogo.style.transform = 'translate(0, 0)';
-				}
+			if (isScrollingDown) {
+				headerLogo.style.transform = 'translate(-95%, 0%)';
+			} else {
+				headerLogo.style.transform = 'translate(0, 0)';
 			}
 		}
+	}
 
-		window.addEventListener('load', function() {
-			headerLogo.style.display = 'block';
-			isInitialScroll = false;
-		});
-
-		window.addEventListener('scroll', handleScroll);
+	window.addEventListener('load', function() {
+		headerLogo.style.display = 'block';
+		isInitialScroll = false;
 	});
+
+	window.addEventListener('scroll', handleScroll);
 };
 
 // Language switcher feature, used on the Vanta Interactive website, with sanitization
@@ -183,6 +209,7 @@ if (hasFeature("sitesettings")) {
 	const settingsWindow = document.getElementById('settings-window');
 	const settingsWindowClose = document.getElementById('settings-close-button');
 	const useLocalStorageCheckbox = document.querySelector('.checkbox-uselocalstorage input');
+	const usePageStreamingCheckbox = document.querySelector('.checkbox-usehtmlstreaming input');
 
 	function showSettingsWindow() {settingsWindow.style.display = 'flex';}
 	function hideSettingsWindow() {settingsWindow.style.display = 'none';}
@@ -209,6 +236,88 @@ if (hasFeature("sitesettings")) {
 		nsfwHome.addEventListener('click', goBackHome);
 	}
 
+	// Copied and tweaked from new wip VI Docs
+	function streamContent(url) {
+		fetch(url + '?t=' + new Date().getTime(), { cache: 'no-store' }) // Prevent caching
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response error: ' + response.statusText);
+			}
+			return response.text();
+		})
+		.then(html => {
+			//console.log("Fetched HTML. No HTML output necessary, it works.");
+			const parser = new DOMParser();
+			const doc = parser.parseFromString(html, 'text/html');
+			const newPageTitle = doc.getElementById('home');
+			const newPageDesc = doc.getElementById('pagedesc');
+			// also replace site features, since otherwise some things will not work or will generate errors
+			const newFeaturesSitewide = doc.getElementById('features-sitewide');
+			const newFeaturesPagewide = doc.getElementById('features-pagewide');
+			const newContent = doc.getElementById('main-content');
+			//console.log("newContent:" + newContent);
+			if (newPageTitle) {document.getElementById('home').innerHTML = newPageTitle.innerHTML;}
+			if (newPageDesc) {document.getElementById('pagedesc').innerHTML = newPageDesc.innerHTML;}
+			if (newFeaturesSitewide) {document.getElementById('features-sitewide').innerHTML = newFeaturesSitewide.innerHTML;}
+			if (newFeaturesPagewide) {document.getElementById('features-pagewide').innerHTML = newFeaturesPagewide.innerHTML;}
+			if (newContent) {
+				document.getElementById('main-content').innerHTML = newContent.innerHTML;
+				history.pushState({ url: url }, '', url);
+				addLinkListeners(); // Re-add listeners after content is loaded
+			} else {
+				console.error('No content found with ID "main-content" in the fetched page.');
+			}
+			reCallSetupEvents(); 	// Re-calls all events such as the ones dependent on meta feature-,
+									// otherwise content may lack some JS functionality such as sticky TOC
+			lucide.createIcons();	// And lastly, we run Lucide to re-create the Icons
+			document.getElementById('landing').scrollIntoView({ behavior: 'smooth' }); // Scroll to the top
+		})
+		.catch(err => console.error('Error loading page:', err));
+	}
+
+	// Add event listeners to links
+	function addLinkListeners() {
+		//console.log("Running addLinkListeners function...");
+		const links = document.querySelectorAll('a');
+		links.forEach(link => {
+			// Check if the link has the data-nolink attribute
+			if (!link.hasAttribute('data-nolink')) {
+				//console.log("Added link listener for:" + link);
+				link.addEventListener('click', function(e) {
+					e.preventDefault(); // Prevent default action
+					e.stopPropagation(); // Prevent event bubbling
+					const url = this.getAttribute('href');
+				
+					// Check if the URL is the same as the current one
+					if (url === window.location.pathname) {
+						//console.log("Same URL clicked, reloading content...");
+						streamContent(url); // Fetch content again
+					} else {
+						//console.log("<a> extracted URL:" + url);
+						streamContent(url);
+						//console.log("Loading URL:" + url);
+					}
+				});
+			} else {
+				//console.log("Ignored link with data-nolink:" + link);
+			}
+		});
+	}
+
+	// Initial link listener setup
+	addLinkListeners();
+
+	// Handle back/forward navigation
+	window.addEventListener('popstate', function(event) {
+		if (event.state) {
+			streamContent(event.state.url);
+			//console.log("Streaming content using loadContent");
+		} else {
+			//console.log("No state found, using location.reload");
+			location.reload(); // Fallback if no state is found
+		}
+	});
+
 	// Theming and effects support.
 	if (hasFeature("theming")) {
 		const themeSelect = document.getElementById('setting_theme');
@@ -230,17 +339,20 @@ if (hasFeature("sitesettings")) {
 		// We're saving and loading from local or session storage. Not using cookies at all, there's no reason to.
 		function loadThemeSettings() {
 			const useLocalStorage = localStorage.getItem('useLocalStorage') === 'true' || sessionStorage.getItem('useLocalStorage') === 'true';
+			const usePageStreaming = localStorage.getItem('usePageStreaming') === 'true' || sessionStorage.getItem('usePageStreaming') === 'true';
 			const theme = localStorage.getItem('theme') || sessionStorage.getItem('theme');
 			const effect = localStorage.getItem('effect') || sessionStorage.getItem('effect');
 			const isDarkTheme = localStorage.getItem('isDarkTheme') === 'true' || sessionStorage.getItem('isDarkTheme') === 'true';
 
 			if (useLocalStorage) {useLocalStorageCheckbox.checked = true;} else {useLocalStorageCheckbox.checked = false;}
+			if (usePageStreaming) {usePageStreamingCheckbox.checked = true;} else {usePageStreamingCheckbox.checked = false;}
 			if (theme) {themeSelect.value = theme; updateTheme(theme);}
 			if (effect) {effectsSelect.value = effect; applyEffect(effect);}
 		}
 
 		function saveThemeSettings() {
 			const useLocalStorage = useLocalStorageCheckbox.checked;
+			const usePageStreaming = usePageStreamingCheckbox.checked;
 			const theme = themeSelect.value;
 			const isDarkTheme = themeSelect.options[themeSelect.selectedIndex].getAttribute('data-themetype') === 'dark';
 			const effect = effectsSelect.value;
@@ -250,14 +362,17 @@ if (hasFeature("sitesettings")) {
 				localStorage.setItem('isDarkTheme', isDarkTheme);
 				localStorage.setItem('effect', effect);
 				localStorage.setItem('useLocalStorage', 'true');
+				localStorage.setItem('usePageStreaming', usePageStreaming);
 			} else {
 				sessionStorage.setItem('theme', theme);
 				sessionStorage.setItem('isDarkTheme', isDarkTheme);
 				sessionStorage.setItem('effect', effect);
 				sessionStorage.setItem('useLocalStorage', 'false');
+				sessionStorage.setItem('usePageStreaming', usePageStreaming);
 				localStorage.removeItem('theme');
 				localStorage.removeItem('effect');
 				localStorage.removeItem('useLocalStorage');
+				localStorage.removeItem('usePageStreaming');
 			}
 
 			const iframe = document.getElementById('comments-iframe');
@@ -578,7 +693,11 @@ if (hasFeature("sitesettings")) {
 			saveThemeSettings();
 		});
 
+		usePageStreamingCheckbox.addEventListener('change', () => {const usePageStreaming = usePageStreamingCheckbox.checked; if (usePageStreaming) {addLinkListeners();}});
+
 		useLocalStorageCheckbox.addEventListener('change', saveThemeSettings);
+		usePageStreamingCheckbox.addEventListener('change', saveThemeSettings);
+
 		document.addEventListener('DOMContentLoaded', () => {
 			loadThemeSettings();
 			const theme = themeSelect.value;
@@ -653,100 +772,114 @@ if (hasFeature("sidebar")) {
 };
 
 // Video player feature, used on VI for game pages.
-if (hasFeature("videoplayer")) {
-	document.addEventListener('DOMContentLoaded', function() {
-		var video = document.getElementById('landing-video');
-		var button = document.getElementById('video-control-btn');
+function setupVideoPlayer() {
+	var video = document.getElementById('landing-video');
+	var button = document.getElementById('video-control-btn');
 		
-		if (video.paused) {button.textContent = '⏵';} else {button.textContent = '⏸';}
+	if (video.paused) {button.textContent = '⏵';} else {button.textContent = '⏸';}
 		
-		button.addEventListener('click', function() {
-			if (video.paused) {
-				video.play();
-				button.textContent = '⏸';
-			} else {
-				video.pause();
-				button.textContent = '⏵';
-			}
-		});
+	button.addEventListener('click', function() {
+		if (video.paused) {
+			video.play();
+			button.textContent = '⏸';
+		} else {
+			video.pause();
+			button.textContent = '⏵';
+		}
 	});
 };
 
 // Progress bar animations
-if (hasFeature("progress")) {
-	window.addEventListener("load", function() {
-		var progressBars = document.querySelectorAll(".progress-bar");
-		progressBars.forEach(
-			function(progressBar) {
-				var desiredPercentage = progressBar.dataset.progress;
-				progressBar.style.width = desiredPercentage + "%";
-			}
-		);
-	});
+function setupProgressBar() {
+	var progressBars = document.querySelectorAll(".progress-bar");
+	progressBars.forEach(
+		function(progressBar) {
+			var desiredPercentage = progressBar.dataset.progress;
+			progressBar.style.width = desiredPercentage + "%";
+		}
+	);
 };
 
 // Sticky table of contents feature. Used on posts and pages that use ToCs, on ATP, VI and VI Docs websites.
-if (hasFeature("stickypostheader")) {
-	document.addEventListener('DOMContentLoaded', function() {
-		var postHeader = document.getElementById('post-header');
-		var isScrollingDown = false;
-		var headerStickyPosition = { top: 1.5 * 16, };
-		var scrollThreshold = postHeader.offsetTop - headerStickyPosition.top;
-		var isHeaderSticky = false;
-		var isInitialScroll = true;
+function setupStickyPostHeader() {
+	var postHeader = document.getElementById('post-header');
+	var isScrollingDown = false;
+	var headerStickyPosition = { top: 1.5 * 16, };
+	var scrollThreshold = postHeader.offsetTop - headerStickyPosition.top;
+	var isHeaderSticky = false;
 
-		function handleScroll() {
-			var scrollY = window.pageYOffset || document.documentElement.scrollTop;
-			var currentScrollDown = scrollY > scrollThreshold;
+	function handleScroll() {
+		var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+		var currentScrollDown = scrollY > scrollThreshold;
 			
-			if (currentScrollDown !== isScrollingDown) {
-				isScrollingDown = currentScrollDown;
-				if (isScrollingDown) {
-					postHeader.classList.add('post-header-sticky');
-				} else {
-					postHeader.classList.remove('post-header-sticky');
-				}
-				
-				if (isScrollingDown) {
-					postHeader.style.transition = 'transform 0.15s ease-in-out';
-					postHeader.style.transform = 'translate(0, 0%)';
-				} else {
-					postHeader.style.transition = 'transform 0.15s ease-in-out';
-					postHeader.style.transform = 'translate(0, 0)';
-				}
-			}
-			
-			if (!isScrollingDown && !isHeaderSticky) {
-				postHeader.style.border = 'none';
+		if (currentScrollDown !== isScrollingDown) {
+			isScrollingDown = currentScrollDown;
+			if (isScrollingDown) {
+				postHeader.classList.add('post-header-sticky');
 			} else {
-				postHeader.style.border = '0.15rem solid var(--white)';
+				postHeader.classList.remove('post-header-sticky');
+			}
+				
+			if (isScrollingDown) {
+				postHeader.style.transition = 'transform 0.15s ease-in-out';
+				postHeader.style.transform = 'translate(0, 0%)';
+			} else {
+				postHeader.style.transition = 'transform 0.15s ease-in-out';
+				postHeader.style.transform = 'translate(0, 0)';
 			}
 		}
-		
-		function setInitialBorderWidths() {
-			postHeader.style.borderTopWidth = postHeader.offsetHeight + 'px';
-			postHeader.style.borderRightWidth = postHeader.offsetWidth + 'px';
-			postHeader.style.borderBottomWidth = postHeader.offsetHeight + 'px';
-			postHeader.style.borderLeftWidth = postHeader.offsetWidth + 'px';
+			
+		if (!isScrollingDown && !isHeaderSticky) {
+			postHeader.style.border = 'none';
+		} else {
+			postHeader.style.border = '0.15rem solid var(--white)';
 		}
+	}
 		
-		window.addEventListener('load', function() {
-			postHeader.style.display = 'block';
-			setInitialBorderWidths();
-			isInitialScroll = false;
-		});
-	
-		window.addEventListener('scroll', handleScroll);
+	function setInitialBorderWidths() {
+		postHeader.style.borderTopWidth = postHeader.offsetHeight + 'px';
+		postHeader.style.borderRightWidth = postHeader.offsetWidth + 'px';
+		postHeader.style.borderBottomWidth = postHeader.offsetHeight + 'px';
+		postHeader.style.borderLeftWidth = postHeader.offsetWidth + 'px';
+	}
+		
+	window.addEventListener('load', function() {
+		postHeader.style.display = 'block';
+		setInitialBorderWidths();
 	});
+	
+	window.addEventListener('scroll', handleScroll);
 };
 
 // Hides the footer. Used on the iframe.
-if (hasFeature("nofooter")) {
-	document.addEventListener('DOMContentLoaded', function() {
-		footer = document.getElementById('footer');
-		footer.style.display = 'none';
-	})
+function setupNoFooter() {
+	footer = document.getElementById('footer');
+	footer.style.display = 'none';
 };
+
+// Copied from footer.html JS
+function loadComments() {
+	document.getElementById("load-comments").innerHTML = "Loading comments...";
+	let existingIframe = document.getElementById('comments-iframe');
+	if (existingIframe) {return;}
+
+	const iframe = document.createElement('iframe');
+	iframe.setAttribute('scrolling', 'yes');
+	iframe.style.width = '100%';
+	iframe.style.height = '100%';
+	iframe.style.minHeight = '350px';
+	iframe.style.border = 'none';
+	iframe.id = 'comments-iframe';
+
+	const fediPostId = document.querySelector(`meta[name="fedipostid"]`);
+	const postId = fediPostId.content;
+	iframe.src = siteBaseUrl + '/iframe.html?postid=' + postId;
+
+	const commentsSection = document.getElementById("comments-iframe-parent");
+	commentsSection.appendChild(iframe);
+	commentsSection.classList.toggle('hidden');
+	document.getElementById("load-comments").innerHTML = "Loaded comments!";
+}
 
 // Gets all elements that have the format <a data-share-url="" data-share-title="" data-share-description="" data-share-date="" data-share-thumbnail="">
 // Creates a share item for each, extracts the data attribute, checks for Web Share API support, and then creates one share dialog with those attributes
@@ -857,4 +990,4 @@ if (document.querySelectorAll('p[data-share-url][data-share-title][data-share-de
 	document.addEventListener('DOMContentLoaded', () => {
 	  refreshShareItems();
 	});
-}
+};

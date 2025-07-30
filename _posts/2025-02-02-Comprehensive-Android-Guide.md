@@ -308,49 +308,49 @@ Going through each page in the Settings app, you should do the following:
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
 </div>
@@ -453,7 +453,7 @@ Going through each page in the Settings app, you should do the following:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp" alt="A screenshot of the Settings app, on its 'Default apps' page" title="A screenshot of the Settings app, on its 'Default apps' page">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -481,7 +481,7 @@ Going through each page in the Settings app, you should do the following:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -506,7 +506,7 @@ Going through each page in the Settings app, you should do the following:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -597,7 +597,7 @@ Going through each page in the Settings app, you should do the following:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp" alt="A screenshot of the Settings app, on the 'Trust' page" title="A screenshot of the Settings app, on the 'Trust' page">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -612,7 +612,7 @@ Going through each page in the Settings app, you should do the following:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp" alt="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page" title="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -674,7 +674,7 @@ Open the newly-installed OpenVPN for pDNSf app, and tap on the 'Add Profile' (pl
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -693,7 +693,7 @@ In the 'IP and DNS' tab, in the DNS section:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -704,7 +704,7 @@ Don't forget in the app settings to choose a default VPN profile, if you'd want 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -732,7 +732,7 @@ When you first open the app, tap on 'Advanced settings', and toggle on (enable) 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -743,7 +743,7 @@ Then, at the top where you see DNS: [IP]::PORT::DOH {pencil icon}, tap on that a
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -755,13 +755,13 @@ At this stage, you're pretty much configured and ready to go. Open the OpenVPN f
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
 </div>
@@ -777,7 +777,7 @@ personalDNSfilter app > Advanced settings > Configure filter update, where you c
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -805,13 +805,13 @@ blacklist.this.domain - gets blacklisted
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
 </div>
@@ -825,7 +825,7 @@ The app also has a Backup and restore option (but I don't use this, I just use t
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -834,7 +834,7 @@ And there's the 'Edit configuration file' page, which is more or less the same s
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -845,7 +845,7 @@ Download and install [App Manager](https://f-droid.org/en/packages/io.github.mun
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp" alt="A screenshot of the App Manager app, on its 'Appearance' page, with the 'Enable/disable features' pop-up listing all the features that can be modified" title="A screenshot of the App Manager app, on its 'Appearance' page, with the 'Enable/disable features' pop-up listing all the features that can be modified">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -1059,7 +1059,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp" alt="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block" title="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -1118,43 +1118,43 @@ When you notice an app that has trackers discovered by App Manager, the package 
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp" alt="" title="">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
 </div>
@@ -1175,7 +1175,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -1191,25 +1191,25 @@ When you notice an app that has trackers discovered by App Manager, the package 
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp" alt="The Google Messages app, on its 'RCS chats' page, with multiple options disabled" title="The Google Messages app, on its 'RCS chats' page, with multiple options disabled">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp" alt="The Google Messages app, on its 'Automatic previews' page with all options disabled" title="The Google Messages app, on its 'Automatic previews' page with all options disabled">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp" alt="The Google Messages app, on its 'Spam protection' page" title="The Google Messages app, on its 'Spam protection' page">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
     <figure class="image-frame">
       <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp" alt="The Google Messages app, on its 'Help improve Messages' page" title="The Google Messages app, on its 'Help improve Messages' page">
       <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+        <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
       </div>
     </figure>
 </div>
@@ -1224,7 +1224,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp" alt="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section" title="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -1246,7 +1246,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp" alt="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section" title="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -1400,7 +1400,7 @@ Open the device Settings app, and navigate to the bottom, and tap on 'Google'. T
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 

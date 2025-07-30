@@ -6,7 +6,9 @@ layout: 404
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="false"/>
+        <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="false"/>
+        </div>
     </head>
 <body>
         {% include header.html %}
@@ -14,6 +16,8 @@ layout: 404
         {% include notice-container.html %}
 
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
 
         <div class="post-content post">
             <header class="post-header flex column">
@@ -24,6 +28,8 @@ layout: 404
                 <a class="post-text rem1-5 monospace medium white link" href="{{ site.baseurl }}/">{{ site.t[page.lang].homepage }}</a>
            </div>
         </div>
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
 </body>

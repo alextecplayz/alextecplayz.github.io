@@ -4,7 +4,9 @@ body {position: relative; width: 100%; height: 100%; overflow-x: hidden;}
 .article-long-title, .article-long-desc, .article-long-date, .article-long-title:hover, .article-long-desc:hover, .article-long-date:hover, .article-title, .article-desc, .article-date, .article-title:hover, .article-desc:hover, .article-date:hover, .jumpgame-logo, .jumpgame-logo:hover, .project-hangar-logo, .project-hangar-logo:hover, .project-mountain-logo, .project-mountain-logo:hover, .project-odyssey-logo, .project-odyssey-logo:hover, .project-eiffel-logo, .project-eiffel-logo:hover, .project-vidal-logo, .project-vidal-logo:hover, .project-anubis-logo, .project-anubis-logo:hover, .post-section, .post-section:hover, .post-section-link, .post-section-link:hover, .in-queue, .in-queue:hover, .section-title, .section-permalink, .section-permalink:hover, .recommendation, .recommendation:hover, .recommendation-text, .recommendation-text:hover, .article-rvw, .article-rvw:hover, .landing-page, .landing-page-left, .landing-page-right, .sidebar, .doc-column-right, .checkbox-container, .checkbox-container:hover, .rotracker-tracker, .rotracker-tracker:hover {transition: opacity 0.3s ease-in-out !important;}
 
 .overflow-scroll {overflow: scroll !important;}
-* {transition: 0.3s;}
+* {transition: opacity 0.3s ease-in-out !important;}
+
+.article-long:hover, .article:hover, .article-button-dark:hover, .article-button-light:hover, .article-tag:hover, .article-category:hover, .searchbox:hover, .recommendation:hover, .post-series-item:hover, .dropdown-dark:hover, .dropdown-light:hover, .banner8831:hover {transform: translate(-5px, -5px); box-shadow: var(--headerbg-dark-transparent) 5px 5px 0px;}
 
 ::-webkit-scrollbar, .scrollbar, scrollbar {width: 16px; -webkit-transform: rotateX(180deg); transform: rotateX(180deg);}
 ::-webkit-scrollbar-track, .slider, slider {background-color: var(--darkgray); border-radius: 0px !important;}
@@ -20,7 +22,7 @@ body {position: relative; width: 100%; height: 100%; overflow-x: hidden;}
 .section {padding-bottom: var(--rem1); padding-top: var(--rem1);}
 .scroll-smooth {scroll-behavior: smooth;}
 .articles-container {padding: var(--rem5) var(--rem5) var(--rem0) var(--rem5);}
-.article-long {border: 0.15rem solid var(--white); padding: var(--rem2); display: flex; margin: var(--rem0-5); overflow: hidden;}
+.article-long {border: 0.15rem solid var(--white); padding: var(--rem2); display: flex; margin: var(--rem0-5); overflow: hidden; background-color: var(--vantagray);}
 .article-long:hover {border: 0.15rem solid var(--accent-color); padding: var(--rem2); margin: var(--rem0-5);}
 .article-long-left {display: flex; padding: 1rem; flex-direction: column; justify-content: center; align-items: center; max-width: 50%;}
 .article-long-right {padding: var(--rem1); display: flex; flex-direction: column; overflow: hidden; justify-content: space-around; max-width: 50%;}
@@ -32,7 +34,7 @@ body {position: relative; width: 100%; height: 100%; overflow-x: hidden;}
 .article-long-date:hover {color: var(--magenta);}
 .article-long-image-size {max-width: 1920px; width: 100% !important; height: auto !important; background-color: var(--lightgray); object-fit: cover !important;}
 .double-article {padding-top: var(--rem0-5); padding-bottom: var(--rem0-5); display: flex; justify-content: space-evenly; align-content: center; flex-direction: row;}
-.article {border: 0.15rem solid var(--white); padding: var(--rem0-75); display: flex; margin: var(--rem0-75) var(--rem0-5) var(--rem0-75) var(--rem0-5); overflow: hidden;}
+.article {border: 0.15rem solid var(--white); padding: var(--rem0-75); display: flex; margin: var(--rem0-75) var(--rem0-5) var(--rem0-75) var(--rem0-5); overflow: hidden; background-color: var(--vantagray);}
 .article:hover {border: 0.15rem solid var(--accent-color);}
 .article-left {display: flex; padding: var(--rem0-5); flex-direction: column;}
 .article-right {padding: var(--rem0-5); display: flex; flex-direction: column; overflow: hidden; justify-content: space-around;}
@@ -126,8 +128,8 @@ label {cursor: pointer; display: inline-block;}
 .post {height: 100%; flex-grow: 1; width: auto;}
 .post-content-header {height: fit-content !important; display: flex; flex-direction: column;}
 .post-header {display: flex; align-items: flex-start; margin: 0rem var(--rem1) 0rem var(--rem1); background: var(--vantagray); width: -moz-available !important; width: -webkit-fill-available !important; transition: transform 0.3s ease-in-out !important; overflow-x: hidden;}
-.post-header-sticky {position: fixed !important; padding: 0rem; top: var(--rem1-5); transition: transform 0.3s ease-in-out !important; z-index: 100; overflow-x: hidden;}
-.post-header details {overflow-y: auto !important; max-height: 25vh !important; scroll-behavior: smooth; overflow-x: hidden; padding: var(--rem0-35) var(--rem1) var(--rem0-35) var(--rem3) !important;}
+.post-header-sticky {position: fixed !important; padding: 0rem; top: var(--rem1-5); transition: transform 0.3s ease-in-out !important; z-index: 100; overflow-x: hidden; max-height: 25vh !important;}
+.post-header details {overflow-y: auto !important; scroll-behavior: smooth; overflow-x: hidden; padding: var(--rem0-35) var(--rem1) var(--rem0-35) var(--rem3) !important; width: inherit;}
 .post-header details a:first-of-type {padding-top: var(--rem1-5);}
 .post-header details a:last-of-type {padding-bottom: var(--rem1-5);}
 .post-header details a {text-decoration: none; line-height: normal !important; position: relative !important; background-color: unset !important; color: var(--lightgray) !important;}
@@ -283,7 +285,7 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 .searchresult-bottom pre, .searchresult-bottom pre p, .searchresult-bottom pre p strong {color: var(--lightgray); font-size: var(--rem1); font-family: 'Space Mono', monospace;}
 .search-pop-up .pop-up-content {max-width: 80vw !important;}
 .pop-up-content-titlebar {justify-content: space-between; display: flex; flex-direction: row; overflow: hidden;}
-.pop-up-content {z-index: 101; overflow: hidden;}
+.pop-up-content {z-index: 101; overflow: hidden; transform: translate(-5px, -5px); box-shadow: var(--headerbg-dark-transparent) 5px 5px 0px;}
 .pop-up {overflow: hidden; overflow-y: scroll !important;}
 .inline-pop-up {top: unset !important; bottom: unset !important; left: unset !important; right: unset !important; position: relative !important; background-color: unset !important;}
 .inline-pop-up .pop-up-content {z-index: unset !important;}

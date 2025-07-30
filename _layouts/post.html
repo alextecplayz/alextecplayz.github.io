@@ -7,13 +7,20 @@ tooltips: true
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="true"/>
-        {% if page.fedicomments %}<meta name="feature-fedicomments" content="true"/>{% endif %}
+        <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="true"/>
+            {% if page.fedicomments %}<meta name="feature-fedicomments" content="true"/>{% endif %}
+        </div>
     </head>
-    <body class="{{ page.class }}">
+    <body id="body" class="{{ page.class }}">
         {% include header.html %}
         {% include notice-container.html %}
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
+        {% if page.fedicomments %}
+        <meta name="fedipostid" content="{{ page.fedipostid }}">
+        {% endif %}
 
         <div class="post-content post">
             {% capture words %}
@@ -186,7 +193,7 @@ tooltips: true
                         {% else if %}
                             <a class="article-button-light grotesk medium darkgray disabled"><i data-lucide="clock-arrow-up"></i> Newer post: [unavailable]</a>
                         {% endif %}
-                        <a class="article-button-light grotesk medium darkgray pointer" data-share-url="{{ page.url }}" data-share-title="{{ page.title }}" data-share-description="{{ page.description }}" data-share-date="{{ page.date | date_to_xmlschema }}" data-share-thumbnail="{{ page.image_banner_link }}"><i data-lucide="share"></i> Share this page</a>
+                        <p class="article-button-light grotesk medium darkgray pointer" data-share-url="{{ page.url }}" data-share-title="{{ page.title }}" data-share-description="{{ page.description }}" data-share-date="{{ page.date | date_to_xmlschema }}" data-share-thumbnail="{{ page.image_banner_link }}"><i data-lucide="share"></i> Share this page</p>
                         {% if page.previous %}
                             <a class="article-button-light grotesk medium darkgray" href="{{ page.previous.url }}"><i data-lucide="clock-arrow-down"></i> Older post: {{ page.previous.title }}</a>
                         {% else if %}
@@ -369,7 +376,7 @@ tooltips: true
         {% endif %}
 
         <!-- https://developers.google.com/search/docs/appearance/structured-data/article#json-ld -->
-        <script type="application/ld+json">
+        <script nonce="{{ site.data.nonce }}" type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "{{ page.article_type }}", // Article, NewsArticle, SocialMediaPosting, TechArticle
@@ -399,7 +406,7 @@ tooltips: true
         </script>        
 
         <!-- https://developers.google.com/search/docs/appearance/structured-data/profile-page#json-ld -->
-        <script type="application/ld+json">
+        <script nonce="{{ site.data.nonce }}" type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "ProfilePage",
@@ -443,6 +450,8 @@ tooltips: true
             "url": "{{ site.baseurl }}",
             "jobTitle": "Game, Software & Web Developer"
         }</script>
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
     </body>

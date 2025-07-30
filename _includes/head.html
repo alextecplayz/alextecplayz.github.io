@@ -2,7 +2,7 @@
 		<!-- Webpage title -->
 		<title id="home">{% if page.title %}{{ page.title }}{% else %}AlexTECPlayz{% endif %}</title>
 		<!-- Website description -->
-		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}AlexTECPlayz' website, featuring a blog and some other pages of interest.{% endif %}">
+		<meta id="pagedesc" name="description" content="{% if page.description %}{{ page.description }}{% else %}AlexTECPlayz' website, featuring a blog and some other pages of interest.{% endif %}">
 		<!-- Viewport width -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -30,6 +30,8 @@
 		{% endif %}
 
 		<!-- CSP policy -->
+		<!-- 'nonce-{{ site.data.nonce }}' has been temporarily removed until I can 
+			 address why it's causing CSP issues due to the new page streaming system -->
 		{% if page.security_relaxcsp %}
 		    <!-- CSP policy has been relaxed for this page -->
 		{% else if %}
@@ -50,8 +52,10 @@
 			        files.techhub.social; 
 
 				script-src 'self' 
-				    'nonce-{{ site.data.nonce }}' 
+				    
 				    'unsafe-inline' 
+					'unsafe-hashes' 
+					alextecplayz.com
 				    alextecplayz.goatcounter.com 
 				    stats.alextecplayz.com; 
 
@@ -149,13 +153,15 @@
 		<meta name="site-baseurl" href="{{ site.url }}" />
 
 		<!-- Site features -->
-		<meta name="feature-hamburgermenu" content="false"/>
-		<meta name="feature-iframe" content="true"/>
-		<meta name="feature-langswitcher" content="false"/>
-		<meta name="feature-nofooter" content="false"/>
-		<meta name="feature-progress" content="false"/>
-		<meta name="feature-sidebar" content="false"/>
-		<meta name="feature-sitesettings" content="true"/>
-		<meta name="feature-stickyheader" content="true"/>
-		<meta name="feature-theming" content="true" />
-		<meta name="feature-videoplayer" content="false"/>
+		<div id="features-sitewide">
+			<meta name="feature-hamburgermenu" content="false"/>
+			<meta name="feature-iframe" content="true"/>
+			<meta name="feature-langswitcher" content="false"/>
+			<meta name="feature-nofooter" content="false"/>
+			<meta name="feature-progress" content="false"/>
+			<meta name="feature-sidebar" content="false"/>
+			<meta name="feature-sitesettings" content="true"/>
+			<meta name="feature-stickyheader" content="true"/>
+			<meta name="feature-theming" content="true" />
+			<meta name="feature-videoplayer" content="false"/>
+		</div>

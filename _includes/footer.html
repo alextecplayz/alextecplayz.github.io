@@ -67,6 +67,12 @@
               </label>
             <p class="monospace lightgray medium rem1 pop-up-title">Session storage is wiped when closing the browser (default option, unchecked). Local storage saves the preferences indefinitely - however, they are not cookies.</p>
             <p class="monospace lightgray medium rem1-25">&emsp;</p>
+            <label class="checkbox-container checkbox-usehtmlstreaming monospace white medium rem1-25">&nbsp;&nbsp;Stream in seamlessly content instead of loading each page?
+                <input type="checkbox" unchecked="unchecked">
+                <span class="checkmark"></span>
+            </label>
+            <p class="monospace lightgray medium rem1 pop-up-title">Should the site stream in every page, which would be more seamless, than to load each page one-by-one, which may cause some interruptions or be less seamless?</p>
+            <p class="monospace lightgray medium rem1-25">&emsp;</p>
             <p class="monospace lightgray medium rem1-25">&emsp;</p>
             <div class="flex row">
                 <a class="grotesk medium rem1 flex accent-color link" href="https://github.com/alextecplayz/alextecplayz.github.io/">Website v{{ site.ver_site }}</a>
@@ -144,34 +150,3 @@
 {% if page.highlight %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/external/sharedweb/js/highlight/highlight.min.js"></script>{% endif %}
 {% if page.highlight %}<script nonce="{{ site.data.nonce }}">hljs.highlightAll();</script>{% endif %}
 {% if page.fedicomments %}<script nonce="{{ site.data.nonce }}" src="{{ site.baseurl }}/external/sharedweb/js/dompurify/purify.min.js"></script>{% endif %}
-{% if page.fedicomments %}
-<script nonce="{{ site.data.nonce }}">
-    if (hasFeature("fedicomments")) {
-        function loadComments() {
-            document.getElementById("load-comments").innerHTML = "Loading comments...";
-            let existingIframe = document.getElementById('comments-iframe');
-            if (existingIframe) {
-                return;
-            }
-
-            const iframe = document.createElement('iframe');
-            iframe.setAttribute('scrolling', 'yes');
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.style.minHeight = '350px';
-            iframe.style.border = 'none';
-            iframe.id = 'comments-iframe';
-
-            const postId = "{{ page.fedipostid }}";
-            iframe.src = '{{ site.baseurl }}/iframe.html?postid=' + postId;
-
-            const commentsSection = document.getElementById("comments-iframe-parent");
-            commentsSection.appendChild(iframe);
-            commentsSection.classList.toggle('hidden');
-            document.getElementById("load-comments").innerHTML = "Loaded comments!";
-        }
-        document.getElementById("load-comments").addEventListener("click", loadComments);
-    }
-    window.addEventListener('message', function(event) {if (event.data.type === 'resize-iframe') {const iframe = document.getElementById('comments-iframe');if (iframe) {iframe.style.height = event.data.height + 'px';}}});
-</script>
-{% endif %}

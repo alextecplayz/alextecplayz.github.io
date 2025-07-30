@@ -66,17 +66,20 @@ layout: search
         <meta name="site-baseurl" href="{{ site.url }}" />
         
         <!-- Site features -->
-        <meta name="feature-hamburgermenu" content="false"/>
-	    <meta name="feature-iframe" content="true"/>
-        <meta name="feature-langswitcher" content="false"/>
-	    <meta name="feature-nofooter" content="false"/>
-        <meta name="feature-progress" content="false"/>
-        <meta name="feature-sidebar" content="false"/>
-        <meta name="feature-sitesettings" content="true"/>
-        <meta name="feature-stickyheader" content="true"/>
-	    <meta name="feature-theming" content="true" />
-        <meta name="feature-videoplayer" content="false"/>
-        <meta name="feature-stickypostheader" content="false"/>
+         <div id="features-sitewide">
+            <meta name="feature-hamburgermenu" content="false"/>
+	        <meta name="feature-iframe" content="true"/>
+            <meta name="feature-langswitcher" content="false"/>
+	        <meta name="feature-nofooter" content="false"/>
+            <meta name="feature-progress" content="false"/>
+            <meta name="feature-sidebar" content="false"/>
+            <meta name="feature-sitesettings" content="true"/>
+            <meta name="feature-stickyheader" content="true"/>
+	        <meta name="feature-theming" content="true" />
+            <meta name="feature-videoplayer" content="false"/>
+            <meta name="feature-stickypostheader" content="false"/>
+         </div>
+         <div id="features-pagewide"></div>
     </head>
 <body>
         {% include header.html %}
@@ -85,10 +88,12 @@ layout: search
 
         {% include mobile.html %}
 
+        <div id="main-content"> <!-- Continues past 8831 banners -->
+
         <div class="search-container articles-container">
             <div class="searchbox-container">
                 <div class="recommendation" id="search-actions-trigger">
-                    <a class="recommendation-text rem1 monospace semibold"><i data-lucide="list-filter"></i> Filter...</a>
+                    <a data-nolink class="recommendation-text rem1 monospace semibold"><i data-lucide="list-filter"></i> Filter...</a>
                 </div>
                 <form id="site_search">
                     <input class="searchbox monospace italic search-input rem1" type="text" id="search-box" name="query" placeholder="Enter your search term..."> 
@@ -108,9 +113,9 @@ layout: search
             <details class="details">
                 <summary>Expand to show the contents of this collapsed section</summary>
 
-                <p class="monospace medium rem1 white">The search retrieves the website's <a class="accent-color link" href="{{ site.baseurl }}/sitemap.xml">sitemap.xml</a>, retrieves certain XML tags including the XML loc tag and custom tags under the Vedalia namespace (custom namespace by me), such as vedalia:title, vedalia:description, vedalia:date, vedalia:content, goes through it for each URL listed in the sitemap, and displays the results. Each result has a snippet below, where the first iteration of the query is visible, while offering some context by providing 150 characters before and after the query itself.</p>
+                <p class="monospace medium rem1 white">The search retrieves the website's <a data-nolink class="accent-color link" href="{{ site.baseurl }}/sitemap.xml">sitemap.xml</a>, retrieves certain XML tags including the XML loc tag and custom tags under the Vedalia namespace (custom namespace by me), such as vedalia:title, vedalia:description, vedalia:date, vedalia:content, goes through it for each URL listed in the sitemap, and displays the results. Each result has a snippet below, where the first iteration of the query is visible, while offering some context by providing 150 characters before and after the query itself.</p>
                 <br>
-                <p class="monospace medium rem1 white">You can, of course, <a class="accent-color link" href="https://github.com/alextecplayz/alextecplayz.github.io/blob/159a137b27292d104d494334c3b6195a6d1b9f52/external/sharedweb/js/common.js#L343-L584">check the code itself on GitHub to take a more in-depth look</a>, if so you prefer. Additionally, you can browse the sitemap generator's code <a class="accent-color link" href="https://github.com/alextecplayz/alextecplayz.github.io/blob/main/sitemap.xml">here</a>.</p>
+                <p class="monospace medium rem1 white">You can, of course, <a data-nolink class="accent-color link" href="https://github.com/alextecplayz/alextecplayz.github.io/blob/159a137b27292d104d494334c3b6195a6d1b9f52/external/sharedweb/js/common.js#L343-L584">check the code itself on GitHub to take a more in-depth look</a>, if so you prefer. Additionally, you can browse the sitemap generator's code <a data-nolink class="accent-color link" href="https://github.com/alextecplayz/alextecplayz.github.io/blob/main/sitemap.xml">here</a>.</p>
                 <br>
                 <table>
                     <thead>
@@ -252,7 +257,7 @@ layout: search
                         <p class="monospace lightgray semibold rem1"><i data-lucide="table-rows-split"></i> Character range to the left and to the right of the query itself to be shown in the excerpt.</p>
                     </div>
                     <div class="settings-button" id="search-resetsnippetrange">
-                        <a class="rem1 monospace semibold lightgray">Reset to default (150)</a>
+                        <a data-nolink class="rem1 monospace semibold lightgray">Reset to default (150)</a>
                     </div>
                     <p class="monospace lightgray medium rem1-25">&emsp;</p>
                     <p class="rem1-25 monospace semibold white"><i data-lucide="arrow-up-down"></i> Sort</p>
@@ -289,6 +294,8 @@ layout: search
         </div>
 
         <hr class="hr-line-long">
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
         {% if site.output_configuration == 'production' %}

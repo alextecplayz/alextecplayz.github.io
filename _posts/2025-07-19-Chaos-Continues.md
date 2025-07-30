@@ -54,7 +54,7 @@ As I've mentioned on Mastodon, I've found this video, and I wanted to dig in to 
     <figure class="image-frame">
         <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/1991look-trump-details.webp" alt="A 1991 Look of the Year photo on a yacht with some of the contestants. Donald is aged 45, while the identified women around him may be underage. Only one is confirmed to be a minor, Tamara Sedmark, who is 15. Belinda Hutter, the girl that Trump is displayed in a different photo kissing either on the mouth or cheek, could be a minor. Another identified girl in the photo is Irina Tortchinskaia, age unknown." title="A 1991 Look of the Year photo on a yacht with some of the contestants. Donald is aged 45, while the identified women around him may be underage. Only one is confirmed to be a minor, Tamara Sedmark, who is 15. Belinda Hutter, the girl that Trump is displayed in a different photo kissing either on the mouth or cheek, could be a minor. Another identified girl in the photo is Irina Tortchinskaia, age unknown.">
         <div class="image-frame-buttons">
-            <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/1991look-trump-details.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+            <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/1991look-trump-details.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
         </div>
     </figure>
 </div>
@@ -76,7 +76,7 @@ But back at the second half of the [image](https://files.techhub.social/cache/me
         <figure class="image-frame">
             <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-trump-yacht.webp" alt="A parody ad a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!" title="A parody ad for a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!">
             <div class="image-frame-buttons">
-                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-trump-yacht.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-trump-yacht.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
             </div>
         </figure>
     </div>
@@ -116,7 +116,7 @@ I do not want to speculate on what Trump and Epstein "have in common" because th
         <figure class="image-frame">
             <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died.">
             <div class="image-frame-buttons">
-                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
             </div>
         </figure>
     </div>

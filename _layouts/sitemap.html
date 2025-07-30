@@ -6,13 +6,17 @@ layout: sitemap
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="true"/>
-        {% if page.fedicomments %}<meta name="feature-fedicomments" content="true"/>{% endif %}
+         <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="true"/>
+            {% if page.fedicomments %}<meta name="feature-fedicomments" content="true"/>{% endif %}
+         </div>
     </head>
     <body class="{{ page.class }}">
         {% include header.html %}
         {% include notice-container.html %}
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
 
         <div class="post-content post">
             <div class="post-content lightgray rem1 monospace medium">
@@ -40,6 +44,8 @@ layout: sitemap
                 </div>
             </div>
         </div>
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
     </body>

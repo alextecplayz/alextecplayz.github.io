@@ -6,7 +6,9 @@ layout: posts
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="false"/>
+        <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="false"/>
+        </div>
     </head>
 <body>
         {% include header.html %}
@@ -14,6 +16,8 @@ layout: posts
         {% include notice-container.html %}
 
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
 
         <div class="articles-container">
             {% assign posts=site.posts | where:"lang", page.lang %}
@@ -115,6 +119,8 @@ layout: posts
             </div>
         {% endfor %}
         </div>
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
 </body>

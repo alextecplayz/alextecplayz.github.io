@@ -6,14 +6,18 @@ layout: index
 <html lang="{{ page.lang }}" class="scroll-smooth">
     <head>
         {% include head.html %}
-        <meta name="feature-stickypostheader" content="false"/>
+        <div id="features-pagewide">
+            <meta name="feature-stickypostheader" content="false"/>
+        </div>
     </head>
-<body>
+<body id="body">
         {% include header.html %}
 
         {% include notice-container.html %}
 
         {% include mobile.html %}
+
+        <div id="main-content"> <!-- Continues past 8831 banners -->
 
         <div class="articles-container">
             <div class="flex row align-end"><p class="grotesk semibold white rem2">Hi, I'm Alex!</p>&nbsp;<p class="monospace semibold lightgray rem1">(she/they)</p></div>
@@ -199,6 +203,8 @@ layout: index
         <hr>
 
         {% include 8831.html %}
+
+        </div> <!-- End of div id main-content -->
 
         {% include footer.html %}
         {% if site.output_configuration == 'production' %}
