@@ -43,6 +43,8 @@ function reCallSetupEvents() {
 		}
 	} // part of footer.html JS
 	refreshShareItems();
+	reloadGoatcounter();
+	reloadNSFWbanner();
 };
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -216,26 +218,6 @@ if (hasFeature("sitesettings")) {
 	settingsButton.addEventListener('click', showSettingsWindow);
 	settingsWindowClose.addEventListener('click', hideSettingsWindow);
 
-	if (document.getElementById('nsfwcontent-content')) {
-		const nsfwContent = document.getElementById('nsfwcontent-content');
-		const nsfwWindow = document.getElementById('nsfwcontent-window');
-		const nsfwProceed = document.getElementById('nsfw-proceed-button');
-		const nsfwHome = document.getElementById('nsfw-home-button');
-
-		function unhideNsfw() {
-			nsfwContent.classList.remove('hidden');
-			nsfwWindow.classList.remove('flex');
-			nsfwWindow.classList.add('hidden');
-		}
-
-		function goBackHome() {
-			window.history.back();
-		}
-
-		nsfwProceed.addEventListener('click', unhideNsfw);
-		nsfwHome.addEventListener('click', goBackHome);
-	}
-
 	// Copied and tweaked from new wip VI Docs
 	function streamContent(url) {
 		fetch(url + '?t=' + new Date().getTime(), { cache: 'no-store' }) // Prevent caching
@@ -269,6 +251,7 @@ if (hasFeature("sitesettings")) {
 			}
 			reCallSetupEvents(); 	// Re-calls all events such as the ones dependent on meta feature-,
 									// otherwise content may lack some JS functionality such as sticky TOC
+			if (hasFeature("codehighlight")) {hljs.highlightAll();}	// Re-run highlightJS
 			lucide.createIcons();	// And lastly, we run Lucide to re-create the Icons
 			document.getElementById('landing').scrollIntoView({ behavior: 'smooth' }); // Scroll to the top
 		})
@@ -991,3 +974,48 @@ if (document.querySelectorAll('p[data-share-url][data-share-title][data-share-de
 	  refreshShareItems();
 	});
 };
+
+function reloadGoatcounter() {
+	window.goatcounter = {
+        allow_local: true,
+        allow_frame: true,
+        path: location.pathname || '/',
+    }
+	var t = setInterval(function() {
+    	if (!window.goatcounter || !window.goatcounter.count)
+    	    return
+
+    	clearInterval(t)
+
+    	if (document.getElementById('gc-viewcount-stats')) {
+    	    var r = new XMLHttpRequest();
+    	    r.addEventListener('load', function() {
+    	        document.querySelector('#gc-viewcount-stats').innerText = JSON.parse(this.responseText).count_unique
+    	    })
+    	    r.open('GET', 'https://alextecplayz.goatcounter.com/counter/' + encodeURIComponent(location.pathname.replace(/(\/)?$/, '')) + '.json')
+    	    r.send()
+    	}
+	}, 200)
+};
+
+function reloadNSFWbanner() {
+	if (document.getElementById('nsfwcontent-content')) {
+		const nsfwContent = document.getElementById('nsfwcontent-content');
+		const nsfwWindow = document.getElementById('nsfwcontent-window');
+		const nsfwProceed = document.getElementById('nsfw-proceed-button');
+		const nsfwHome = document.getElementById('nsfw-home-button');
+
+		function unhideNsfw() {
+			nsfwContent.classList.remove('hidden');
+			nsfwWindow.classList.remove('flex');
+			nsfwWindow.classList.add('hidden');
+		}
+
+		function goBackHome() {
+			window.history.back();
+		}
+
+		nsfwProceed.addEventListener('click', unhideNsfw);
+		nsfwHome.addEventListener('click', goBackHome);
+	}
+}

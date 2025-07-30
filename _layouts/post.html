@@ -9,6 +9,7 @@ tooltips: true
         {% include head.html %}
         <div id="features-pagewide">
             <meta name="feature-stickypostheader" content="true"/>
+            {% if page.highlight %}<meta name="feature-codehighlight" content="true">{% endif %}
             {% if page.fedicomments %}<meta name="feature-fedicomments" content="true"/>{% endif %}
         </div>
     </head>
