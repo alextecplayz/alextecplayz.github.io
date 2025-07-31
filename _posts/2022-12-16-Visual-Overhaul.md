@@ -55,7 +55,7 @@ This is a GIF or an image:
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/fh5gif.gif" alt="A GIF of a few cars racing in the desert in Forza Horizon 5" title="A GIF of a few cars racing in the desert in Forza Horizon 5">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 

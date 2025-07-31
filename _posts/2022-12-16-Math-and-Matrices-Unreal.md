@@ -75,7 +75,7 @@ Some examples of popular games that use matrices in their development include Gr
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/fh5gif.gif" alt="A GIF of a few cars racing in the desert in Forza Horizon 5" title="A GIF of a few cars racing in the desert in Forza Horizon 5">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -102,8 +102,8 @@ Text source ([Pastebin](https://pastebin.com/f5ed36b9))
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, in his house.">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221213185357.png" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 
@@ -130,16 +130,16 @@ Text source ([Pastebin](https://pastebin.com/f5ed36b9))
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194552.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.webp" alt="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged." title="An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a blue four-seater car with its headlights turned on, and the front right door open. An image of GTA San Andreas' main protagonist, Carl 'CJ' Johnson, next to a brown four-seater coupe car with a broken windshield, the left front door open, and the hood missing, with the engine smoking dark gray, a sign that the car is heavily damaged.">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/Grand-Theft-Auto-San-Andreas-SLUS-20946-20221215194922.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
   </div>
 </figure>
 
@@ -152,7 +152,7 @@ Unreal Engine 5 is the latest version of the popular game engine developed by Ep
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/Cubes.gif" alt="Two spinning cubes in Unreal Engine 5.1" title="Two spinning cubes in Unreal Engine 5.1">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Cubes.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/Cubes.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -163,7 +163,7 @@ In addition, Unreal Engine 5 makes use of matrices in its artificial intelligenc
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/UE5-AI.gif" alt="A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level" title="A GIF demonstrating AI in Unreal Engine 5.1 pathfinding around a level">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/UE5-AI.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/UE5-AI.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 

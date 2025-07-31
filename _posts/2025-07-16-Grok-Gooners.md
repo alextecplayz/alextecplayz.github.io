@@ -42,7 +42,7 @@ Twitter news, first.
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ami-grok.webp" alt="Grok's Ami virtual character, a 3D modelled blonde girl with twintails, dark blue eyes, wearing a skimpy bra." title="Grok's Ami virtual character, a 3D modelled blonde girl with twintails, dark blue eyes, wearing a skimpy bra.">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ami-grok.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ami-grok.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 
@@ -57,7 +57,7 @@ Imagine the nightmare-level gooner and cuck you have to be to pay [$300 per mont
         <figure class="image-frame">
             <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-grok-arihorny.webp" alt="A parody ad for Grok, with the 'NSFW version' of Ari in the background, the text 'HORNY WOMEN are waiting FOR YOU on GROK', and a snapchat/Instagram story-like black caption bar with the caption reading 'SOMEONE HELP ME I'M STUCK IN THE GROK APP AAAAA' Ari has two black CENSORED bars over her skimpy panties and bra." title="A parody ad for Grok, with the 'NSFW version' of Ari in the background, the text 'HORNY WOMEN are waiting FOR YOU on GROK', and a snapchat/Instagram story-like black caption bar with the caption reading 'SOMEONE HELP ME I'M STUCK IN THE GROK APP AAAAA' Ari has two black CENSORED bars over her skimpy panties and bra.">
             <div class="image-frame-buttons">
-                <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-grok-arihorny.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-grok-arihorny.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
             </div>
         </figure>
     </div>
@@ -85,13 +85,13 @@ During his 2024 presidential campaign, the Orange Con Man talked about releasing
             <figure class="image-frame">
                 <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-slimfast-trump.webp" alt="A parody ad for SlimFast, a 'food replacement' product that causes diarrhea. In the background is the famous White House-posted image of Donald Trump's face on the Superman (2025) movie's poster. The tag-line reads 'SHIT YOURSELF THIN(tm)', a phrase I've shamelessly stolen from a video produced by OrdinaryThings on replacement food products that included SlimFast." title="A parody ad for SlimFast, a 'food replacement' product that causes diarrhea. In the background is the famous White House-posted image of Donald Trump's face on the Superman (2025) movie's poster. The tag-line reads 'SHIT YOURSELF THIN(tm)', a phrase I've shamelessly stolen from a video produced by OrdinaryThings on replacement food products that included SlimFast.">
                 <div class="image-frame-buttons">
-                    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-slimfast-trump.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-slimfast-trump.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
                 </div>
             </figure>
             <figure class="image-frame">
                 <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-wayfair-couchfucker.webp" alt="A parody ad for wayfair, featuring a 48-hours only way day sale. Below that is the caption 'COUCH-FUCKER APPROVED!', underneath is a couch, and in the bottom right corner is a stock image of a businessman, over which I've put JD Vance's bald edited face." title="A parody ad for wayfair, featuring a 48-hours only way day sale. Below that is the caption 'COUCH-FUCKER APPROVED!', underneath is a couch, and in the bottom right corner is a stock image of a businessman, over which I've put JD Vance's bald edited face.">
                 <div class="image-frame-buttons">
-                    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-wayfair-couchfucker.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-wayfair-couchfucker.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
                 </div>
             </figure>
         </div>
@@ -109,7 +109,7 @@ On June 5, an absolute gem (not an emerald, though) came out from Musk's minor s
         <figure class="image-frame">
             <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-musk-buyscam.webp" alt="A parody ad for Elon Musk being interviewed in one of his Tesla factories, being quoted 'BUY $SCAM NOW', with the quote attributing it to 'Elon Musk, while on ketamine'. He is then quoted again: '1000% ROI in 24 hours!'. This is a satirical advertisement playing on Elon's alleged ketamine use, and his occasional promotion of pump-and-dump schemes such as cryptocurrencies." title="A parody ad for Elon Musk being interviewed in one of his Tesla factories, being quoted 'BUY $SCAM NOW', with the quote attributing it to 'Elon Musk, while on ketamine'. He is then quoted again: '1000% ROI in 24 hours!'. This is a satirical advertisement playing on Elon's alleged ketamine use, and his occasional promotion of pump-and-dump schemes such as cryptocurrencies.">
             <div class="image-frame-buttons">
-                <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-musk-buyscam.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-musk-buyscam.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
             </div>
         </figure>
     </div>
@@ -124,7 +124,7 @@ But almost three minutes? A single minute can change everything in a prison, esp
         <figure class="image-frame">
             <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died.">
             <div class="image-frame-buttons">
-                <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
             </div>
         </figure>
     </div>
@@ -143,7 +143,7 @@ I think that covers two things I wanted to cover for the first slop-post. Also e
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/voxel-epsteincell.webp" alt="A voxel rendition of Jeffrey Epstein's prison cell." title="A voxel rendition of Jeffrey Epstein's prison cell.">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/voxel-epsteincell.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/voxel-epsteincell.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 

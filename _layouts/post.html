@@ -49,10 +49,10 @@ tooltips: true
                             {% assign title = title_index[1] | split: '</h' | first | strip_html | strip_newlines | strip %}
                             {% assign class_name = 'header-button monospace semibold header-button-h' | append: level %}
             
-                            {% assign toc_html = toc_html | append: '<a data-nolink class="' | append: class_name | append: '" href="#' | append: id | append: '">' | append: title | append: '</a>' %}
+                            {% assign toc_html = toc_html | append: '<a class="' | append: class_name | append: '" href="#' | append: id | append: '">' | append: title | append: '</a>' %}
             
                             {% unless forloop.last %}
-                                {% assign toc_html = toc_html | append: '<br>' %}
+                                {% assign toc_html = toc_html %}
                             {% endunless %}
                         {% endif %}
                     {% endif %}
@@ -70,7 +70,7 @@ tooltips: true
                     <p class="monospace rem1 lightgray italic">Image subtitle: {{ page.image_banner_subtitle }}</p>
                 {% endif %}
                 <div class="flex row">
-                    <a data-nolink class="rem1 white monospace medium" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml"><i data-lucide="rss"></i> RSS Feed</a>
+                    <a class="rem1 white monospace medium" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml"><i data-lucide="rss"></i> RSS Feed</a>
                     {% if page.date %}
                     <p class="post-meta align-center">
                         &nbsp;
@@ -109,8 +109,8 @@ tooltips: true
                     <header class="post-header z-index25" id="post-header">
                         <details class="toc">
                             <summary class="post-text monospace rem1-25 lightgray">{{ site.t[page.lang].toc }}</summary>
-                            <a data-nolink class="header-button monospace semibold" href="#landing">Top</a><br>
-                            {{ toc_html }}
+                            <a class="header-button monospace semibold" href="#landing">Top</a>
+                            <div class="post-header-scrollbox">{{ toc_html }}</div>
                         </details>
                     </header>
                 {% endif %}

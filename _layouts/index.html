@@ -24,20 +24,20 @@ layout: index
             <p class="monospace medium lightgray rem1">Game, software and web developer.</p>
 
             <p class="monospace medium lightgray rem1">Okay, but really, what do <i>I</i> do?</p>
-            <p class="monospace medium lightgray rem1">I'm working on my own game engine, <a class="accent-color link" href="{{ site.baseurl }}/post/roadmap/2024/01/14/Sapphire-thread">Sapphire</a> and <a class="accent-color link" href="https://vantainteractive.com/en/games/Prisonia">PRISONIA</a>, which runs on Sapphire, as well as <a class="accent-color link" href="{{ site.baseurl }}/portfolio#Translations">contribute to translations to projects like Penpot, Bluesky, Megalodon</a></p>
+            <p class="monospace medium lightgray rem1">I'm working on my own game engine, <a data-spalink class="accent-color link" href="{{ site.baseurl }}/post/roadmap/2024/01/14/Sapphire-thread">Sapphire</a> and <a class="accent-color link" href="https://vantainteractive.com/en/games/Prisonia">PRISONIA</a>, which runs on Sapphire, as well as <a data-spalink class="accent-color link" href="{{ site.baseurl }}/portfolio#Translations">contribute to translations to projects like Penpot, Bluesky, Megalodon</a></p>
             <br><br>
             <p class="monospace semibold white rem1-15">Some recommendations:</p>
             <div class="recommendations-container">
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/posts"><i data-lucide="newspaper"></i> /posts</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/notes"><i data-lucide="notebook-text"></i> /notes</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/now"><i data-lucide="history"></i> Now</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/videos"><i data-lucide="video"></i> /videos</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/uses"><i data-lucide="monitor-smartphone"></i> /uses</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/recommends"><i data-lucide="star"></i> /recommends</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/about"><i data-lucide="badge-info"></i> /about</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/portfolio"><i data-lucide="folder-open"></i> /portfolio</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/support"><i data-lucide="gem"></i> /support</a></div>
-                <div class="recommendation"><a class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/sitemap"><i data-lucide="map"></i> All pages</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/posts"><i data-lucide="newspaper"></i> /posts</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/notes"><i data-lucide="notebook-text"></i> /notes</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/now"><i data-lucide="history"></i> Now</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/videos"><i data-lucide="video"></i> /videos</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/uses"><i data-lucide="monitor-smartphone"></i> /uses</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/recommends"><i data-lucide="star"></i> /recommends</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/about"><i data-lucide="badge-info"></i> /about</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/portfolio"><i data-lucide="folder-open"></i> /portfolio</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/support"><i data-lucide="gem"></i> /support</a></div>
+                <div class="recommendation"><a data-spalink class="recommendation-text rem1 white monospace semibold" href="{{ site.baseurl }}/sitemap"><i data-lucide="map"></i> All pages</a></div>
             </div>
 
             <p class="monospace medium lightgray rem1">Or, just search on the whole website below:</p>
@@ -60,12 +60,12 @@ layout: index
                     {% endif %}
                 </div>
                 <div class="article-right">
-                    <a href="{{ site.posts.first.url }}?utm_source=atp&utm_medium=site&utm_content=index"><p class="article-title rem2 white grotesk semibold">{{ site.posts.first.title }}</p></a>
+                    <a data-spalink href="{{ site.posts.first.url }}?utm_source=atp&utm_medium=site&utm_content=index"><p class="article-title rem2 white grotesk semibold">{{ site.posts.first.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ site.posts.first.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
                     <p class="{{ site.posts.first.indicator_type }} {{ site.posts.first.indicator_class}} vantagray monospace semibold rem1">{{ site.posts.first.indicator_text }} | {{ site.posts.first.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ site.posts.first.url }}?utm_source=atp&utm_medium=site&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ site.posts.first.url }}?utm_source=atp&utm_medium=site&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ site.posts.first.url }}" data-share-title="{{ site.posts.first.title }}" data-share-description="{{ site.posts.first.description }}" data-share-date="{{ site.posts.first.date | date_to_xmlschema }}" data-share-thumbnail="{{ site.posts.first.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
@@ -117,12 +117,12 @@ layout: index
                     {% endif %}
                 </div>
                 <div class="article-right">
-                    <a href="{{ specificPost.url }}?utm_source=atp&utm_medium=site&utm_campaign=sapphirepromo&utm_content=index"><p class="article-title rem2 white grotesk semibold">{{ specificPost.title }}</p></a>
+                    <a data-spalink href="{{ specificPost.url }}?utm_source=atp&utm_medium=site&utm_campaign=sapphirepromo&utm_content=index"><p class="article-title rem2 white grotesk semibold">{{ specificPost.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ specificPost.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ specificPost.date | date: "%d %B %Y" }}</p>
                     <p class="{{ specificPost.indicator_type }} {{ specificPost.indicator_class}} vantagray monospace semibold rem1">{{ specificPost.indicator_text }} | {{ specificPost.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ specificPost.url }}?utm_source=atp&utm_medium=site&utm_campaign=sapphirepromo&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ specificPost.url }}?utm_source=atp&utm_medium=site&utm_campaign=sapphirepromo&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ specificPost.url }}" data-share-title="{{ specificPost.title }}" data-share-description="{{ specificPost.description }}" data-share-date="{{ specificPost.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ specificPost.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
@@ -150,12 +150,12 @@ layout: index
                     {% endif %}
                 </div>
                 <div class="article-right">
-                    <a href="{{ featuredPage.url }}?utm_source=atp&utm_medium=site&utm_campaign=featuredpost&utm_content=index"><p class="article-title rem2 white grotesk semibold">{{ featuredPage.title }}</p></a>
+                    <a data-spalink href="{{ featuredPage.url }}?utm_source=atp&utm_medium=site&utm_campaign=featuredpost&utm_content=index"><p class="article-title rem2 white grotesk semibold">{{ featuredPage.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ featuredPage.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ featuredPage.date | date: "%d %B %Y" }}</p>
                     <p class="{{ featuredPage.indicator_type }} {{ featuredPage.indicator_class}} vantagray monospace semibold rem1">{{ featuredPage.indicator_text }} | {{ featuredPage.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ featuredPage.url }}?utm_source=atp&utm_medium=site&utm_campaign=featuredpost&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ featuredPage.url }}?utm_source=atp&utm_medium=site&utm_campaign=featuredpost&utm_content=index">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ featuredPage.url }}" data-share-title="{{ featuredPage.title }}" data-share-description="{{ featuredPage.description }}" data-share-date="{{ featuredPage.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ featuredPage.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
@@ -180,12 +180,12 @@ layout: index
                     {% endif %}
                 </div>
                 <div class="article-right">
-                    <a href="{{ specificPage.url }}"><p class="article-title rem2 white grotesk semibold">{{ specificPage.title }}</p></a>
+                    <a data-spalink href="{{ specificPage.url }}"><p class="article-title rem2 white grotesk semibold">{{ specificPage.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ specificPage.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ specificPage.date | date: "%d %B %Y" }}</p>
                     <p class="{{ specificPage.indicator_type }} {{ specificPage.indicator_class}} vantagray monospace semibold rem1">{{ specificPage.indicator_text }} | {{ specificPage.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ specificPage.url }}">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ specificPage.url }}">{{ site.t[page.lang].readmore }} <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ specificPage.url }}" data-share-title="{{ specificPage.title }}" data-share-description="{{ specificPage.description }}" data-share-date="{{ specificPage.date | date: '%d %B %Y' }}" data-share-thumbnail="{{ specificPage.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">

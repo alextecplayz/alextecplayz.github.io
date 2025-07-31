@@ -34,12 +34,12 @@ layout: posts
                     {% endif %}
                 </div>
                 <div class="article-long-right">
-                    <a href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white grotesk semibold">{{ site.posts.first.title }}</p></a>
+                    <a data-spalink href="{{ site.posts.first.url }}"><p class="article-long-title rem4 white grotesk semibold">{{ site.posts.first.title }}</p></a>
                     <p class="article-long-desc rem1 lightgray semibold monospace italic">{{ site.posts.first.description }}</p>
                     <p class="article-long-date rem1 lightgray grotesk bold">{{ site.posts.first.date | date: "%d %B %Y" }}</p>
                     <p class="{{ site.posts.first.indicator_type }} {{ site.posts.first.indicator_class}} vantagray monospace semibold rem1">{{ site.posts.first.indicator_text }} | {{ site.posts.first.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ site.posts.first.url }}">Read More <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ site.posts.first.url }}">Read More <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ site.posts.first.url }}" data-share-title="{{ site.posts.first.title }}" data-share-description="{{ site.posts.first.description }}" data-share-date="{{ site.posts.first.date | date_to_xmlschema }}" data-share-thumbnail="{{ site.posts.first.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
@@ -91,14 +91,12 @@ layout: posts
                     {% endif %}
                 </div>
                 <div class="article-right">
-                    <a href="{{ post.url }}">
-                        <p class="article-title rem2 white grotesk semibold">{{ post.title }}</p>
-                    </a>
+                    <a data-spalink href="{{ post.url }}"><p class="article-title rem2 white grotesk semibold">{{ post.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ post.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ post.date | date: "%d %B %Y" }}</p>
                     <p class="{{ post.indicator_type }} {{ post.indicator_class}} vantagray monospace semibold rem1">{{ post.indicator_text }} | {{ post.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ post.url }}">Read More <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ post.url }}">Read More <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ post.url }}" data-share-title="{{ post.title }}" data-share-description="{{ post.description }}" data-share-date="{{ post.date | date_to_xmlschema }}" data-share-thumbnail="{{ post.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">

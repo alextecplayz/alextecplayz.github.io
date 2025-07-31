@@ -260,45 +260,63 @@ if (hasFeature("sitesettings")) {
 
 	// Add event listeners to links
 	function addLinkListeners() {
-		//console.log("Running addLinkListeners function...");
-		const links = document.querySelectorAll('a');
-		links.forEach(link => {
-			// Check if the link has the data-nolink attribute
-			if (!link.hasAttribute('data-nolink')) {
-				//console.log("Added link listener for:" + link);
-				link.addEventListener('click', function(e) {
-					e.preventDefault(); // Prevent default action
-					e.stopPropagation(); // Prevent event bubbling
-					const url = this.getAttribute('href');
-				
-					// Check if the URL is the same as the current one
-					if (url === window.location.pathname) {
-						//console.log("Same URL clicked, reloading content...");
-						streamContent(url); // Fetch content again
-					} else {
-						//console.log("<a> extracted URL:" + url);
-						streamContent(url);
-						//console.log("Loading URL:" + url);
-					}
-				});
-			} else {
-				//console.log("Ignored link with data-nolink:" + link);
-			}
-		});
-	}
+	    //console.log("Running addLinkListeners function...");
+	    const links = document.querySelectorAll('a');
+	    links.forEach(link => {
+	        const href = link.getAttribute('href');
 
+	        // Flipped things around to prevent HTML attribute hell
+			// and to prevent a myriad of other preventable issues
+			// We only check for data-streamlink, add listeners to it
+			// Check if the link has the data-spalink (data- SPA -link) attribute
+	        if (link.hasAttribute('data-spalink')) {
+	            //console.log("Added link listener for: " + link);
+	            link.addEventListener('click', function(e) {
+	                e.preventDefault(); // Prevent default action
+	                e.stopPropagation(); // Prevent event bubbling
+	                const url = this.getAttribute('href');
+
+	                // Check if the URL is the same as the current one
+	                if (url === window.location.pathname) {
+	                    //console.log("Same URL clicked, reloading content...");
+	                    streamContent(url); // Fetch content again
+	                } else {
+	                    //console.log("<a> extracted URL: " + url);
+	                    streamContent(url);
+	                    //console.log("Loading URL: " + url);
+	                }
+	            });
+	        } else if (href && href.startsWith('#')) {
+	            // Hijack ToC links, otherwise page will reload upon clicking ToC links
+	            link.addEventListener('click', function(e) {
+	                e.preventDefault(); // Prevent default action
+	                const targetId = href.substring(1); // Get the target ID
+	                const targetElement = document.getElementById(targetId);
+
+	                if (targetElement) {
+	                    // Scroll to the target element smoothly
+	                    targetElement.scrollIntoView({ behavior: 'smooth' });
+	                    //console.log(`Scrolling to: ${targetId}`);
+	                } else {
+	                    //console.warn(`Target element with ID "${targetId}" not found.`);
+	                }
+	            });
+	        } else {
+	            //console.log("Ignored link because it does not have data-spalink: " + link);
+	        }
+	    });
+	}
+	
 	// Initial link listener setup
 	addLinkListeners();
 
 	// Handle back/forward navigation
 	window.addEventListener('popstate', function(event) {
-		if (event.state) {
-			streamContent(event.state.url);
-			//console.log("Streaming content using loadContent");
-		} else {
-			//console.log("No state found, using location.reload");
-			location.reload(); // Fallback if no state is found
-		}
+	    if (event.state) {
+	        streamContent(event.state.url);
+	    } else {
+	        location.reload(); // Fallback if no state is found
+	    }
 	});
 
 	// Theming and effects support.
@@ -922,8 +940,8 @@ if (document.querySelectorAll('p[data-share-url][data-share-title][data-share-de
 									<p class="article-desc rem1 lightgray semibold monospace italic">${description}</p>
 									<p class="article-date rem1 lightgray grotesk bold">${date}</p>
 									<div class="article-button-container">
-										<a data-nolink class="article-button-light grotesk medium" id="copy-url"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="link" class="lucide lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Copy URL</a>
-										<a data-nolink class="article-button-light grotesk medium" id="copy-info"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="receipt-text" class="lucide lucide-receipt-text"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8"></path><path d="M16 12H8"></path><path d="M13 16H8"></path></svg> Copy information</a>
+										<a class="article-button-light grotesk medium" id="copy-url"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="link" class="lucide lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Copy URL</a>
+										<a class="article-button-light grotesk medium" id="copy-info"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="receipt-text" class="lucide lucide-receipt-text"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M14 8H8"></path><path d="M16 12H8"></path><path d="M13 16H8"></path></svg> Copy information</a>
 									</div>
 								</div>
 							</div>

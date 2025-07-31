@@ -32,12 +32,12 @@ layout: category
                     {% endif %}    
                 </div>
                 <div class="article-right">
-                    <a href="{{ post.url }}"><p class="article-title rem2 white grotesk semibold">{{ post.title }}</p></a>
+                    <a data-spalink href="{{ post.url }}"><p class="article-title rem2 white grotesk semibold">{{ post.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ post.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ post.date | date: "%d %B %Y" }}</p>
                     <p class="{{ post.indicator_type }} {{ post.indicator_class}} vantagray monospace semibold rem1">{{ post.indicator_text }} | {{ post.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ post.url }}">Read More <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ post.url }}">Read More <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ post.url }}" data-share-title="{{ post.title }}" data-share-description="{{ post.description }}" data-share-date="{{ post.date | date_to_xmlschema }}" data-share-thumbnail="{{ post.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">
@@ -65,12 +65,12 @@ layout: category
                     {% endif %}
                 </div>
                 <div class="article-right">
-                    <a href="{{ page.url }}"><p class="article-title rem2 white grotesk semibold">{{ page.title }}</p></a>
+                    <a data-spalink href="{{ page.url }}"><p class="article-title rem2 white grotesk semibold">{{ page.title }}</p></a>
                     <p class="article-desc rem1 lightgray semibold monospace italic">{{ page.description }}</p>
                     <p class="article-date rem1 lightgray grotesk bold">{{ page.date | date: "%d %B %Y" }}</p>
                     <p class="{{ page.indicator_type }} {{ page.indicator_class}} vantagray monospace semibold rem1">{{ page.indicator_text }} | {{ page.indicator_text_onpage }}</p>
                     <div class="article-button-container">
-                        <a class="article-button-light grotesk medium" href="{{ page.url }}">Read More <i data-lucide="arrow-right"></i></a>
+                        <a data-spalink class="article-button-light grotesk medium" href="{{ page.url }}">Read More <i data-lucide="arrow-right"></i></a>
                         <p class="article-button-light grotesk medium" data-share-url="{{ page.url }}" data-share-title="{{ page.title }}" data-share-description="{{ page.description }}" data-share-date="{{ page.date | date_to_xmlschema }}" data-share-thumbnail="{{ page.image_banner_link }}"><i data-lucide="share"></i> Share</p>
                     </div>
                     <div class="article-categories">

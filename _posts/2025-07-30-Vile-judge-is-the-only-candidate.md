@@ -42,13 +42,13 @@ In 2023, she was promoted to the Supreme Court (ro: ÎCCJ - Înaltea Curte de Ca
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/document-neanonimizat-bun.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/document-neanonimizat-bun.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/document-neanonimizat-bun.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 <figure class="image-frame">
   <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/savonea-anonimizat.webp" alt="" title="">
   <div class="image-frame-buttons">
-    <a data-nolink class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/savonea-anonimizat.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
+    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/savonea-anonimizat.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
   </div>
 </figure>
 </div>

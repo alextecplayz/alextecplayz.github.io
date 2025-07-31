@@ -128,9 +128,11 @@ label {cursor: pointer; display: inline-block;}
 .post {height: 100%; flex-grow: 1; width: auto;}
 .post-content-header {height: fit-content !important; display: flex; flex-direction: column;}
 .post-header {display: flex; align-items: flex-start; margin: 0rem var(--rem1) 0rem var(--rem1); background: var(--vantagray); width: -moz-available !important; width: -webkit-fill-available !important; transition: transform 0.3s ease-in-out !important; overflow-x: hidden;}
-.post-header-sticky {position: fixed !important; padding: 0rem; top: var(--rem1-5); transition: transform 0.3s ease-in-out !important; z-index: 100; overflow-x: hidden; max-height: 25vh !important;}
+.post-header-scrollbox {overflow-y: scroll; max-height: 13vh;}
+.post-header-sticky {position: fixed !important; padding: 0rem; top: var(--rem1-5); transition: transform 0.3s ease-in-out !important; z-index: 100; overflow-x: hidden;}
+toc[open] .post-header-sticky {height: 25vh !important;}
 .post-header details {overflow-y: auto !important; scroll-behavior: smooth; overflow-x: hidden; padding: var(--rem0-35) var(--rem1) var(--rem0-35) var(--rem3) !important; width: inherit;}
-.post-header details a:first-of-type {padding-top: var(--rem1-5);}
+.post-header details a:first-of-type {padding-top: var(--rem1-15);}
 .post-header details a:last-of-type {padding-bottom: var(--rem1-5);}
 .post-header details a {text-decoration: none; line-height: normal !important; position: relative !important; background-color: unset !important; color: var(--lightgray) !important;}
 .post-header details a:hover {color: var(--accent-color) !important;}
