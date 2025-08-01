@@ -30,7 +30,7 @@
 		{% endif %}
 
 		<!-- CSP policy -->
-		<!-- 'nonce-{{ site.data.nonce }}' has been temporarily removed until I can 
+		<!-- 'nonce-{{ site.data.nonce }}' has been temporarily removed from script-src and style-src until I can 
 			 address why it's causing CSP issues due to the new page streaming system -->
 		{% if page.security_relaxcsp %}
 		    <!-- CSP policy has been relaxed for this page -->
@@ -60,7 +60,8 @@
 				    stats.alextecplayz.com; 
 
 				style-src 'self' 
-				    'nonce-{{ site.data.nonce }}'; 
+				    'unsafe-inline'
+					alextecplayz.com; 
 
 				img-src 'self' 
 				    data: 
@@ -105,6 +106,7 @@
 				    raw.githubusercontent.com
 			">
 		{% endif %}
+		<meta name="nonce" content="nonce-{{ site.data.nonce }}">
 
 		<!-- CSS Stylesheets -->
 		<link rel="stylesheet" href="{{ site.baseurl }}/external/sharedweb/css/fonts.css"/>

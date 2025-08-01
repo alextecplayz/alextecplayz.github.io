@@ -220,15 +220,18 @@ if (hasFeature("sitesettings")) {
 
 	// Copied and tweaked from new wip VI Docs
 	function streamContent(url) {
+		showLoader("Beginning streaming process", 0);
 		fetch(url + '?t=' + new Date().getTime(), { cache: 'no-store' }) // Prevent caching
 		.then(response => {
 			if (!response.ok) {
 				throw new Error('Network response error: ' + response.statusText);
 			}
+			updateLoader("Fetching content...", 30);
 			return response.text();
 		})
 		.then(html => {
 			//console.log("Fetched HTML. No HTML output necessary, it works.");
+			updateLoader("Content fetched", 40);
 			const parser = new DOMParser();
 			const doc = parser.parseFromString(html, 'text/html');
 			const newPageTitle = doc.getElementById('home');
@@ -238,6 +241,7 @@ if (hasFeature("sitesettings")) {
 			const newFeaturesPagewide = doc.getElementById('features-pagewide');
 			const newContent = doc.getElementById('main-content');
 			//console.log("newContent:" + newContent);
+			updateLoader("Injecting content", 70);
 			if (newPageTitle) {document.getElementById('home').innerHTML = newPageTitle.innerHTML;}
 			if (newPageDesc) {document.getElementById('pagedesc').innerHTML = newPageDesc.innerHTML;}
 			if (newFeaturesSitewide) {document.getElementById('features-sitewide').innerHTML = newFeaturesSitewide.innerHTML;}
@@ -254,8 +258,37 @@ if (hasFeature("sitesettings")) {
 			if (hasFeature("codehighlight")) {hljs.highlightAll();}	// Re-run highlightJS
 			lucide.createIcons();	// And lastly, we run Lucide to re-create the Icons
 			document.getElementById('landing').scrollIntoView({ behavior: 'smooth' }); // Scroll to the top
+			updateLoader("Streaming complete!", 100);
+			setTimeout(hideLoader, 3000);
 		})
 		.catch(err => console.error('Error loading page:', err));
+	}
+
+	function showLoader(message, progress) {
+	    const loader = document.getElementById('spaloader');
+	    loader.innerHTML = `
+	        <div class="progress-bar" data-progress="${progress}">
+	            <p class="progress-bar-text rem1 darkgray semibold monospace">${message}</p>
+	        </div>
+	    `;
+	    setupProgressBar(); // Initialize the progress bar
+	}
+
+	// Update loader message and progress
+	function updateLoader(message, progress) {
+	    const loader = document.getElementById('spaloader');
+	    const progressBar = loader.querySelector('.progress-bar');
+	    if (progressBar) {
+	        progressBar.setAttribute('data-progress', progress);
+	        progressBar.querySelector('.progress-bar-text').textContent = message;
+	        setupProgressBar(); // Update the progress bar width
+	    }
+	}
+
+	// Hide loader
+	function hideLoader() {
+	    const loader = document.getElementById('spaloader');
+	    loader.innerHTML = ''; // Clear the loader content
 	}
 
 	// Add event listeners to links

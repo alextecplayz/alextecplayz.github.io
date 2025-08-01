@@ -185,25 +185,25 @@ tooltips: true
                         {% assign post_count = site.posts.size %}
                         {% assign current_index = page.index %}
                         {% if current_index != post_count %}
-                            <a class="article-button-light grotesk medium darkgray" href="{{ site.posts.first.url }}"><i data-lucide="chevron-first"></i> Newest post</a>
+                            <a data-spalink class="article-button-light grotesk medium darkgray" href="{{ site.posts.first.url }}"><i data-lucide="chevron-first"></i> Newest post</a>
                         {% else if %}
                             <a class="article-button-light grotesk medium darkgray disabled"><i data-lucide="chevron-first"></i> Newest post</a>
                         {% endif %}
                         {% if page.next %}
-                            <a class="article-button-light grotesk medium darkgray" href="{{ page.next.url }}"><i data-lucide="clock-arrow-up"></i> Newer post: {{ page.next.title }}</a>
+                            <a data-spalink class="article-button-light grotesk medium darkgray" href="{{ page.next.url }}"><i data-lucide="clock-arrow-up"></i> Newer post: {{ page.next.title }}</a>
                         {% else if %}
                             <a class="article-button-light grotesk medium darkgray disabled"><i data-lucide="clock-arrow-up"></i> Newer post: [unavailable]</a>
                         {% endif %}
                         <p class="article-button-light grotesk medium darkgray pointer" data-share-url="{{ page.url }}" data-share-title="{{ page.title }}" data-share-description="{{ page.description }}" data-share-date="{{ page.date | date_to_xmlschema }}" data-share-thumbnail="{{ page.image_banner_link }}"><i data-lucide="share"></i> Share this page</p>
                         {% if page.previous %}
-                            <a class="article-button-light grotesk medium darkgray" href="{{ page.previous.url }}"><i data-lucide="clock-arrow-down"></i> Older post: {{ page.previous.title }}</a>
+                            <a data-spalink class="article-button-light grotesk medium darkgray" href="{{ page.previous.url }}"><i data-lucide="clock-arrow-down"></i> Older post: {{ page.previous.title }}</a>
                         {% else if %}
                             <a class="article-button-light grotesk medium darkgray disabled"><i data-lucide="clock-arrow-down"></i> Older post: [unavailable]</a>
                         {% endif %}
                         {% if current_index != 1 %}
-                            <a class="article-button-light grotesk medium darkgray" href="{{ site.posts.last.url }}"><i data-lucide="chevron-last"></i> Oldest post</a>
+                            <a data-spalink class="article-button-light grotesk medium darkgray" href="{{ site.posts.last.url }}"><i data-lucide="chevron-last"></i> Oldest post</a>
                         {% else if %}
-                            <a class="article-button-light grotesk medium darkgray disabled"><i data-lucide="chevron-last"></i> Oldest post</a>
+                            <a data-spalink class="article-button-light grotesk medium darkgray disabled"><i data-lucide="chevron-last"></i> Oldest post</a>
                         {% endif %}
                     {% endif %}
                 </div>

@@ -1,5 +1,5 @@
 // Get the nonce from the page head
-const nonce = document.querySelector('meta[http-equiv="Content-Security-Policy"]').getAttribute('content').match(/'nonce-([^']+)'/)[1];
+const nonce = document.querySelector('meta[name="nonce"]').getAttribute('content');
 const baseurl = document.querySelector('meta[name="site-baseurl"]').getAttribute('href');
 
 // If an element with id="site_search" is present. This assumes that the element with site_search is the search bar itself.

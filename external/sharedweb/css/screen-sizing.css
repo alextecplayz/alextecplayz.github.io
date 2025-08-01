@@ -120,6 +120,7 @@
 
 @media screen and (max-width: 1170px) and (min-width: 0px) {
     .def-tooltip .popup {bottom: var(--rem5-75) !important;}
+    #spaloader {bottom: 7vh;}
     .mobile-bottomnav {display: flex;}
     .header-right .header-buttons {display: none;}
     .recommendations-container {flex-direction: column;}

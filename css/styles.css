@@ -6,7 +6,7 @@ body {position: relative; width: 100%; height: 100%; overflow-x: hidden;}
 .overflow-scroll {overflow: scroll !important;}
 * {transition: opacity 0.3s ease-in-out !important;}
 
-.article-long:hover, .article:hover, .article-button-dark:hover, .article-button-light:hover, .article-tag:hover, .article-category:hover, .searchbox:hover, .recommendation:hover, .post-series-item:hover, .dropdown-dark:hover, .dropdown-light:hover, .banner8831:hover {transform: translate(-5px, -5px); box-shadow: var(--headerbg-dark-transparent) 5px 5px 0px;}
+.article-long:hover, .article:hover, .article-button-dark:hover, .article-button-light:hover, .recommendation:hover, .post-series-item:hover, .banner8831:hover {transform: translate(-5px, -5px); box-shadow: var(--headerbg-dark-transparent) 5px 5px 0px;}
 
 ::-webkit-scrollbar, .scrollbar, scrollbar {width: 16px; -webkit-transform: rotateX(180deg); transform: rotateX(180deg);}
 ::-webkit-scrollbar-track, .slider, slider {background-color: var(--darkgray); border-radius: 0px !important;}
@@ -100,6 +100,9 @@ label {cursor: pointer; display: inline-block;}
 .slider p {align-items: center;}
 .settings-button {border: var(--rem0-15) solid var(--lightgray); padding: var(--rem0-25) var(--rem0-75); width: fit-content; align-items: center; align-content: center; justify-content: center; display: flex; flex-direction: row;}
 .settings-button:hover {border: var(--rem0-15) solid var(--white); color: var(--white);}
+
+#spaloader {padding: var(--rem0) var(--rem2-5); border: none !important; position: fixed; bottom: 0; left: 0; right: 0; height: unset !important; z-index: 100;}
+#spaloader p {padding: var(--rem0-25) var(--rem2-5);}
 
 @keyframes fade-in {from { opacity: 0; visibility: hidden; } to { opacity: 1; visibility: visible; }}
 @keyframes fade-out {from { opacity: 1; visibility: visible; } to { opacity: 0; visibility: hidden; }}
@@ -280,6 +283,7 @@ p:has(svg), a:has(svg) {display: flex; flex-direction: row; align-items: center;
 .searchresult .article {margin: var(--rem0-75) var(--rem0-5) var(--rem0) var(--rem0-5) !important; border-bottom: 0.075rem solid var(--white) !important;}
 .searchresult .article:hover {border-bottom: 0.075rem solid var(--accent-color) !important;}
 .searchresult .highlight {background-color: var(--accent-color) !important; color: var(--black) !important; font-weight: 600;}
+.searchresult .highlight::before {content: unset !important;}
 .searchresult-bottom {margin: var(--rem0) var(--rem0-5) var(--rem0-75) var(--rem0-5); border: 0.15rem solid var(--white); padding: var(--rem0-75); border-top: 0.075rem solid var(--white) !important; background-color: var(--darkgray);}
 .searchresult-bottom:hover {border: 0.15rem solid var(--accent-color); border-top: 0.075rem solid var(--accent-color) !important;}
 .searchresult-bottom .searchresult-excerpt {padding: var(--rem0-5) var(--rem0) var(--rem2-25) var(--rem0);}
