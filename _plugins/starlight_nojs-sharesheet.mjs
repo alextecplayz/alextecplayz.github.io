@@ -16,7 +16,7 @@ export default function(eleventyConfig) {
 		if (foundShares.length === 0) return content;
 		let shareDialogs = '';
 		foundShares.forEach(({slug, url, title, desc, date, thumb}) => {
-			const fullInfo = `Post by AlexTECPlayz on ${date} titled "${title}".\n\nDescription:\n${desc}\n\nRead the post on her blog: ${url}`;
+			const fullInfo = `Post by AlexTECPlayz on ${date} titled "${title}".\n\nDescription:\n${desc}\n\nRead the post on her blog: https://alextecplayz.com${url}`;
 			shareDialogs += `
 <div id="share-${slug}" class="share-dialog">
 	<div class="pop-up share-pop-up z-index100">
@@ -38,11 +38,11 @@ export default function(eleventyConfig) {
 				</div>
 			</div>
 			<div class="flex column monospace rem1-25 lightgray medium">
-				<a class="masto-follow-btn monospace medium" href="https://share.joinmastodon.org/#text=Post by AlexTECPlayz on ${date} titled ${title}. Read the post on her blog: ${url}" target="_blank" rel="noopener">Share on <img src="/images/custom_emojis/mastodon-white.webp" alt="mastodon-white" class="emoji" loading="lazy" width="24" height="24"> Mastodon</a>
+				<a class="masto-follow-btn monospace medium" href="https://share.joinmastodon.org/#text=Post by AlexTECPlayz on ${date} titled ${title}. Read the post on her blog: https://alextecplayz.com${url}" target="_blank" rel="noopener">Share on <img src="/images/custom_emojis/mastodon-white.webp" alt="mastodon-white" class="emoji" loading="lazy" width="24" height="24"> Mastodon</a>
 				<div class="copy-section">
 					<p class="semibold white">Copy link to page:</p>
-					<input aria-labelledby="input-${slug}" type="text" readonly class="copy-field monospace rem1-25 lightgray medium" value="${url}">
-					<span id="input-${slug}" class="hidden">This is a text box where the URL of the post you're about to share can be selected entirely using CTRL+A and copied in order to be shared to a different platform. The text box reads: ${url}</span>
+					<input aria-labelledby="input-${slug}" type="text" readonly class="copy-field monospace rem1-25 lightgray medium" value="https://alextecplayz.com${url}">
+					<span id="input-${slug}" class="hidden">This is a text box where the URL of the post you're about to share can be selected entirely using CTRL+A and copied in order to be shared to a different platform. The text box reads: https://alextecplayz.com${url}</span>
 				</div>
 				<div class="copy-section">
 					<p class="semibold white">Copy additional information:</p>

@@ -19,7 +19,7 @@
 		{% endif %}
 		<div class="article-button-container">
 			<a class="article-button-light grotesk medium" href="{{ site.baseurl }}{{ article.data.permalink }}">Read Article&nbsp;{% icon 'lucide:arrow-right' %}</a>
-			<a class="share-trigger article-button-light grotesk medium" data-share-url="{{ site.baseurl }}{{ article.data.permalink }}" data-share-title="{{ article.data.title | escape }}" data-share-description="{{ article.data.description | escape }}" data-share-date="{{ article.data.date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if article.data.image_banner_link %}{{ article.data.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/Missing.webp{% endif %}">{% icon 'lucide:share' %}&nbsp;Share</a>
+			<a class="share-trigger article-button-light grotesk medium" data-share-url="{{ article.data.permalink }}" data-share-title="{{ article.data.title | escape }}" data-share-description="{{ article.data.description | escape }}" data-share-date="{{ article.data.date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if article.data.image_banner_link %}{{ article.data.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/Missing.webp{% endif %}">{% icon 'lucide:share' %}&nbsp;Share</a>
 		</div>
 		<div class="article-categories">
 			{% assign categories = article.data.categories %}
