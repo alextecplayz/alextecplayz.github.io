@@ -1,15 +1,13 @@
 ---
 layout: post
+postid: PO-241230-01
+permalink: /posts/2024-12-30-Year-In-Review.html
 type: post
 lang: en
 locale: en_US
 title: "2024 Year In Review"
 description: "Looking back through 2024, from starting big projects like Sapphire, to helping localize Bluesky in Romanian; from applying to many jobs to getting hired nowhere. With ups and downs, 2024 was quite a good year for me."
-date: 2024-12-30 01:00:00 +0200
-indicator_type:
-indicator_class:
-indicator_text:
-indicator_text_onpage:
+date: 2024-12-30t01:00:00+02:00
 categories:
   - Post
 tags:
@@ -17,13 +15,7 @@ tags:
   - Year in Review
   - AlexTECPlayz
   - State of affairs
-fedicomments: false
-fedipostid: 
-image_banner_link: /images/post-thumbnails/YearInReview2024.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2024-12-30-YIR.webp
 toc: true
 ---
 

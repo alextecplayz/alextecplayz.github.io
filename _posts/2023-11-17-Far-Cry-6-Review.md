@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-231117-01
+permalink: /posts/2023-11-17-Far-Cry-6-Review.html
 type: post
 lang: en
 locale: en_US
 title: "Far Cry 6 - Review [6/10]"
 description: "Far Cry 6 is the perfect slop to play for dozens of hours, with no emotion or depth. It's sadly the most marketable Far Cry game content-wise to date."
-date: 2023-11-17 22:34:00 +0200
+date: 2023-11-17t22:34:00+02:00
 categories:
   - Post
 tags:
@@ -13,20 +15,14 @@ tags:
   - Review
   - Game Review
   - Far Cry
-  - Far Cry series
-  - Far Cry 6
-  - Game
   - Games
   - Gaming
   - Steam
-image_banner_link: /images/post-thumbnails/FarCry6_17112023.webp
+image_banner_link: /images/post-thumbnails/2023-11-17-FC6.webp
 image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient background, mimicking the background used in Far Cry 6 promotional banners, with a blue sky, red fog and dark gray roads.
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 review: true
 review_product_name: Far Cry 6
-review_product_asin: B0BMMDR66P
+review_product_asin: "B0BMMDR66P"
 review_product_releasedate: 2021-10-07
 review_organization_name: Ubisoft
 review_organization_website: ubisoft.com
@@ -41,10 +37,12 @@ review_negativenote3: The game takes a MONOLITHIC 171GB of storage with all cont
 review_negativenote4: Game is EOL when it comes to updates. The game will never receive AMD FSR2, FSR3, Intel XeSS, or NVIDIA DLSS 3.5, that could massively improve performance on all systems.
 review_negativenote5: Mediocre game story with some peaks, but mostly mids and a few lows. The motifs and themes regarding propaganda, truth/lies are massively under-utilized, and it all gets ruined by the un-serious tone of the characters. Everything feels rushed, overlooked and quickly abandoned.
 review_rating: 6
+review_verdict: Far Cry 6 is the perfect slop to play for dozens of hours, with no emotion or depth. It's sadly the most marketable Far Cry game content-wise to date.
 toc: true
 ---
 
 | **Game** | Far Cry 6 |
+| ----------------------- | --------------- |
 | **Developer/Publisher** | Ubisoft Toronto / Ubisoft |
 | **Release date** | October 7, 2021 |
 | **Engine** | Dunia |

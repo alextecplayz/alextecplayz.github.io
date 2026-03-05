@@ -1,16 +1,19 @@
 ---
 layout: post
+postid: PO-240114-01
+postid_alt: SapphireThread
+permalink: /posts/2024-01-14-Sapphire-thread.html
 type: post
 lang: en
 locale: en_US
 title: "Sapphire Game Engine thread"
 description: "A continuously-updated thread and Fedi comments regarding Sapphire."
-date: 2024-01-14 00:00:00 +0200
-ledate: 2025-06-09 21:26:15 +0200
+date: 2024-01-14t00:00:00+02:00
+ledate: 2026-03-01t12:49:38+02:00
 indicator_type: notice
-indicator_class: notice-warning
-indicator_text: In development
-indicator_text_onpage: WARNING! The project is in continuous development
+indicator_class: notice-danger
+indicator_text: OBSOLETE
+indicator_text_onpage: Sapphire Game Engine has been replaced by the Sapphire toolkit
 categories:
   - Post
   - Roadmap
@@ -31,13 +34,11 @@ tags:
   - Unreal Engine 5
   - Update
   - State of affairs
+  - Project Jailbird
 fedicomments: true
-fedipostid: 111755914285831968
+fedipostid: "111755914285831968"
 image_banner_link: /images/post-thumbnails/Sapphire_GridBanner.webp
 image_banner_alt: The Sapphire Engine logo, a few engine screenshots and VSCode laid on a dark gray grid background at an angle.
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 toc: true
 ---
 

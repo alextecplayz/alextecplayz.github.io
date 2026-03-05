@@ -1,0 +1,28 @@
+_unused.txt is just a place for me to put code that I'd like to keep around in case I might need it, checked into source control.
+
+eleventy_config.mjs unused:
+
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import mastoArchive from 'eleventy-plugin-mastoarchive';
+
+//import generateTagsAndCategoriesPlugin from './_plugins/starlight_generate_tags_categories.mjs';
+
+export default async function (eleventyConfig) {
+	//eleventyConfig.addPlugin(mastoArchive);
+	//eleventyConfig.addPlugin(generateTagsAndCategoriesPlugin);
+	//eleventyConfig.addPlugin(lazyLoadImages); // not needed since we added 'lazy' to most images when generating the gallery.
+	
+	// Bundles
+	//eleventyConfig.addBundle("css", {
+	//	transforms: [
+	//		async function(content) {
+	//			let { page } = this;
+	//			let postCSSResult = await postcss([postcssNested]).process(content, { from: page.inputPath, to: null });
+	//			let cleanCSSResult = new CleanCSS().minify(postCSSResult.css);
+	//			return cleanCSSResult.styles;
+	//		}
+	//	]
+	//});
+	// works, minifies the CSS (requires import CleanCSS from 'clean-css';), but it doesn't help much with FCP, LCP unless you also separate your CSS files then figure out the bare minimum required for a page to look good. And since I'm not using JS in the built website, I can't use async loading to load more CSS later, post-LCP.
+	// so instead I just minify the CSS and that's about it. I broke it down into multiple _c(omponent)_*.css files that I can include on specific pages
+}

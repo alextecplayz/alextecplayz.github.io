@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-240601-01
+permalink: /posts/2024-06-01-Announcing-Prisonia.html
 type: post
 lang: en
 locale: en_US
 title: "Announcing Prisonia"
 description: "Design, build and manage prisons, in a brand new game from Vanta Interactive."
-date: 2024-06-01 00:00:00 +0200
+date: 2024-06-01t00:00:00+02:00
 categories:
   - Post
 tags:
@@ -15,15 +17,12 @@ tags:
   - Update
   - Announcement
   - Game Announcement
-  - Game
   - Games
   - Gaming
   - State of affairs
-image_banner_link: /images/post-thumbnails/PRISONIA_01062024.webp
+  - Project Jailbird
+image_banner_link: /images/post-thumbnails/2024-06-01-PRISONIA.webp
 image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', white text, a thick black stroke around the title, on a 'prison jumpsuit orange' circle gradient to gray grid background that uses subtle light gray for the grid markings.
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 toc: true
 ---
 
@@ -36,6 +35,10 @@ The game has been in on/off development since as early as January 2024, when it 
 ## Early Access
 
 Prisonia will launch in Early Access later in 2024. Bi-weekly or monthly updates during Early Access, where I deliver content related to one theme at a time. (Themes include locations, mechanics, seasons, events, etc.)
+
+{% aside %}
+**Please consult [Learnings from PRISONIA, part 1]({{site.baseurl}}/posts/2026-02-24-Lessons-from-PRISONIA-part-1.html) for more up-to-date content. PRISONIA has been moved to Godot Engine, and is slated to release in Early Access on Steam, Itch and Google Play in 2026**
+{% endaside %}
 
 What do I want to achieve? Better mod support in Unreal Engine using the *LuaMachine* plugin, that allows me to export Blueprint functions as Lua code which can then be accessed by modders, not just on PC, but later, on mobile. Because yes, Prisonia will also launch on Android, at a later date, however I'm excited to say that mods do work from my testing.
 

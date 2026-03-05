@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/atp_c_atpads.css" fetchpriority="low"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_colors_flags.css" fetchpriority="low"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_post_full.css" fetchpriority="low"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_font_bebas_min.css" fetchpriority="low"/>
+		{% include "head.liquid" %}
+		<meta name="robots" content="max-image-preview:large">
+	</head>
+	<body id="body">
+		{% include "components/header.liquid" %}
+		{% include "components/notice-container.liquid" %}
+		<div class="articles-container portfolio-grid post post-content monospace rem1 lightgray medium">
+			{{ content }}
+		</div>
+		{% include "components/footer.liquid" %}
+	</body>
+</html>

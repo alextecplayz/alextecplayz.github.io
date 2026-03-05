@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-2110108-01
+permalink: /posts/2021-10-18-Apple-Unleashed-Event.html
 type: post
 lang: en
 locale: en_US
 title: "Apple's 'Unleashed' Event 18 October - Everything revealed"
 description: "Everything revealed at Apple's event."
-date: 2021-10-18 16:06:00 +0200
+date: 2021-10-18t16:06:00+02:00
 categories:
   - Post
 tags:
@@ -16,16 +18,7 @@ tags:
   - Apple Event
   - Computers
   - Hardware
-  - Apple Mac
-  - Apple Music
-  - Apple HomePod
-  - Apple AirPods
-  - Apple processors
-image_banner_link: /images/post-thumbnails/Apple_18102021.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2021-10-18-Apple-Event.webp
 toc: true
 ---
 

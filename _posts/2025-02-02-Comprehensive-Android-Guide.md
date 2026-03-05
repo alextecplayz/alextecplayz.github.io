@@ -1,15 +1,14 @@
 ---
 layout: post
+postid: PO-250202-01
+postid_alt: AndroidGuide
+permalink: /posts/2025-02-02-Comprehensive-Android-Guide.html
 type: post
 lang: en
 locale: en_US
 title: "Comprehensive Android Guide"
 description: "A comprehensive guide with must-haves and recommendations regarding security, privacy and general usability for an Android ROM. Some of the steps require root."
-date: 2025-02-02 20:43:00 +0200
-indicator_type:
-indicator_class:
-indicator_text:
-indicator_text_onpage:
+date: 2025-02-02t20:43:00+02:00
 categories:
   - Post
 tags:
@@ -20,12 +19,8 @@ tags:
   - How-to
   - Android
 fedicomments: true
-fedipostid: 113936059393427853
+fedipostid: "113936059393427853"
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 toc: true
 ---
 
@@ -40,13 +35,13 @@ Hi! This is my comprehensive guide to setting up an Android-powered device, enha
 
 ### Notes
 
-- This guide is based on Android 15 and will be updated each time a new version of Android is released. Not all features may be available on older versions.
+- This guide is based on Android 16 and will be updated each time a new version of Android is released. Not all features may be available on older versions.
 - This guide uses Samsung and Xiaomi steps for custom ROM, custom recovery, kernel and root installation procedures. Please consult other guides that can be found on XDA for other recommended manufacturers / brands.
 - This guide covers Samsung despite not meeting one requirement from the 'Choosing an Android device' section, because Samsung custom ROMs do not support file-based encryption (FBE).
 
 ### Warnings
 
-- This guide minimizes your privacy footprint when using Google Play Services or microG on your device. You can remove them / not install them if you're using a GAPPS-free custom ROM. It's up to you.
+- This guide minimizes your privacy footprint when using Google Play Services or microG on your device. You can remove them / not install them if you're using a GAPPS-free custom ROM. It's up to you. More details in the [degoogling section](#de-googling)
 - This guide doesn't cover high-risk situations, such as if you're being tracked by your government (*e.g. you're a whistleblower*). That requires much more drastic measures, and this guide simply isn't enough. You'll need a proper threat model for this.
 
 ### Choosing an Android device
@@ -304,56 +299,16 @@ Going through each page in the Settings app, you should do the following:
     - If you use a private DNS such as Cloudflare, AdGuard, Cloud9, NextDNS, or some other provider, enter the hostname after tapping the "Private DNS provider hostname" radio button. Otherwise, tap on the Off radio button and confirm by tapping Save.
   - Some ROMs remove this option, however, there's a toggle for checking the Internet connection by calling Google IPs (connectivitycheck.gstatic.com). Disable this (you can always block the domain via DNS).
 
-<div class="flex row overflow-scroll">
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-</div>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp
+{% endgallery %}
 
 - **Connected devices**
   - **USB** (*option is visible when connected to a USB cable, such as when using a charger*)
@@ -450,12 +405,9 @@ Going through each page in the Settings app, you should do the following:
     - **Full-screen notifications**
       - Disallow this permission for every app except for your Clock app, Phone and Google Play services.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp" alt="A screenshot of the Settings app, on its 'Default apps' page" title="A screenshot of the Settings app, on its 'Default apps' page">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp alt="A screenshot of the Settings app, on its 'Default apps' page" title="A screenshot of the Settings app, on its 'Default apps' page"
+{% endgallery %}
 
 - **Notifications**
   - App notifications > Allow notifications from apps that *should* be able to send you notifications, such as the browser(s) of your choice, any social media apps you haven't restricted the background battery usage permission, antivirus apps, backup apps, music apps, NewPipe, file managers, VPN and DNS apps, weather apps and so on
@@ -478,12 +430,9 @@ Going through each page in the Settings app, you should do the following:
   - Disable "Notification dot on app icon" unless you specifically need it
   - Disable "Enhanced notifications" (formerly known as Android Adaptive Notifications) unless you need suggested actions, replies and other conversation features in app notifications.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp
+{% endgallery %}
 
 - **Display**
   - **Lock screen**
@@ -503,12 +452,9 @@ Going through each page in the Settings app, you should do the following:
   - Disable Tap to sleep
   - Disable Wake on plug
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp
+{% endgallery %}
 
 - **Security & privacy**
   - **Device unlock**
@@ -594,12 +540,9 @@ Going through each page in the Settings app, you should do the following:
     - Trust agents > Disable all unless you use any of them
     - App pinning > Enable, enable Ask for password before unpinning
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp" alt="A screenshot of the Settings app, on the 'Trust' page" title="A screenshot of the Settings app, on the 'Trust' page">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp alt="A screenshot of the Settings app, on the 'Trust' page" title="A screenshot of the Settings app, on the 'Trust' page"
+{% endgallery %}
 
 - **Location**
   - disable Use location, disable Use assisted GPS
@@ -609,12 +552,9 @@ Going through each page in the Settings app, you should do the following:
   - Disable additional services > Google (Google Password Manager, Google Pay, Google Wallet)
   - Enable automatically sync app data (unless your use case requires turning off this feature)
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp" alt="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page" title="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp alt="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page" title="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page"
+{% endgallery %}
 
 - **System**
   - **Gestures**
@@ -671,12 +611,9 @@ For Proton VPN, we can download configuration files from the [Proton VPN > OpenV
 
 Open the newly-installed OpenVPN for pDNSf app, and tap on the 'Add Profile' (plus in a circle) icon, and tap on Import. Navigate to the .ovpn file(s) you have downloaded on your phone, and select one of them. It will be saved using the profile name that matches the filename / `'region'-'free/paid'-'serverID'.protonvpn.net.udp` format. Import any and all profiles that you have downloaded, they're all saved when you close the editor (not the app).
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp
+{% endgallery %}
 
 #### Configuring the profiles
 
@@ -690,23 +627,17 @@ In the 'IP and DNS' tab, in the DNS section:
 - set searchDomain to blinkt.de
 - set DNS Server and Backup DNS Server to 10.10.10.10, the address that will be used by personalDNSfilter to receive the redirected DNS traffic
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp
+{% endgallery %}
 
 In the 'Allowed apps' tab, you can enable 'VPN is used for all apps but exclude selected' and you can check any apps that should bypass the VPN, if needed.
 
 Don't forget in the app settings to choose a default VPN profile, if you'd want the app to automatically connect to a specific profile.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp
+{% endgallery %}
 
 If that's done, you can now use OpenVPN for personalDNSfilter. Let's set personalDNSfilter as well.
 
@@ -729,42 +660,26 @@ When you first open the app, tap on 'Advanced settings', and toggle on (enable) 
 - Root mode without local VPN (which should request root)
 - Prevent device sleep
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp
+{% endgallery %}
 
 Tap Advanced settings again to close the menu, and make sure 'Enable blocking' and 'Autostart' are enabled.
 
 Then, at the top where you see DNS: [IP]::PORT::DOH {pencil icon}, tap on that and uncheck both UDP entries, otherwise personalDNSfilter will complain about it when in root mode. Tap on the checkmark to confirm.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp
+{% endgallery %}
 
 #### Starting OpenVPN for pDNSf and personalDNSfilter
 
 At this stage, you're pretty much configured and ready to go. Open the OpenVPN for pDNSf app, tap on one of the profiles (make sure the username and password are entered and valid), the app will request Android to become a VPN provider. Tap 'OK'. Then, you can navigate to the Android Settings app > Network & internet > VPN > tap on the cogwheel next to OpenVPN for pDNSf > enable Always-on VPN and Block connections without VPN. You can now enjoy network filtering and tunneling!
 
-<div class="flex row overflow-scroll">
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-</div>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp
+{% endgallery %}
 
 NOTE: When running in root mode (and not as an Android VPN provider), personalDNSfilter will not have an app whitelist / blacklist.
 
@@ -774,12 +689,9 @@ NOTE: When running in root mode (and not as an Android VPN provider), personalDN
 
 personalDNSfilter app > Advanced settings > Configure filter update, where you can set the filter update interval in days (by default set to 7), and you can activate / deactivate filter lists.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp
+{% endgallery %}
 
 You can also add custom filter lists. Here's how to add mine, for example:
 
@@ -801,20 +713,10 @@ blacklist.this.domain - gets blacklisted
 >forwarded.ip 192.168.100.1
 ```
 
-<div class="flex row overflow-scroll">
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-</div>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp
+{% endgallery %}
 
 Also note that personalDNSfilter allows you to filter domains from the initial list interface. When you see a domain that's blacklisted, it's going to use the color red. You can long-tap on it to whitelist it using the Remove filter option, which adds it to an automatic entries section in the additional hosts list. When you see a domain that's whitelisted / allowed, it's going to use the color green and a check mark. You can long-tap on it to blacklist it using the Add filter option.
 
@@ -822,32 +724,23 @@ Also note that personalDNSfilter allows you to filter domains from the initial l
 
 The app also has a Backup and restore option (but I don't use this, I just use the DataBackup app to back up the app and its files outright, which means a seamless restore experience).
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp
+{% endgallery %}
 
 And there's the 'Edit configuration file' page, which is more or less the same stuff that you can already configure visually using toggles and such, but in text format. I'm not going to dive into that, there's not really a need if you've already performed everything in this section.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp
+{% endgallery %}
 
 ### Setting up and using App Manager for additional tracker blocking and debloating
 
 Download and install [App Manager](https://f-droid.org/en/packages/io.github.muntashirakon.AppManager/) from F-Droid. Grant it access using your root manager. We'll disable some functionality. Tap the three dots in the top right corner, and tap Settings. Go to Appearance, "Enable/disable features", and deselect Interceptor, Package Installer, Use the Internet and tap Close. Make sure in Settings > Mode of operation is set to Root.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp" alt="A screenshot of the App Manager app, on its 'Appearance' page, with the 'Enable/disable features' pop-up listing all the features that can be modified" title="A screenshot of the App Manager app, on its 'Appearance' page, with the 'Enable/disable features' pop-up listing all the features that can be modified">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp
+{% endgallery %}
 
 Using App Manager, we'll debloat the system and block trackers in the apps themselves, thanks to the root mode.
 
@@ -1056,12 +949,9 @@ App Manager can disable activities, services, receivers and providers of any ins
 
 When you notice an app that has trackers discovered by App Manager, the package name will be brown. Tap on the app in the list, and the first 'chip' / button you'll see under the app version is '{num} trackers' in orange. Tap on this, make sure all trackers are selected, and then tap on Block. The button will turn cyan after App Manager successfully blocks the trackers.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp" alt="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block" title="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp alt="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block" title="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block"
+{% endgallery %}
 
 ### Minimizing your footprint in privacy-invasive apps
 
@@ -1114,50 +1004,15 @@ When you notice an app that has trackers discovered by App Manager, the package 
   - lock sensitive chats, which will require biometrics (and the lock screen password as fallback, if biometrics are disabled after enabling "Unlock with biometric").
   - you can link up to four devices using the Linked device feature
 
-<div class="flex row overflow-scroll">
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp" alt="" title="">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-</div>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp
+/images/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp
+{% endgallery %}
 
 #### Google Photos
 - Photos settings
@@ -1172,12 +1027,9 @@ When you notice an app that has trackers discovered by App Manager, the package 
   - Caller ID announcement > Announce caller ID > Never
   - Flip To Silence > disable "Flip To Silence"
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp
+{% endgallery %}
 
 #### Google Messages
  - Don't sign in to a Google account, or if signed in, tap on the account picture in the top right corner, expand the accounts list and select "Use without an account", and then tap "Sign out" on the next screen.
@@ -1187,32 +1039,12 @@ When you notice an app that has trackers discovered by App Manager, the package 
    - Spam protection > Toggle off "Enable spam protection", so that Messages doesn't send any data to Google about your messages or spam callers
    - Help improve Messages > Toggle off "Improve Messages"
 
-<div class="flex row overflow-scroll">
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp" alt="The Google Messages app, on its 'RCS chats' page, with multiple options disabled" title="The Google Messages app, on its 'RCS chats' page, with multiple options disabled">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp" alt="The Google Messages app, on its 'Automatic previews' page with all options disabled" title="The Google Messages app, on its 'Automatic previews' page with all options disabled">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp" alt="The Google Messages app, on its 'Spam protection' page" title="The Google Messages app, on its 'Spam protection' page">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-    <figure class="image-frame">
-      <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp" alt="The Google Messages app, on its 'Help improve Messages' page" title="The Google Messages app, on its 'Help improve Messages' page">
-      <div class="image-frame-buttons">
-        <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-      </div>
-    </figure>
-</div>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp alt="The Google Messages app, on its 'RCS chats' page, with multiple options disabled" title="The Google Messages app, on its 'RCS chats' page, with multiple options disabled"
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp alt="The Google Messages app, on its 'Automatic previews' page with all options disabled" title="The Google Messages app, on its 'Automatic previews' page with all options disabled"
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp alt="The Google Messages app, on its 'Spam protection' page" title="The Google Messages app, on its 'Spam protection' page"
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp alt="The Google Messages app, on its 'Help improve Messages' page" title="The Google Messages app, on its 'Help improve Messages' page"
+{% endgallery %}
 
 #### Gboard
 - Privacy
@@ -1221,12 +1053,9 @@ When you notice an app that has trackers discovered by App Manager, the package 
   - Select any and all of the languages you wish to use with Gboard, Gboard will download language dictionaries to be used with the auto-correct, suggestion, spell check and glide typing
   - After that, you can navigate to the app settings in the system's Settings app, and disable network access entirely (crDroid, GrapheneOS).
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp" alt="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section" title="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp alt="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section" title="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section"
+{% endgallery %}
 
 #### Google Recorder
 - Don't log in with a Google account, or "Use the app without an account" from the account picker
@@ -1243,12 +1072,9 @@ When you notice an app that has trackers discovered by App Manager, the package 
     - Enable "Restricted profile"
     - Follow the Google account footprint minimization section below to disable certain features, the changes will be reflected here if Maps displays on the Personal content page "Web & App Activity is off" and "Location is off"
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp" alt="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section" title="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp alt="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section" title="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section"
+{% endgallery %}
 
 #### Play Store
 - Play Protect > cogwheel in the top right corner of the page, disable "Improve harmful app detection" and "Scan apps with Play Protect"
@@ -1397,12 +1223,9 @@ Turn off Location sharing. Turn off "Business personalization". Turn off "Shared
 
 Open the device Settings app, and navigate to the bottom, and tap on 'Google'. Tap on 'All services'. We'll go section by section, just like before. There will be some overlap between this and the Google Account web page, but there are some preferences that are per-device preferences.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/images/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp
+{% endgallery %}
 
 Under the "Settings for Google apps" section:
 - Connected apps > cogwheel icon > disable Sign-in prompts, and disconnect any app(s) from the Third-party apps & services page, if you don't need them
@@ -1451,3 +1274,42 @@ Under the "Personal & device safety" section:
   - Remote Lock > disable Use Remote Lock
   - Find & erase your device > disable Use Find My Device
 - Unknown tracker alerts > disable "Allow alerts" > Turn off
+
+### De-Googling
+
+If your ROM already comes de-googled, then you don't need to follow this step, since GMS is not installed. If your ROM does not come de-googled and you want to de-google it safely, this is how you should do it.
+
+**DO NOT MODIFY OR REMOVE FILES FROM THE CUSTOM ROM'S SYSTEM PARTITION IF YOU DO NOT KNOW WHAT YOU ARE DOING! YOU WILL BOOT-LOOP YOUR DEVICE!**
+
+Set up your device like usual, do not at all set up a Google account (since you won't be able to use it on your current user profile (0) anyway). Afterwards, enable adb from the developer options, and use the command `adb shell pm uninstall --user 0 (packagename)` where `packagename` is one app from this list. Do it for all of these and you should be fine.
+
+| `packagename` | App Name | Description |
+| ------------- | -------- | ----------- |
+| `com.google.android.gms` | Google<br>Play<br>Services | The main system-level app that handles all Google apps and their integrations |
+| `com.google.android.gsf` | Google<br>Services<br>Framework | While disabling GMS or uninstalling it might make some apps complain, Google Services Framework is the base that Google Play Services stands on. If GSF is uninstalled, most Google apps will not work or crash outright. |
+| `com.google.android.as` | Android<br>System<br>Intelligence | It mostly won't work without GMS, and if you're low on RAM, there's no point in keeping this enabled. |
+| `com.google.android.`<br>`apps.maps` | Google<br>Maps | Google Maps will not display the in-app map tiles or any images whatsoever if you remove Play Services and GSF. You have to replace it with a different app. |
+| `com.google.android.`<br>`markup` | Markup | Should work without GSF(?, untested), but you should not use it outright because of the [aCropalypse vulnerability](https://en.wikipedia.org/wiki/ACropalypse) that was discovered back in the beginning of 2023. It was patched, but since Markup is always version 1.0 but with a different versionCode, it's unknwown which version of the app your custom ROM might have. Better to just avoid it outright and use a proper photo editing tool like PicsArt or Image Toolbox. |
+| `com.android.vending` | Google Play Store | Obviously, Play Store won't work without GMS, so you'll have to replace it with a different app such as APKUpdater, Aurora Store, etc. |
+| `com.android.`<br>`adservices.api` | Ad privacy | The Ad privacy app. I mean, if you're following this tutorial, you're most likely already blocking ads anyway, so this app which just controls if you want personalized ads or not is useless either way. |
+| `com.google.android.`<br>`setupwizard` | Android Setup | Do not remove this app prior to the first setup of your phone, it might bork everything. You can safely remove it after you complete the setup, you don't even need to perform the second step once you're on your home screen and you get a notification to continue setting up your phone (which is checking for updates again, and asking you if you want to restore data). You can safely remove it once you see this notification. |
+| `com.google.android.`<br>`apps.restore` | Android Switch | Most likely depends on GMS, and won't work if you disable or uninstall GMS. You can back up and restore data using root-level apps such as DataBackup, or if your custom ROM has Snapseed integrated, Snapseed. |
+| `com.android.bluetooth.`<br>`bthelper` | Bluetooth Devices Helper | Exclusively for AirPods support via Bluetooth. If you don't use AirPods, you can safely remove this. |
+| `com.google.android.`<br>`contacts` | Contacts | The app will be blank when you open it, and won't work without GMS and GSF as of version 4.68 and higher. |
+| `com.google.android.`<br>`apps.adm` | Find Hub | Will crash on launch without GSF and GMS. There's no web replacement for this, because the web Find My Device page only shows your devices, but not ones that are sharing their location with you (e.g via other Google accounts) |
+| `com.android.`<br>`hotwordenrollment.`<br>`okgoogle` | Google Assistant | Mostly entrypoints for Google Assistant which runs via the Google app. Not only won't Google Assistant work without GMS, but it's being replaced by Google Gemini anyway, so there's no point in using it anymore. |
+| `com.android.`<br>`hotwordenrollment.`<br>`xgoogle` | Google Assistant | Mostly entrypoints for Google Assistant which runs via the Google app. Not only won't Google Assistant work without GMS, but it's being replaced by Google Gemini anyway, so there's no point in using it anymore. |
+| `com.google.android.gms.`<br>`location.history` | Google Location History | Won't work without GMS and GSF anyway. |
+| `com.google.android.`<br>`onetimeinitializer` | Google One Time Init | Only remove this after the initial phone setup, otherwise some things might be borked. |
+| `com.google.android.`<br>`partnersetup` | Google Partner Setup | Won't work without GMS and GSF anyway. |
+| `com.google.android.pcs` | Pixel Core Services | I assume this is more on-device AI stuff, maybe? |
+| `com.google.android.`<br>`apps.pixel.agent` | Pixel Screenshots | Probably works without GMS and GSF and is just a glorified screenshot gallery, since AI features won't work if you're not on a Google Pixel device anwyay. |
+| `com.google.android.`<br>`apps.photos` | Google Photos | May work in a bare-bones manner without GMS and GSF, but it's hit-or-miss. You can't access cloud editing features or back up your data. Use Immich instead. |
+| `com.google.android.`<br>`pixel.setupwizard` | Pixel setup | More of the same as the Android Setup. Remove after completing the initial phone setup. |
+| `com.google.android.`<br>`mosey` | Quick Share extension | Since Quick Share depends on GMS and GSF, you can't use it anway, and Quick Share extension is currently Pixel 10-exclusive and has code that checks if it's running on a Pixel 10 series device or not, it adds AirDrop support. |
+| `com.google.android.`<br>`apps.setupwizard.`<br>`searchselector` | Search engine selector | Will install a search engine app like DuckDuckGo's app or update the Google app if you select Google as your search engine during initial setup. You can remove it after the initial setup. |
+| `com.google.android.`<br>`settings.intelligence` | Settings Services | Depends on GMS, GSF. You can remove it. |
+| `com.google.android.`<br>`apps.`<br>`privacy.wildlife` | VPN by Google | You can remove it. |
+| `com.google.android.`<br>`apps.`<br>`wellbeing` | Digital Wellbeing | Will work with Google Play Services disabled, but will crash outright without GSF, remove it. You can replicate its sleeping mode directly in Modes (Do Not Disturb), including wallpaper dimming, black and white mode, etc. |
+| `com.google.android.`<br>`apps.`<br>`deskclock` | Google Clock | Will not work without GMS and GSF, will not let you enable alarms, and if somehow you were able to forcibly enable alarms, they will not ring or show any notification at all. Use `com.best.deskclock` ([https://github.com/BlackyHawky/Clock](https://github.com/BlackyHawky/Clock)) instead. Do not use Clock You, it won't create alarms properly and they will not ring or show a notification, since it's not using the latest Android 16 permissions!
+| `com.google.android.`<br>`personalsafety` | Personal Safety | Will be stuck on the infinite loading screen with account chooser, you cannot use it without GMS and GSF. Remove it. |

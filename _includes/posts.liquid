@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		{% include "head.liquid" %}
+	</head>
+<body id="body">
+		{% include "components/header.liquid" %}
+		<div class="site-content">
+			{% include "components/notice-container.liquid" %}
+			<div id="main-content">
+				<div class="h-feed articles-container">
+					{% assign posts = collections.posts | where: "data.lang", page.lang %}
+					{% include "components/article.liquid" article: collections.posts[0] %}
+					{% for post in collections.posts %}
+					{% if forloop.index > 1 %}
+					{% include "components/article.liquid" article: post %}
+					{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		{% include "components/footer.liquid" %}
+</body>
+</html>

@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-231104-01
+permalink: /posts/2023-11-04-Call-of-Duty-Modern-Warfare-III-Review.html
 type: post
 lang: en
 locale: en_US
 title: "Call of Duty: Modern Warfare III - Review [3/10]"
 description: "Sloppy, lazy and uninspired, Modern Warfare Ⅲ's story is filled with shallow characters, predictable cliches, and the very few good moments cannot hold a candle to previous games in the series. Their attempt to innovate the campaign by introducing 'Open Combat Missions' fails miserably, as it's painfully obvious it's the DMZ mode in singleplayer, and they go as far as to literally lift maps from Warzone and bring them in."
-date: 2023-11-04 10:59:00 +0200
+date: 2023-11-04t10:59:00+02:00
 categories:
   - Post
 tags:
@@ -13,40 +15,32 @@ tags:
   - Review
   - Game Review
   - Call of Duty
-  - Call of Duty series
-  - Call of Duty Modern Warfare
-  - Call of Duty Modern Warfare III
-  - Game
+  - Games
   - Gaming
-image_banner_link: /images/post-thumbnails/CODMWIII_04112023.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2023-11-04-CODMWIII.webp
 review: true
 review_product_name: Call of Duty - Modern Warfare Ⅲ
-review_product_asin: B0CFTFG12B
+review_product_asin: "B0CFTFG12B"
 review_product_releasedate: 2023-11-10
 review_organization_name: Activision
 review_organization_website: callofduty.com
 review_positivenote1: The cinematic cutscenes look good. Heck, the in-engine cutscenes look pretty good too. Some of the setpieces are also detailed and have detailed VFX
 review_positivenote2: The soundtrack sounds nice, some of the songs are really good
 review_positivenote3: Weapon models and sounds are as always, detailed, crisp, and generally you will have a great time using them, in both SP and MP
-review_positivenote4: [ Empty ]
-review_positivenote5: [ Empty ]
 review_negativenote1: Massive game size on PC (149GB unless Call of Duty HQ and Warzone are installed, 213GB with HQ textures) and console
 review_negativenote2: Unfortunately despite some places where the game looks good, the engine shows its age in some places concerning dynamic lightning and shadows. It's also very unfortunate that there aren't that many object physics either
 review_negativenote3: Graves is the same character from MWⅡ's campaign, the same shallow 'patriot' that milsimps drool over. His handsome appearance cannot save the fact that he's ultimately not a very interesting character outside a few cutscenes
 review_negativenote4: Makarov seems very toned down, his face can be compared to an infant, his cutscenes are cringeworthy and sleep-inducing
 review_negativenote5: The campaign as a whole is convoluted, seemingly coming to an abrupt end for whatever reason, and is generally very short. If you have played Call of Duty games before, and are quite good at the game, or trying to speedrun it, you could finish it in less than 3 hours. Regular players will finish the campaign in less than 6 hours
 review_rating: 3
-
+review_verdict: "Sloppy, lazy and uninspired, Modern Warfare Ⅲ's story is filled with shallow characters, predictable cliches, and the very few good moments cannot hold a candle to previous games in the series. Their attempt to innovate the campaign by introducing 'Open Combat Missions' fails miserably, as it's painfully obvious it's the DMZ mode in singleplayer, and they go as far as to literally lift maps from Warzone and bring them in."
 toc: true
 ---
 
 **SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**
 
 | **Game** | Call of Duty: Modern Warfare Ⅲ |
+| ----------------------- | --------------- |
 | **Developer/Publisher** | Sledgehammer Games, Treyarch, Infinity Ward, Beenox, Raven Software, High Moon Studios, Demonware / Activision |
 | **Release date** | 10 November 2023 |
 | **Engine** | IW Engine 9.0 |

@@ -1,15 +1,13 @@
 ---
 layout: post
+postid: PO-250719-01
+permalink: /posts/2025-07-19-Chaos-Continues.html
 type: post
 lang: en
 locale: en_US
 title: "Trump chaos continues"
 description: "New revelations in Epstein case as Trump continues to avoid the subject."
-date: 2025-07-19 16:17:00 +0200
-indicator_type:
-indicator_class:
-indicator_text:
-indicator_text_onpage:
+date: 2025-07-19t16:17:00+02:00
 categories:
   - Post
 tags:
@@ -18,11 +16,7 @@ tags:
   - Slop
 fedicomments: false
 fedipostid:
-image_banner_link: /images/post-thumbnails/slop/2025-07-19-Nothing-to-See.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2025-07-19-Nothing-to-See.webp
 toc: true
 ---
 
@@ -71,16 +65,9 @@ During the show, the camera is often pointed towards women's asses in swimsuits.
 
 But back at the second half of the [image](https://files.techhub.social/cache/media_attachments/files/114/868/422/351/722/359/original/498a5e3399cb8594.jpg) I mentioned at the beginning. Is the image real? I *strongly* believe it is, and here's why: in The Guardian's [first image](https://i.guim.co.uk/img/media/c37949875c04912789569901f8ef9654513eb14e/93_299_8923_5358/master/8923.jpg?width=1900&dpr=2&s=none&crop=none), Trump is shaking her hand, while in [the second](https://i.guim.co.uk/img/media/e1a582803c3bcc591986a226f62a55440e1796af/0_534_8907_5344/master/8907.jpg?width=1900&dpr=2&s=none&crop=none), Belinda Hutter is likely leaning in to tell him something, after which the kiss could have occurred — although I don't see it as a kiss on the mouth, but on the cheek, seeing as how the other judges greeting or congratulating contestants did the same — not uncommon, but still, I find it a little creepy.
 
-<div class="flex justify-center">
-    <div class="atpads-container slop">
-        <figure class="image-frame">
-            <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-trump-yacht.webp" alt="A parody ad a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!" title="A parody ad for a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!">
-            <div class="image-frame-buttons">
-                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-trump-yacht.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-            </div>
-        </figure>
-    </div>
-</div>
+{% atpads %}
+/images/post-media/slop/ad-trump-yacht.webp alt="A parody ad a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!" title="A parody ad for a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!"
+{% endatpads %}
 
 Personally, I believe that if you're an adult and the minor is not a relative of yours, then you shouldn't kiss them on the cheek as a greeting. Just a handshake should be enough. And these contests, beauty parlors, or 'fashion shows' or whatever Look of the Year is supposed to be, should not allow minors as contestants at all. But that's just me.
 
@@ -111,16 +98,9 @@ Of course, Trump vehemently denies that the letter was written by him and blames
 
 I do not want to speculate on what Trump and Epstein "have in common" because that's a never-ending rabbit hole of allegations.
 
-<div class="flex justify-center">
-    <div class="atpads-container slop">
-        <figure class="image-frame">
-            <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died.">
-            <div class="image-frame-buttons">
-                <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/ad-mypillow-epstein.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-            </div>
-        </figure>
-    </div>
-</div>
+{% atpads %}
+/images/post-media/slop/ad-mypillow-epstein.webp alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died."
+{% endatpads %}
 
 And all of this comes after two days ago, July 17, when Trump ordered [Pam Bondi](https://www.bbc.com/news/articles/c9w1014rlq9o) and the Justice Department to produce additional documents related to Epstein, namely the grand jury testimony. We'll see if this actually materializes, because such testimony can include confidential informants, whose identities are protected for their own safety. Materials in a grand jury testimony are usually kept secret under the law, but a judge can unseal the documents if they deem that there is sufficient public interest and that it outweighs the need for these legal protections in the case.
 

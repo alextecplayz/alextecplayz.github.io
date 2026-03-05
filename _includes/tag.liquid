@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_recommendations.css" fetchpriority="low"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_post_full.css" fetchpriority="low"/>
+		{% include "head.liquid" %}
+	</head>
+	<body id="body">
+		{% include "components/header.liquid" %}
+		{% include "components/notice-container.liquid" %}
+		<div class="site-content">
+			<div id="main-content">
+				<div class="flex row overflow-scroll">
+					{% for tag in allTags %}
+						<div class="recommendation">
+							<a class="recommendation-text rem1 white monospace semibold" href="#{{ tag | downcase }}">{{ tag }}</a>
+						</div>
+					{% endfor %}
+				</div>
+				<div class="h-feed articles-container">
+					{% for tag in allTags %}
+						<div id="{{ tag | downcase }}">
+							<div class="post-content post"><h2>{{ tag }}</h2></div>
+							{% assign filtered_articles = collections.posts | filterByTag: tag %}
+							
+							{% if filtered_articles.size > 0 %}
+								{% for article in filtered_articles %}
+									{% include "components/article.liquid" article: article %}
+								{% endfor %}
+							{% else %}
+								<div class="post-content post"><p class="monospace medium rem2">No articles found for this tag.</p></div>
+							{% endif %}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		{% include "components/footer.liquid" %}
+	</body>
+</html>

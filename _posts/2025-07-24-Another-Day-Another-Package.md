@@ -1,15 +1,13 @@
 ---
 layout: post
+postid: PO-250724-01
+permalink: /posts/2025-07-24-Another-Day-Another-Package.html
 type: post
 lang: en
 locale: en_US
-title: "Another day, another economical package, and Christofascist group bans NSFW games"
+title: "Another day, another economical package, and Christo-fascist group bans NSFW games"
 description: "More slop, but this time centered around Romania"
-date: 2025-07-24 21:51:00 +0200
-indicator_type:
-indicator_class:
-indicator_text:
-indicator_text_onpage:
+date: 2025-07-24t21:51:00+02:00
 categories:
   - Post
 tags:
@@ -17,12 +15,8 @@ tags:
   - Romania
   - Slop
 fedicomments: true
-fedipostid: 114910267060749952
+fedipostid: "114910267060749952"
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 toc: true
 ---
 

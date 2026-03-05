@@ -1,0 +1,43 @@
+<div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/NewsArticle">
+	<div class="article-left">
+		{% if article.data.image_banner_link %}
+			<img itemprop="image" class="article-image-size" src="{{ article.data.image_banner_link }}" alt="{{ article.data.image_banner_alt }}" title="{{ article.data.image_banner_alt }}" loading="lazy">
+		{% else %}
+			<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/images/post-thumbnails/Missing.webp" alt="No thumbnail available" title="No thumbnail available" loading="eager" fetchpriority="high">
+		{% endif %}
+	</div>
+	<div class="article-right">
+		<a href="{{ article.data.permalink }}"><p itemprop="headline" class="p-name article-title rem2 white boldonse semibold">{{ article.data.title }}</p></a>
+		<p class="p-summary article-desc rem1 lightgray semibold monospace italic">{{ article.data.description }}</p>
+		<p class="article-date rem1 lightgray grotesk bold">{{ article.data.date | date: "%d %B %Y" }}</p>
+		<p itemprop="dt-published datePublished" content="{{ article.data.date | date_to_xmlschema }}" class="hidden"></p>
+		{% if article.data.ledate %}<p itemprop="dateModified" content="{{ article.data.ledate | date_to_xmlschema }}" class="hidden"></p>{% endif %}
+		{% if article.data.indicator_text %}
+			{% if article.data.indicator_type == 'notice' %}
+				<p class="notice {{ article.data.indicator_class }} notice-text monospace semibold">{{ article.data.indicator_text }} | {{ article.data.indicator_text_onpage }}</p>
+			{% endif %}
+		{% endif %}
+		<div class="article-button-container">
+			<a class="article-button-light grotesk medium" href="{{ article.data.permalink }}">Read Article&nbsp;{% icon 'lucide:arrow-right' %}</a>
+			<a class="share-trigger article-button-light grotesk medium" data-share-url="{{ site.baseurl }}{{ article.data.permalink }}" data-share-title="{{ article.data.title | escape }}" data-share-description="{{ article.data.description | escape }}" data-share-date="{{ article.data.date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if article.data.image_banner_link %}{{ article.data.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/Missing.webp{% endif %}">{% icon 'lucide:share' %}&nbsp;Share</a>
+		</div>
+		<div class="article-categories">
+			{% for category in article.data.categories %}
+				<a class="article-category grotesk medium rem1" href="{{ site.baseurl }}/categories#{{ category | replace: ' ', '-' | downcase }}">{{ category }}</a>{% unless forloop.last %}{% endunless %}
+			{% endfor %}
+			{% if article.data.nsfw %}
+				<a class="article-tag-nsfw grotesk medium rem1">NSFW</a>
+			{% endif %}
+			{% for tag in article.data.tags %}
+				<a class="article-tag grotesk medium rem1" href="{{ site.baseurl }}/tags#{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="hidden">
+		<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+			<a itemprop="url" href="https://alextecplayz.com/about.html">
+				<span itemprop="name">AlexTECPlayz</span>
+			</a>
+		</span>
+	</div>
+</div>

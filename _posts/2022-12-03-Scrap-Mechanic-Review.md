@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-221203-01
+permalink: /posts/2022-12-03-Scrap-Mechanic-Review.html
 type: post
 lang: en
 locale: en_US
 title: "Scrap Mechanic - Review"
 description: "I say this with a heavy heart, but Scrap Mechanic's development is really painfully slow even though it's been 6 years in Early Access."
-date: 2022-12-03 21:18:00 +0200
+date: 2022-12-03t21:18:00+02:00
 categories:
   - Post
 tags:
@@ -14,15 +16,10 @@ tags:
   - Game Review
   - Scrap Mechanic
   - Early Access
-  - Game
   - Games
   - Gaming
   - Steam
-image_banner_link: /images/post-thumbnails/ScrapMechanic_03122022.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2022-12-03-Scrap-Mechanic.webp
 review: true
 review_product_name: Scrap Mechanic
 review_product_asin: 
@@ -40,6 +37,7 @@ review_negativenote3: Development is incredibly slow
 review_negativenote4: Slow peer-to-peer multiplayer, no dedicated servers
 review_negativenote5: Performance could be improved
 review_rating: 4
+review_verdict: I say this with a heavy heart, but Scrap Mechanic's development is really painfully slow even though it's been 6 years in Early Access. The game engine they use isn't optimized properly, or can't simply process everything without some lag. The multiplayer experience is down bad, unless you're playing over LAN or you have fast Internet speed, you will experience stutters, net lag, and other similar issues, which can degrade your experience.
 toc: true
 ---
 

@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-240411-01
+permalink: /posts/2024-04-11-Vanta-Interactive-turns-six.html
 type: post
 lang: en
 locale: en_US
 title: "Vanta Interactive turns SIX!"
 description: "Six years of (behind the scenes) indie game development, new website and the future."
-date: 2024-04-11 11:11:11 +0200
+date: 2024-04-11t11:11:11+02:00
 categories:
   - Post
 tags:
@@ -15,8 +17,6 @@ tags:
   - Birthday
   - State of affairs
   - History
-  - JumpGame
-  - GRAV0RTAL
   - PRISONIA
   - Project Hangar
   - Project Mountain
@@ -25,11 +25,9 @@ tags:
   - Unreal Engine 5
   - Sapphire Game Engine
   - Sapphire
+  - Project Jailbird
 image_banner_link: /images/post-thumbnails/VantaInteractive_GridBanner.webp
 image_banner_alt: The black "VANTA" logo for Vanta Interactive, on a dark blue to gray grid background that uses subtle light gray for the grid markings.
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 toc: true
 ---
 

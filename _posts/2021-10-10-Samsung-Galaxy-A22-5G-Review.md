@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-211010-01
+permalink: /posts/2021-10-10-Samsung-Galaxy-A22-5G-Review.html
 type: post
 lang: en
 locale: en_US
 title: "Samsung Galaxy A22 5G Review: Good, on paper"
 description: "Learn why the Galaxy A22 5G is not as good as you thought."
-date: 2021-10-10 16:06:00 +0200
+date: 2021-10-10t16:06:00+02:00
 categories:
   - Post
 tags:
@@ -17,11 +19,7 @@ tags:
   - Hardware
   - Smartphones
   - Photography
-image_banner_link: /images/post-thumbnails/GA22_10102021.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2021-10-10-GA22.webp
 toc: true
 ---
 
@@ -89,6 +87,7 @@ Respectable performance, has decent AR, smooth 90Hz display and very rarely hicc
 See the differences between the variants below.
 
 | **Device / Spec** | **Galaxy A22 4G** | **Galaxy A22 5G** |
+| ----------------- | ----------------- | ----------------- |
 | **Price** | EUR 200 | EUR 250 |
 | **RAM Memory** | 4/6GB | 4/6/8GB |
 | **Storage** | 64/128GB | 64/128GB |

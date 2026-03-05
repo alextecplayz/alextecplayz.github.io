@@ -1,15 +1,13 @@
 ---
 layout: post
+postid: PO-250730-01
+permalink: /posts/2025-07-30-Vile-judge-is-the-only-candidate.html
 type: post
 lang: en
 locale: en_US
 title: "Vile judge is the only presidential candidate of the Romanian Supreme Court"
 description: "That's the only topic of this article, sorry!"
-date: 2025-07-30 20:49:00 +0200
-indicator_type:
-indicator_class:
-indicator_text:
-indicator_text_onpage:
+date: 2025-07-30t20:49:00+02:00
 categories:
   - Post
 tags:
@@ -19,10 +17,6 @@ tags:
 fedicomments: false
 fedipostid: 
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 toc: true
 ---
 

@@ -1,0 +1,18 @@
+README.md
+SECURITY.md
+LICENSE
+build
+install
+serve
+serve-dev
+New Text File.txt
+.env
+external/lucide/LICENSE
+external/sharedweb/LICENSE
+external/sharedweb/README.md
+external/sharedweb/SECURITY.md
+_unused.txt
+.comments
+_posts/drafts
+.cpuprofile
+pa11y

@@ -1,0 +1,39 @@
+{
+	"configurations": [
+		{
+			"type": "node-terminal",
+			"name": "Run Script: serve",
+			"request": "launch",
+			"command": "npx @11ty/eleventy --serve",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "node-terminal",
+			"name": "Run Script: serve (incremental)",
+			"request": "launch",
+			"command": "npx @11ty/eleventy --serve --incremental",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "node-terminal",
+			"name": "Run Script: DEBUG Benchmark",
+			"request": "launch",
+			"command": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "node-terminal",
+			"name": "Run Script: Node.js CPU profiling",
+			"request": "launch",
+			"command": "node --cpu-prof ./node_modules/.bin/eleventy --quiet",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "node-terminal",
+			"name": "Run Script: Node.js Heap profiling",
+			"request": "launch",
+			"command": "node --inspect-brk ./node_modules/.bin/eleventy --quiet",
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}

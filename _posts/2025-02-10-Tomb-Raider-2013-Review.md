@@ -1,52 +1,39 @@
 ---
 layout: post
+postid: PO-250210-01
+permalink: /posts/2025-02-10-Tomb-Raider-2013-Review.html
 type: post
 lang: en
 locale: en_US
 title: "Tomb Raider 2013 - Campaign Review"
 description: "I'm exploring games from my Steam library, and Tomb Raider happened to be the first. It's painfully generic and I don't recommend it at all."
-date: 2025-02-10 21:35:00 +0200
+date: 2025-02-10t21:35:00+02:00
 categories:
   - Post
 tags:
   - 2025
   - Review
   - Game Review
-  - Tomb Raider
-  - Tomb Raider 2013
-  - Game
   - Games
   - Gaming
 fedicomments: true
-fedipostid: 
-image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
-image_banner_alt:
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+fedipostid: "113981398613114189"
+image_banner_link: /images/post-thumbnails/2025-02-10-TombRaider2013.webp
 review: true
 review_product_name: "Tomb Raider (2013)"
-review_product_asin: 0700099875
+review_product_asin: "0700099875"
 review_product_releasedate: 2013-04-05
 review_organization_name: "Crystal Dynamics, Eidos Montreal, Nixxes Software, Feral Interactive, Square Enix"
 review_organization_website: "tombraider.com"
-review_positivenote1: 
-review_positivenote2: 
-review_positivenote3: 
-review_positivenote4: 
-review_positivenote5: 
-review_negativenote1: 
-review_negativenote2: 
-review_negativenote3: 
-review_negativenote4: 
-review_negativenote5: 
 review_rating: 4
+review_verdict: A painfully generic reboot that's needlessly gory and brutal, questionable DLC practices and boring challenges to attain 100% completion. The story is mediocre, the environments are interesting and the parkour could have been more refined. There are more minor gripes as well. Would I recommend this? Not really, no.
 toc: true
 ---
 
 **NOTE:** Product received for free / activated at no cost due to me claiming the *'Tomb Raider Limited Free Promotional Package - Mar 2020'* package.
 
 | **Game** | Tomb Raider |
+| ----------------------- | --------------- |
 | **Developer/Publisher** | Crystal Dynamics, Eidos Montreal, Nixxes Software, Feral Interactive / Crystal Dynamics, Square Enix |
 | **Release date** | 5 March 2013 |
 | **Engine** | Foundation Engine |

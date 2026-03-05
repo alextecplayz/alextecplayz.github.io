@@ -1,11 +1,17 @@
 ---
 layout: post
+postid: PO-241024-01
+permalink: /posts/2024-10-24-Call-of-Duty-Black-Ops-6-review.html
 type: post
 lang: en
 locale: en_US
 title: "Call of Duty®: Black Ops 6 - Campaign Review"
 description: "Call of Duty takes us into the Gulf War, and uncovers a dark conspiracy brewing inside the CIA. Also, could BO6 be better than BOCW?"
-date: 2024-10-24 20:00:00 +0200
+date: 2024-10-24t20:00:00+02:00
+indicator_type: notice
+indicator_class: notice-danger
+indicator_text: Spoiler Warning
+indicator_text_onpage: This review contains spoilers
 categories:
   - Post
 tags:
@@ -13,36 +19,23 @@ tags:
   - Review
   - Game Review
   - Call of Duty
-  - Call of Duty series
-  - Call of Duty Black Ops
-  - Call of Duty Black Ops 6
-  - Game
   - Games
   - Gaming
 fedicomments: true
-fedipostid: 113368029303356103
-image_banner_link: /images/post-thumbnails/CODBO6_24102024.webp
+fedipostid: "113368029303356103"
+image_banner_link: /images/post-thumbnails/2024-10-24-CODBO6.webp
 image_banner_alt: The Call of Duty Black Ops 6 logo on a stripped black-orange background, with a partially visible logo for the fictional Advanced Technologies and Applications military facility, featuring the all-seeing (Illuminati) eye, a globe and three stars.
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
 review: true
 review_product_name: Call of Duty® - Black Ops 6
-review_product_asin: B09Z7HJL29
+review_product_asin: "B09Z7HJL29"
 review_product_releasedate: 2024-10-25
 review_organization_name: Treyarch, Raven Software, Beenox, High Moon Studios, Activision Shanghai, Sledgehammer Games, Infinity Ward, Demonware
 review_organization_website: callofduty.com
-review_positivenote1: 
-review_positivenote2: 
-review_positivenote3: 
-review_positivenote4: 
-review_positivenote5: 
-review_negativenote1: 
-review_negativenote2: 
-review_negativenote3: 
-review_negativenote4: 
-review_negativenote5: 
 review_rating: 8
+review_verdict: |
+  A certain improvement over Modern Warfare Ⅲ (which received a scathing 3/10 rating from me, and many others), and a certainly good campaign, Call of Duty Black Ops 6 does manage to capture that conspiratorial atmosphere yet again. While it doesn't come quite close to Black Ops Cold War's campaign (9/10 rating from me), it's still a damn good, memorable campaign. Is Call of Duty back? Yes, yes it is.
+  <br>
+  If I had to rate only the campaign (as I do in this article), it's an 8/10. If I had to rate the whole game (Campaign + MP + Zombies), it's a 7/10. $70 is way too much for this. If I could only pay for the campaign, it would be much better (especially if it would be playable on Linux through Proton, at the very least), at a $25-30 price tag. The only modern campaign I'd be willing to spend more on than this would be BOCW, which could be sold for $45 and still be damn great.
 toc: true
 ---
 
@@ -51,6 +44,7 @@ toc: true
 **NOTE: This is a campaign-only review!**
 
 | **Game** | Call of Duty®: Black Ops 6 |
+| ----------------------- | --------------- |
 | **Developer/Publisher** | Treyarch, Raven Software, Beenox, High Moon Studios, Activision Shanghai, Sledgehammer Games, Infinity Ward, Demonware / Activision |
 | **Release date** | 25 October 2024 |
 | **Engine** | IW Engine 9.0 |
@@ -82,7 +76,7 @@ I'm sorry, if you couldn't tell by now, I'm a massive fan of Jack Wall's work on
 
 Yeah, the story is great, actually! What's better than a high-stakes, action-packed story, AND a conspiracy about the CIA being infiltrated by an entity seeking to ruin it? BO6 takes a page out of BOCW's book, where "Bell" was revealed to have been brainwashed, and to have actually worked for Perseus. Well, in BO6 the main protagonist controlled by the player, William "Case" Calderon, has apparently experienced 'The Cradle' a decade before the events of the game, as is revealed when Case visits the Advanced Technologies and Applications' bunker and inhales the gas, which results in a hallucination of the ATAA Division with a wonderful lobby reminiscent of Soviet-era retro-futurist architecture.
 
-But let's rewind back. In 1989 during the US invasion of Panama, Raul Menendez kills their handler, Jason Hudson, and tricks Frank Woods into killing Alex Mason. Russel Adler is soon framed as one of Menendez' moles in the CIA, which forces Adler to go rogue. In 1991, during the early beginnings of *Operation Desert Storm* and thus, the Gulf War, Troy Marshall, "Case" and Jane Harrow go on a mission to extract the Iraqi Secretary Sayeed Awali near the Iraq-Kuwait border, where they find the existence of, and fight troops belonging to, Pantheon. After fending off Pantheon troops, Russel Adler shows up instead of the supposed 'contact' that Troy had, executes Awali claiming that neither Pantheon or the CIA (Langley) should get their hands on Awali, and delivers a message to Woods before extracting the group. Back at the CIA, the group's supervisor, Livingstone, finds it very hard to believe the rumours about Pantheon, and suspends the group, being especially motivated by Awali's fate.
+But let's rewind back. In 1989 during the US invasion of Panama, Raul Menendez kills their handler, Jason Hudson, and tricks Frank Woods into killing Alex Mason. Russell Adler is soon framed as one of Menendez' moles in the CIA, which forces Adler to go rogue. In 1991, during the early beginnings of *Operation Desert Storm* and thus, the Gulf War, Troy Marshall, "Case" and Jane Harrow go on a mission to extract the Iraqi Secretary Sayeed Awali near the Iraq-Kuwait border, where they find the existence of, and fight troops belonging to, Pantheon. After fending off Pantheon troops, Russell Adler shows up instead of the supposed 'contact' that Troy had, executes Awali claiming that neither Pantheon or the CIA (Langley) should get their hands on Awali, and delivers a message to Woods before extracting the group. Back at the CIA, the group's supervisor, Livingstone, finds it very hard to believe the rumours about Pantheon, and suspends the group, being especially motivated by Awali's fate.
 
 Woods recognises Adler's message which leads the group (Troy and "Case") to go rogue and operate out of an abandoned KGB safehouse in Bulgaria. At the safehouse, they discover evidence pointing to a technical genius, Felix Neumann, and assassin Sevati "Sev" Dumas. Troy tracks down and recruits Felix, while "Case" travels to Avalon to recruit Sevati after sniping one target and helping Sevati kill two more crime bosses from the area, all three related in some way to Pantheon, being part of a criminal organisation named "The Guild", which Sev worked for in the past. (*Side note: Avalon is not a real location, it's tied to a legend, however Avalon in the Call of Duty universe is a location in the Mediterranean area*).
 

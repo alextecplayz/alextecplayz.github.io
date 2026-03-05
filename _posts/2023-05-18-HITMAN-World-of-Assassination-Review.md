@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-230518-01
+permalink: /posts/2023-05-18-HITMAN-World-of-Assassination-Review.html
 type: post
 lang: en
 locale: en_US
 title: "HITMAN World of Assassination - Review"
 description: "The game is now the 'definitive' place to play all 3 HITMAN games from the trilogy, which is great, although I do not agree at all with their decision to unlist HITMAN and HITMAN 2."
-date: 2023-05-18 19:32:00 +0200
+date: 2023-05-18t19:32:00+02:00
 categories:
   - Post
 tags:
@@ -17,32 +19,11 @@ tags:
   - HITMAN 3
   - HITMAN trilogy
   - Hitman franchise
-  - Game
   - Games
   - Gaming
   - Steam
-image_banner_link: /images/post-thumbnails/HITMANWOA_18052023.webp
+image_banner_link: /images/post-thumbnails/2023-05-18-HITMAN-WOA.webp
 image_banner_alt: HITMAN World of Assassination logo on a red background
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
-review: true
-review_product_name: HITMAN 3
-review_product_asin: B08X26LLCD
-review_product_releasedate: 2021-01-20
-review_organization_name: IO Interactive
-review_organization_website: ioi.dk
-review_positivenote1: 
-review_positivenote2: 
-review_positivenote3: 
-review_positivenote4: 
-review_positivenote5: 
-review_negativenote1: 
-review_negativenote2: 
-review_negativenote3: 
-review_negativenote4: 
-review_negativenote5: 
-review_rating: 6
 toc: true
 ---
 

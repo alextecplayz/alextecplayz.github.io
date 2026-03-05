@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		{% include "head.liquid" %}
+		
+	</head>
+<body id="body">
+		{% include "components/header.liquid" %}
+		<div class="site-content">
+			{% include "components/notice-container.liquid" %}
+			<div id="main-content">
+				<div class="h-feed articles-container">
+					{% assign notes = collections.notes %}
+					{% for note in collections.notes %}
+					{% include "components/article.liquid" article: note %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		{% include "components/footer.liquid" %}
+</body>
+</html>

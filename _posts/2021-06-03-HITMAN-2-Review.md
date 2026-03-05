@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-210603-01
+permalink: /posts/2021-06-03-HITMAN-2-Review.html
 type: post
 lang: en
 locale: en_US
 title: "HITMAN 2 Review"
 description: "Per-map review for al three games in the World of Assassination trilogy"
-date: 2021-06-03 19:21:00 +0200
+date: 2021-06-03t19:21:00+02:00
 categories:
   - Post
 tags:
@@ -16,32 +18,11 @@ tags:
   - HITMAN
   - HITMAN trilogy
   - Hitman franchise
-  - Game
   - Games
   - Gaming
   - Game Review
-image_banner_link: /images/post-thumbnails/HITMAN2_03062021.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
+image_banner_link: /images/post-thumbnails/2021-06-03-HITMAN2.webp
 review: true
-review_product_name: HITMAN 2
-review_product_asin: B082X62ZH5
-review_product_releasedate: 2018-11-13
-review_organization_name: IO Interactive
-review_organization_website: ioi.dk
-review_positivenote1: 
-review_positivenote2: 
-review_positivenote3: 
-review_positivenote4: 
-review_positivenote5: 
-review_negativenote1: 
-review_negativenote2: 
-review_negativenote3: 
-review_negativenote4: 
-review_negativenote5: 
-review_rating: 8
 toc: true
 ---
 

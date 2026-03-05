@@ -1,11 +1,13 @@
 ---
 layout: post
+postid: PO-221216-02
+permalink: /posts/2022-12-16-Visual-Overhaul.html
 type: post
 lang: en
 locale: en_US
 title: "Visual Overhaul"
 description: "The website has finally received a fresh visual overhaul! See what is new, here."
-date: 2022-12-16 16:06:00 +0200
+date: 2022-12-16t16:06:00+02:00
 categories:
   - Post
 tags:
@@ -16,11 +18,6 @@ tags:
   - Overhaul
   - State of affairs
 image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
-image_banner_alt: 
-metadata_proglang:
-metadata_platforms:
-metadata_timespan:
-highlight: true
 toc: true
 ---
 
@@ -43,21 +40,6 @@ The website will always be in development in my mind, and I will try to be more 
 Moving forward, I will use the GitHub repo Issues and Projects categories to set up To-Do lists and roadmaps for the website, for example 'Article about the use of matrices in games and Unreal 5, estimated to release December 16', which, at the time of writing this, is already up on the site, ready to read.
 
 The old website has been archived, as I will still use it to link old media from, like thumbnails or CSS.
-
-Here's some of the new elements that I've used. This is a code block:
-
-{% highlight cpp %}
-[x y z 1]
-{% endhighlight %}
-
-This is a GIF or an image:
-
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/fh5gif.gif" alt="A GIF of a few cars racing in the desert in Forza Horizon 5" title="A GIF of a few cars racing in the desert in Forza Horizon 5">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/fh5gif.gif" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
 
 I'm also working on a media player that goes well with the new website, along other things. Stay tuned for more, soon!
 

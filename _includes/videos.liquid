@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		{% include "head.liquid" %}
+		
+	</head>
+<body id="body">
+		{% include "components/header.liquid" %}
+		<div class="site-content">
+			{% include "components/notice-container.liquid" %}
+			<div id="main-content">
+				<div class="h-feed articles-container">
+					{% for video in videos %}
+						<div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/VideoObject">
+							<div class="article-left">
+								<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/images/video-thumbnails/{{ video.url }}.webp" alt="{{ video.thumb_alt }}" title="{{ video.thumb_alt }}" loading="lazy">
+							</div>
+							<div class="article-right">
+								<a href="https://www.youtube.com/watch?v={{ video.url }}"><p itemprop="headline" class="p-name article-title rem2 white boldonse semibold">{{ video.title }}</p></a>
+								<p class="p-summary article-desc rem1 lightgray semibold monospace italic">{{ video.description }}</p>
+								<p class="article-date rem1 lightgray grotesk bold">{{ video.date | date: "%d %B %Y" }}</p>
+								<p itemprop="dt-published datePublished" content="{{ video.date | date_to_xmlschema }}" class="hidden"></p>
+								<div class="article-button-container">
+									<a class="article-button-light grotesk medium" href="https://www.youtube.com/watch?v={{ video.url }}">Watch Video&nbsp;{% icon 'lucide:video' %}</a>
+								</div>
+								<div class="article-categories">
+									{% for category in video.categories %}
+										<a class="article-category grotesk medium rem1" href="{{ site.baseurl }}/categories#{{ category | replace: ' ', '-' | downcase }}">{{ category }}</a>{% unless forloop.last %}{% endunless %}
+									{% endfor %}
+									{% if video.nsfw %}
+										<a class="article-tag-nsfw grotesk medium rem1">NSFW</a>
+									{% endif %}
+									{% for tag in video.tags %}
+										<a class="article-tag grotesk medium rem1" href="{{ site.baseurl }}/tags#{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}
+									{% endfor %}
+								</div>
+							</div>
+							<div class="hidden">
+								<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+									<a itemprop="url" href="https://alextecplayz.com/about.html">
+										<span itemprop="name">AlexTECPlayz</span>
+									</a>
+								</span>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		{% include "components/footer.liquid" %}
+</body>
+</html>
