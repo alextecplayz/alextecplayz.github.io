@@ -42,7 +42,7 @@ image_banner_alt: The Sapphire Engine logo, a few engine screenshots and VSCode 
 toc: true
 ---
 
-**NOTE:** This page may be more up-to-date than the [Vanta Interactive Docs](https://docs.vantainteractive.com/en/sapphire/) regarding Sapphire.
+**NOTE:** This page is kept for historical reasons, but Sapphire Game Engine has been phased out for [Godot Engine + the Sapphire plugins toolkit]({{site.baseurl}}/posts/2026-02-24-Lessons-from-PRISONIA-part-1.html)
 
 ---
 
