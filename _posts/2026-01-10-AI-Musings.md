@@ -18,6 +18,8 @@ tags:
 toc: true
 ---
 
+**This is a living document, it already has headings for future topics.**
+
 I dislike AI. I'm not against it if you'd use it as a tool. I use Perplexity (the website, I wouldn't dare use an AI browser), but I fact check and test everything from it, I'm not blindly copying shit from it. I also use Duck AI, but I'd rather use Perplexity simply because it lists sources and information better.
 
 But anything more? I dislike it. I'm starting to hate it, actually.
@@ -135,10 +137,12 @@ It's not a perfect solution, but it's better than nothing! And we need more such
 
 ## AI Videos are Coming For Us All
 
-I'll start with this [video on Twitter](https://x.com/waglyvibes/status/1979058024225423687) where a baby is laying on its back, and a dog supposedly 'saves' it when a bookshelf falls on it. It's fucking AI. The bookshelf is wobbly as it falls, the dog's legs are inconsistent, and the baby was sitting upright, and then turns to being on their belly when the guy that lifts the bookshelf comes by. I hate this so much...
-
-Congratulations. Now I have to double-check everything I see or hear online - and I have formed this habit way back at the beginning of 2025. Now I have to check images for the telltale signs of AI generation or AI enhancement. Fingers, once notably a major pain the ass for AI, are now getting pretty lifelike. I mostly notice AI-generated images by looking at the eyes or the strands of hair. They end up being smushed, or the eyes end up ever-so-slightly out of an anime or a watercolor painting.
+*coming soon...*
 
 ## AI Code is (maybe, maybe not?) Coming For Us All
 
+*coming soon...*
+
 ## AI Techbro Evangelists Are Coming For Us All
+
+*coming soon...*
