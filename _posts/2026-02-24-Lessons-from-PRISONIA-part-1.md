@@ -19,7 +19,7 @@ tags:
   - AlexTECPlayz
   - State of affairs
   - Project Jailbird
-image_banner_link:
+image_banner_link: /images/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one.webp
 toc: true
 ---
 
@@ -270,7 +270,7 @@ Okay, this has been through some stuff. Sapphire initially started out as a [gam
 
 And I've never been happier! I don't really have to worry about new upstream commits from Godot performing some advanced changes that I can't easily fix, since I don't know *every* aspect of Godot via C++, *just enough to get by*. But, I've grown to love GDscript, and it's surprisingly damn good for a scripting language. And unlike Unreal Engine where if you need some advanced features or handle big data, you *must use C++*. I reiterate again how Unreal Engine 5 had a [major performance issue if you'd add items to a Blueprint Struct](https://techhub.social/@alextecplayz/112287504699406857). To no one's surprise, it doesn't happen in UE4.27.2, the last version of Unreal 4. If you want that in UE5, use C++, because it won't work in the UI unless you either restart frequently or have plenty of free RAM to handle whatever memory leak is being caused by the struct.
 
-So far, everything is separated into three plugins: `Sapphire`, `Sapphire.Editor`, and `Sapphire.Material3` (which will be open-sourced when it's ready). Let's explore each plugin in detail. But if you want to skip that, it's totally fine. Here's a nice graph that explains the hierarchy of the three, and how they interact with the Godot Editor.
+So far, everything is separated into three plugins: `Sapphire`, `Sapphire.Editor`, and `Sapphire.Material3` (`Sapphire.Material3` will be open-sourced when it's ready). Let's explore each plugin in detail. But if you want to skip that, it's totally fine. Here's a nice graph that explains the hierarchy of the three, and how they interact with the Godot Editor.
 
 {% gallery %}
 /images/post-media/2026/PRISONIA/sapphire_plugins_chart.webp alt="A chart of the three Sapphire plugins and how they interact with Godot Engine." title="A chart of the three Sapphire plugins and how they interact with Godot Engine."

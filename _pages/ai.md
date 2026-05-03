@@ -2,13 +2,13 @@
 layout: post
 postid_alt: AI
 permalink: /ai.html
-type: post
+type: page
 lang: en
 locale: en_US
 title: "AI use or endorsement"
 description: ""
 categories:
-  - Post
+  - Page
 tags:
   - 2026
   - Generative AI

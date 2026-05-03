@@ -9,7 +9,7 @@ image_banner_alt:
 type: page
 lang: en
 locale: en_US
-layout: sitemap
+layout: post
 categories:
   - Page
 tags:

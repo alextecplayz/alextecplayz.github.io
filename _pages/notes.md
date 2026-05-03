@@ -10,7 +10,7 @@ title: "Notes"
 description: "/notes is a page where I usually post shorter content or move my comments from platforms like Twitter, reddit that I want to keep or to link back to, in order to prevent unauthorized AI scraping and training."
 date: 2024-08-05
 categories:
-  - Post
+  - Page
   - Note
 tags:
   - Notes

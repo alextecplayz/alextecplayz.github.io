@@ -3,7 +3,7 @@ layout: post
 postid: POA-20250611-01
 postid_alt: CV
 permalink: /cv.html
-type: post
+type: page
 lang: en
 locale: en_US
 title: "AlexTECPlayz' CV"
@@ -12,7 +12,6 @@ ledate: 2026-03-01t00:30:15+02:00
 categories:
   - Page
 tags:
-  - 2025
   - AlexTECPlayz
   - Portfolio
   - CV

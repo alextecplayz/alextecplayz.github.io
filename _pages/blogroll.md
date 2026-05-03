@@ -2,15 +2,14 @@
 layout: post
 postid_alt: Blogroll
 permalink: /blogroll.html
-type: post
+type: page
 lang: en
 locale: en_US
 title: "blogroll"
 description: "Lovely websites whose content I read from my RSS reader on mobile"
 categories:
-  - Post
+  - Page
 tags:
-  - 2026
   - Indie Web
 image_banner_link:
 toc: true

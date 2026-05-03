@@ -15,4 +15,7 @@ _unused.txt
 .comments
 _posts/drafts
 .cpuprofile
+.vscode
+.gram
+.zed
 pa11y
