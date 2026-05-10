@@ -49,6 +49,7 @@ Sitemap: https://alextecplayz.com/sitemap.xml
 
 # UA
 User-agent: *
+Content-Signal: ai-train=no, search=no, ai-input=no
 Disallow: *
 
 # Allow archival
