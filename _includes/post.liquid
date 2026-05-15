@@ -68,7 +68,7 @@ tooltips: true
 
 			{% assign toc_html = '' %}
 			{% assign headers = content | split: '<h' %}
-			
+
 			{% for header in headers %}
 				{% if loop.index0 > 0 %}
 					{% assign level = header | slice: 0,1 %}
@@ -76,12 +76,12 @@ tooltips: true
 						{% assign id_index = header | split: 'id="' %}
 						{% if id_index.size > 1 %}
 							{% assign id = id_index[1] | split: '"' | first %}
-						
+
 							{% assign title_index = header | split: '>' %}
 							{% if title_index.size > 1 %}
 								{% assign title = title_index[1] | split: '</h' | first | strip_html | strip_newlines | strip %}
 								{% assign class_name = 'header-button monospace semibold header-button-h' | append: level %}
-							
+
 								{% assign toc_html = toc_html | append: '<a class="' | append: class_name | append: '" href="#' | append: id | append: '">' | append: title | append: '</a>' %}
 							{% endif %}
 						{% endif %}
@@ -107,7 +107,7 @@ tooltips: true
 						{% assign wordcount = compact | split: ' ' | size %}
 						<p class="wordcount rem1 lightgray monospace medium">{% icon 'lucide:a-large-small' %} Word count: {{ wordcount }}</p>
 					</div>
-				
+
 					<p class="monospace rem1-15 lightgray">{{ metadata_proglang }} {{ metadata_platforms }} {{ metadata_timespan }}</p>
 					{% if indicator_type == 'notice' %}
 						<p class="notice {{ indicator_class }} notice-text monospace semibold">{{indicator_text }} | {{ indicator_text_onpage }}</p>
@@ -252,7 +252,7 @@ tooltips: true
 				{% endif %}
 			</div>
 		</div>
-		{% include "components/author.liquid" %}
+		{% include "components/author.liquid" aia: ai_author %}
 		<div class="article-categories justify-center">
 			{% for category in categories %}
 				<a class="article-category grotesk medium rem1" href="{{ site.baseurl }}/categories#{{ category | replace: ' ', '-' | downcase }}">{{ category }}</a>{% unless forloop.last %}{% endunless %}

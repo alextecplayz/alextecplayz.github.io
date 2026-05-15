@@ -837,3 +837,8 @@ User-agent: ZumBot
 User-agent: ZuperlistBot
 User-agent: ZyBORG
 Disallow: /
+
+# allow my sitemap
+User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /sitemap_all.xml

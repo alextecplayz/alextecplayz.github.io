@@ -47,6 +47,7 @@ export default async function (eleventyConfig) {
 	// Collections for posts, tags, categories, etc.
 	eleventyConfig.addCollection("pages", collection => {return collection.getFilteredByGlob('./_pages/*.md');});
 	eleventyConfig.addCollection("posts", collection => collection.getFilteredByGlob('./_posts/*.md').sort((a, b) => b.date - a.date));
+	eleventyConfig.addCollection("posts_slop", collection => collection.getFilteredByGlob('./_posts/aislop/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("notes", (collection) => collection.getFilteredByGlob("./_notes/*.md"));
 	// Filters
 	eleventyConfig.addFilter("cssmin", function (code) {return new CleanCSS({}).minify(code).styles;});

@@ -79,3 +79,8 @@ User-agent: Redditbot/2.0
 User-agent: Seekr
 User-agent: YouBot
 Disallow: /
+
+# allow my sitemap
+User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Allow: /sitemap_all.xml
