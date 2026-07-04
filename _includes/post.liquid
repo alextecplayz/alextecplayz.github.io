@@ -14,7 +14,8 @@ tooltips: true
 		<meta name="robots" content="max-image-preview:large">
 	</head>
 	<body id="body" class="{{ class }}">
-		{% if enableGoatcounter %}
+		{% if isDevelopment %}
+		{% else %}
 			<img src="https://alextecplayz.goatcounter.com/count?p={{ permalink }}" class="hidden" alt="A tracking pixel powered by GoatCounter in order to track simple statistics about how people interact with my website. Personal information is not collected.">
 		{% endif %}
 		{% include "components/header.liquid" %}
