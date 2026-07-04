@@ -1,4 +1,4 @@
-name: build 11ty site
+name: build site
 
 on:
   # Runs on pushes targeting the default branch
@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
-          node-version: 'lts/iron'
+          node-version: 'lts/jod'
       - name: Install dependencies & build
         run: |
           npm install
