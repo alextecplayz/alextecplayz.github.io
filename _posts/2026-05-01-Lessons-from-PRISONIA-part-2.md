@@ -55,6 +55,8 @@ It's smooth and reliable; it causes no noticeable hitches or stutters when you p
 
 Unfortunately, this comes at the cost of increased RAM usage; however, I think it's worth the current trade-off. At this stage, a 128x128 tilemap uses 196.2 MiB of RAM, 32 MB of which is both tile data (`Jailbird_Data_Tile`, that stores the actual game's tile positions, IDs, etc.) and tilemap layer data (internal 'chunks' filled with tiles used by `TileMapLayer3D`). This is an increase from the 88.09 MiB amount I shared in the table in [part 1]({{site.baseurl}}/posts/2026-02-24-Lessons-from-PRISONIA-part-1.html).
 
+**Quick correction here: 196.2 MiB of RAM was measured at the beginning of May, before I started to add more features, which ended up increasing the RAM usage to 530 MiB (and then lowered again to 188 MiB as you will see [in the next section](#re-developing-a-custom-tilemap-system))**
+
 VRAM has also increased, at 430.0 MiB, now that I use both a texture for the whole tile set and a texture for normal maps, plus a texture for characters. This is an increase from a whopping 75.20 MiB VRAM.
 
 There's also been an increase for the initial loading time of the map. For a 128x128 tilemap, it takes roughly 11 seconds to see the first rendered frame while running the project via the Godot editor. It shouldn't be a major issue, though, but I've tried and keep exploring ways to bring this down, but it ultimately falls to a bottleneck in how I both generate the tile data (which is quite fast in the step, and the tile data generation is handled by spawning multiple threads before handing it off back to the main thread once complete) and then request `TileMapLayer3D` to build the tilemap arrays from the resulted data.
