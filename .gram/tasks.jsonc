@@ -1,7 +1,7 @@
 [
 	{
 		"label": "Run Script: serve",
-		"command": "npx @11ty/eleventy --serve",
+		"command": "nvm use && ENVIRONMENT=development npx @awesome.me/buildawesome --serve",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
@@ -12,7 +12,7 @@
 	},
 	{
 		"label": "Run Script: serve (incremental)",
-		"command": "npx @11ty/eleventy --serve --incremental",
+		"command": "nvm use && ENVIRONMENT=development npx @awesome.me/buildawesome --serve --incremental",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
@@ -23,7 +23,7 @@
 	},
 	{
 		"label": "Run Script: DEBUG Benchmark",
-		"command": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+		"command": "nvm use && ENVIRONMENT=development DEBUG=Eleventy:Benchmark* npx @awesome.me/buildawesome",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
@@ -34,7 +34,7 @@
 	},
 	{
 		"label": "Run Script: Node.js CPU profiling",
-		"command": "node --cpu-prof ./node_modules/.bin/eleventy --quiet",
+		"command": "nvm use && ENVIRONMENT=development node --cpu-prof ./node_modules/.bin/buildawesome --quiet",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
@@ -45,7 +45,7 @@
 	},
 	{
 		"label": "Run Script: Node.js Heap profiling",
-		"command": "node --inspect-brk ./node_modules/.bin/eleventy --quiet",
+		"command": "nvm use && ENVIRONMENT=development node --inspect-brk ./node_modules/.bin/buildawesome --quiet",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",

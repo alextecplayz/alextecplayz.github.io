@@ -14,7 +14,9 @@ tooltips: true
 		<meta name="robots" content="max-image-preview:large">
 	</head>
 	<body id="body" class="{{ class }}">
-		<img src="https://alextecplayz.goatcounter.com/count?p={{ permalink }}" class="hidden" alt="A tracking pixel powered by GoatCounter in order to track simple statistics about how people interact with my website. Personal information is not collected.">
+		{% if enableGoatcounter %}
+			<img src="https://alextecplayz.goatcounter.com/count?p={{ permalink }}" class="hidden" alt="A tracking pixel powered by GoatCounter in order to track simple statistics about how people interact with my website. Personal information is not collected.">
+		{% endif %}
 		{% include "components/header.liquid" %}
 		{% include "components/notice-container.liquid" %}
 		<div id="main-content" class="site-content">
@@ -212,6 +214,7 @@ tooltips: true
 					</div>
 					<div class="article-right">
 						<p class="medium rem1-15 monospace lightgray">{{ review_verdict | replace: '\n\n', '<br><br>' | replace: '\n', '<br>' }}</p>
+						<a class="medium rem1-15 monospace white" href="{{site.baseurl}}/game-review-rating-system.html">Learn how I rate games here (my Game Review Rating System).</a>
 					</div>
 				</div>
 				{% endif %}

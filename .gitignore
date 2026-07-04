@@ -2,12 +2,11 @@
 /.ignore/
 .comments
 .env
-.nvmrc
 wiki
 
 .cpuprofile
 
-# -- 11ty --
+# -- 11ty / buildawesome --
 _site
 _posts/drafts/
 /node_modules

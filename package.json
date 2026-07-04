@@ -3,12 +3,12 @@
   "version": "1.8.0",
   "description": "My site. It has a blog.",
   "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy"
+    "build": "npx @awesome.me/buildawesome",
+    "serve": "npx @awesome.me/buildawesome --serve",
+    "debug": "DEBUG=* npx @awesome.me/buildawesome"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@awesome.me/buildawesome": "^4.0.0-alpha.10",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",

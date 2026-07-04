@@ -81,6 +81,7 @@ export default async function (eleventyConfig) {
 	// https://kittygiraudel.com/2020/11/30/from-jekyll-to-11ty/
 	// {% production %}on prod!{% endproduction %}
 	eleventyConfig.addPairedShortcode('production', content => process.env.ELEVENTY_RUN_MODE === "build" ? content : undefined)
+	eleventyConfig.addGlobalData("enableGoatcounter", process.env.ENVIRONMENT !== "development");
 	eleventyConfig.addPairedLiquidShortcode("aside", function(content, postIdArg) {
 		const md = new markdownIt();
 		const htmlContent = md.render(content);
