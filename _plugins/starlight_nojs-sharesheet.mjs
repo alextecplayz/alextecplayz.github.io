@@ -38,7 +38,7 @@ export default function(eleventyConfig) {
 				</div>
 			</div>
 			<div class="flex column monospace rem1-25 lightgray medium">
-				<a class="masto-follow-btn monospace medium" href="https://share.joinmastodon.org/#text=Post by AlexTECPlayz on ${date} titled ${title}. Read the post on her blog: https://alextecplayz.com${url}" target="_blank" rel="noopener">Share on <img src="/images/custom_emojis/mastodon-white.webp" alt="mastodon-white" class="emoji" loading="lazy" width="24" height="24"> Mastodon</a>
+				<a class="masto-follow-btn monospace medium" href="https://share.joinmastodon.org/#text=Post by AlexTECPlayz on ${date} titled ${title}. Read the post on her blog: https://alextecplayz.com${url}" target="_blank" rel="noopener">Share on <img src="/assets/custom_emojis/mastodon-white.webp" alt="mastodon-white" class="emoji" loading="lazy" width="24" height="24"> Mastodon</a>
 				<div class="copy-section">
 					<p class="semibold white">Copy link to page:</p>
 					<input aria-labelledby="input-${slug}" type="text" readonly class="copy-field monospace rem1-25 lightgray medium" value="https://alextecplayz.com${url}">

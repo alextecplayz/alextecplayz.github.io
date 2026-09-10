@@ -1,7 +1,7 @@
 ---
 templateEngineOverride: liquid
 postid_alt: Sitemap
-permalink: /sitemap_all.xml
+permalink: /sitemap.xml
 lang: en
 locale: en_US
 title: "Sitemap"
