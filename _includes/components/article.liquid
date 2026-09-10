@@ -1,9 +1,21 @@
 <div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/NewsArticle">
-	<div class="article-left">
-		{% if article.data.image_banner_link %}
-			<img itemprop="image" class="article-image-size" src="{{ article.data.image_banner_link }}" alt="{{ article.data.image_banner_alt }}" title="{{ article.data.image_banner_alt }}" loading="lazy">
+	<div class="article-left flex column">
+		{% if article.data.image_banner_link_lq %}
+			<img itemprop="image" class="article-image-size" src="{{ article.data.image_banner_link_lq }}" alt="{{ article.data.image_banner_alt }}" title="{{ article.data.image_banner_alt }}" loading="lazy">
+		{% elsif article.data.image_banner_link %}
+			{% assign image_extension = article.data.image_banner_link | split: '.' | last | downcase %}
+			{% if image_extension == "svg" %}
+				<object class="article-image-size noselect" alt="{{ article.data.image_banner_alt }}" data="{{ article.data.image_banner_link }}" type="image/svg+xml"></object>
+			{% else %}
+				<img itemprop="image" class="article-image-size" src="{{ article.data.image_banner_link }}" alt="{{ article.data.image_banner_alt }}" title="{{ article.data.image_banner_alt }}" loading="lazy">
+			{% endif %}
 		{% else %}
-			<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/images/post-thumbnails/Missing.webp" alt="No thumbnail available" title="No thumbnail available" loading="eager" fetchpriority="high">
+			<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/assets/post-thumbnails/Missing.webp" alt="No thumbnail available" title="No thumbnail available" loading="eager" fetchpriority="high">
+		{% endif %}
+		{% if article.data.indicator_text %}
+			{% if article.data.indicator_type == 'notice' %}
+				<p class="notice {{ article.data.indicator_class }} notice-text monospace semibold">{{ article.data.indicator_text }} | {{ article.data.indicator_text_onpage }}</p>
+			{% endif %}
 		{% endif %}
 	</div>
 	<div class="article-right">
@@ -12,14 +24,9 @@
 		<p class="article-date rem1 lightgray grotesk bold">{{ article.data.date | date: "%d %B %Y" }}</p>
 		<p itemprop="dt-published datePublished" content="{{ article.data.date | date_to_xmlschema }}" class="hidden"></p>
 		{% if article.data.ledate %}<p itemprop="dateModified" content="{{ article.data.ledate | date_to_xmlschema }}" class="hidden"></p>{% endif %}
-		{% if article.data.indicator_text %}
-			{% if article.data.indicator_type == 'notice' %}
-				<p class="notice {{ article.data.indicator_class }} notice-text monospace semibold">{{ article.data.indicator_text }} | {{ article.data.indicator_text_onpage }}</p>
-			{% endif %}
-		{% endif %}
 		<div class="article-button-container">
-			<a class="article-button-light grotesk medium" href="{{ article.data.permalink }}">Read Article&nbsp;{% icon 'lucide:arrow-right' %}</a>
-			<a class="share-trigger article-button-light grotesk medium" data-share-url="{{ article.data.permalink }}" data-share-title="{{ article.data.title | escape }}" data-share-description="{{ article.data.description | escape }}" data-share-date="{{ article.data.date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if article.data.image_banner_link %}{{ article.data.image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/Missing.webp{% endif %}">{% icon 'lucide:share' %}&nbsp;Share</a>
+			<a class="article-button-light grotesk medium" href="{{ article.data.permalink }}">Read Article&nbsp;🡪</a>
+			<a class="share-trigger article-button-light grotesk medium" data-share-url="{{ article.data.permalink }}" data-share-title="{{ article.data.title | escape }}" data-share-description="{{ article.data.description | escape }}" data-share-date="{{ article.data.date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if article.data.image_banner_link %}{{ article.data.image_banner_link }}{% else %}{{ site.baseurl }}/assets/post-thumbnails/Missing.webp{% endif %}">📤&nbsp;Share</a>
 		</div>
 		<div class="article-categories">
 			{% for category in article.data.categories %}

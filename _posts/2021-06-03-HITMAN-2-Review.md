@@ -21,7 +21,7 @@ tags:
   - Games
   - Gaming
   - Game Review
-image_banner_link: /images/post-thumbnails/2021-06-03-HITMAN2.webp
+image_banner_link: /assets/post-thumbnails/2021-06-03-HITMAN2.webp
 review: true
 toc: true
 ---

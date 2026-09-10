@@ -17,7 +17,7 @@ tags:
   - Changelog
   - Overhaul
   - State of affairs
-image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
+image_banner_link: /assets/post-thumbnails/AlexTECPlayz_GridBanner.webp
 toc: true
 ---
 

@@ -14,7 +14,7 @@ tags:
   - 2025
   - Romania
   - Slop
-image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
+image_banner_link: /assets/post-thumbnails/AlexTECPlayz_GridBanner.webp
 toc: true
 ---
 
@@ -45,5 +45,3 @@ Surprisingly good guy *Billionaire* and philanthropist **Marc Benioff** knows ho
 Besides that, I don't think I can roast anyone else on that list, since I know fuck all about them. Well okay, I can roast **Shaun Maguire**, a VC that is currently still a partner at Sequoia Capital - but not for long - for having a face that does scream *Windowlicker*.
 
 Maguire served as an advisor to Trump in his second term, assisting with US Intelligence Community picks, for some fucking reason. Shaun also manages the investments of Sequoia in all of Musk's companies,and assisted Musk during his tenure at DOGE. He made a [deeply appalling, racist and Islamophobic remark about Zohran Mamdani on Twitter](https://x.com/shaunmmaguire/status/1941135110922969168), writing that "(Mamdani) comes from a culture that lies about everything. It's literally a virtue to lie if it advances his Islamist agenda. The West will learn this lesson the hard way". Soon after, a petition singed by 900 tech leaders called for Sequoia to condemn Maguire's comments, and to investigate and apologize about this. ...At the same time, an [open letter in support of Maguire's comments](https://www.businessinsider.com/shaun-maguire-letter-of-support-2025-7) has over 355 signatures. Go fuck yourself, Shaun. Rot in hell with the rest of your pro-Israel friends.
-
-

@@ -19,7 +19,7 @@ tags:
   - Games
   - Gaming
   - Steam
-image_banner_link: /images/post-thumbnails/2022-12-03-Scrap-Mechanic.webp
+image_banner_link: /assets/post-thumbnails/2022-12-03-Scrap-Mechanic.webp
 review: true
 review_product_name: Scrap Mechanic
 review_product_asin: 
@@ -104,4 +104,4 @@ If you play this with an Internet connection, KB&M, single-player, on either Cre
 
 If you are looking for an excellent multiplayer experience, controller support, good performance, no stupid DRM, this is not the game for you. Purchase Brick Rigs instead.
 
-My review will be still Not recommended. I do not recommend you buy this game. I haven't really been pleased with it, from both a gamer and a game developer perspective. 
+My review will be still Not recommended. I do not recommend you buy this game. I haven't really been pleased with it, from both a gamer and a game developer perspective.

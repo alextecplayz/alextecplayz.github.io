@@ -97,18 +97,18 @@ tooltips: true
 					<title class="post-title rem2-5 white boldonse semibold" itemprop="headline">{{ title }}</title>
 					<div class="flexrow-to-col">
 						{% if date %}
-							<p class="post-meta">{% icon 'lucide:calendar' %} <time class="rem1 white monospace medium" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%B %d, %Y" }}</time></p>
+							<p class="post-meta">📆 <time class="rem1 white monospace medium" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%B %d, %Y" }}</time></p>
 							<span class="hidden" itemprop="datePublished" content="{{ date | date_to_xmlschema }}"></span>
 						{% endif %}
 						{% if ledate %}
-							<p class="rem1 lightgray monospace medium italic">{% icon 'lucide:calendar-clock' %} Last edited on <time class="rem1 lightgray monospace medium italic" datetime="{{ ledate | date: '%Y-%m-%d' }}">{{ ledate | date: "%B %d, %Y" }}</time></p>
+							<p class="rem1 lightgray monospace medium italic">🕰 Last edited on <time class="rem1 lightgray monospace medium italic" datetime="{{ ledate | date: '%Y-%m-%d' }}">{{ ledate | date: "%B %d, %Y" }}</time></p>
 							<span class="dt-edited hidden" itemprop="dateModified" content="{{ ledate | date_to_xmlschema }}"></span>
 						{% endif %}
-						<p class="timetoread rem1 lightgray monospace medium">{% icon 'lucide:hourglass' %} Time to read: {{ timetoread }}</p>
+						<p class="timetoread rem1 lightgray monospace medium">⏳ Time to read: {{ timetoread }}</p>
 						{% assign plain = content | strip_html | replace: '\n', ' ' | replace: '\r', ' ' | replace: '\t', ' ' %}
 						{% assign compact = plain | replace: ' ', ' ' | strip %}
 						{% assign wordcount = compact | split: ' ' | size %}
-						<p class="wordcount rem1 lightgray monospace medium">{% icon 'lucide:a-large-small' %} Word count: {{ wordcount }}</p>
+						<p class="wordcount rem1 lightgray monospace medium">Ꜳ Word count: {{ wordcount }}</p>
 					</div>
 
 					<p class="monospace rem1-15 lightgray">{{ metadata_proglang }} {{ metadata_platforms }} {{ metadata_timespan }}</p>
@@ -127,8 +127,13 @@ tooltips: true
 				</aside>
 				<div class="post-content-header lightgray rem1 monospace medium">
 					{% if image_banner_link %}
+					{% assign image_extension = image_banner_link | split: '.' | last | downcase %}
 					<div class="post-content-header article-banner">
-						<img src="{{ image_banner_link }}" itemprop="image" class="project-image-banner" alt="{{ image_banner_alt }}" loading="lazy">
+						{% if image_extension == "svg" %}
+							<object class="project-image-banner noselect" alt="{{ image_banner_alt }}" data="{{ image_banner_link }}" type="image/svg+xml"></object>
+							{% else %}
+							<img src="{{ image_banner_link }}" itemprop="image" class="project-image-banner" alt="{{ image_banner_alt }}" loading="lazy">
+							{% endif %}
 					</div>
 					{% endif %}
 					{% if image_banner_subtitle %}
@@ -137,18 +142,18 @@ tooltips: true
 					<title class="post-title rem2-5 white boldonse semibold hidden-on-desktop" itemprop="headline">{{ title }}</title>
 					<div class="flexrow-to-col hidden-on-desktop">
 						{% if date %}
-							<p class="post-meta">{% icon 'lucide:calendar' %} <time class="rem1 white monospace medium" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%B %d, %Y" }}</time></p>
+							<p class="post-meta">📆 <time class="rem1 white monospace medium" datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%B %d, %Y" }}</time></p>
 							<span class="hidden" itemprop="datePublished" content="{{ date | date_to_xmlschema }}"></span>
 						{% endif %}
 						{% if ledate %}
-							<p class="rem1 lightgray monospace medium italic">{% icon 'lucide:calendar-clock' %} Last edited on <time class="rem1 lightgray monospace medium italic" datetime="{{ ledate | date: '%Y-%m-%d' }}">{{ ledate | date: "%B %d, %Y" }}</time></p>
+							<p class="rem1 lightgray monospace medium italic">🕰 Last edited on <time class="rem1 lightgray monospace medium italic" datetime="{{ ledate | date: '%Y-%m-%d' }}">{{ ledate | date: "%B %d, %Y" }}</time></p>
 							<span class="dt-edited hidden" itemprop="dateModified" content="{{ ledate | date_to_xmlschema }}"></span>
 						{% endif %}
-						<p class="timetoread rem1 lightgray monospace medium">{% icon 'lucide:hourglass' %} Time to read: {{ timetoread }}</p>
+						<p class="timetoread rem1 lightgray monospace medium">⏳ Time to read: {{ timetoread }}</p>
 						{% assign plain = content | strip_html | replace: '\n', ' ' | replace: '\r', ' ' | replace: '\t', ' ' %}
 						{% assign compact = plain | replace: ' ', ' ' | strip %}
 						{% assign wordcount = compact | split: ' ' | size %}
-						<p class="wordcount rem1 lightgray monospace medium">{% icon 'lucide:a-large-small' %} Word count: {{ wordcount }}</p>
+						<p class="wordcount rem1 lightgray monospace medium">Ꜳ Word count: {{ wordcount }}</p>
 					</div>
 					<p class="monospace rem1-15 lightgray hidden-on-desktop">{{ metadata_proglang }} {{ metadata_platforms }} {{ metadata_timespan }}</p>
 					{% if indicator_type == 'notice' %}
@@ -184,7 +189,7 @@ tooltips: true
 					<div class="pop-up inline-pop-up flex" id="nsfwcontent-window">
 						<div class="pop-up-content border-danger article-nsfw">
 							<div class="pop-up-content-titlebar">
-								<p class="flex centered grotesk semibold rem2 white pop-up-title">NSFW warning!{% icon 'lucide:octagon-alert' %}</p>
+								<p class="flex centered grotesk semibold rem2 white pop-up-title">NSFW warning!</p>
 							</div>
 							<div class="pop-up-scrollbox">
 								<p class="monospace white medium rem1-25">This post contains Not Safe For Work content.</p>
@@ -211,7 +216,7 @@ tooltips: true
 				{% if review and review_rating %}
 				<div class="review-box article">
 					<div class="article-left">
-						<img class="review-image-size" src="{{ site.baseurl }}/images/review/octogon-review-{{ review_rating }}.webp" title="The shape of a white octogon" alt="The shape of a white octogon" loading="lazy">
+						<img class="review-image-size" src="{{ site.baseurl }}/assets/review/octogon-review-{{ review_rating }}.webp" title="The shape of a white octogon" alt="The shape of a white octogon" loading="lazy">
 					</div>
 					<div class="article-right">
 						<p class="medium rem1-15 monospace lightgray">{{ review_verdict | replace: '\n\n', '<br><br>' | replace: '\n', '<br>' }}</p>
@@ -232,26 +237,26 @@ tooltips: true
 					{% assign previous = collections.posts | getNextCollectionItem: page %}
 					{% assign next = collections.posts | getPreviousCollectionItem: page %}
 					{% if page.url != posts[0].url %}
-						<a class="article-button-light monospace medium" href="{{ posts[0].url }}">{% icon 'lucide:chevron-first' %} Newest<br>post</a>
+						<a class="article-button-light monospace medium" href="{{ posts[0].url }}">« Newest<br>post</a>
 					{% else %}
-						<a class="article-button-light monospace medium disabled">{% icon 'lucide:chevron-first' %} Newest<br>post</a>
+						<a class="article-button-light monospace medium disabled">« Newest<br>post</a>
 					{% endif %}
 					{% if next %}
-						<a class="article-button-light monospace medium" href="{{ next.url }}">{% icon 'lucide:clock-arrow-up' %} Newer post:<br>{{ next.data.title }}</a>
+						<a class="article-button-light monospace medium" href="{{ next.url }}">‹ Newer post:<br>{{ next.data.title }}</a>
 					{% else %}
-						<a class="article-button-light monospace medium disabled">{% icon 'lucide:clock-arrow-up' %} Newer post:<br>[unavailable]</a>
+						<a class="article-button-light monospace medium disabled">‹ Newer post:<br>[unavailable]</a>
 					{% endif %}
-					<a class="share-trigger article-button-light monospace medium pointer" data-share-url="{{ page.url }}" data-share-title="{{ title | escape }}" data-share-description="{{ description | escape }}" data-share-date="{{ date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if image_banner_link %}{{ image_banner_link }}{% else %}{{ site.baseurl }}/images/post-thumbnails/Missing.webp{% endif %}">{% icon 'lucide:share' %} Share this page</a>
+					<a class="share-trigger article-button-light monospace medium pointer" data-share-url="{{ page.url }}" data-share-title="{{ title | escape }}" data-share-description="{{ description | escape }}" data-share-date="{{ date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if image_banner_link %}{{ image_banner_link }}{% else %}{{ site.baseurl }}/assets/post-thumbnails/Missing.webp{% endif %}">📤 Share this page</a>
 					{% if previous %}
-						<a class="article-button-light monospace medium" href="{{ previous.url }}">{% icon 'lucide:clock-arrow-down' %} Older post:<br>{{ previous.data.title }}</a>
+						<a class="article-button-light monospace medium" href="{{ previous.url }}">› Older post:<br>{{ previous.data.title }}</a>
 					{% else %}
-						<a class="article-button-light monospace medium disabled">{% icon 'lucide:clock-arrow-down' %} Older post:<br>[unavailable]</a>
+						<a class="article-button-light monospace medium disabled">› Older post:<br>[unavailable]</a>
 					{% endif %}
 					{% assign last_index = posts | size | minus: 1 %}
 					{% if page.url != posts[last_index].url %}
-						<a class="article-button-light monospace medium" href="{{ posts[last_index].url }}">{% icon 'lucide:chevron-last' %} Oldest<br>post</a>
+						<a class="article-button-light monospace medium" href="{{ posts[last_index].url }}">» Oldest<br>post</a>
 					{% else %}
-						<a class="article-button-light monospace medium disabled">{% icon 'lucide:chevron-last' %} Oldest<br>post</a>
+						<a class="article-button-light monospace medium disabled">» Oldest<br>post</a>
 					{% endif %}
 				{% endif %}
 			</div>

@@ -19,7 +19,8 @@ tags:
   - AlexTECPlayz
   - State of affairs
   - Project Jailbird
-image_banner_link: /images/post-thumbnails/2026-02-24-lessons-from-prisonia-part-two.webp
+image_banner_link_lq: /assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two-640.webp
+image_banner_link: /assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two.svg
 toc: true
 ---
 
@@ -44,7 +45,7 @@ And this worked well! Up until I increased the amount of layers I use and the ti
 In comes my idea to only update and rebuild the specific tiles you place, without affecting the other tiles. Here it is in practice:
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons2_performant_tps.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons2_performant_tps.mp4 alt="" title=""
 {% endvideo %}
 
 It's smooth and reliable; it causes no noticeable hitches or stutters when you place tiles and then rebuild the chunks. It should hopefully scale well for prisons larger than 128x128. I will keep the 32x32 chunk divide, though I think it's a good sweet spot between performance and RAM usage. More tilemaps (with their own tile data) means more RAM usage, which is, of course, undesirable, but I think this is a good compromise.
@@ -66,7 +67,7 @@ Oh, did I mention normal maps? That's also an addition I made to the TileMapLaye
 And yes, shadows work.
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons2_layer_shadows.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons2_layer_shadows.mp4 alt="" title=""
 {% endvideo %}
 
 ## Re-developing a custom tilemap system
@@ -100,7 +101,7 @@ I mentioned that layers are now created on demand. Which means that for an 11-fl
 I still need to bring into the new system a few QoL stuff that makes it feel smoother. Currently, if I draw tiles over the whole 32×32 at once, it takes a little bit to iterate over and finally render the change to the texture, and therefore, the tilemap. Also, shadows. They don't work with this new system just yet. And corners are fucked, as you can see:
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons2_cornersarefucked.webp alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons2_cornersarefucked.webp alt="" title=""
 {% endgallery %}
 
 ## Obfuscating C# code in Godot
@@ -282,7 +283,7 @@ So it'd be PRISONIA.dll, LibJailbird.dll, Sapphire.dll, although currently I hav
 **Short break: I've been using Zed (well, a fork named [Gram](https://gram.liten.app/)) full-time since May 4**, and I like it for the most part, but it's inconsistent to the point of being annoying sometimes.
 
 {% gallery %}
-/images/post-media/2026/Screenshot_20260606_135151.webp alt="A screenshot of Gram of the LibJailbird.cs code, highlighting that some lines use spaces instead of tabs." title="A screenshot of Gram of the LibJailbird.cs code, highlighting that some lines use spaces instead of tabs."
+/assets/post-media/2026/Screenshot_20260606_135151.webp alt="A screenshot of Gram of the LibJailbird.cs code, highlighting that some lines use spaces instead of tabs." title="A screenshot of Gram of the LibJailbird.cs code, highlighting that some lines use spaces instead of tabs."
 {% endgallery %}
 
 I mean, what the fuck? Why is it using spaces AND tabs when I mainly prefer tabs? It just adds spaces randomly, it's fucking moronic and annoying.
@@ -336,7 +337,7 @@ I then unpack 8 half-floats from 4 floats from x, y, z, w, use UV remapping, app
 Beyond that there is a custom charactersprite system that uses the centralized tilemap spawner system to access the multimesh instance and its index. The character sprite system stores the dictionaries for body data, limb data and head data (3 separate dictionaries). This handles part parenting (e.g. head is a child of body, hand_left is a child of arm_left), base positions, the rect 'cache' (because the first time you spawn in an NPC would cause a noticeable stutter, same thing for the first chat bubble created), instead I pre-spawn an NPC that is never killed or moved (so a 'dummy') that prevents this when you play the game.
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons2_dummy.webm alt="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game." title="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game."
+/assets/post-media/2026/PRISONIA/lessons2_dummy.mp4 alt="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game." title="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game."
 {% endvideo %}
 
 Then there are 200 lines of code that updates all of the body parts, their orientation, rotations, scale, arm rotation on the CPU, leg movement on the GPU by passing back to the shader the changes to the leg textures per step, etc. Again, a good system that you create once and then forget about it because it works well.
@@ -344,16 +345,45 @@ Then there are 200 lines of code that updates all of the body parts, their orien
 And here's the result!
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons2_npcs1.webm alt="Placing NPCs and letting them wander around. ...They complain a lot, don't they?" title="Placing NPCs and letting them wander around. ...They complain a lot, don't they?"
+/assets/post-media/2026/PRISONIA/lessons2_npcs1.mp4 alt="Placing NPCs and letting them wander around. ...They complain a lot, don't they?" title="Placing NPCs and letting them wander around. ...They complain a lot, don't they?"
 {% endvideo %}
 
 Notice how there may be some strange offsets or split-second changes, that's due to the shader and how the quad is being resized, and the offsets are being applied. It's still impressive technically, even if not yet completely glitch-free. Another benefit of this system is that it uses just one master sprite for all NPC parts, skin tones, etc. I already have checks in place to enable spawning only NPCs of a specific type (e.g. human, robot, undead, zombie, protogen (:3)) which will be useful for custom map presets and so on.
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons2_npcs_aliens.webp alt="You can have a prison only filled with aliens..." title="You can have a prison only filled with aliens..."
-/images/post-media/2026/PRISONIA/lessons2_npcs_protogens.webp alt="...or only with protogens!" title="...or only with protogens!"
-/images/post-media/2026/PRISONIA/lessons2_npcs_mixed.webp alt="Or enable them all. Zombies, skeletons, robots, goblins, aliens, protogens, vampires, ogres, and humans, all in the same world." title="Or enable them all. Zombies, skeletons, robots, goblins, aliens, protogens, vampires, ogres, and humans, all in the same world."
+/assets/post-media/2026/PRISONIA/lessons2_npcs_aliens.webp alt="You can have a prison only filled with aliens..." title="You can have a prison only filled with aliens..."
+/assets/post-media/2026/PRISONIA/lessons2_npcs_protogens.webp alt="...or only with protogens!" title="...or only with protogens!"
+/assets/post-media/2026/PRISONIA/lessons2_npcs_mixed.webp alt="Or enable them all. Zombies, skeletons, robots, goblins, aliens, protogens, vampires, ogres, and humans, all in the same world." title="Or enable them all. Zombies, skeletons, robots, goblins, aliens, protogens, vampires, ogres, and humans, all in the same world."
 {% endgallery %}
+
+## NPCs: Addendum
+
+2026-07-08
+
+I'm working on minimizing the amount of primitives used by the CharacterSprite system, because at this time it appears to be creating accurate edges based on the provided texture (e.g. individual corners similar to an outline that follows an NPC's arm, head, etc.) which is obviously bad in terms of performance. And for posterity's sake, here's the breakdown of draw calls, primitives, and raster objects as of July 8, 2026:
+
+| System                                                                         | Draw calls | Primitives | Raster objects |
+| ------------------------------------------------------------------------------ | ---------- | ---------- | -------------- |
+| BGQuad (the background quad following the player)                              | 1          | 4          | 2              |
+| DynamicSky system                                                              | 176        | 352        | 176            |
+| Sapphire.DevUI                                                                 | 42         | 1280       | 606            |
+| Sapphire.Console                                                               | 28         | 1202       | 481            |
+| Jailbird.NPCSpriteManager                                                      | 11         | 110000     | 11             |
+| Jailbird.TileMap (chunkHolder, 16 32x32 chunk forming a map size 128x128)      | 112        | 590        | 295            |
+| The UI used in the level (without the minimap window)                          | 39         | 180        | 90             |
+| ├─> 'mobile UI' (which is just a joystick and a few buttons at this time)      | 22         | 896        | 53             |
+| └─> the minimap window with a subviewport rendering a player-attached Camera2D | 23         | 106        | 37             |
+
+So yeah, 110K prims for the sprite manager is a big problem, I'll probably look into reusing the old simplification system I used back in Lessons part 1, where I minimized the amount of primitives on the tilemap when creating holes in it.
+
+But I'm quite surprised that UI also uses a lot of draw calls, primitives and raster objects. I'm not sure if I can do anything about it on my side besides just using fewer UI elements, but I can't really simplify my UI further. Still, something to be aware of.
+
+
+2026-07-09
+
+The reason why there are 110K primitives is that in my NPC Sprite Manager I have a MAX_NPC_COUNT set to 5000, and so 2 primitives per quad * 11 body parts * 5000 instances is 110000 primitives. I have now implemented a simple internal counter that checks how many NPCs are in the map, so that it updates the count, which determines the primitive count. Without any other primitives minimized, with just 1 NPC the total used by the game is 1572 primitives.
+
+This means per NPC it means 22 primitives (2 prims * 11 body parts * 1 NPC count / 1 instance). There's nothing to simplify, it's 2 primitives per NPC, it's as simple as it can get imo.
 
 ## Navigation
 
@@ -376,11 +406,11 @@ I have finally started working on UI, and I have to say, I love UI themes. The o
 Anyway, here's the main menu UI, settings, profile UI, management/escape UIs. They're not wired up to anything yet, but I'm hoping to get it done by next week. If all goes well, I can hopefully start testing this game with a few of my friends before expanding to broader testing, and finally entering Early Access. Not having a job is quite the motivator, even if this heat really fucked up my productivity.
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons2_mainmenu_ui.webp alt="The main menu." title="The main menu."
-/images/post-media/2026/PRISONIA/lessons2_mainmenu_settings.webp alt="The settings screen. There are a few tabs for categories - Accessibility, Audio, Controls, Display, Game, Legal." title="The settings screen. There are a few tabs for categories - Accessibility, Audio, Controls, Display, Game, Legal."
-/images/post-media/2026/PRISONIA/lessons2_mainmenu_manager.webp alt="The manager mode screen. A list on the left for levels in the main campaign (that won't be part of the initial EA release though), an info panel with settings on the right." title="The manager mode screen. A list on the left for levels in the main campaign (that won't be part of the initial EA release though), an info panel with settings on the right."
-/images/post-media/2026/PRISONIA/lessons2_mainmenu_escape.webp alt="The escape screen. It's more or less the same as the management mode screen, with small changes." title="The escape screen. It's more or less the same as the management mode screen, with small changes."
-/images/post-media/2026/PRISONIA/lessons2_mainmenu_profile.webp alt="The profile/account manager. Yes, I drew that protogen!" title="The profile/account manager. Yes, I drew that protogen!"
+/assets/post-media/2026/PRISONIA/lessons2_mainmenu_ui.webp alt="The main menu." title="The main menu."
+/assets/post-media/2026/PRISONIA/lessons2_mainmenu_settings.webp alt="The settings screen. There are a few tabs for categories - Accessibility, Audio, Controls, Display, Game, Legal." title="The settings screen. There are a few tabs for categories - Accessibility, Audio, Controls, Display, Game, Legal."
+/assets/post-media/2026/PRISONIA/lessons2_mainmenu_manager.webp alt="The manager mode screen. A list on the left for levels in the main campaign (that won't be part of the initial EA release though), an info panel with settings on the right." title="The manager mode screen. A list on the left for levels in the main campaign (that won't be part of the initial EA release though), an info panel with settings on the right."
+/assets/post-media/2026/PRISONIA/lessons2_mainmenu_escape.webp alt="The escape screen. It's more or less the same as the management mode screen, with small changes." title="The escape screen. It's more or less the same as the management mode screen, with small changes."
+/assets/post-media/2026/PRISONIA/lessons2_mainmenu_profile.webp alt="The profile/account manager. Yes, I drew that protogen!" title="The profile/account manager. Yes, I drew that protogen!"
 {% endgallery %}
 
 I swear the Manager and Escape windows are supposed to be bigger, they're just currently fucked up.
@@ -388,7 +418,7 @@ I swear the Manager and Escape windows are supposed to be bigger, they're just c
 Working with UI sizes is also a pain in the ass in Godot, I couldn't get it to auto-size based on the screen size, I tried all sorts of combinations. The only way to get it to expand the viewport when resizing the window (e.g. 1080p without leaving black bars all over the place) was to set the main menu to a square size (720×720). Which means I have to manually size up the windows now, because the Manager, Escape windows are supposed to almost fill the screen, both in height and width, instead of being the same size as the main menu. Fractional scaling (e.g. 1.5x) doesn't seem to affect it either. What the hell?
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons2_mainmenu_ui.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons2_mainmenu_ui.mp4 alt="" title=""
 {% endvideo %}
 
 ---
@@ -396,5 +426,5 @@ Working with UI sizes is also a pain in the ass in Godot, I couldn't get it to a
 And in case you wondered, here's how sane my github log is for this project. Here's a screenshot from back when I was working on the tilemap.
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons2_gitlog.webp alt="I promise I'm largely sane." title="I promise I'm largely sane."
+/assets/post-media/2026/PRISONIA/lessons2_gitlog.webp alt="I promise I'm largely sane." title="I promise I'm largely sane."
 {% endgallery %}

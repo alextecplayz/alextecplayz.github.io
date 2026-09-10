@@ -18,7 +18,7 @@ tags:
   - Google Pixel
   - Smartphones
   - News
-image_banner_link: /images/post-thumbnails/2021-08-03-Pixel6.webp
+image_banner_link: /assets/post-thumbnails/2021-08-03-Pixel6.webp
 toc: true
 ---
 

@@ -22,7 +22,7 @@ tags:
   - Games
   - Gaming
   - Steam
-image_banner_link: /images/post-thumbnails/2023-05-18-HITMAN-WOA.webp
+image_banner_link: /assets/post-thumbnails/2023-05-18-HITMAN-WOA.webp
 image_banner_alt: HITMAN World of Assassination logo on a red background
 toc: true
 ---
@@ -68,4 +68,4 @@ If possible, buy the game on sale instead of full price.
 Buy it at a lower cost, don't pay more than $60 on this thing. IOI clearly moved most resources to Project 007 and Project Dragon, and with the May update, there's not much content on the horizon in Year Three for HITMAN World of Assassination. I eagerly await the next Hitman game, even if it would be a remake.
 
 ## Still a negative review
-I still maintain my review as a negative review, mostly because this is supposed to be a review for HITMAN 3, not WoA. It's still an underwhelming product that might have been a little overhyped, VR isn't a great experience at all, and the newly introduced Freelancer and Ambrose Island content aren't much better either. 
+I still maintain my review as a negative review, mostly because this is supposed to be a review for HITMAN 3, not WoA. It's still an underwhelming product that might have been a little overhyped, VR isn't a great experience at all, and the newly introduced Freelancer and Ambrose Island content aren't much better either.

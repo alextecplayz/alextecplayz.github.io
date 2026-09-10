@@ -42,7 +42,7 @@
 						{% for video in videos %}
 							<div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/VideoObject">
 								<div class="article-left">
-									<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/images/video-thumbnails/{{ video.url }}.webp" alt="{{ video.thumb_alt }}" title="{{ video.thumb_alt }}" loading="lazy">
+									<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/assets/video-thumbnails/{{ video.url }}.webp" alt="{{ video.thumb_alt }}" title="{{ video.thumb_alt }}" loading="lazy">
 								</div>
 								<div class="article-right">
 									<a href="https://www.youtube.com/watch?v={{ video.url }}"><p itemprop="headline" class="p-name article-title rem2 white boldonse semibold">{{ video.title }}</p></a>
@@ -50,7 +50,7 @@
 									<p class="article-date rem1 lightgray grotesk bold">{{ video.date | date: "%d %B %Y" }}</p>
 									<p itemprop="dt-published datePublished" content="{{ video.date | date_to_xmlschema }}" class="hidden"></p>
 									<div class="article-button-container">
-										<a class="article-button-light grotesk medium" href="https://www.youtube.com/watch?v={{ video.url }}">Watch Video&nbsp;{% icon 'lucide:video' %}</a>
+										<a class="article-button-light grotesk medium" href="https://www.youtube.com/watch?v={{ video.url }}">Watch Video on YouTube</a>
 									</div>
 									<div class="article-categories">
 										{% for category in video.categories %}

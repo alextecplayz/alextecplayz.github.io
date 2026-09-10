@@ -16,7 +16,7 @@ tags:
   - Slop
 fedicomments: false
 fedipostid: 
-image_banner_link: /images/post-thumbnails/AlexTECPlayz_GridBanner.webp
+image_banner_link: /assets/post-thumbnails/AlexTECPlayz_GridBanner.webp
 toc: true
 ---
 
@@ -32,20 +32,10 @@ In 2023, she was promoted to the Supreme Court (ro: ÎCCJ - Înaltea Curte de Ca
 
 [Anonymized document obtained by G4Media](https://cdn.g4media.ro/wp-content/uploads/2023/03/savonea-anonimizat.jpg), and the [de-anonymized screenshot of the same document, also obtained by G4Media](https://cdn.g4media.ro/wp-content/uploads/2023/03/document-neanonimizat-bun.jpg) - also pictured below:
 
-<div class="flex row">
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/document-neanonimizat-bun.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/document-neanonimizat-bun.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/savonea-anonimizat.webp" alt="" title="">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/savonea-anonimizat.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-  </div>
-</figure>
-</div>
+{% gallery %}
+/assets/post-media/slop/document-neanonimizat-bun.webp
+/assets/post-media/slop/savonea-anonimizat.webp"
+{% endgallery %}
 
 The other judge listed in the de-anonymized screenshot, Daniel Grădinaru, is the current president of the CSM, and is considered in the justice system as "Lia Savonea's man".
 

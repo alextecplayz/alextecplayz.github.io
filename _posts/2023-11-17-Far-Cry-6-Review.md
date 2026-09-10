@@ -18,7 +18,7 @@ tags:
   - Games
   - Gaming
   - Steam
-image_banner_link: /images/post-thumbnails/2023-11-17-FC6.webp
+image_banner_link: /assets/post-thumbnails/2023-11-17-FC6.webp
 image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient background, mimicking the background used in Far Cry 6 promotional banners, with a blue sky, red fog and dark gray roads.
 review: true
 review_product_name: Far Cry 6
@@ -97,4 +97,4 @@ Advice: If you want to play the game, ALWAYS buy it on sale, and ALWAYS buy the 
 - The addition of PG-240 / PG-240X feels rather forced. Coupled with the claims that Yara keeps the secret formula to themselves, but then they reveal the ingredients and the manufacturing process of the chemical to a private press release shows that Anton's decision to keep PG-240 exclusive to Yara is just a dumb, and useless measure, as the press, and the three-letter agencies from the USA, China or Russia would get their hands on the secrets sooner or later, and would manufacture it for themselves
 - The Ubisoft launcher is functionally useless, and serves no purpose other than to gatekeep your access behind an additional step. Even if you buy the game on Steam, you WILL have to use their launcher before launching the game. This can take minutes on a hard drive, and Ubisoft launcher updates can actually PREVENT you from playing the game on Linux, as the launcher window will be invisible outside of a slim black frame and shadow. Unless you always use Proton Experimental (in the experimental branch) to ensure the latest support and fixes for Uplay, you will not be able to play the game. Do NOT use regular Proton or Proton-GE, it's not worth the hassle to continuously update to a newer version manually. The ONLY acceptable game launcher is a launcher similar to the one used for the HITMAN World of Assassination trilogy. No account, no useless features, instant launch, the launcher only acts as a way for you to benchmark and edit your game settings without launching the actual game, because you don't always want to launch a game to change one setting
 - In similar fashion to the embarrassing enemy AI used in the 2020 Watch_Dogs: Legion, Far Cry 6's enemies are essentially BLIND. As long as you have no line of sight, you can hide behind a literal pole and avoid detection. You can shoot enemies in front of other enemies, and you will not get detected. It's extremely easy to run away from any car chases, similar to the embarrassing police chases from Cyberpunk 2077 and its DLC
-- Anything more than $15-20 is unacceptable for Far Cry 6. The absurd $100 'Game of the Year' edition is an absolute cash grab. The game didn't even get nominated for GOTY, to warrant such an edition in the first place 
+- Anything more than $15-20 is unacceptable for Far Cry 6. The absurd $100 'Game of the Year' edition is an absolute cash grab. The game didn't even get nominated for GOTY, to warrant such an edition in the first place

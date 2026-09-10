@@ -19,7 +19,8 @@ tags:
   - AlexTECPlayz
   - State of affairs
   - Project Jailbird
-image_banner_link: /images/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one.webp
+image_banner_link_lq: /assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one-640.webp
+image_banner_link: /assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one.svg
 toc: true
 ---
 
@@ -64,7 +65,7 @@ At the time, the custom tilemap used one Array variable, the levelList, which wo
 While sure, this works well for PC, it effectively creates tens of thousands, if not hundreds of thousands of primitives, which is not handled well by mobile GPUs, especially not by a low-end mid-range phone like the Redmi Note 11, my variant only has 4GBs of RAM, and uses a custom ROM on Android 16 (*because I insist on staying on the latest Android version, instead of using Android 13 which is supposedly better for gaming, or the stock ROM*), and this would result in all of my background apps (personalDNSfilter, Sunup, Syncthing, and the running game) crashing, due to the fast increase in RAM usage - one such tilemap would take hundreds of MiB of RAM, roughly 100-300 if I remember right. A miserable first attempt, but an attempt nonetheless.
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons_prisonia_redmicrash_spchk.webm alt="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable." title="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable."
+/assets/post-media/2026/PRISONIA/lessons_prisonia_redmicrash_spchk.mp4 alt="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable." title="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable."
 {% endvideo %}
 
 Of course, I also tested `TileMap` (now deprecated), and `TileMapLayer`, with limited degrees of success.
@@ -92,8 +93,8 @@ But I soon managed to go even lower, so now it's just punching 1 hole, without a
 Here's how a hole punch would look with approach 1, vs approach 2:
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons_diagram_tilemap_tile_punch1.webp alt="The first approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole. Around this hole, 8 squares are placed in a circular manner, while keeping a square shape." title="The first approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole. Around this hole, 8 squares are placed in a circular manner, while keeping a square shape."
-/images/post-media/2026/PRISONIA/lessons_diagram_tilemap_tile_punch2.webp alt="The second approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole." title="The second approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole."
+/assets/post-media/2026/PRISONIA/lessons_diagram_tilemap_tile_punch1.webp alt="The first approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole. Around this hole, 8 squares are placed in a circular manner, while keeping a square shape." title="The first approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole. Around this hole, 8 squares are placed in a circular manner, while keeping a square shape."
+/assets/post-media/2026/PRISONIA/lessons_diagram_tilemap_tile_punch2.webp alt="The second approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole." title="The second approach to tile holes in the tilemap. It's a diagram of a dark grey grid on which a square tilemap using the colour red is placed. On this tilemap, in the center is a square 1x1 hole."
 {% endgallery %}
 
 So while the first approach would add 16 vertices to each requested hole, the second approach only adds the minimum amount of vertices that creates the hole, and the vertices that connect it to the four corners of the tilemap.
@@ -193,7 +194,7 @@ Took me a bit to figure this stuff out, but thankfully it's a one-time addition 
 The four floor layers - BG, FG, TOP, OVERLAY - are supposed to represent the contents (texture) of one tile. BG is the background, such as floor material (e.g. dirt, concrete), FG takes care of objects on top of BG such as walls or objects (e.g. bed, crate, fridge), TOP takes care of ceiling-mounted lights and other such items, and OVERLAY is a special, all-in-one layer that at runtime is supposed to display the requested data. OVERLAY takes care of displaying textures that represent electricity, water, vents, deployment, sectors, temperature, and possibly more.
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons_diagram_tilemap_data.webp alt="A diagram with a grey grid which explains the four floor layers, BG, FG, TOP, OVERLAY and what they each represent, and the JAILBIRD_DATA_TILE data container. Overlay represents electricity, water, deployment, sectors, etc. Top represents Lights, ceiling-attached objects. FG represents walls, entryways, furniture. BG represents floors, terrain. JAILBIRD_DATA_TILE contains data such as width, height, bg, fg, top, etc." title="A diagram with a grey grid which explains the four floor layers, BG, FG, TOP, OVERLAY and what they each represent, and the JAILBIRD_DATA_TILE data container. Overlay represents electricity, water, deployment, sectors, etc. Top represents Lights, ceiling-attached objects. FG represents walls, entryways, furniture. BG represents floors, terrain. JAILBIRD_DATA_TILE contains data such as width, height, bg, fg, top, etc."
+/assets/post-media/2026/PRISONIA/lessons_diagram_tilemap_data.webp alt="A diagram with a grey grid which explains the four floor layers, BG, FG, TOP, OVERLAY and what they each represent, and the JAILBIRD_DATA_TILE data container. Overlay represents electricity, water, deployment, sectors, etc. Top represents Lights, ceiling-attached objects. FG represents walls, entryways, furniture. BG represents floors, terrain. JAILBIRD_DATA_TILE contains data such as width, height, bg, fg, top, etc." title="A diagram with a grey grid which explains the four floor layers, BG, FG, TOP, OVERLAY and what they each represent, and the JAILBIRD_DATA_TILE data container. Overlay represents electricity, water, deployment, sectors, etc. Top represents Lights, ceiling-attached objects. FG represents walls, entryways, furniture. BG represents floors, terrain. JAILBIRD_DATA_TILE contains data such as width, height, bg, fg, top, etc."
 {% endgallery %}
 
 And then creating tiles, or punching holes in the tilemap, this one took the longest time, since it's easy to bork it if you're not paying attention.
@@ -228,15 +229,15 @@ Anyway, rough performance metrics on mobile (Redmi Note 11):
 And a video that shows off the tilemap system on Linux as of February 6, which is as of Feb 24, the current implementation:
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons_sapphire_tilemap_20260206.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_sapphire_tilemap_20260206.mp4 alt="" title=""
 {% endvideo %}
 
 This video is the game being launched via the editor, note how it starts at 107.5 MiB static RAM memory, and 183.6 MiB VRAM. It starts with roughly 6570 primitives drawn before falling to 3176 on the ground floor, with many holes being added, as the tilemap system handles the 'dirty' layers and removing primitives where possible. You can see how they're also connected to the quad through these horizontal streaks in wireframe mode. Clean, 1x1 holes in the quad. With a lot more holes in the quad on the ground floor, it goes to 12752 vertices. On the highest floor level it goes to 76322 vertices.
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons_tilemap_wireframe_f0.webp alt="" title=""
-/images/post-media/2026/PRISONIA/lessons_tilemap_wireframe_f11.webp alt="" title=""
-/images/post-media/2026/PRISONIA/lessons_tilemap_wireframe_f11_closeup.webp alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_tilemap_wireframe_f0.webp alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_tilemap_wireframe_f11.webp alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_tilemap_wireframe_f11_closeup.webp alt="" title=""
 {% endgallery %}
 
 I want to continue minimizing the amount of primitives in the future by culling lower floors when there's no tile underneath. But at this point, the primitive count is well below the 2 million vertex limit (180 MB VRAM) on Mali GPUs for mobile - so at least for now, it's no longer the priority when it comes to performance optimization. Current stats on Linux:
@@ -253,7 +254,7 @@ So, ~2000 primitives on startup (with the current setup, no holes added) vs >100
 #### Future work
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/lessons_diagram_tilemap_castingshadows.webp alt="A diagram with a black background on which all 11 floors are overlaid on top of each other, in an isometric view. The first 5 floors (underground levels) are coloured brown, the ground floor (6) is coloured dark green, the last 5 floors (overground levels) are coloured light blue, to indicate they're empty. There is a zoomed view of two floors - ground floor and the first floor above, which is empty. On the ground floor there is an isometric red building which is supposed to cast a shadow behind it, as the light direction of the sky is facing north-east." title="A diagram with a black background on which all 11 floors are overlaid on top of each other, in an isometric view. The first 5 floors (underground levels) are coloured brown, the ground floor (6) is coloured dark green, the last 5 floors (overground levels) are coloured light blue, to indicate they're empty. There is a zoomed view of two floors - ground floor and the first floor above, which is empty. On the ground floor there is an isometric red building which is supposed to cast a shadow behind it, as the light direction of the sky is facing north-east."
+/assets/post-media/2026/PRISONIA/lessons_diagram_tilemap_castingshadows.webp alt="A diagram with a black background on which all 11 floors are overlaid on top of each other, in an isometric view. The first 5 floors (underground levels) are coloured brown, the ground floor (6) is coloured dark green, the last 5 floors (overground levels) are coloured light blue, to indicate they're empty. There is a zoomed view of two floors - ground floor and the first floor above, which is empty. On the ground floor there is an isometric red building which is supposed to cast a shadow behind it, as the light direction of the sky is facing north-east." title="A diagram with a black background on which all 11 floors are overlaid on top of each other, in an isometric view. The first 5 floors (underground levels) are coloured brown, the ground floor (6) is coloured dark green, the last 5 floors (overground levels) are coloured light blue, to indicate they're empty. There is a zoomed view of two floors - ground floor and the first floor above, which is empty. On the ground floor there is an isometric red building which is supposed to cast a shadow behind it, as the light direction of the sky is facing north-east."
 {% endgallery %}
 
 {% aside postid %}
@@ -273,7 +274,7 @@ And I've never been happier! I don't really have to worry about new upstream com
 So far, everything is separated into three plugins: `Sapphire`, `Sapphire.Editor`, and `Sapphire.Material3` (`Sapphire.Material3` will be open-sourced when it's ready). Let's explore each plugin in detail. But if you want to skip that, it's totally fine. Here's a nice graph that explains the hierarchy of the three, and how they interact with the Godot Editor.
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/sapphire_plugins_chart.webp alt="A chart of the three Sapphire plugins and how they interact with Godot Engine." title="A chart of the three Sapphire plugins and how they interact with Godot Engine."
+/assets/post-media/2026/PRISONIA/sapphire_plugins_chart.webp alt="A chart of the three Sapphire plugins and how they interact with Godot Engine." title="A chart of the three Sapphire plugins and how they interact with Godot Engine."
 {% endgallery %}
 
 ### Plugin: Sapphire
@@ -285,8 +286,8 @@ File size as of 24.02.2026: 6.3 MB (without the .git folder)
 **PREFACE: If you want a good console that is similar, try [jitspoe/godot-console](https://github.com/jitspoe/godot-console), it's surprisingly good!**
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons_sapphire_console_cvrs.webm alt="" title=""
-/images/post-media/2026/PRISONIA/lessons_sapphire_console_gds.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_sapphire_console_cvrs.mp4 alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_sapphire_console_gds.mp4 alt="" title=""
 {% endvideo %}
 
 The console is of course, inspired by the Source engine console, but I modernized it by adding a few features that are especially useful. You can execute GDscript directly in the console, and you can quickly toggle the DevUI with the click of a button. I'm also working on a search / filter functionality, and the ability to specify a category before the text, which is useful for both filtering and determining what ran the command. For example, instead of "[19:48:38] INFO: Sapphire plugin enabled", you'll see "[SapphirePlugin] [19:48:38] INFO Sapphire plugin enabled".
@@ -318,7 +319,7 @@ Both of them use [Kenney's CC0-licensed Input Prompts](https://kenney.nl/assets/
 #### Schema
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/sapphire_schema_chart.webp alt="A chart of Schema's inner workings and how they interact with each other." title="A chart of Schema's inner workings and how they interact with each other."
+/assets/post-media/2026/PRISONIA/sapphire_schema_chart.webp alt="A chart of Schema's inner workings and how they interact with each other." title="A chart of Schema's inner workings and how they interact with each other."
 {% endgallery %}
 
 **Schema hasn't seen updates since September 2025, it's still highly experimental and very prone to breakage!**
@@ -534,7 +535,7 @@ File size as of 24.02.2026: 129.3 KB (without the .git folder)
 Oh yes, this. Quite an early little thing I coded one night, but if running via the editor (and having Sapphire.Editor enabled), it adds a dock in the bottom panel which lets the in-game console connect via localhost to the editor's console, which means I can send commands from the editor to the game. Fun!
 
 {% video %}
-/images/post-media/2026/PRISONIA/lessons_sapphire_console_debugger.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_sapphire_console_debugger.mp4 alt="" title=""
 {% endvideo %}
 
 The code, besides settng up UI and then cleaning up, is just this, it's this simple:
@@ -637,7 +638,7 @@ and then just duplicate the `play_button` and `play_scene_button` buttons in `Ed
 In the editor, this looked like this prior to me moving to plugins:
 
 {% gallery %}
-/images/post-media/2026/PRISONIA/sapphire_editor_run_bar_grd.webp alt="A screenshot of the Editor Run Bar, but with two extra buttons." title="A screenshot of the Editor Run Bar, but with two extra buttons."
+/assets/post-media/2026/PRISONIA/sapphire_editor_run_bar_grd.webp alt="A screenshot of the Editor Run Bar, but with two extra buttons." title="A screenshot of the Editor Run Bar, but with two extra buttons."
 {% endgallery %}
 
 As an alternative, you can use [jose-lico/Godot-RenderDoc-Launcher](https://github.com/jose-lico/Godot-RenderDoc-Launcher), but that only supports RenderDoc, so you'll have to add support for other tools yourself.
@@ -645,7 +646,7 @@ As an alternative, you can use [jose-lico/Godot-RenderDoc-Launcher](https://gith
 #### Schema Editor
 
 {% video %}
-/images/post-media/2026/PRISONIA/sapphire_editor_schema.webm alt="" title=""
+/assets/post-media/2026/PRISONIA/sapphire_editor_schema.mp4 alt="" title=""
 {% endvideo %}
 
 Again, I remind you that I haven't worked on bring this into the Sapphire.Editor and the Sapphire plugins, it was worked on separately, I've yet to unify it, but I don't have the time for something as heavy as Schema right now. But here's a video where I ignore the warning I placed at the button that rebuilds the ClassDB...which crashes the editor.
@@ -663,8 +664,8 @@ File size as of 24.02.2026: 5.9 MB (without the .git folder)
 I worked on this a bit in [January](https://techhub.social/@alextecplayz/115827734861480819), but essentially I'm trying to recreate Material You Expressive in Godot, because I dislike native Android app development, and I need / want to build a bookmark manager app that supports importing and exporting to browser-supported formats like HTML.
 
 {% video %}
-/images/post-media/2026/sapphire_md3_colorgen.mp4
-/images/post-media/2026/sapphire_md3_contrast_carousel.mp4
+/assets/post-media/2026/sapphire_md3_colorgen.mp4
+/assets/post-media/2026/sapphire_md3_contrast_carousel.mp4
 {% endvideo %}
 
 It's a fun little project, but I haven't worked on it since then. I'll return to it when I have the time.
@@ -676,44 +677,44 @@ I mentioned this project back in my [2026 year in review post]({{site.baseurl}}/
 Here's some early footage of that I shot for this post, but I haven't worked on it since the end of October, I want to release this as a demo on Itch, and if people like the idea, I'll commit to it.
 
 {% video %}
-/images/post-media/2026/PN/PN_paint_test_1.mp4
+/assets/post-media/2026/PN/PN_paint_test_1.mp4
 {% endvideo %}
 
 You can paint walls, floors, ceilings, fences, and the neighbours themselves.
 
 {% video %}
-/images/post-media/2026/PN/PN_cleaner_1.mp4
+/assets/post-media/2026/PN/PN_cleaner_1.mp4
 {% endvideo %}
 
 You can clean paint off the walls (but not the neighbour!)
 
 {% video %}
-/images/post-media/2026/PN/PN_watching_tv_1.mp4
+/assets/post-media/2026/PN/PN_watching_tv_1.mp4
 {% endvideo %}
 
 ...spend some quality time together and watch TV
 
 {% video %}
-/images/post-media/2026/PN/PN_paint_doors_1.mp4
+/assets/post-media/2026/PN/PN_paint_doors_1.mp4
 {% endvideo %}
 
 Contribute to the community by painting their doors *red* (?)
 
 {% video %}
-/images/post-media/2026/PN/PN_tv_steal_and_flyoff.mp4
+/assets/post-media/2026/PN/PN_tv_steal_and_flyoff.mp4
 {% endvideo %}
 
 Steal their TV, prop jump on the roof and fly off with it...
 
 {% video %}
-/images/post-media/2026/PN/PN_prop_jump_fly_neighbor.mp4
+/assets/post-media/2026/PN/PN_prop_jump_fly_neighbor.mp4
 {% endvideo %}
 
 Prop jump AND take the neighbor with you
 
 {% video %}
-/images/post-media/2026/PN/PN_trickshot_1.mp4
-/images/post-media/2026/PN/PN_trickshot_2.mp4
+/assets/post-media/2026/PN/PN_trickshot_1.mp4
+/assets/post-media/2026/PN/PN_trickshot_2.mp4
 {% endvideo %}
 
 Put the neighbor on some wall they can't get down from or get them stuck mid-air and land some TV trick shots while you're at it.

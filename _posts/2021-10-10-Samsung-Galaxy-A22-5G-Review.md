@@ -19,7 +19,7 @@ tags:
   - Hardware
   - Smartphones
   - Photography
-image_banner_link: /images/post-thumbnails/2021-10-10-GA22.webp
+image_banner_link: /assets/post-thumbnails/2021-10-10-GA22.webp
 toc: true
 ---
 
@@ -50,13 +50,9 @@ The video resolution is pretty uncommon, 1152P@30Fps, something I've rarely, if 
 
 It has a Night Mode which is more like Night Vision to me sometimes, a basic Pro mode, Panorama and a Snapchat ripoff mode with animated and static cat and dog ears.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/20211009-210308.webp" alt="Casi, my cockatoo, looking at a photo I took of it" title="Casi, my cockatoo, looking at a photo I took of it">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/20211009-210308.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/20211009-210308.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/assets/post-media/20211009-210308.webp alt="Casi, my cockatoo, looking at a photo I took of it" title="Casi, my cockatoo, looking at a photo I took of it" fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/20211009-210308.jpg"
+{% endgallery %}
 
 *While Casi may like the photo showing how handsome it is, I'm not very pleased with the cameras.*
 
@@ -65,13 +61,9 @@ Front camera? Same story here, A22 4G is better here as well, even though both l
 ## Design
 It is one of the more unique designs from the Galaxy A series, along with its 4G counterpart, and the Galaxy A72, A32, A32s, A52 phones, and the newly released A12. It is more common in the Galaxy M series, most notably the Galaxy M22 and the M32.
 
-<figure class="image-frame">
-  <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/20211009-135710.webp" alt="The back of the device, with a matte gradient finish. The phone is set on a wooden table." title="The back of the device, with a matte gradient finish. The phone is set on a wooden table.">
-  <div class="image-frame-buttons">
-    <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/20211009-135710.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-    <a class="image-frame-button rem1 bold grotesk" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/images/20211009-135710.jpg" title="Full resolution image"><i data-lucide="image-upscale"></i></a>
-  </div>
-</figure>
+{% gallery %}
+/assets/post-media/20211009-135710.webp alt="The back of the device, with a matte gradient finish. The phone is set on a wooden table." title="The back of the device, with a matte gradient finish. The phone is set on a wooden table." fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/20211009-135710.jpg"
+{% endgallery %}
 
 *The back of the phone, the matte plastic looks very nice, although will slip on a wood surface without a case.*
 

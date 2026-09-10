@@ -1,12 +1,10 @@
-import { deleteSync as fullclean } from 'del';
+import { rmSync } from "node:fs";
 import feedPlugin  from '@11ty/eleventy-plugin-rss';
 import markdownIt from 'markdown-it';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItFootnote from 'markdown-it-footnote';
 import pluginTOC from 'eleventy-plugin-toc';
-import pluginIcons from 'eleventy-plugin-icons';
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import CleanCSS from 'clean-css';
 import autoTooltips from './_plugins/starlight_auto-tooltips.mjs';
 import feedHelper from './_plugins/starlight_feed.mjs';
 import mediaEmbedGen from './_plugins/starlight_media-embeds.mjs';
@@ -16,7 +14,7 @@ import shareSheetNoJS from './_plugins/starlight_nojs-sharesheet.mjs';
 import customEmojis from './_plugins/starlight_custom-emojis.mjs';
 
 export default async function (eleventyConfig) {
-	fullclean('_site/*');
+	rmSync("./_site", {recursive: true, force: true,});
 	let markdownItOpts = {html: true, breaks: true, linkify: false}
 	eleventyConfig.setLibrary('md', markdownIt(markdownItOpts).use(markdownItAnchor).use(markdownItFootnote));
 	eleventyConfig.addPlugin(pluginTOC, {
@@ -24,16 +22,6 @@ export default async function (eleventyConfig) {
 		wrapper: 'div',
 		wrapperClass: '',
 		flat: true,
-	});
-	eleventyConfig.addPlugin(pluginIcons, {
-		mode: 'inline',
-		sources: [
-			{name: 'lucide', path: 'node_modules/lucide-static/icons'},
-			{name: 'lucide-lab', path: 'node_modules/@lucide/lab/icons'},
-		],
-		icon: {
-			class: (name, source) => `emoji`,
-		},
 	});
 	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPlugin(autoTooltips);
@@ -49,8 +37,6 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addCollection("posts", collection => collection.getFilteredByGlob('./_posts/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("posts_slop", collection => collection.getFilteredByGlob('./_posts/aislop/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("notes", (collection) => collection.getFilteredByGlob("./_notes/*.md"));
-	// Filters
-	eleventyConfig.addFilter("cssmin", function (code) {return new CleanCSS({}).minify(code).styles;});
 	// Liquid filters
 	eleventyConfig.addLiquidFilter("filterByTag", (posts, tag) => {return posts.filter(post => post.data.tags.includes(tag));});
 	eleventyConfig.addLiquidFilter("getPostByID", function(posts, postID) {return posts.find(post => post.data.postid === postID) || null;});
@@ -70,7 +56,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css");
 	eleventyConfig.addPassthroughCopy("favicon");
 	eleventyConfig.addPassthroughCopy("fonts");
-	eleventyConfig.addPassthroughCopy("images");
+	eleventyConfig.addPassthroughCopy("assets");
 	eleventyConfig.addPassthroughCopy("cv.txt");
 	eleventyConfig.addPassthroughCopy("cv.pdf");
 	eleventyConfig.addPassthroughCopy("ai.txt");

@@ -17,7 +17,7 @@ tags:
   - Call of Duty
   - Games
   - Gaming
-image_banner_link: /images/post-thumbnails/2023-11-04-CODMWIII.webp
+image_banner_link: /assets/post-thumbnails/2023-11-04-CODMWIII.webp
 review: true
 review_product_name: Call of Duty - Modern Warfare Ⅲ
 review_product_asin: "B0CFTFG12B"
@@ -71,4 +71,4 @@ Sloppy, lazy and uninspired, Modern Warfare Ⅲ's story is filled with shallow c
 - The game plays it safe yet again. While I didn't expect the developers to re-make infamous missions such as 'No Russian', the very few missions and cutscenes concerning civilian casualties or terrorist attacks are short, have no weight or emotional depth
 - The campaign as a whole is convoluted, seemingly coming to an abrupt end for whatever reason, and is generally very short. If you have played Call of Duty games before, and are quite good at the game, or trying to speedrun it, you could finish it in less than 3 hours. Regular players will finish the campaign in less than 6 hours
 - The campaign also feels rushed, and I assume it is one of the reasons it comes to such an abrupt end. It's that there was not enough time to continue developing it
-- When I thought Modern Warfare Ⅱ's campaign was weak, I did not expect Ⅲ's campaign to be even weaker, possibly one of the weakest and worst campaigns in the entire series 
+- When I thought Modern Warfare Ⅱ's campaign was weak, I did not expect Ⅲ's campaign to be even weaker, possibly one of the weakest and worst campaigns in the entire series

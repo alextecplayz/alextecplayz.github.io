@@ -18,7 +18,8 @@ tags:
   - Gaming
 fedicomments: true
 fedipostid: "113981398613114189"
-image_banner_link: /images/post-thumbnails/2025-02-10-TombRaider2013.webp
+image_banner_link_lq: /assets/post-thumbnails/2025-02-10-TombRaider2013-640.webp
+image_banner_link: /assets/post-thumbnails/2025-02-10-TombRaider2013.webp
 review: true
 review_product_name: "Tomb Raider (2013)"
 review_product_asin: "0700099875"

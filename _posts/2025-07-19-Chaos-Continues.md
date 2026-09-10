@@ -16,7 +16,8 @@ tags:
   - Slop
 fedicomments: false
 fedipostid:
-image_banner_link: /images/post-thumbnails/2025-07-19-Nothing-to-See.webp
+image_banner_link_lq: /assets/post-thumbnails/2025-07-19-Nothing-to-See-640.webp
+image_banner_link: /assets/post-thumbnails/2025-07-19-Nothing-to-See.webp
 toc: true
 ---
 
@@ -44,14 +45,9 @@ It's a deeply creepy yearly event since 1983, in which some of the contestants a
 
 As I've mentioned on Mastodon, I've found this video, and I wanted to dig in to see who is the [woman in this photo](https://techhub.social/@DemocracyMattersALot@mstdn.social/114868422421393200). At that time I concluded that the top half of the photo is, at the very least, real, as the image is present in The Guardian's [article](https://www.theguardian.com/us-news/2020/mar/14/teen-models-powerful-men-when-donald-trump-hosted-look-of-the-year). She seems to be [Belinda Hutter](https://youtu.be/2_LmdTa3758?feature=shared&t=508) from Lochau, Austria. It can be assumed that she is a minor, based on her appearance alongisde Tamara Sedmark, a 15-year old girl, where at [18:44](https://www.youtube.com/watch?v=2_LmdTa3758&t=1124s), the narrator introduces her, and the cameraman leans in for an **upskirt photo** and close-up shots, minutes later.
 
-<div class="flex justify-center">
-    <figure class="image-frame">
-        <img class="post-image-size" src="{{ site.baseurl }}/images/post-media/slop/1991look-trump-details.webp" alt="A 1991 Look of the Year photo on a yacht with some of the contestants. Donald is aged 45, while the identified women around him may be underage. Only one is confirmed to be a minor, Tamara Sedmark, who is 15. Belinda Hutter, the girl that Trump is displayed in a different photo kissing either on the mouth or cheek, could be a minor. Another identified girl in the photo is Irina Tortchinskaia, age unknown." title="A 1991 Look of the Year photo on a yacht with some of the contestants. Donald is aged 45, while the identified women around him may be underage. Only one is confirmed to be a minor, Tamara Sedmark, who is 15. Belinda Hutter, the girl that Trump is displayed in a different photo kissing either on the mouth or cheek, could be a minor. Another identified girl in the photo is Irina Tortchinskaia, age unknown.">
-        <div class="image-frame-buttons">
-            <a class="image-frame-button rem1 bold grotesk" href="{{ site.baseurl }}/images/post-media/slop/1991look-trump-details.webp" title="Maximize the image"><i data-lucide="maximize"></i></a>
-        </div>
-    </figure>
-</div>
+{% gallery %}
+/assets/post-media/slop/1991look-trump-details.webp alt="A 1991 Look of the Year photo on a yacht with some of the contestants. Donald is aged 45, while the identified women around him may be underage. Only one is confirmed to be a minor, Tamara Sedmark, who is 15. Belinda Hutter, the girl that Trump is displayed in a different photo kissing either on the mouth or cheek, could be a minor. Another identified girl in the photo is Irina Tortchinskaia, age unknown." title="A 1991 Look of the Year photo on a yacht with some of the contestants. Donald is aged 45, while the identified women around him may be underage. Only one is confirmed to be a minor, Tamara Sedmark, who is 15. Belinda Hutter, the girl that Trump is displayed in a different photo kissing either on the mouth or cheek, could be a minor. Another identified girl in the photo is Irina Tortchinskaia, age unknown."
+{% endgallery %}
 
 Unfortunately, it's not specified during the video if she is a minor or not, and I'm obviously not going to dig any further, since there's nothing that shows up when you look up her name via a search engine. Either way, even if Trump may have not kissed Belinda on the mouth but rather on the cheek, it's still turbo-fucking-creepy, considering he was 45 and she was most probably a fucking minor! Put him in a cage!
 
@@ -66,7 +62,7 @@ During the show, the camera is often pointed towards women's asses in swimsuits.
 But back at the second half of the [image](https://files.techhub.social/cache/media_attachments/files/114/868/422/351/722/359/original/498a5e3399cb8594.jpg) I mentioned at the beginning. Is the image real? I *strongly* believe it is, and here's why: in The Guardian's [first image](https://i.guim.co.uk/img/media/c37949875c04912789569901f8ef9654513eb14e/93_299_8923_5358/master/8923.jpg?width=1900&dpr=2&s=none&crop=none), Trump is shaking her hand, while in [the second](https://i.guim.co.uk/img/media/e1a582803c3bcc591986a226f62a55440e1796af/0_534_8907_5344/master/8907.jpg?width=1900&dpr=2&s=none&crop=none), Belinda Hutter is likely leaning in to tell him something, after which the kiss could have occurred — although I don't see it as a kiss on the mouth, but on the cheek, seeing as how the other judges greeting or congratulating contestants did the same — not uncommon, but still, I find it a little creepy.
 
 {% atpads %}
-/images/post-media/slop/ad-trump-yacht.webp alt="A parody ad a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!" title="A parody ad for a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!"
+/assets/post-media/slop/ad-trump-yacht.webp alt="A parody ad a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!" title="A parody ad for a made-up Trump Cruises yacht cruise company. Visit Virgin Islands today!"
 {% endatpads %}
 
 Personally, I believe that if you're an adult and the minor is not a relative of yours, then you shouldn't kiss them on the cheek as a greeting. Just a handshake should be enough. And these contests, beauty parlors, or 'fashion shows' or whatever Look of the Year is supposed to be, should not allow minors as contestants at all. But that's just me.
@@ -99,7 +95,7 @@ Of course, Trump vehemently denies that the letter was written by him and blames
 I do not want to speculate on what Trump and Epstein "have in common" because that's a never-ending rabbit hole of allegations.
 
 {% atpads %}
-/images/post-media/slop/ad-mypillow-epstein.webp alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died."
+/assets/post-media/slop/ad-mypillow-epstein.webp alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died."
 {% endatpads %}
 
 And all of this comes after two days ago, July 17, when Trump ordered [Pam Bondi](https://www.bbc.com/news/articles/c9w1014rlq9o) and the Justice Department to produce additional documents related to Epstein, namely the grand jury testimony. We'll see if this actually materializes, because such testimony can include confidential informants, whose identities are protected for their own safety. Materials in a grand jury testimony are usually kept secret under the law, but a judge can unseal the documents if they deem that there is sufficient public interest and that it outweighs the need for these legal protections in the case.
