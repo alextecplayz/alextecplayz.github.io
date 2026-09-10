@@ -1,7 +1,7 @@
 [
 	{
 		"label": "Run Script: serve",
-		"command": "nvm use && ENVIRONMENT=development npx @awesome.me/buildawesome --serve",
+		"command": "nvm use && ENVIRONMENT=development npx @11ty/eleventy --serve",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
@@ -12,7 +12,7 @@
 	},
 	{
 		"label": "Run Script: serve (incremental)",
-		"command": "nvm use && ENVIRONMENT=development npx @awesome.me/buildawesome --serve --incremental",
+		"command": "nvm use && ENVIRONMENT=development npx @11ty/eleventy --serve --incremental",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
@@ -23,7 +23,7 @@
 	},
 	{
 		"label": "Run Script: DEBUG Benchmark",
-		"command": "nvm use && ENVIRONMENT=development DEBUG=Eleventy:Benchmark* npx @awesome.me/buildawesome",
+		"command": "nvm use && ENVIRONMENT=development DEBUG=Eleventy::Benchmark* npx @11ty/eleventy",
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "always",
