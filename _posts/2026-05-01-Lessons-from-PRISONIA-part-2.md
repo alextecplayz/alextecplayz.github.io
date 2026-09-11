@@ -20,7 +20,7 @@ tags:
   - State of affairs
   - Project Jailbird
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two-lq.webp
-image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two.svg
+image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two.webp
 toc: true
 ---
 
