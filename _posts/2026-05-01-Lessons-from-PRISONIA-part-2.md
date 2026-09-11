@@ -337,7 +337,7 @@ I then unpack 8 half-floats from 4 floats from x, y, z, w, use UV remapping, app
 Beyond that there is a custom charactersprite system that uses the centralized tilemap spawner system to access the multimesh instance and its index. The character sprite system stores the dictionaries for body data, limb data and head data (3 separate dictionaries). This handles part parenting (e.g. head is a child of body, hand_left is a child of arm_left), base positions, the rect 'cache' (because the first time you spawn in an NPC would cause a noticeable stutter, same thing for the first chat bubble created), instead I pre-spawn an NPC that is never killed or moved (so a 'dummy') that prevents this when you play the game.
 
 {% video %}
-/assets/post-media/2026/PRISONIA/lessons2_dummy.mp4 alt="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game." title="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game."
+/assets/post-media/2026/PRISONIA/lessons2_dummy.webm alt="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game." title="This NPC, right here. That's the dummy. Of course, he'll be hidden in the game."
 {% endvideo %}
 
 Then there are 200 lines of code that updates all of the body parts, their orientation, rotations, scale, arm rotation on the CPU, leg movement on the GPU by passing back to the shader the changes to the leg textures per step, etc. Again, a good system that you create once and then forget about it because it works well.
