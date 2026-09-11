@@ -15,7 +15,6 @@ tags:
   - AlexTECPlayz
   - Website
   - About
-image_banner_link: /assets/post-thumbnails/AlexTECPlayz_GridBanner.webp
 image_banner_alt:
 metadata_proglang:
 metadata_platforms:

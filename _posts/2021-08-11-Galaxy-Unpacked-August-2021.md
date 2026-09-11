@@ -19,6 +19,7 @@ tags:
   - Samsung Galaxy
   - Smartphones
   - Hardware
+image_banner_link_lq: /assets/post-thumbnails/2021-08-11-GU-lq.webp
 image_banner_link: /assets/post-thumbnails/2021-08-11-GU.webp
 toc: true
 ---

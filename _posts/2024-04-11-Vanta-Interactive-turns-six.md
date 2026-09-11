@@ -26,8 +26,9 @@ tags:
   - Sapphire Game Engine
   - Sapphire
   - Project Jailbird
+image_banner_link_lq: /assets/post-thumbnails/VantaInteractive_GridBanner-lq.webp
 image_banner_link: /assets/post-thumbnails/VantaInteractive_GridBanner.webp
-image_banner_alt: The black "VANTA" logo for Vanta Interactive, on a dark blue to gray grid background that uses subtle light gray for the grid markings.
+image_banner_alt: The black 'VANTA' logo for Vanta Interactive, on a dark blue to gray grid background that uses subtle light gray for the grid markings.
 toc: true
 ---
 

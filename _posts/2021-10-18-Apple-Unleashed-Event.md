@@ -18,6 +18,7 @@ tags:
   - Apple Event
   - Computers
   - Hardware
+image_banner_link_lq: /assets/post-thumbnails/2021-10-18-Apple-Event-lq.webp
 image_banner_link: /assets/post-thumbnails/2021-10-18-Apple-Event.webp
 toc: true
 ---

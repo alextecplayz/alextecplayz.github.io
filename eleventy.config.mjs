@@ -5,6 +5,7 @@ import markdownItAnchor from 'markdown-it-anchor';
 import markdownItFootnote from 'markdown-it-footnote';
 import pluginTOC from 'eleventy-plugin-toc';
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import htmlminifier from "html-minifier-terser";
 import autoTooltips from './_plugins/starlight_auto-tooltips.mjs';
 import feedHelper from './_plugins/starlight_feed.mjs';
 import mediaEmbedGen from './_plugins/starlight_media-embeds.mjs';
@@ -81,6 +82,22 @@ export default async function (eleventyConfig) {
 		const htmlContent = md.render(content);
 		return `${htmlContent}`;
 	})
+	// Transforms
+	eleventyConfig.addTransform("htmlmin", function (content) {
+		// String conversion to handle `permalink: false`
+		if ((this.page.outputPath || "").endsWith(".html")) {
+			let minified = htmlminifier.minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+				keepClosingSlash: true,
+				noNewlinesBeforeTagClose: true,
+				preventAttributesEscaping: true,
+			});
+			return minified;
+		}
+		return content; // If not an HTML output, return content as-is
+	});
 	return {
 		passthroughFileCopy: true,
 		dir: {

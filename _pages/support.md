@@ -28,14 +28,14 @@ toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a c
 ## Donate
 Want to help me out financially? Sure, here are some links for that.
 
-- {% emoji 'github' %} [GitHub Sponsors](https://github.com/sponsors/alextecplayz)
-- {% emoji 'liberapay' %} [LiberaPay](https://liberapay.com/AlexTECPlayz/donate)
-- {% emoji 'kofi' %} [Ko-Fi](https://ko-fi.com/alextecplayz)
+- [GitHub Sponsors](https://github.com/sponsors/alextecplayz)
+- [LiberaPay](https://liberapay.com/AlexTECPlayz/donate)
+- [Ko-Fi](https://ko-fi.com/alextecplayz)
 - {% emoji 'vi-atp' %} [Vanta Interactive](https://vantainteractive.com) (my indie dev studio brand, buy my games... *whenever I'll release any*)
 - I don't have a Patreon (*I had one, but I never used it*)
 
 ## Referrals
-- {% emoji 'itchio' %} [Itch.io affiliate link](https://itch.io/?ac=LxK9PBinVvG) - I can get paid a portion of the sale item(s) you buy on itch.io
+- [Itch.io affiliate link](https://itch.io/?ac=LxK9PBinVvG) - I can get paid a portion of the sale item(s) you buy on itch.io
 - [Hetzner referral link](https://hetzner.cloud/?ref=kQg2PGMd3cRV) - if you sign up with my code you get a €20 promo code valid for all Cloud products, and if you spend €10 (not including promo codes), I get a €10 promo code as well
 - [MEGA referral link](https://mega.io/security?aff=FX5Pbirctu0) - I get 20% commission of any purchases if you buy any plan within 12 months of the referral
 - [NextDNS referral link](https://nextdns.io/?from=2ktjq9dz) - I get 30% commission of all subscriptions for the first 12 months

@@ -1,4 +1,5 @@
 @media(min-width: 1701px) {.hidden-on-desktop {display: none !important;}}
+@media (min-width: 500px) {.article-left {width: 100%;}}
 @media (min-width: 1600px) and (max-width: 1700px) {:root{--aside-vw: 20vw;} body {zoom: 0.95;} .site-content {max-width: 70vw !important;} .post-content {font-size: var(--rem1-25);} .hidden-on-desktop {display: none !important;}}
 @media (min-width: 1500px) and (max-width: 1600px) {:root{--aside-vw: 20vw;} body {zoom: 0.9;} .site-content {max-width: 75vw !important;} .post-content {font-size: var(--rem1-25);} .hidden-on-desktop {display: none !important;}}
 @media (min-width: 1400px) and (max-width: 1500px) {:root{--aside-vw: 20vw;} body {zoom: 0.85;} .site-content {max-width: 80vw !important;} .post-content {font-size: var(--rem1-5);} .hidden-on-desktop {display: none !important;}}

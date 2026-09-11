@@ -17,6 +17,7 @@ tags:
   - Call of Duty
   - Games
   - Gaming
+image_banner_link_lq: /assets/post-thumbnails/2023-11-04-CODMWIII-lq.webp
 image_banner_link: /assets/post-thumbnails/2023-11-04-CODMWIII.webp
 review: true
 review_product_name: Call of Duty - Modern Warfare Ⅲ

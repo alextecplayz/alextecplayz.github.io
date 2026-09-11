@@ -2,7 +2,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPairedShortcode('video', function(content) {
 		const lines = content.trim().split('\n').map(line => line.trim()).filter(Boolean);
 		const siteBaseurl = this.page || this.ctx ? (this.page.site?.baseurl || this.ctx?.site?.baseurl || '') : '';
-		let html = '<div class="flex row overflow-scroll" vocab="https://schema.org/" typeof="VideoObject" itemscope itemtype="https://schema.org/VideoObject">';
+		let html = '<div class="flex row overflow-auto" vocab="https://schema.org/" typeof="VideoObject" itemscope itemtype="https://schema.org/VideoObject">';
 		lines.forEach(line => {
 			const pathMatch = line.match(/^(\S+)/);
 			const path = pathMatch ? pathMatch[1] : '';
@@ -49,7 +49,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPairedShortcode('gallery', function(content) {
 		const lines = content.trim().split('\n').map(line => line.trim()).filter(Boolean);
 		const siteBaseurl = this.page || this.ctx ? (this.page.site?.baseurl || this.ctx?.site?.baseurl || '') : '';
-		let html = '<div class="flex row overflow-scroll" vocab="https://schema.org/" typeof="ImageObject" itemscope itemtype="https://schema.org/ImageObject">';
+		let html = '<div class="flex row overflow-auto" vocab="https://schema.org/" typeof="ImageObject" itemscope itemtype="https://schema.org/ImageObject">';
 		lines.forEach(line => {
 			const pathMatch = line.match(/^(\S+)/);
 			const path = pathMatch ? pathMatch[1] : '';
@@ -66,7 +66,7 @@ export default function (eleventyConfig) {
 			}
 			html += `<div class="flex column">
 				<figure class="image-frame">
-					<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy">
+					<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy"/>
 					<span class="hidden" property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
 					<span class="hidden" property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
 					<span class="hidden" property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
@@ -98,7 +98,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPairedShortcode('atpads', function(content) {
 		const lines = content.trim().split('\n').map(line => line.trim()).filter(Boolean);
 		const siteBaseurl = this.page || this.ctx ? (this.page.site?.baseurl || this.ctx?.site?.baseurl || '') : '';
-		let html = '<p class="medium rem1 lightgray italic"><< The content continues after these non-sponsored (and totally legit!1!!) advertisements >></p><div class="atpads-container slop" vocab="https://schema.org/" typeof="ImageObject" itemscope itemtype="https://schema.org/ImageObject">';
+		let html = '<p class="medium rem1 lightgray italic">The content continues after these non-sponsored (and totally legit!1!!) advertisements</p><div class="atpads-container slop" vocab="https://schema.org/" typeof="ImageObject" itemscope itemtype="https://schema.org/ImageObject">';
 		lines.forEach(line => {
 			const pathMatch = line.match(/^(\S+)/);
 			const path = pathMatch ? pathMatch[1] : '';
@@ -115,7 +115,7 @@ export default function (eleventyConfig) {
 			}
 			html += `
 			<figure class="image-frame">
-				<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy">
+				<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy"/>
 				<span class="hidden" property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
 				<span class="hidden" property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
 				<span class="hidden" property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>

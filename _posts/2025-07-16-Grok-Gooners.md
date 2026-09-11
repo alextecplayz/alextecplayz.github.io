@@ -19,6 +19,7 @@ tags:
   - Slop
 fedicomments: true
 fedipostid: "114865573167814570"
+image_banner_link_lq: /assets/post-thumbnails/2025-07-16-Grok-Gooners-lq.webp
 image_banner_link: /assets/post-thumbnails/2025-07-16-Grok-Gooners.webp
 toc: true
 ---

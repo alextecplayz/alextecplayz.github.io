@@ -21,6 +21,7 @@ tags:
   - Gaming
   - State of affairs
   - Project Jailbird
+image_banner_link_lq: /assets/post-thumbnails/2024-06-01-PRISONIA-lq.webp
 image_banner_link: /assets/post-thumbnails/2024-06-01-PRISONIA.webp
 image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', white text, a thick black stroke around the title, on a 'prison jumpsuit orange' circle gradient to gray grid background that uses subtle light gray for the grid markings.
 toc: true

@@ -21,6 +21,6 @@ export default async function (eleventyConfig) {
 	  return `<span title="Icon: ${iconName}">?</span>`;
 	}
 	const urlPath = `/assets/custom_emojis/${iconName}${foundExt}`;
-	return `<img src="${urlPath}" alt="${iconName}" class="emoji" loading="lazy" width="24" height="24">`;
+	return `<img src="${urlPath}" alt="${iconName}" class="emoji" loading="lazy" width="24" height="24"/>`;
   });
 }

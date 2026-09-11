@@ -20,7 +20,6 @@ tags:
   - Android
 fedicomments: true
 fedipostid: "113936059393427853"
-image_banner_link: /assets/post-thumbnails/AlexTECPlayz_GridBanner.webp
 toc: true
 ---
 

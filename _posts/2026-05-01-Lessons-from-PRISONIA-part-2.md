@@ -19,7 +19,7 @@ tags:
   - AlexTECPlayz
   - State of affairs
   - Project Jailbird
-image_banner_link_lq: /assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two-640.webp
+image_banner_link_lq: /assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two-lq.webp
 image_banner_link: /assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two.svg
 toc: true
 ---

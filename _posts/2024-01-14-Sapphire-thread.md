@@ -37,7 +37,7 @@ tags:
   - Project Jailbird
 fedicomments: true
 fedipostid: "111755914285831968"
-image_banner_link_lq: /assets/post-thumbnails/Sapphire_GridBanner-640.webp
+image_banner_link_lq: /assets/post-thumbnails/Sapphire_GridBanner-lq.webp
 image_banner_link: /assets/post-thumbnails/Sapphire_GridBanner.webp
 image_banner_alt: The Sapphire Engine logo, a few engine screenshots and VSCode laid on a dark gray grid background at an angle.
 toc: true

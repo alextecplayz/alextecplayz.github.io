@@ -22,6 +22,7 @@ tags:
   - Games
   - Gaming
   - Steam
+image_banner_link_lq: /assets/post-thumbnails/2023-05-18-HITMAN-WOA-lq.webp
 image_banner_link: /assets/post-thumbnails/2023-05-18-HITMAN-WOA.webp
 image_banner_alt: HITMAN World of Assassination logo on a red background
 toc: true

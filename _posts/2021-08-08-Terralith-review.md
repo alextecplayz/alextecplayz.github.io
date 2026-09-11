@@ -17,7 +17,7 @@ tags:
   - Games
   - Gaming
   - Mod Review
-image_banner_link_lq: /assets/post-thumbnails/2021-08-08-Terralith-640.webp
+image_banner_link_lq: /assets/post-thumbnails/2021-08-08-Terralith-lq.webp
 image_banner_link: /assets/post-thumbnails/2021-08-08-Terralith.webp
 image_banner_alt: A screenshot of Minecraft using shaders and the Terralith terrain generation mod, with the sky being removed in post and replaced with the light to dark blue gradient background behind it.
 toc: true

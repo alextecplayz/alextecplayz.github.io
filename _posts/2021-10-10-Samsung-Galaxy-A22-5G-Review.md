@@ -19,6 +19,7 @@ tags:
   - Hardware
   - Smartphones
   - Photography
+image_banner_link_lq: /assets/post-thumbnails/2021-10-10-GA22-lq.webp
 image_banner_link: /assets/post-thumbnails/2021-10-10-GA22.webp
 toc: true
 ---

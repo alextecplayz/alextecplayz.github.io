@@ -18,6 +18,7 @@ tags:
   - YouTube
   - Software
   - News
+image_banner_link_lq: /assets/post-thumbnails/2021-08-07-YouTube-lq.webp
 image_banner_link: /assets/post-thumbnails/2021-08-07-YouTube.webp
 image_banner_alt: The YouTube logo on a circular gradient with a red circle in the middle, and a gray background
 toc: true

@@ -19,6 +19,7 @@ tags:
   - Games
   - Gaming
   - Steam
+image_banner_link_lq: /assets/post-thumbnails/2022-12-03-Scrap-Mechanic-lq.webp
 image_banner_link: /assets/post-thumbnails/2022-12-03-Scrap-Mechanic.webp
 review: true
 review_product_name: Scrap Mechanic

@@ -2,7 +2,6 @@ _unused.txt is just a place for me to put code that I'd like to keep around in c
 
 eleventy_config.mjs unused:
 
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import mastoArchive from 'eleventy-plugin-mastoarchive';
 
 //import generateTagsAndCategoriesPlugin from './_plugins/starlight_generate_tags_categories.mjs';
@@ -11,7 +10,7 @@ export default async function (eleventyConfig) {
 	//eleventyConfig.addPlugin(mastoArchive);
 	//eleventyConfig.addPlugin(generateTagsAndCategoriesPlugin);
 	//eleventyConfig.addPlugin(lazyLoadImages); // not needed since we added 'lazy' to most images when generating the gallery.
-	
+
 	// Bundles
 	//eleventyConfig.addBundle("css", {
 	//	transforms: [

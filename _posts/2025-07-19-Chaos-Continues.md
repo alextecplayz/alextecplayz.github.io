@@ -16,7 +16,7 @@ tags:
   - Slop
 fedicomments: false
 fedipostid:
-image_banner_link_lq: /assets/post-thumbnails/2025-07-19-Nothing-to-See-640.webp
+image_banner_link_lq: /assets/post-thumbnails/2025-07-19-Nothing-to-See-lq.webp
 image_banner_link: /assets/post-thumbnails/2025-07-19-Nothing-to-See.webp
 toc: true
 ---

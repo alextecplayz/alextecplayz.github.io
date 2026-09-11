@@ -18,6 +18,7 @@ tags:
   - Games
   - Gaming
   - Steam
+image_banner_link_lq: /assets/post-thumbnails/2023-11-17-FC6-lq.webp
 image_banner_link: /assets/post-thumbnails/2023-11-17-FC6.webp
 image_banner_alt: Far Cry 6 yellow logo on a blue-red-dark gray-blue gradient background, mimicking the background used in Far Cry 6 promotional banners, with a blue sky, red fog and dark gray roads.
 review: true
