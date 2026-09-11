@@ -87,7 +87,7 @@ But almost three minutes? A single minute can change everything in a prison, esp
 /assets/post-media/slop/ad-mypillow-epstein.webp alt="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died." title="A parody ad for MyPillow. SLEEP LIKE EPSTEIN TODAY!, with the phone number 1-800-377-8346 (numeric keypad conversion of the word 'EPSTEIN'), and Use Promo Code 2019, the year when Epstein died."
 {% endatpads %}
 
-Kash Patel, current director of the FBI, claims that there are zero videos on children being sexually abused on Epstein's island, days afer Pam Bondi has claimed that the FBI had thousands of hours of videos of children being sexually assaulted by Epstein and his clients.
+Kash Patel, current director of the FBI, claims that there are zero videos on children being sexually abused on Epstein's island, days after Pam Bondi has claimed that the FBI had thousands of hours of videos of children being sexually assaulted by Epstein and his clients.
 
 Despite all of this, Democrats in the US House of Representatives have attempted to compel Pam Bondi to release all files related to Epstein by trying to force a House vote, but unfortunately all attempts have failed so far.
 

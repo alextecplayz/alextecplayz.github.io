@@ -203,7 +203,7 @@ But in the easiest way to explain it, when you add or remove tiles, you then mar
 
 THANKFULLY, because of the fact that it's merging all vertices in order to keep the primitive size down when I punch a hole or add a new tile, this operation is *significantly cheaper* on mobile. Before, because I used to subdivide the quad (e.g. a 32x32 tilemapp would result in 32x32 tiles), rebuilding would take longer especially since it's done on _process when the number of dirty_floors exceeds 0, and would result in quite significant frame spikes from the CPU, and because it would only add more and more primitives each time something like that would happen (and because I have the TileMapSpawner adding a new chunk each 1 frame - it was set to 0.5 for testing, as it would almost instantly crash the game on mobile on 0.01 at the time), the RAM would spike significantly. It would add roughly 50-100MiB per tilemap chunk spawned. On PC, it reached a whole-ass GiB of RAM when spawning multiple 32x32 tilemaps to form a 128x128 tilemap.
 
-Also take in account that Godot automatically performs frustrum culling where possible, so even if I'm on say, the ground floor (6), while sure I may set floors 0-5 visible, they still may get culled if there's no holes in the current floor.
+Also take in account that Godot automatically performs frustum culling where possible, so even if I'm on say, the ground floor (6), while sure I may set floors 0-5 visible, they still may get culled if there's no holes in the current floor.
 
 Because remember, each tilemap has multiple floors, and each floor has multiple layers. At this time, I'm using 11 floors (0-5 are "underground" floors, 6 is the ground floor, 7-11 are the over-ground floors). You should be able to take a guess as to why that would crash a phone that has ~1GB of available RAM, especially if you also didn't perform any RAM memory reductions and CPU optimization, or to reduce primitive count.
 
@@ -538,7 +538,7 @@ Oh yes, this. Quite an early little thing I coded one night, but if running via 
 /assets/post-media/2026/PRISONIA/lessons_sapphire_console_debugger.mp4 alt="" title=""
 {% endvideo %}
 
-The code, besides settng up UI and then cleaning up, is just this, it's this simple:
+The code, besides setting up UI and then cleaning up, is just this, it's this simple:
 
 ```gdscript
 func _enter_tree() -> void:

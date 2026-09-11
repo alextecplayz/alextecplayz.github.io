@@ -61,7 +61,7 @@ Sapphire removes support for Apple devices such as macOS, iOS and visionOS, as w
 
 And this being a fork, Sapphire benefits from the same PRs and changes from upstream. Sapphire will remain closed-source at this time, however modules such as the visual script module and integrations with other programs may be open-sourced. Sapphire will also aim to improve documentation on existing Godot features as well as new features.
 
-Features previously mentioned in this post such as vertical tabs, a 'license compliance'/dependency dashboard will also be implemented. Sapphire Spark is also in pre-development stages, using the Model Context Protol (MCP), which allows models such as LLMs to interface and interact with the editor.
+Features previously mentioned in this post such as vertical tabs, a 'license compliance'/dependency dashboard will also be implemented. Sapphire Spark is also in pre-development stages, using the Model Context Protocol (MCP), which allows models such as LLMs to interface and interact with the editor.
 
 ### Why did you choose the name Sapphire?
 

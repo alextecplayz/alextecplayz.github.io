@@ -123,7 +123,7 @@ NOTES:
   2. Download the Mi Unlock program, run it on Windows 8.1 or higher (does not matter if you have Windows installed on bare metal or through a virtual machine), and log in with the same Xiaomi account that you've used to log in on your device.
   3. Shut down your phone manually, then after it's been shut down, hold at the same time the Volume Down key and the Power button for roughly 7 seconds to enter the Fastboot mode
   4. Connect your phone to the PC where Mi Unlock is running using a USB cable and click "Unlock".
-  5. At this point, if you haven't done this before, Xiaomi will not unlock the device. Instead, it will show you a waiting period of roughly 168 hours (a week) or so before you can unlock your device. Do NOT perform the unlock procedure until at least one day after the mentioned period has passed, as the period is most likely using CN time, so one more day will account for the timezone difference. If the alotted period + 1 day has passed, you can connect your device to the PC and click "Unlock" again, it should work now. Do NOT click the "Unlock" button multiple times, as that may increase the waiting period to somewhere between 2 and 4 weeks, depending on how much you keep pressing the button.
+  5. At this point, if you haven't done this before, Xiaomi will not unlock the device. Instead, it will show you a waiting period of roughly 168 hours (a week) or so before you can unlock your device. Do NOT perform the unlock procedure until at least one day after the mentioned period has passed, as the period is most likely using CN time, so one more day will account for the timezone difference. If the allotted period + 1 day has passed, you can connect your device to the PC and click "Unlock" again, it should work now. Do NOT click the "Unlock" button multiple times, as that may increase the waiting period to somewhere between 2 and 4 weeks, depending on how much you keep pressing the button.
 
 - **If using Samsung**, the process is very straightforward thankfully. MAKE SURE that the Samsung device you have bought is from any country in the European Union. North American and South Korean models do not have the ability of having their bootloader unlocked.
   1. Connect to the Internet after setting up the device.
@@ -988,7 +988,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
       - Groups
         - My contacts except... (choose contacts that should not be able to add you to groups)
       - Live location > don't grant Location permission = You aren't sharing live location in any chats
-      - Calls > Silence unkown callers
+      - Calls > Silence unknown callers
       - Blocked contacts > block contacts or phone numbers
       - App lock > Enable "Unlock with biometric", set it to automatically lock immediately, and disable "Show content in notifications" if you've added biometric authentication. You can then remove your fingerprint, and the app will require you use your lock screen password instead, as a fallback.
       - Advanced > Do not enable "Block unknown account messages" or "Protect IP address in calls", but enable "Disable link previews"
@@ -1163,7 +1163,7 @@ NOTE: Some pages you will navigate to will have the "Delete All" button, you can
   - Chrome History > "View history" > click on all the 'x' for the history you can find.
   - Government Exam Quiz Activity > Delete
   - Translate language selections > Delete
-  - Dictionary and Pronounciation search info > Delete
+  - Dictionary and Pronunciation search info > Delete
   - Promo activity > Delete
   - Product price tracking > Delete
   - Google Play Books feedback > "View activity" > click on all the 'x' for the activity you can find.
@@ -1288,7 +1288,7 @@ Set up your device like usual, do not at all set up a Google account (since you 
 | `com.google.android.gsf` | Google<br>Services<br>Framework | While disabling GMS or uninstalling it might make some apps complain, Google Services Framework is the base that Google Play Services stands on. If GSF is uninstalled, most Google apps will not work or crash outright. |
 | `com.google.android.as` | Android<br>System<br>Intelligence | It mostly won't work without GMS, and if you're low on RAM, there's no point in keeping this enabled. |
 | `com.google.android.`<br>`apps.maps` | Google<br>Maps | Google Maps will not display the in-app map tiles or any images whatsoever if you remove Play Services and GSF. You have to replace it with a different app. |
-| `com.google.android.`<br>`markup` | Markup | Should work without GSF(?, untested), but you should not use it outright because of the [aCropalypse vulnerability](https://en.wikipedia.org/wiki/ACropalypse) that was discovered back in the beginning of 2023. It was patched, but since Markup is always version 1.0 but with a different versionCode, it's unknwown which version of the app your custom ROM might have. Better to just avoid it outright and use a proper photo editing tool like PicsArt or Image Toolbox. |
+| `com.google.android.`<br>`markup` | Markup | Should work without GSF(?, untested), but you should not use it outright because of the [aCropalypse vulnerability](https://en.wikipedia.org/wiki/ACropalypse) that was discovered back in the beginning of 2023. It was patched, but since Markup is always version 1.0 but with a different versionCode, it's unknown which version of the app your custom ROM might have. Better to just avoid it outright and use a proper photo editing tool like PicsArt or Image Toolbox. |
 | `com.android.vending` | Google Play Store | Obviously, Play Store won't work without GMS, so you'll have to replace it with a different app such as APKUpdater, Aurora Store, etc. |
 | `com.android.`<br>`adservices.api` | Ad privacy | The Ad privacy app. I mean, if you're following this tutorial, you're most likely already blocking ads anyway, so this app which just controls if you want personalized ads or not is useless either way. |
 | `com.google.android.`<br>`setupwizard` | Android Setup | Do not remove this app prior to the first setup of your phone, it might bork everything. You can safely remove it after you complete the setup, you don't even need to perform the second step once you're on your home screen and you get a notification to continue setting up your phone (which is checking for updates again, and asking you if you want to restore data). You can safely remove it once you see this notification. |
@@ -1305,7 +1305,7 @@ Set up your device like usual, do not at all set up a Google account (since you 
 | `com.google.android.`<br>`apps.pixel.agent` | Pixel Screenshots | Probably works without GMS and GSF and is just a glorified screenshot gallery, since AI features won't work if you're not on a Google Pixel device anwyay. |
 | `com.google.android.`<br>`apps.photos` | Google Photos | May work in a bare-bones manner without GMS and GSF, but it's hit-or-miss. You can't access cloud editing features or back up your data. Use Immich instead. |
 | `com.google.android.`<br>`pixel.setupwizard` | Pixel setup | More of the same as the Android Setup. Remove after completing the initial phone setup. |
-| `com.google.android.`<br>`mosey` | Quick Share extension | Since Quick Share depends on GMS and GSF, you can't use it anway, and Quick Share extension is currently Pixel 10-exclusive and has code that checks if it's running on a Pixel 10 series device or not, it adds AirDrop support. |
+| `com.google.android.`<br>`mosey` | Quick Share extension | Since Quick Share depends on GMS and GSF, you can't use it anyway, and Quick Share extension is currently Pixel 10-exclusive and has code that checks if it's running on a Pixel 10 series device or not, it adds AirDrop support. |
 | `com.google.android.`<br>`apps.setupwizard.`<br>`searchselector` | Search engine selector | Will install a search engine app like DuckDuckGo's app or update the Google app if you select Google as your search engine during initial setup. You can remove it after the initial setup. |
 | `com.google.android.`<br>`settings.intelligence` | Settings Services | Depends on GMS, GSF. You can remove it. |
 | `com.google.android.`<br>`apps.`<br>`privacy.wildlife` | VPN by Google | You can remove it. |

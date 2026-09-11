@@ -55,7 +55,7 @@ This is further supported by [a post on the forum where someone claims that Hypr
 
 ### Omarchy
 
-[Omarchy](https://omarchy.org/) is a "beautiful, modern & opinionated Linux [distro]" by [David Heinemier Hansson](https://dhh.dk/), creator of Ruby On Rails, race car driver, and supporter of facist ideas - which in turn, makes him a fascist. Because if the shoe fits...
+[Omarchy](https://omarchy.org/) is a "beautiful, modern & opinionated Linux [distro]" by [David Heinemier Hansson](https://dhh.dk/), creator of Ruby On Rails, race car driver, and supporter of fascist ideas - which in turn, makes him a fascist. Because if the shoe fits...
 
 Omarchy isn't really a distro. It's more of an [in-place converter](https://github.com/basecamp/omarchy) for Arch Linux that adds a bunch of stuff and installs some programs and configuration. It's not a big deal IMO. The bigger issue is...
 
@@ -95,7 +95,7 @@ He quotes other people that defend him, that I'd also advise you stay away from 
 - [Taylor Otwell](https://x.com/taylorotwell/status/1971243592099438958) - **the creator of the Laravel PHP framework**
 - [pell](https://x.com/pell_0x/status/1971231016472936459) - Ethereum Follow Protocol technical advisor and board member
 - [Justin Horner](https://x.com/justinhhorner/status/1971226111049912429) - emberwell games founder, worked at Meta Reality Labs
-- [levelsio](https://x.com/levelsio/status/1970804392774283473) - multiple startups that use or depend on AI, he's a vibe-coder at heart. Apprently, he believes that because 4 of his 70+ projects [failed](https://x.com/levelsio/status/1457315274466594817/photo/1), the obvious conclusion to draw is that he needs to ship more. He's purely a numbers guy and doesn't give a fuck about anything else. Stay away from his products
+- [levelsio](https://x.com/levelsio/status/1970804392774283473) - multiple startups that use or depend on AI, he's a vibe-coder at heart. Apparently, he believes that because 4 of his 70+ projects [failed](https://x.com/levelsio/status/1457315274466594817/photo/1), the obvious conclusion to draw is that he needs to ship more. He's purely a numbers guy and doesn't give a fuck about anything else. Stay away from his products
 - [Peter Berkenbosch](https://x.com/pberkenbosch/status/1971342547508437346) - ruby on rails solution architect
 - [Denis Loginoff](https://x.com/DenLoginoff/status/1971312436235186526) - MIT PhD dropout, 'solopreneur', StratoLogistics, Omarchy user
 - [tobi lutke](https://x.com/tobi/status/1970944464303923687) - **Shopify CEO**, turbo fuckass
@@ -138,7 +138,7 @@ Tommy Robinson has historically advocated for the "rebirth" of England, or as ci
 
 - "Fascism may also centre around an ingroup-outgroup opposition and demonization of "Others" such as various ethnicities, immigrants, nations, races, political opponents of fascist parties, religious groups, and sexual and gender minorities."
 
-And I'll also continue by quoting from ["The Five Stages of Fascism"](https://www.tesble.com/10.1086/235001) by Robert O. Paxton from the Columbia Univerity:
+And I'll also continue by quoting from ["The Five Stages of Fascism"](https://www.tesble.com/10.1086/235001) by Robert O. Paxton from the Columbia University:
 
 > At first sight, nothing seems easier to understand than fascism. It presents itself to us in crude, primary images: a chauvinist demagogue haranguing an ecstatic crowd; disciplined ranks of marching youths; uniform-shirted militants beating up members of some demonized minority; obsessive preoccupation with community decline, humiliation, or victimhood; and compensatory cults of unity, energy, and purity, pursued with redemptive violence. Yet great difficulties arise as soon as one sets out to define fascism.
 
@@ -215,7 +215,7 @@ Yeah, people didn't like this. As mentioned at the beginning, the [forum discuss
 
 The [wonderful response from anarcat](https://community.frame.work/t/framework-supporting-far-right-racists/75986/3) sums up my stance.
 
-I am of the opinion that you can't separate art from artist. If DHH is a fascist, but you want to use his code, you hard fork it, and use that instead. People that don't want to contribute to DHH's code will contribute to yours instad, which in turn dissociates your code from DHH's hateful, fascist-agreeing rhetoric.
+I am of the opinion that you can't separate art from artist. If DHH is a fascist, but you want to use his code, you hard fork it, and use that instead. People that don't want to contribute to DHH's code will contribute to yours instead, which in turn dissociates your code from DHH's hateful, fascist-agreeing rhetoric.
 
 And when we're talking about anti-fascism vs pro-fascism viewpoints, you can't talk about separating the code from the person. *It's just a distro, who cares? What's this meaningless Discord drama? No one cares...* etc.
 
