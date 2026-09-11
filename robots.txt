@@ -84,6 +84,7 @@ Allow: *
 User-agent: Alexabot
 User-agent: AlexandriaOrgBot
 User-agent: Atom Feed Bot
+User-agent: bingbot
 User-agent: CloudFlare-AlwaysOnline
 User-agent: DiscordBot
 User-agent: DuckDuckBot
@@ -127,7 +128,6 @@ Allow: *
 # complete UA block
 User-agent: Amazonbot
 User-agent: Applebot
-User-agent: bingbot
 User-agent: ChatGPT-User
 User-agent: YouBot
 User-agent: 007ac9 Crawler
