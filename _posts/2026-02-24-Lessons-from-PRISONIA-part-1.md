@@ -20,7 +20,7 @@ tags:
   - State of affairs
   - Project Jailbird
 image_banner_link_lq: /assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one-640.webp
-image_banner_link: /assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one.svg
+image_banner_link: /assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one.webp
 toc: true
 ---
 
@@ -65,7 +65,7 @@ At the time, the custom tilemap used one Array variable, the levelList, which wo
 While sure, this works well for PC, it effectively creates tens of thousands, if not hundreds of thousands of primitives, which is not handled well by mobile GPUs, especially not by a low-end mid-range phone like the Redmi Note 11, my variant only has 4GBs of RAM, and uses a custom ROM on Android 16 (*because I insist on staying on the latest Android version, instead of using Android 13 which is supposedly better for gaming, or the stock ROM*), and this would result in all of my background apps (personalDNSfilter, Sunup, Syncthing, and the running game) crashing, due to the fast increase in RAM usage - one such tilemap would take hundreds of MiB of RAM, roughly 100-300 if I remember right. A miserable first attempt, but an attempt nonetheless.
 
 {% video %}
-/assets/post-media/2026/PRISONIA/lessons_prisonia_redmicrash_spchk.mp4 alt="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable." title="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable."
+/assets/post-media/2026/PRISONIA/lessons_prisonia_redmicrash_spchk.webm alt="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable." title="A screen recording of the game using scrcpy with the GridMap system. I spawn chunks to form a 128x128 tilemap. For debugging purposes, I set the spawn timer to take 0.5s between each tilemap being spawned, to debug memory problems at the time. Given that it's subdividing the quad for each tile, it's generating effectively hundreds of thousands of primitives gradually, and having a massive gradual increase in memory that would be unsustainable."
 {% endvideo %}
 
 Of course, I also tested `TileMap` (now deprecated), and `TileMapLayer`, with limited degrees of success.
@@ -287,7 +287,7 @@ File size as of 24.02.2026: 6.3 MB (without the .git folder)
 
 {% video %}
 /assets/post-media/2026/PRISONIA/lessons_sapphire_console_cvrs.mp4 alt="" title=""
-/assets/post-media/2026/PRISONIA/lessons_sapphire_console_gds.mp4 alt="" title=""
+/assets/post-media/2026/PRISONIA/lessons_sapphire_console_gds.webm alt="" title=""
 {% endvideo %}
 
 The console is of course, inspired by the Source engine console, but I modernized it by adding a few features that are especially useful. You can execute GDscript directly in the console, and you can quickly toggle the DevUI with the click of a button. I'm also working on a search / filter functionality, and the ability to specify a category before the text, which is useful for both filtering and determining what ran the command. For example, instead of "[19:48:38] INFO: Sapphire plugin enabled", you'll see "[SapphirePlugin] [19:48:38] INFO Sapphire plugin enabled".
