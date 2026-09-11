@@ -57,7 +57,6 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css");
 	eleventyConfig.addPassthroughCopy("favicon");
 	eleventyConfig.addPassthroughCopy("fonts");
-	eleventyConfig.addPassthroughCopy("assets");
 	eleventyConfig.addPassthroughCopy("cv.txt");
 	eleventyConfig.addPassthroughCopy("cv.pdf");
 	eleventyConfig.addPassthroughCopy("ai.txt");

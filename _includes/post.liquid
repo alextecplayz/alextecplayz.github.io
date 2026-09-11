@@ -213,7 +213,7 @@ tooltips: true
 				{% if review and review_rating %}
 				<div class="review-box article">
 					<div class="article-left">
-						<img class="review-image-size" src="{{ site.baseurl }}/assets/review/octogon-review-{{ review_rating }}.webp" title="The shape of a white octogon" alt="The shape of a white octogon" loading="lazy">
+						<img class="review-image-size" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/review/octogon-review-{{ review_rating }}.webp" title="The shape of a white octogon" alt="The shape of a white octogon" loading="lazy">
 					</div>
 					<div class="article-right">
 						<p class="medium rem1-15 monospace lightgray">{{ review_verdict | replace: '\n\n', '<br><br>' | replace: '\n', '<br>' }}</p>
@@ -243,7 +243,7 @@ tooltips: true
 					{% else %}
 						<a class="article-button-light monospace medium disabled">‹ Newer post:<br>[unavailable]</a>
 					{% endif %}
-					<a class="share-trigger article-button-light monospace medium pointer" data-share-url="{{ page.url }}" data-share-title="{{ title | escape }}" data-share-description="{{ description | escape }}" data-share-date="{{ date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if image_banner_link %}{{ image_banner_link }}{% else %}{{ site.baseurl }}/assets/post-thumbnails/Missing.webp{% endif %}">📤 Share this page</a>
+					<a class="share-trigger article-button-light monospace medium pointer" data-share-url="{{ page.url }}" data-share-title="{{ title | escape }}" data-share-description="{{ description | escape }}" data-share-date="{{ date | date: "%d %B %Y" | escape }}" data-share-thumbnail="{% if image_banner_link %}{{ image_banner_link }}{% else %}https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/Missing.webp{% endif %}">📤 Share this page</a>
 					{% if previous %}
 						<a class="article-button-light monospace medium" href="{{ previous.url }}">› Older post:<br>{{ previous.data.title }}</a>
 					{% else %}

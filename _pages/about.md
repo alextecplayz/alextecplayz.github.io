@@ -45,8 +45,8 @@ toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a c
 
 
 {% gallery %}
-/assets/custom_emojis/atp.webp alt="My logo. That's Flash from Jetpack Joyride 2." title="My logo. That's Flash from Jetpack Joyride 2."
-/assets/custom_emojis/atp-protogen1.png alt="An alternate logo I drew in Aseprite." title="An alternate logo I drew in Aseprite."
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/atp.webp alt="My logo. That's Flash from Jetpack Joyride 2." title="My logo. That's Flash from Jetpack Joyride 2."
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/atp-protogen1.png alt="An alternate logo I drew in Aseprite." title="An alternate logo I drew in Aseprite."
 {% endgallery %}
 
 Hi! I'm Alex, she/they. I also go by Alessia, but I'll respond to either of the two or other variants of my name (*e.g Alexia, Lexi*).
@@ -55,7 +55,7 @@ I'm in my 20s, I'm Transfem, Aromantic, Bisexual, Non-Binary, living in Romania 
 
 ## What I do
 
-**In my free time**, I used to work on games in Unreal Engine using Blueprints, such as [{% emoji 'prisonia' %} PRISONIA](https://vantainteractive.com/en/games/Prisonia), now I work on porting my projects from UE to [{% emoji 'sapphire' %} Sapphire](https://alextecplayz.com/sapphire) - including working on the ported PRISONIA project, work on other software and websites such as the one you're currently browsing, or the [{% emoji 'vi-atp' %} Vanta Interactive website](https://vantainteractive.com), with its own subdomains for [Docs](https://docs.vantainteractive.com) and [Status](https://status.vantainteractive.com).
+**In my free time**, I used to work on games in Unreal Engine using Blueprints, such as [{% emoji 'prisonia.webp' %} PRISONIA](https://vantainteractive.com/en/games/Prisonia), now I work on porting my projects from UE to [{% emoji 'sapphire.webp' %} Sapphire](https://alextecplayz.com/sapphire) - including working on the ported PRISONIA project, work on other software and websites such as the one you're currently browsing, or the [{% emoji 'vi-atp.webp' %} Vanta Interactive website](https://vantainteractive.com), with its own subdomains for [Docs](https://docs.vantainteractive.com) and [Status](https://status.vantainteractive.com).
 
 I'm the most comfortable with GDScript, C++, HTML, CSS and JS, and Liquid. I don't use web frameworks like React, Angular, Vue, and so on.
 

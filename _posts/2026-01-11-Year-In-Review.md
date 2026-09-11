@@ -16,8 +16,8 @@ tags:
   - Year in Review
   - AlexTECPlayz
   - State of affairs
-image_banner_link_lq: /assets/post-thumbnails/2026-01-11-YIR-lq.webp
-image_banner_link: /assets/post-thumbnails/2026-01-11-YIR.webp
+image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-01-11-YIR-lq.webp
+image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-01-11-YIR.webp
 toc: true
 ---
 

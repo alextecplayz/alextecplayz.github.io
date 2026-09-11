@@ -42,7 +42,7 @@
 						{% for video in videos %}
 							<div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/VideoObject">
 								<div class="article-left">
-									<img itemprop="image" class="article-image-size" src="{{ site.baseurl }}/assets/video-thumbnails/{{ video.url }}.webp" alt="{{ video.thumb_alt }}" title="{{ video.thumb_alt }}" loading="lazy">
+									<img itemprop="image" class="article-image-size" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/video-thumbnails/{{ video.url }}.webp" alt="{{ video.thumb_alt }}" title="{{ video.thumb_alt }}" loading="lazy">
 								</div>
 								<div class="article-right">
 									<a href="https://www.youtube.com/watch?v={{ video.url }}"><p itemprop="headline" class="p-name article-title rem2 white boldonse semibold">{{ video.title }}</p></a>

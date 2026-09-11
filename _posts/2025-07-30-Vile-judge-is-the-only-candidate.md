@@ -32,8 +32,8 @@ In 2023, she was promoted to the Supreme Court (ro: ÎCCJ - Înaltea Curte de Ca
 [Anonymized document obtained by G4Media](https://cdn.g4media.ro/wp-content/uploads/2023/03/savonea-anonimizat.jpg), and the [de-anonymized screenshot of the same document, also obtained by G4Media](https://cdn.g4media.ro/wp-content/uploads/2023/03/document-neanonimizat-bun.jpg) - also pictured below:
 
 {% gallery %}
-/assets/post-media/slop/document-neanonimizat-bun.webp
-/assets/post-media/slop/savonea-anonimizat.webp"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/slop/document-neanonimizat-bun.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/slop/savonea-anonimizat.webp"
 {% endgallery %}
 
 The other judge listed in the de-anonymized screenshot, Daniel Grădinaru, is the current president of the CSM, and is considered in the justice system as "Lia Savonea's man".

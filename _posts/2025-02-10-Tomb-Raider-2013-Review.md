@@ -18,8 +18,8 @@ tags:
   - Gaming
 fedicomments: true
 fedipostid: "113981398613114189"
-image_banner_link_lq: /assets/post-thumbnails/2025-02-10-TombRaider2013-lq.webp
-image_banner_link: /assets/post-thumbnails/2025-02-10-TombRaider2013.webp
+image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2025-02-10-TombRaider2013-lq.webp
+image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2025-02-10-TombRaider2013.webp
 review: true
 review_product_name: "Tomb Raider (2013)"
 review_product_asin: "0700099875"

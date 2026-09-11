@@ -17,8 +17,8 @@ tags:
   - Call of Duty
   - Games
   - Gaming
-image_banner_link_lq: /assets/post-thumbnails/2023-11-04-CODMWIII-lq.webp
-image_banner_link: /assets/post-thumbnails/2023-11-04-CODMWIII.webp
+image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2023-11-04-CODMWIII-lq.webp
+image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2023-11-04-CODMWIII.webp
 review: true
 review_product_name: Call of Duty - Modern Warfare Ⅲ
 review_product_asin: "B0CFTFG12B"

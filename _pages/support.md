@@ -31,7 +31,7 @@ Want to help me out financially? Sure, here are some links for that.
 - [GitHub Sponsors](https://github.com/sponsors/alextecplayz)
 - [LiberaPay](https://liberapay.com/AlexTECPlayz/donate)
 - [Ko-Fi](https://ko-fi.com/alextecplayz)
-- {% emoji 'vi-atp' %} [Vanta Interactive](https://vantainteractive.com) (my indie dev studio brand, buy my games... *whenever I'll release any*)
+- {% emoji 'vi-atp.webp' %} [Vanta Interactive](https://vantainteractive.com) (my indie dev studio brand, buy my games... *whenever I'll release any*)
 - I don't have a Patreon (*I had one, but I never used it*)
 
 ## Referrals

@@ -23,8 +23,8 @@ tags:
   - Gaming
 fedicomments: true
 fedipostid: "113368029303356103"
-image_banner_link_lq: /assets/post-thumbnails/2024-10-24-CODBO6-lq.webp
-image_banner_link: /assets/post-thumbnails/2024-10-24-CODBO6.webp
+image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2024-10-24-CODBO6-lq.webp
+image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2024-10-24-CODBO6.webp
 image_banner_alt: The Call of Duty Black Ops 6 logo on a stripped black-orange background, with a partially visible logo for the fictional Advanced Technologies and Applications military facility, featuring the all-seeing (Illuminati) eye, a globe and three stars.
 review: true
 review_product_name: Call of Duty® - Black Ops 6

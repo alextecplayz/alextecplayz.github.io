@@ -299,14 +299,14 @@ Going through each page in the Settings app, you should do the following:
   - Some ROMs remove this option, however, there's a toggle for checking the Internet connection by calling Google IPs (connectivitycheck.gstatic.com). Disable this (you can always block the domain via DNS).
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_NetworkPrefs.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifi_Privacy.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_carrier.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_hotspottethering.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Wifihotspot.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp
 {% endgallery %}
 
 - **Connected devices**
@@ -405,7 +405,7 @@ Going through each page in the Settings app, you should do the following:
       - Disallow this permission for every app except for your Clock app, Phone and Google Play services.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp alt="A screenshot of the Settings app, on its 'Default apps' page" title="A screenshot of the Settings app, on its 'Default apps' page"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Apps_Defaultapps.webp alt="A screenshot of the Settings app, on its 'Default apps' page" title="A screenshot of the Settings app, on its 'Default apps' page"
 {% endgallery %}
 
 - **Notifications**
@@ -430,7 +430,7 @@ Going through each page in the Settings app, you should do the following:
   - Disable "Enhanced notifications" (formerly known as Android Adaptive Notifications) unless you need suggested actions, replies and other conversation features in app notifications.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Notifications.webp
 {% endgallery %}
 
 - **Display**
@@ -452,7 +452,7 @@ Going through each page in the Settings app, you should do the following:
   - Disable Wake on plug
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Display_Lockscreen.webp
 {% endgallery %}
 
 - **Security & privacy**
@@ -540,7 +540,7 @@ Going through each page in the Settings app, you should do the following:
     - App pinning > Enable, enable Ask for password before unpinning
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp alt="A screenshot of the Settings app, on the 'Trust' page" title="A screenshot of the Settings app, on the 'Trust' page"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Securityprivacy_Trust.webp alt="A screenshot of the Settings app, on the 'Trust' page" title="A screenshot of the Settings app, on the 'Trust' page"
 {% endgallery %}
 
 - **Location**
@@ -552,7 +552,7 @@ Going through each page in the Settings app, you should do the following:
   - Enable automatically sync app data (unless your use case requires turning off this feature)
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp alt="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page" title="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_passwords.webp alt="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page" title="A screenshot of the Settings app, on the 'Passwords, passkeys & accounts' page"
 {% endgallery %}
 
 - **System**
@@ -611,7 +611,7 @@ For Proton VPN, we can download configuration files from the [Proton VPN > OpenV
 Open the newly-installed OpenVPN for pDNSf app, and tap on the 'Add Profile' (plus in a circle) icon, and tap on Import. Navigate to the .ovpn file(s) you have downloaded on your phone, and select one of them. It will be saved using the profile name that matches the filename / `'region'-'free/paid'-'serverID'.protonvpn.net.udp` format. Import any and all profiles that you have downloaded, they're all saved when you close the editor (not the app).
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Home.webp
 {% endgallery %}
 
 #### Configuring the profiles
@@ -627,7 +627,7 @@ In the 'IP and DNS' tab, in the DNS section:
 - set DNS Server and Backup DNS Server to 10.10.10.10, the address that will be used by personalDNSfilter to receive the redirected DNS traffic
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Editing.webp
 {% endgallery %}
 
 In the 'Allowed apps' tab, you can enable 'VPN is used for all apps but exclude selected' and you can check any apps that should bypass the VPN, if needed.
@@ -635,7 +635,7 @@ In the 'Allowed apps' tab, you can enable 'VPN is used for all apps but exclude 
 Don't forget in the app settings to choose a default VPN profile, if you'd want the app to automatically connect to a specific profile.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/OVPN_Sett.webp
 {% endgallery %}
 
 If that's done, you can now use OpenVPN for personalDNSfilter. Let's set personalDNSfilter as well.
@@ -660,7 +660,7 @@ When you first open the app, tap on 'Advanced settings', and toggle on (enable) 
 - Prevent device sleep
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_advsett.webp
 {% endgallery %}
 
 Tap Advanced settings again to close the menu, and make sure 'Enable blocking' and 'Autostart' are enabled.
@@ -668,7 +668,7 @@ Tap Advanced settings again to close the menu, and make sure 'Enable blocking' a
 Then, at the top where you see DNS: [IP]::PORT::DOH {pencil icon}, tap on that and uncheck both UDP entries, otherwise personalDNSfilter will complain about it when in root mode. Tap on the checkmark to confirm.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_DNS.webp
 {% endgallery %}
 
 #### Starting OpenVPN for pDNSf and personalDNSfilter
@@ -676,8 +676,8 @@ Then, at the top where you see DNS: [IP]::PORT::DOH {pencil icon}, tap on that a
 At this stage, you're pretty much configured and ready to go. Open the OpenVPN for pDNSf app, tap on one of the profiles (make sure the username and password are entered and valid), the app will request Android to become a VPN provider. Tap 'OK'. Then, you can navigate to the Android Settings app > Network & internet > VPN > tap on the cogwheel next to OpenVPN for pDNSf > enable Always-on VPN and Block connections without VPN. You can now enjoy network filtering and tunneling!
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_VPN_provider.webp
 {% endgallery %}
 
 NOTE: When running in root mode (and not as an Android VPN provider), personalDNSfilter will not have an app whitelist / blacklist.
@@ -689,7 +689,7 @@ NOTE: When running in root mode (and not as an Android VPN provider), personalDN
 personalDNSfilter app > Advanced settings > Configure filter update, where you can set the filter update interval in days (by default set to 7), and you can activate / deactivate filter lists.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_filters.webp
 {% endgallery %}
 
 You can also add custom filter lists. Here's how to add mine, for example:
@@ -713,8 +713,8 @@ blacklist.this.domain - gets blacklisted
 ```
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_blacklist.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_whitelist.webp
 {% endgallery %}
 
 Also note that personalDNSfilter allows you to filter domains from the initial list interface. When you see a domain that's blacklisted, it's going to use the color red. You can long-tap on it to whitelist it using the Remove filter option, which adds it to an automatic entries section in the additional hosts list. When you see a domain that's whitelisted / allowed, it's going to use the color green and a check mark. You can long-tap on it to blacklist it using the Add filter option.
@@ -724,13 +724,13 @@ Also note that personalDNSfilter allows you to filter domains from the initial l
 The app also has a Backup and restore option (but I don't use this, I just use the DataBackup app to back up the app and its files outright, which means a seamless restore experience).
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_backup.webp
 {% endgallery %}
 
 And there's the 'Edit configuration file' page, which is more or less the same stuff that you can already configure visually using toggles and such, but in text format. I'm not going to dive into that, there's not really a need if you've already performed everything in this section.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/pDNSf_configfile.webp
 {% endgallery %}
 
 ### Setting up and using App Manager for additional tracker blocking and debloating
@@ -738,7 +738,7 @@ And there's the 'Edit configuration file' page, which is more or less the same s
 Download and install [App Manager](https://f-droid.org/en/packages/io.github.muntashirakon.AppManager/) from F-Droid. Grant it access using your root manager. We'll disable some functionality. Tap the three dots in the top right corner, and tap Settings. Go to Appearance, "Enable/disable features", and deselect Interceptor, Package Installer, Use the Internet and tap Close. Make sure in Settings > Mode of operation is set to Root.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_features.webp
 {% endgallery %}
 
 Using App Manager, we'll debloat the system and block trackers in the apps themselves, thanks to the root mode.
@@ -949,7 +949,7 @@ App Manager can disable activities, services, receivers and providers of any ins
 When you notice an app that has trackers discovered by App Manager, the package name will be brown. Tap on the app in the list, and the first 'chip' / button you'll see under the app version is '{num} trackers' in orange. Tap on this, make sure all trackers are selected, and then tap on Block. The button will turn cyan after App Manager successfully blocks the trackers.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp alt="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block" title="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/AppMgr_blocktrackers.webp alt="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block" title="A screenshot of the App Manager app, on the page of an app (Bitdefender Antivirus Free), and a pop-up listing all the trackers to block"
 {% endgallery %}
 
 ### Minimizing your footprint in privacy-invasive apps
@@ -1004,13 +1004,13 @@ When you notice an app that has trackers discovered by App Manager, the package 
   - you can link up to four devices using the Linked device feature
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_2FA.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Passkeys.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_SecurityNotifs.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Privacy.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Storage.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_Backup.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/WA_E2EBackup.webp
 {% endgallery %}
 
 #### Google Photos
@@ -1027,7 +1027,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
   - Flip To Silence > disable "Flip To Silence"
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Phone.webp
 {% endgallery %}
 
 #### Google Messages
@@ -1039,10 +1039,10 @@ When you notice an app that has trackers discovered by App Manager, the package 
    - Help improve Messages > Toggle off "Improve Messages"
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp alt="The Google Messages app, on its 'RCS chats' page, with multiple options disabled" title="The Google Messages app, on its 'RCS chats' page, with multiple options disabled"
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp alt="The Google Messages app, on its 'Automatic previews' page with all options disabled" title="The Google Messages app, on its 'Automatic previews' page with all options disabled"
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp alt="The Google Messages app, on its 'Spam protection' page" title="The Google Messages app, on its 'Spam protection' page"
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp alt="The Google Messages app, on its 'Help improve Messages' page" title="The Google Messages app, on its 'Help improve Messages' page"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_RCS.webp alt="The Google Messages app, on its 'RCS chats' page, with multiple options disabled" title="The Google Messages app, on its 'RCS chats' page, with multiple options disabled"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_previews.webp alt="The Google Messages app, on its 'Automatic previews' page with all options disabled" title="The Google Messages app, on its 'Automatic previews' page with all options disabled"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_spam.webp alt="The Google Messages app, on its 'Spam protection' page" title="The Google Messages app, on its 'Spam protection' page"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Messages_improve.webp alt="The Google Messages app, on its 'Help improve Messages' page" title="The Google Messages app, on its 'Help improve Messages' page"
 {% endgallery %}
 
 #### Gboard
@@ -1053,7 +1053,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
   - After that, you can navigate to the app settings in the system's Settings app, and disable network access entirely (crDroid, GrapheneOS).
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp alt="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section" title="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Gboard.webp alt="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section" title="A screenshot of the Gboard app, on its 'Privacy' page, displaying the options from the list in this section"
 {% endgallery %}
 
 #### Google Recorder
@@ -1072,7 +1072,7 @@ When you notice an app that has trackers discovered by App Manager, the package 
     - Follow the Google account footprint minimization section below to disable certain features, the changes will be reflected here if Maps displays on the Personal content page "Web & App Activity is off" and "Location is off"
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp alt="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section" title="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Maps.webp alt="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section" title="A screenshot of the Google Maps app, on its 'Personal content' page, displaying the options from the list in this section"
 {% endgallery %}
 
 #### Play Store
@@ -1223,7 +1223,7 @@ Turn off Location sharing. Turn off "Business personalization". Turn off "Shared
 Open the device Settings app, and navigate to the bottom, and tap on 'Google'. Tap on 'All services'. We'll go section by section, just like before. There will be some overlap between this and the Google Account web page, but there are some preferences that are per-device preferences.
 
 {% gallery %}
-/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/2025/02/ComprehensiveAndroidGuide/Sett_Googleservices.webp
 {% endgallery %}
 
 Under the "Settings for Google apps" section:

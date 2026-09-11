@@ -21,8 +21,8 @@ tags:
   - Games
   - Gaming
   - Game Review
-image_banner_link_lq: /assets/post-thumbnails/2021-06-03-HITMAN2-lq.webp
-image_banner_link: /assets/post-thumbnails/2021-06-03-HITMAN2.webp
+image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-06-03-HITMAN2-lq.webp
+image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-06-03-HITMAN2.webp
 review: true
 toc: true
 ---
