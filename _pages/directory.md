@@ -1,5 +1,4 @@
 ---
 layout: dirpage
-permalink: /directory
-eleventyAllowMissingExtension: true
+permalink: /directory.html
 ---
