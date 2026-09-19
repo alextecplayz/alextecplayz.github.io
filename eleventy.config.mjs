@@ -38,14 +38,17 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addCollection("posts", collection => collection.getFilteredByGlob('./_posts/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("posts_slop", collection => collection.getFilteredByGlob('./_posts/aislop/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("notes", (collection) => collection.getFilteredByGlob("./_notes/*.md"));
+	eleventyConfig.addCollection("collections", (collection) => collection.getFilteredByGlob("./collections/*.md"));
+	eleventyConfig.addCollection("portfolio", (collection) => collection.getFilteredByGlob("./portfolio/*.md"));
 	// Liquid filters
 	eleventyConfig.addLiquidFilter("filterByTag", (posts, tag) => {return posts.filter(post => post.data.tags.includes(tag));});
 	eleventyConfig.addLiquidFilter("getPostByID", function(posts, postID) {return posts.find(post => post.data.postid === postID) || null;});
 	// getting post by ID is significantly easier than a for loop each time.
 	// post IDs are of this format:
 	// PA - Page / PO - Post / NO - Note / VD - Video + YYMMDD-XX
-	eleventyConfig.addLiquidFilter("getPostByAltID", function(posts, postAltID) {return posts.find(post => post.data.postid_alt === postAltID) || null;});
+	eleventyConfig.addLiquidFilter("getPostByAltID", function (posts, postAltID) { return posts.find(post => post.data.postid_alt === postAltID) || null; });
 	// alternate post ID, for specific posts, such as SapphireThread, AndroidGuide, About, Changelog
+	eleventyConfig.addLiquidFilter("getPageByAltID", function(pages, postAltID) {return pages.find(page => page.data.postid_alt === postAltID) || null;});
 	eleventyConfig.addLiquidFilter("getRandomPost", function(posts) {
 		if (!posts || posts.length === 0) return null;
 		const randomIndex = Math.floor(Math.random() * posts.length);
@@ -53,6 +56,17 @@ export default async function (eleventyConfig) {
 	});
 	eleventyConfig.addLiquidFilter("dateToRfc3339", feedPlugin.dateToRfc3339);
 	eleventyConfig.addLiquidFilter("dateToRfc822", feedPlugin.dateToRfc822);
+	const BASE_FILE_SIZE = 51 * 1024; // 51 KiB is base file size for HTML ATP file
+	eleventyConfig.addFilter("estimatedBytes", function (content) {
+		const contentBytes = Buffer.byteLength(String(content || ""), "utf8");
+		return BASE_FILE_SIZE + contentBytes;
+	});
+	eleventyConfig.addFilter("formatBytes", function (bytes) {
+		bytes = Number(bytes);
+		if (bytes < 1024) { return `${bytes} B`; }
+		if (bytes < 1024 * 1024) { return `${(bytes / 1024).toFixed(1)} KiB`; }
+		return `${(bytes / (1024 * 1024)).toFixed(1)} MiB`;
+	});
 	// Copy folders wholesale
 	eleventyConfig.addPassthroughCopy("css");
 	eleventyConfig.addPassthroughCopy("favicon");

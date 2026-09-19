@@ -5,11 +5,7 @@
 <div id="effect-overlay" class="effect-overlay">
 	<div class="vignette"></div>
 	<div class="lightrope-background">
-		<ul class="lightrope">
-			{% for i in (1..42) %}
-				<li></li>
-			{% endfor %}
-		</ul>
+		<ul class="lightrope">{% for i in (1..42) %}<li></li>{% endfor %}</ul>
 	</div>
 </div>
 
@@ -82,8 +78,8 @@
 					<p class="grotesk medium rem1-25 accent-color">Obsidian v{{ site.ver_obsidian }}</p>
 					<p class="monospace lightgray medium rem1-25">&emsp;</p>
 					<p class="monospace lightgray medium rem1-25">&emsp;</p>
-					<a class="grotesk medium rem1-25 white link" href="{{ site.baseurl }}/terms">/terms</a>
-					<a class="grotesk medium rem1-25 white link" href="{{ site.baseurl }}/privacy">/privacy</a>
+					<a class="grotesk medium rem1-25 white link" href="{{ site.baseurl }}/terms-of-service">/terms-of-service</a>
+					<a class="grotesk medium rem1-25 white link" href="{{ site.baseurl }}/privacy-policy">/privacy-policy</a>
 					<a class="grotesk medium rem1-25 white link" href="{{ site.baseurl }}/about">/about</a>
 					<a class="grotesk medium rem1-25 white link flex row" href="https://stats.alextecplayz.com">stats&nbsp;<p class="lightgray italic">Powered by Goatcounter</p></a>
 				</div>

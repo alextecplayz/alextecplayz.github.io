@@ -31,16 +31,16 @@ tooltips: true
 					{% assign breadcrumbTrailPropertyTitle = '' %}
 					{% if type == 'post' %}
 						{% assign breadcrumbTrailProperty = 'https://alextecplayz.com/posts.html' %}
-						{%assign breadcrumbTrailPropertyTitle = 'Posts' %}
+						{% assign breadcrumbTrailPropertyTitle = 'Posts' %}
 					{% elsif type == 'note' %}
 						{% assign breadcrumbTrailProperty = 'https://alextecplayz.com/notes.html' %}
-						{%assign breadcrumbTrailPropertyTitle = 'Notes' %}
+						{% assign breadcrumbTrailPropertyTitle = 'Notes' %}
 					{% elsif type == 'video' %}
 						{% assign breadcrumbTrailProperty = 'https://alextecplayz.com/videos.html' %}
-						{%assign breadcrumbTrailPropertyTitle = 'Videos' %}
+						{% assign breadcrumbTrailPropertyTitle = 'Videos' %}
 					{% else %}
 						{% assign breadcrumbTrailProperty = 'https://alextecplayz.com/sitemap.html' %}
-						{%assign breadcrumbTrailPropertyTitle = 'Sitemap' %}
+						{% assign breadcrumbTrailPropertyTitle = 'Sitemap' %}
 					{% endif %}
 					<a property="item" typeof="WebPage" href="{{ breadcrumbTrailProperty }}">
 						<span property="name">{{ breadcrumbTrailPropertyTitle }}</span>
