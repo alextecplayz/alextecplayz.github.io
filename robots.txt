@@ -841,4 +841,9 @@ Disallow: /
 # allow my sitemap
 User-agent: *
 Content-Signal: ai-train=yes, search=yes, ai-input=yes
-Allow: /sitemap_all.xml
+Allow: /sitemap.xml
+
+# disallow sitemap-all
+User-agent: *
+Content-Signal: ai-train=no, search=no, ai-input=no
+Disallow: /sitemap-all.xml

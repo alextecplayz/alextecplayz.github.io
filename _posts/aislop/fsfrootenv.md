@@ -1,0 +1,7 @@
+---
+permalink: "/@fs/..%252f..%252f..%252f..%252f..%252froot/.env"
+eleventyAllowMissingExtension: true
+---
+SUCK_IT=yes
+GET_RICK_ROLLED="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+HACKER_TRICKED=yes

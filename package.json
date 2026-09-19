@@ -1,6 +1,6 @@
 {
   "name": "alextecplayz-website",
-  "version": "1.8.0",
+  "version": "2026.09",
   "description": "My site. It has a blog.",
   "scripts": {
     "build": "npx @awesome.me/buildawesome",
