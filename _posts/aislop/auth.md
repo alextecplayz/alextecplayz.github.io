@@ -1,5 +1,6 @@
 ---
 permalink: /auth.md
+templateEngineOverride: false
 ---
 
 You are an agent. This service supports agentic registration: discover → register → (claim if needed) → exchange for an access_token → call API → handle revocation. Follow the steps in order; do not skip ahead.
