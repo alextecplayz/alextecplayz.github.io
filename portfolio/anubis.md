@@ -24,7 +24,7 @@ image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.g
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/temple.webp" alt="An image of a cream temple in ancient egyptian style with some carvings, engravings, a gray raised base, a gold arch entrance, green lines near the flat roof, and a raised opening in the roof, similar to a skylight." title="An image of a cream temple in ancient egyptian style with some carvings, engravings, a gray raised base, a gold arch entrance, green lines near the flat roof, and a raised opening in the roof, similar to a skylight." caption="A temple"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/temple.webp alt="An image of a cream temple in ancient egyptian style with some carvings, engravings, a gray raised base, a gold arch entrance, green lines near the flat roof, and a raised opening in the roof, similar to a skylight." title="An image of a cream temple in ancient egyptian style with some carvings, engravings, a gray raised base, a gold arch entrance, green lines near the flat roof, and a raised opening in the roof, similar to a skylight." caption="A temple"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
@@ -45,13 +45,13 @@ Project Anubis, or better known by its intended product name, AEDIS, is a mobile
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/temple_interior.webp" alt="An image of the interior of previously mentioned temple, with orange raised platforms to serve as a walkway and a shrine." title="An image of the interior of previously mentioned temple, with orange raised platforms to serve as a walkway and a shrine." caption="The interior of a temple, with what's supposed to be a shrine"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/temple_interior.webp alt="An image of the interior of previously mentioned temple, with orange raised platforms to serve as a walkway and a shrine." title="An image of the interior of previously mentioned temple, with orange raised platforms to serve as a walkway and a shrine." caption="The interior of a temple, with what's supposed to be a shrine"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar.webp" alt="An image of a wooden bazaar with a purple and white cloth roof." title="An image of a wooden bazaar with a purple and white cloth roof." caption="A simple wooden bazaar that can be installed anywhere, perfect for travelling salesmen."
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar.webp alt="An image of a wooden bazaar with a purple and white cloth roof." title="An image of a wooden bazaar with a purple and white cloth roof." caption="A simple wooden bazaar that can be installed anywhere, perfect for travelling salesmen."
 {% endgallery %}
 {% endportfolio-grid-element %}
 
@@ -69,37 +69,37 @@ One round, you build defense structures such as towers and traps, which would us
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar_tall.webp" alt="A tall, single-floor sandstone mixed-use bazaar building that also has residential space on its upper floor. The ground floor has a large wooden frame with an expanded purple and white-striped umbrella, a wooden post and a cauldron. There is no complete roof on its first floor, as it's meant to be an 'open concept' design, that would allow the residents or customers to climb to the roof via an entryway in the back, set up lawnchairs to lounge or to dance." title="A tall, single-floor sandstone mixed-use bazaar building that also has residential space on its upper floor. The ground floor has a large wooden frame with an expanded purple and white-striped umbrella, a wooden post and a cauldron. There is no complete roof on its first floor, as it's meant to be an 'open concept' design, that would allow the residents or customers to climb to the roof via an entryway in the back, set up lawnchairs to lounge or to dance." caption="The 'tall' Bazaar. This is a mixed-use commercial building with residential space on the floor above"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar_tall.webp alt="A tall, single-floor sandstone mixed-use bazaar building that also has residential space on its upper floor. The ground floor has a large wooden frame with an expanded purple and white-striped umbrella, a wooden post and a cauldron. There is no complete roof on its first floor, as it's meant to be an 'open concept' design, that would allow the residents or customers to climb to the roof via an entryway in the back, set up lawnchairs to lounge or to dance." title="A tall, single-floor sandstone mixed-use bazaar building that also has residential space on its upper floor. The ground floor has a large wooden frame with an expanded purple and white-striped umbrella, a wooden post and a cauldron. There is no complete roof on its first floor, as it's meant to be an 'open concept' design, that would allow the residents or customers to climb to the roof via an entryway in the back, set up lawnchairs to lounge or to dance." caption="The 'tall' Bazaar. This is a mixed-use commercial building with residential space on the floor above"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar_tall_halloween.webp" alt="The same bazaar building, but at night, in a Halloween variant where there is an orange pumpkin next to the umbrella post on the ground floor, and orange lightning coming from the inside of the bazaar shop." title="The same bazaar building, but at night, in a Halloween variant where there is an orange pumpkin next to the umbrella post on the ground floor, and orange lightning coming from the inside of the bazaar shop." caption="A Halloween variant, at night"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar_tall_halloween.webp alt="The same bazaar building, but at night, in a Halloween variant where there is an orange pumpkin next to the umbrella post on the ground floor, and orange lightning coming from the inside of the bazaar shop." title="The same bazaar building, but at night, in a Halloween variant where there is an orange pumpkin next to the umbrella post on the ground floor, and orange lightning coming from the inside of the bazaar shop." caption="A Halloween variant, at night"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar_tall_halloween_v2.webp" alt="The same bazaar building, but at night, in a second Halloween variant, where there is no pumpkin, and the cauldron has an ominous green glow, similar to poison. There is some more ominous green glow coming from the stairwell on the upper floor." title="The same bazaar building, but at night, in a second Halloween variant, where there is no pumpkin, and the cauldron has an ominous green glow, similar to poison. There is some more ominous green glow coming from the stairwell on the upper floor." caption="Another Halloween variant, but with an ominous green glow"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/bazaar_tall_halloween_v2.webp alt="The same bazaar building, but at night, in a second Halloween variant, where there is no pumpkin, and the cauldron has an ominous green glow, similar to poison. There is some more ominous green glow coming from the stairwell on the upper floor." title="The same bazaar building, but at night, in a second Halloween variant, where there is no pumpkin, and the cauldron has an ominous green glow, similar to poison. There is some more ominous green glow coming from the stairwell on the upper floor." caption="Another Halloween variant, but with an ominous green glow"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/building_tall1.webp" alt="The same style of building as the bazaar, but there is no wooden frame, as there is just a simple wooden door, as this is supposed to be housing, not a commercial building." title="The same style of building as the bazaar, but there is no wooden frame, as there is just a simple wooden door, as this is supposed to be housing, not a commercial building." caption="A regular tall building, usually housing"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/building_tall1.webp alt="The same style of building as the bazaar, but there is no wooden frame, as there is just a simple wooden door, as this is supposed to be housing, not a commercial building." title="The same style of building as the bazaar, but there is no wooden frame, as there is just a simple wooden door, as this is supposed to be housing, not a commercial building." caption="A regular tall building, usually housing"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/building_tall2.webp" alt="The same residential building, but in a variant where there is a palm on the roof for shade." title="The same residential building, but in a variant where there is a palm on the roof for shade." caption="A variant of the tall building, but with a palm on top for some extra shade"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/building_tall2.webp alt="The same residential building, but in a variant where there is a palm on the roof for shade." title="The same residential building, but in a variant where there is a palm on the roof for shade." caption="A variant of the tall building, but with a palm on top for some extra shade"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/minaret.webp" alt="A very tall building with some blue accent stripes and dots." title="A very tall building with some blue accent stripes and dots." caption="A minaret, inspired by both Ancient Egyptian and Moroccan architecture"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/minaret.webp alt="A very tall building with some blue accent stripes and dots." title="A very tall building with some blue accent stripes and dots." caption="A minaret, inspired by both Ancient Egyptian and Moroccan architecture"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
@@ -115,25 +115,25 @@ Over the course of the game, you would have some text-based character interactio
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_broken.webp" alt="A white pyramid with a golden tip, in a broken down state, where the white coating is gone in some places, and the sandstone beneath is visible. Some portions have gaps in them." title="A white pyramid with a golden tip, in a broken down state, where the white coating is gone in some places, and the sandstone beneath is visible. Some portions have gaps in them." caption="The initial, broken-down variant of Ra's pyramid"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_broken.webp alt="A white pyramid with a golden tip, in a broken down state, where the white coating is gone in some places, and the sandstone beneath is visible. Some portions have gaps in them." title="A white pyramid with a golden tip, in a broken down state, where the white coating is gone in some places, and the sandstone beneath is visible. Some portions have gaps in them." caption="The initial, broken-down variant of Ra's pyramid"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_restoration.webp" alt="A white pyramid with a golden tip, in a somewhat-finished state. Some wooden scaffoldings can be seen. Some sandstone is still visible, but is being covered up with a new white coat of paint." title="A white pyramid with a golden tip, in a somewhat-finished state. Some wooden scaffoldings can be seen. Some sandstone is still visible, but is being covered up with a new white coat of paint." caption="The pyramid being restored to its former glory"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_restoration.webp alt="A white pyramid with a golden tip, in a somewhat-finished state. Some wooden scaffoldings can be seen. Some sandstone is still visible, but is being covered up with a new white coat of paint." title="A white pyramid with a golden tip, in a somewhat-finished state. Some wooden scaffoldings can be seen. Some sandstone is still visible, but is being covered up with a new white coat of paint." caption="The pyramid being restored to its former glory"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_restored.webp" alt="A white pyramid with a golden tip, now fully restored, looking as clean as ever, and ready to welcome the god of the Sun, Ra." title="A white pyramid with a golden tip, now fully restored, looking as clean as ever, and ready to welcome the god of the Sun, Ra." caption="The pyramid, restored. Ra can now be welcomed back into the world"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_restored.webp alt="A white pyramid with a golden tip, now fully restored, looking as clean as ever, and ready to welcome the god of the Sun, Ra." title="A white pyramid with a golden tip, now fully restored, looking as clean as ever, and ready to welcome the god of the Sun, Ra." caption="The pyramid, restored. Ra can now be welcomed back into the world"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_restoration_halloween.webp" alt="A white pyramid with a bright green tip, in a state of restoration. There is an ominous green glow surrounding it." title="A white pyramid with a bright green tip, in a state of restoration. There is an ominous green glow surrounding it." caption="The Halloween version of the in-restoration pyramid"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/pyramid_restoration_halloween.webp alt="A white pyramid with a bright green tip, in a state of restoration. There is an ominous green glow surrounding it." title="A white pyramid with a bright green tip, in a state of restoration. There is an ominous green glow surrounding it." caption="The Halloween version of the in-restoration pyramid"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
@@ -151,61 +151,61 @@ The towers would be priced differently, as they would all have different 'tiers'
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/cactus.webp" alt="Four cactuses" title="Four cactuses" caption="The Cactus! Feared by all, of course"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/cactus.webp alt="Four cactuses" title="Four cactuses" caption="The Cactus! Feared by all, of course"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_obelisk.webp" alt="A tall sandstone tower with a sharp tip. The sides of the tower have ancient engravings that are glowing purple." title="A tall sandstone tower with a sharp tip. The sides of the tower have ancient engravings that are glowing purple." caption="The Obelisk tower, a mythical structure with engravings that would light up purple when activated. Powered by the gods, this defense structure would deal lots of damage, following a cooldown"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_obelisk.webp alt="A tall sandstone tower with a sharp tip. The sides of the tower have ancient engravings that are glowing purple." title="A tall sandstone tower with a sharp tip. The sides of the tower have ancient engravings that are glowing purple." caption="The Obelisk tower, a mythical structure with engravings that would light up purple when activated. Powered by the gods, this defense structure would deal lots of damage, following a cooldown"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_curse.webp" alt="" title="" caption="The curse tower, the casket on the roof would light up white when activated. As per its name, it would apply curses to the enemies, that would deal damage over time"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_curse.webp alt="" title="" caption="The curse tower, the casket on the roof would light up white when activated. As per its name, it would apply curses to the enemies, that would deal damage over time"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_ankh.webp" alt="" title="" caption="The Ankh tower. Mainly, it would serve as a 'redirection' point and act as a secondary jewerly house. This could bait enemies to be redirected towards this instead of other targets. If other towers are placed around it, this would be the perfect ambush point."
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_ankh.webp alt="" title="" caption="The Ankh tower. Mainly, it would serve as a 'redirection' point and act as a secondary jewerly house. This could bait enemies to be redirected towards this instead of other targets. If other towers are placed around it, this would be the perfect ambush point."
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_artillery.webp" alt="" title="" caption="An artillery tower, with a roof, to allow long-range soldiers to target further tiles or enemies, without having the sun getting in their eyes. Yes, it's basically a longer-range tower compared to the 'classic' arrow tower"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_artillery.webp alt="" title="" caption="An artillery tower, with a roof, to allow long-range soldiers to target further tiles or enemies, without having the sun getting in their eyes. Yes, it's basically a longer-range tower compared to the 'classic' arrow tower"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_mystic.webp" alt="" title="" caption="The mystic tower. Through the power of spirituality, magic and some flasks, they damage enemies. No, they're not wizards. They're just really good at sourcing their stuff"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_mystic.webp alt="" title="" caption="The mystic tower. Through the power of spirituality, magic and some flasks, they damage enemies. No, they're not wizards. They're just really good at sourcing their stuff"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_arrow.webp" alt="" title="" caption="Ah, the classic arrow tower. It has archers that shoot arrows at enemies, it's a pretty simple concept, known and practiced for millenia"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_arrow.webp alt="" title="" caption="Ah, the classic arrow tower. It has archers that shoot arrows at enemies, it's a pretty simple concept, known and practiced for millenia"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_poison.webp" alt="" title="" caption="The poison tower. With an ominous glowing cauldron on the roof, they prepare potions they throw at enemies to deal damage. Quite literally testing in production!"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_poison.webp alt="" title="" caption="The poison tower. With an ominous glowing cauldron on the roof, they prepare potions they throw at enemies to deal damage. Quite literally testing in production!"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_watch.webp" alt="" title="" caption="The watch tower, a long-range tower that can target enemies further away that can't be reached by the arrow or the artillery towers."
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_watch.webp alt="" title="" caption="The watch tower, a long-range tower that can target enemies further away that can't be reached by the arrow or the artillery towers."
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_arrowroof.webp" alt="" title="" caption="Mixed-use defense, the latest in Ancient Egyptian architecture! People can both reside here, and defend themselves and the city, the best 2-for-1 combo!"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/anubis/tower_arrowroof.webp alt="" title="" caption="Mixed-use defense, the latest in Ancient Egyptian architecture! People can both reside here, and defend themselves and the city, the best 2-for-1 combo!"
 {% endgallery %}
 {% endportfolio-grid-element %}
 

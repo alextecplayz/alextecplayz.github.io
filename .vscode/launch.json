@@ -4,35 +4,42 @@
 			"type": "node-terminal",
 			"name": "Run Script: serve",
 			"request": "launch",
-			"command": "npx @11ty/eleventy --serve",
+			"command": "nvm use && ENVIRONMENT=development npx @11ty/eleventy --serve",
 			"cwd": "${workspaceFolder}"
 		},
 		{
 			"type": "node-terminal",
 			"name": "Run Script: serve (incremental)",
 			"request": "launch",
-			"command": "npx @11ty/eleventy --serve --incremental",
+			"command": "nvm use && ENVIRONMENT=development npx @11ty/eleventy --serve --incremental",
 			"cwd": "${workspaceFolder}"
 		},
 		{
 			"type": "node-terminal",
 			"name": "Run Script: DEBUG Benchmark",
 			"request": "launch",
-			"command": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+			"command": "nvm use && ENVIRONMENT=development DEBUG=Eleventy::Benchmark* npx @11ty/eleventy",
 			"cwd": "${workspaceFolder}"
 		},
 		{
 			"type": "node-terminal",
 			"name": "Run Script: Node.js CPU profiling",
 			"request": "launch",
-			"command": "node --cpu-prof ./node_modules/.bin/eleventy --quiet",
+			"command": "nvm use && ENVIRONMENT=development node --cpu-prof ./node_modules/.bin/buildawesome --quiet",
 			"cwd": "${workspaceFolder}"
 		},
 		{
 			"type": "node-terminal",
 			"name": "Run Script: Node.js Heap profiling",
 			"request": "launch",
-			"command": "node --inspect-brk ./node_modules/.bin/eleventy --quiet",
+			"command": "nvm use && ENVIRONMENT=development node --inspect-brk ./node_modules/.bin/buildawesome --quiet",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"type": "node-terminal",
+			"name": "Run Script: vnu validate _site",
+			"request": "launch",
+			"command": "npx vnu --verbose _site/**/*.html 2>&1 | grep -vF 'Resource violates Content Security Policy (meta tag):'",
 			"cwd": "${workspaceFolder}"
 		}
 	]

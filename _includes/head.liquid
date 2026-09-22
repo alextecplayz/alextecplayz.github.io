@@ -1,11 +1,10 @@
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <title id="home">{% if title %}{{ title }} | AlexTECPlayz{% else %}AlexTECPlayz{% endif %}</title>
 <meta id="pagedesc" name="description" content="{% if description %}{{ description }}{% else %}AlexTECPlayz' website, featuring a blog and some other pages of interest.{% endif %}">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="only light">
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-<meta http-equiv="Document-Policy" content="default-src 'self';">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://alextecplayz.goatcounter.com/count https://raw.githubusercontent.com/; connect-src 'self'; font-src 'self'; object-src 'self' https://raw.githubusercontent.com/; media-src 'self' https://raw.githubusercontent.com/; frame-src 'none'; worker-src 'none'; manifest-src 'none'; form-action 'self'; base-uri 'self'; upgrade-insecure-requests; block-all-mixed-content; trusted-types 'none';">
+<meta http-equiv="content-security-policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://alextecplayz.goatcounter.com/count https://raw.githubusercontent.com/; connect-src 'self'; font-src 'self'; object-src 'self' https://raw.githubusercontent.com/; media-src 'self' https://raw.githubusercontent.com/; frame-src 'none'; worker-src 'none'; manifest-src 'none'; form-action 'self'; base-uri 'self'; upgrade-insecure-requests; block-all-mixed-content; trusted-types 'none';">
 <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml" title="AlexTECPlayz' Blog">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_base.css" fetchpriority="high">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/atp_c_font_boldonse_min.css" fetchpriority="low">
@@ -17,7 +16,7 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/atp_c_base.css" fetchpriority="high">
 {% if highlight == "duotone" %}<link rel="stylesheet" href="{{ site.baseurl }}/css/prism-duotone-dark.min.css">
 {% else %}<link rel="stylesheet" href="{{ site.baseurl }}/css/prism-vsc-dark-plus.min.css">{% endif %}
-<link href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/Missing.webp" as="image" type="image/webp"  loading="eager" fetchpriority="high">
+<link href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/Missing.webp" as="image" type="image/webp" rel="preload" fetchpriority="high">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicon/apple-touch-icon.webp">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon/favicon-16x16.png">
@@ -32,7 +31,4 @@
 <meta property="og:locale" content="{{ locale }}">
 <meta property="og:site_name" content="AlexTECPlayz">
 <meta name="fediverse:creator" content="alextecplayz@techhub.social">
-<a class="hidden" rel="me" href="https://techhub.social/@alextecplayz">Mastodon</a>
-<a class="hidden" rel="me" href="https://social.vantainteractive.com/@alextecplayz">Mastodon</a>
-<link rel="octo:octothorpes" href="blog">
 <meta name="google-site-verification" content="joH1YJawAM-RE8HORdtuNlD7RJ_tpDkNrMFQdnUmO40">

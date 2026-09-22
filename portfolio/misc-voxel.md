@@ -22,7 +22,7 @@ image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.g
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/art/cogwheel.webp" alt="A gray voxel cogwheel on a pink background." title="A gray voxel cogwheel on a pink background." caption="A cogwheel. Was made for AEDIS' main menu icon, but ultimately wasn't used. | (2023)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/art/cogwheel.webp alt="A gray voxel cogwheel on a pink background." title="A gray voxel cogwheel on a pink background." caption="A cogwheel. Was made for AEDIS' main menu icon, but ultimately wasn't used. | (2023)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
@@ -40,72 +40,72 @@ NOTE: The voxel art made available on my portfolio isn't for sale, or to be used
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/art/retro_casette.webp" alt="" title="" caption="A retro VHS tape I made as a test in MagicaVoxel | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/art/retro_casette.webp alt="" title="" caption="A retro VHS tape I made as a test in MagicaVoxel | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/cube/server_active.webp" alt="" title="" caption="An active server. Inspired by HITMAN 2's Haven Island servers | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/cube/server_active.webp alt="" title="" caption="An active server. Inspired by HITMAN 2's Haven Island servers | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/cube/server_deactivated.webp" alt="" title="" caption="An inactive server | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/cube/server_deactivated.webp alt="" title="" caption="An inactive server | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/cube/server_error.webp" alt="" title="" caption="A server that has an error | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/cube/server_error.webp alt="" title="" caption="A server that has an error | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/dungeon_column_broken.webp" alt="" title="" caption="A broken column to be used in a dungeon, or a temple | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/dungeon_column_broken.webp alt="" title="" caption="A broken column to be used in a dungeon, or a temple | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/sawblade.webp" alt="" title="" caption="A sawblade to be used as a trap in a dungeon | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/sawblade.webp alt="" title="" caption="A sawblade to be used as a trap in a dungeon | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/short_grass.webp" alt="" title="" caption="Short grass, duplicated and rotated on the Z-axis | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/short_grass.webp alt="" title="" caption="Short grass, duplicated and rotated on the Z-axis | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/workbench.webp" alt="" title="" caption="A workbench | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/workbench.webp alt="" title="" caption="A workbench | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/grindstone.webp" alt="" title="" caption="A grindstone | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/grindstone.webp alt="" title="" caption="A grindstone | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/blast_furnace.webp" alt="" title="" caption="A blast furnace | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/blast_furnace.webp alt="" title="" caption="A blast furnace | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/smoker.webp" alt="" title="" caption="A smoker | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/smoker.webp alt="" title="" caption="A smoker | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/wet_oak_door.webp" alt="" title="" caption="Wet oak door | (2022)"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/voxel/wet_oak_door.webp alt="" title="" caption="Wet oak door | (2022)"
 {% endgallery %}
 {% endportfolio-grid-element %}

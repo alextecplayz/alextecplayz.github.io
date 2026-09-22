@@ -82,6 +82,7 @@ export default async function (eleventyConfig) {
 	// {% production %}on prod!{% endproduction %}
 	eleventyConfig.addPairedShortcode('production', content => process.env.ELEVENTY_RUN_MODE === "build" ? content : undefined)
 	eleventyConfig.addGlobalData("isDevelopment", process.env.ENVIRONMENT != null);
+	let isDevelopment = (process.env.ENVIRONMENT != null);
 	eleventyConfig.addPairedLiquidShortcode("aside", function(content, postIdArg) {
 		const md = new markdownIt();
 		const htmlContent = md.render(content);
@@ -96,21 +97,23 @@ export default async function (eleventyConfig) {
 		return `${htmlContent}`;
 	})
 	// Transforms
-	eleventyConfig.addTransform("htmlmin", function (content) {
-		// String conversion to handle `permalink: false`
-		if ((this.page.outputPath || "").endsWith(".html")) {
-			let minified = htmlminifier.minify(content, {
-				useShortDoctype: true,
-				removeComments: true,
-				collapseWhitespace: true,
-				keepClosingSlash: true,
-				noNewlinesBeforeTagClose: true,
-				preventAttributesEscaping: true,
-			});
-			return minified;
-		}
-		return content; // If not an HTML output, return content as-is
-	});
+	if (!isDevelopment) {
+		eleventyConfig.addTransform("htmlmin", function (content) {
+			// String conversion to handle `permalink: false`
+			if ((this.page.outputPath || "").endsWith(".html")) {
+				let minified = htmlminifier.minify(content, {
+					useShortDoctype: true,
+					removeComments: true,
+					collapseWhitespace: true,
+					keepClosingSlash: true,
+					noNewlinesBeforeTagClose: true,
+					preventAttributesEscaping: true,
+				});
+				return minified;
+			}
+			return content; // If not an HTML output, return content as-is
+		});
+	}
 	return {
 		passthroughFileCopy: true,
 		dir: {

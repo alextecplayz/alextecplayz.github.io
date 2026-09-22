@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 	<head>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_recommendations.css" fetchpriority="low"/>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_post_full.css" fetchpriority="low"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_recommendations.css" fetchpriority="low">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/obsidian_c_post_full.css" fetchpriority="low">
 		{% include "head.liquid" %}
 	</head>
 	<body id="body">
@@ -19,26 +19,20 @@
 				</div>
 				<div class="h-feed articles-container">
 					<div id="page">
-						<div class="post-content post"><h2>Page</h2></div>
-						{% for page in collections.pages %}
-							{% include "components/article.liquid" article: page %}
-						{% endfor %}
+						<div class="post-content post"><h1>Page</h1></div>
+						{% for page in collections.pages %}{% include "components/article.liquid" article: page %}{% endfor %}
 					</div>
 					<div id="post">
-						<div class="post-content post"><h2>Post</h2></div>
-						{% for post in collections.posts %}
-							{% include "components/article.liquid" article: post %}
-						{% endfor %}
+						<div class="post-content post"><h1>Post</h1></div>
+						{% for post in collections.posts %}{% include "components/article.liquid" article: post %}{% endfor %}
 					</div>
 					<div id="note">
-						<div class="post-content post"><h2>Note</h2></div>
+						<div class="post-content post"><h1>Note</h1></div>
 						{% assign notes = collections.notes %}
-						{% for note in collections.notes %}
-							{% include "components/article.liquid" article: note %}
-						{% endfor %}
+						{% for note in collections.notes %}{% include "components/article.liquid" article: note %}{% endfor %}
 					</div>
 					<div id="video">
-						<div class="post-content post"><h2>Video</h2></div>
+						<div class="post-content post"><h1>Video</h1></div>
 						{% for video in videos %}
 							<div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/VideoObject">
 								<div class="article-left">
@@ -56,20 +50,11 @@
 										{% for category in video.categories %}
 											<a class="article-category grotesk medium rem1" href="{{ site.baseurl }}/categories#{{ category | replace: ' ', '-' | downcase }}">{{ category }}</a>{% unless forloop.last %}{% endunless %}
 										{% endfor %}
-										{% if video.nsfw %}
-											<a class="article-tag-nsfw grotesk medium rem1">NSFW</a>
-										{% endif %}
+										{% if video.nsfw %}<a class="article-tag-nsfw grotesk medium rem1">NSFW</a>{% endif %}
 										{% for tag in video.tags %}
 											<a class="article-tag grotesk medium rem1" href="{{ site.baseurl }}/tags#{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}
 										{% endfor %}
 									</div>
-								</div>
-								<div class="hidden">
-									<span itemprop="author" itemscope itemtype="https://schema.org/Person">
-										<a itemprop="url" href="https://alextecplayz.com/about.html">
-											<span itemprop="name">AlexTECPlayz</span>
-										</a>
-									</span>
 								</div>
 							</div>
 						{% endfor %}

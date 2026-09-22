@@ -1,5 +1,6 @@
 ---
 permalink: /config.json
+templateEngineOverride: false
 ---
 {
 	"suck_it": true,

@@ -1,5 +1,6 @@
 ---
 permalink: /openapi.json
+templateEngineOverride: false
 ---
 {
 	"suck_it": true,

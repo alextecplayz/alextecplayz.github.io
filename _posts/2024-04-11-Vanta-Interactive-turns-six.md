@@ -57,7 +57,7 @@ The blog was hosted using Google's Blogger platform, and we were using a free th
 We had a secondary website for one of our projects at the time, GRAV0RTAL, also hosted by Blogger.
 
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/VI-Site-Archive-GV2020.webp alt="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS." title="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS." fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/mainhttps://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/VI-Site-Archive-GV2020.png"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/VI-Site-Archive-GV2020.webp alt="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS." title="The home page of the GRAV0RTAL site, it has some of the posts from 2A Games and ECS." fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/mainhttps://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/VI-Site-Archive-GV2020.png
 {% endgallery %}
 
 The blog uses the free 'Basil' theme from SoraTemplates, loaded the FontAwesome and LinearIcons CSS, Testimonial CSS from Flickity, Animate CSS, jQuery min, WowJS, SlickNav Responsive Mobile Menu, jquery-match-height, Flickity, Waypoints, jquery-counterup, jQuery One Page Nav Plugin and SmoothScroll.
@@ -67,7 +67,7 @@ The blog uses the free 'Basil' theme from SoraTemplates, loaded the FontAwesome 
 In late 2020, I switched to using the 'Slides' theme from FreeHTML5 for the Vanta Interactive blogger website, pictured below:
 
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/VI-Site-Archive-2021.webp alt="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS." title="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS." fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/mainhttps://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/VI-Site-Archive-2021.png"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/VI-Site-Archive-2021.webp alt="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS." title="The home page of Vanta Interactive, carrying over the posts from 2A Games and ECS." fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/mainhttps://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/VI-Site-Archive-2021.png
 {% endgallery %}
 
 As was the trend back then, most of the header buttons used to link to sections of the home page. 'About' would lead to the About Us section. We had pages for /games and /software, but they were blank, and the idea was to update them, but that never happened, for whatever reason. The page contained an ungodly amount of third-party CSS and JS code, such as Bootstrap CSS, some obfuscated JS that even to this day I have no idea what it was for, and at the end we had Waypoint JS, Easing JS, Stellar JS and Magnific Popup JS.
@@ -91,7 +91,7 @@ Funnily, or, surprisingly enough, **as of April 2024, Vanta Interactive is six y
 What am I using today? Simple HTML, Obsidian CSS with some customizations specific to each website's use case, and very little JS. All fonts, css and js are loaded from the repository, because I have principles now. I care about privacy and security. I don't want to collect cookies, or to bombard the users with cookie pop-ups. How the times have changed.
 
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/mainsite.webp alt="Screenshot of the current Vanta Interactive website" title="Screenshot of the current Vanta Interactive website" fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/mainhttps://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/mainsite.png"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/mainsite.webp alt="Screenshot of the current Vanta Interactive website" title="Screenshot of the current Vanta Interactive website" fullrespath="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/mainhttps://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/mainsite.png
 {% endgallery %}
 
 *Note the goof in the top left corner, where the icon is used: The screenshot was taken during Ace Visibility Day, so the logo was using the Ace flag variant - because yes, the Vanta Interactive logo has variants for the 'main' queer flags ^w^*

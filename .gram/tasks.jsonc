@@ -54,4 +54,15 @@
 		"show_summary": true,
 		"show_command": true,
 	},
+	{
+		"label": "Run Script: vnu validate _site",
+		"command": "npx vnu --verbose _site/**/*.html 2>&1 | grep -vF 'Resource violates Content Security Policy (meta tag):'",
+		"use_new_terminal": false,
+		"allow_concurrent_runs": false,
+		"reveal": "always",
+		"hide": "never",
+		"shell": "system",
+		"show_summary": true,
+		"show_command": true,
+	},
 ]

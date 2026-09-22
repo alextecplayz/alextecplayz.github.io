@@ -19,29 +19,27 @@ export default function (eleventyConfig) {
 			}
 			html += `
 			<figure class="image-frame">
-				<video property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${vidPath}" alt="${attrs.alt || 'There is no alt text provided for this video'}" title="${attrs.title || 'There is no title provided for this video'}" loop="true" controls playsinline="true" preload="metadata">
-				<span class="hidden" property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
-				<span class="hidden" property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
-				<span class="hidden" property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
-				<span class="hidden" property="creditText" itemprop="creditText">${attrs.credit || 'Unknown'}</span>
-				<span class="hidden" rel="schema:creator">
-					<span typeof="schema:Person" itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-						<span property="schema:name" itemprop="name" content="${attrs.name || 'Unknown person(s)'}"></span>
+				<video property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${vidPath}" title="${attrs.title || 'There is no title provided for this video'}" loop controls playsinline preload="metadata"></video>
+				<div class="hidden">
+					<span property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
+					<span property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
+					<span property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
+					<span property="creditText" itemprop="creditText">${attrs.credit || 'Unknown'}</span>
+					<span rel="schema:creator">
+						<span typeof="schema:Person" itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+							<span property="schema:name" itemprop="name" content="${attrs.name || 'Unknown person(s)'}"></span>
+						</span>
 					</span>
-				</span>
+				</div>
 				<div class="image-frame-buttons">`;
 			if (!attrs.maximize || attrs.maximize === 'true') {
-				html += `
-					<a class="image-frame-button rem2 bold grotesk" href="${vidPath}" title="Maximize the image">🖼️</a>`;
+				html += `<a class="image-frame-button rem2 bold grotesk" href="${vidPath}" title="Maximize the image">🖼️</a>`;
 	  		}
 			if (attrs.fullrespath) {
 				const fullresPath = attrs.fullrespath;
-				html += `
-					<a class="image-frame-button rem2 bold grotesk" href="${fullresPath}" title="Full resolution">↗</a>`;
+				html += `<a class="image-frame-button rem2 bold grotesk" href="${fullresPath}" title="Full resolution">↗</a>`;
 			}
-			html += `
-				</div>
-			</figure>`;
+			html += `</div></figure>`;
 		});
 		html += '</div>';
 		return html;
@@ -66,16 +64,18 @@ export default function (eleventyConfig) {
 			}
 			html += `<div class="flex column">
 				<figure class="image-frame">
-					<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy"/>
-					<span class="hidden" property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
-					<span class="hidden" property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
-					<span class="hidden" property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
-					<span class="hidden" property="creditText" itemprop="creditText">${attrs.credit || 'Unknown'}</span>
-					<span class="hidden" rel="schema:creator">
-						<span typeof="schema:Person" itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-							<span property="schema:name" itemprop="name" content="${attrs.name || 'Unknown person(s)'}"></span>
+					<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy">
+					<div class="hidden">
+						<span property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
+						<span property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
+						<span property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
+						<span property="creditText" itemprop="creditText">${attrs.credit || 'Unknown'}</span>
+						<span rel="schema:creator">
+							<span typeof="schema:Person" itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+								<span property="schema:name" itemprop="name" content="${attrs.name || 'Unknown person(s)'}"></span>
+							</span>
 						</span>
-					</span>
+					</div>
 					<div class="image-frame-buttons">`;
 			if (!attrs.maximize || attrs.maximize === 'true') {
 				html += `<a class="image-frame-button rem2 bold grotesk" href="${imgPath}" title="Maximize the image">🖼️</a>`;
@@ -85,12 +85,9 @@ export default function (eleventyConfig) {
 				html += `<a class="image-frame-button rem2 bold grotesk" href="${fullresPath}" title="Full resolution">↗</a>`;
 			}
 			if (attrs.alt) {html += `<p class="image-frame-alt rem0-75 lightgray monospace medium"><strong>ALT:</strong>&nbsp;${attrs.alt}</p>`;}
-			html += `
-					</div>
-				</figure>`;
+			html += `</div></figure>`;
 			if (attrs.caption) {html += `<p class="image-frame-caption rem1 lightgray monospace medium">${attrs.caption}</p>`;}
-			html += `
-			</div>`;
+			html += `</div>`;
 		});
 		html += '</div>';
 		return html;
@@ -115,30 +112,28 @@ export default function (eleventyConfig) {
 			}
 			html += `
 			<figure class="image-frame">
-				<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy"/>
-				<span class="hidden" property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
-				<span class="hidden" property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
-				<span class="hidden" property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
-				<span class="hidden" property="creditText" itemprop="creditText">${attrs.credit || 'Unknown'}</span>
-				<span class="hidden" rel="schema:creator">
-					<span typeof="schema:Person" itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-						<span property="schema:name" itemprop="name" content="${attrs.name || 'Unknown person(s)'}"></span>
+				<img property="contentUrl" itemprop="contentUrl" class="post-image-size" src="${imgPath}" alt="${attrs.alt || 'There is no alt text provided for this image'}" title="${attrs.title || 'There is no title provided for this image'}" loading="lazy">
+				<div class="hidden">
+					<span property="license" itemprop="license">${attrs.license || "https://alextecplayz.com/licensing.html"}</span>
+					<span property="acquireLicensePage" itemprop="acquireLicensePage">https://alextecplayz.com/licensing.html</span>
+					<span property="copyrightNotice" itemprop="copyrightNotice">${attrs.copyright || 'Unknown'}</span>
+					<span property="creditText" itemprop="creditText">${attrs.credit || 'Unknown'}</span>
+					<span rel="schema:creator">
+						<span typeof="schema:Person" itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+							<span property="schema:name" itemprop="name" content="${attrs.name || 'Unknown person(s)'}"></span>
+						</span>
 					</span>
-				</span>
+				</div>
 				<div class="image-frame-buttons">`;
 			if (!attrs.maximize || attrs.maximize === 'true') {
-				html += `
-					<a class="image-frame-button rem1 bold grotesk" href="${imgPath}" title="Maximize the image">🖼️</a>`;
+				html += `<a class="image-frame-button rem1 bold grotesk" href="${imgPath}" title="Maximize the image">🖼️</a>`;
 	  		}
 			if (attrs.fullrespath) {
 				const fullresPath = attrs.fullrespath;
-				html += `
-					<a class="image-frame-button rem1 bold grotesk" href="${fullresPath}" title="Full resolution">↗</a>`;
+				html += `<a class="image-frame-button rem1 bold grotesk" href="${fullresPath}" title="Full resolution">↗</a>`;
 			}
 			if (attrs.alt) {html += `<p class="image-frame-caption rem0-75 lightgray monospace medium">${attrs.alt}</p>`;}
-			html += `
-				</div>
-			</figure>`;
+			html += `</div></figure>`;
 		});
 		html += '</div>';
 		return html;

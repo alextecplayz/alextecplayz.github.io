@@ -23,7 +23,7 @@ image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.g
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv1.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 1"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv1.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 1"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
@@ -43,91 +43,91 @@ Over time, the player would be able to travel further, and reach places that wer
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv2.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 2, with a slightly improved antenna, a generator on the roof and a sun cover for the window"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv2.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 2, with a slightly improved antenna, a generator on the roof and a sun cover for the window"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv3.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 3, with an antenna on the roof, and a grate on its foundation. Behind the generator on the roof is a small fuel storage tank"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv3.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 3, with an antenna on the roof, and a grate on its foundation. Behind the generator on the roof is a small fuel storage tank"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv4.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 4, being expanded"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv4.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 4, being expanded"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv6.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 6, enlarged"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv6.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 6, enlarged"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv10.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 10, with an outdoor workshop table and a sunroof"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv10.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 10, with an outdoor workshop table and a sunroof"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv11.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 11, with an upper floor dormitory"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv11.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 11, with an upper floor dormitory"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv12.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 12, with a garage installed in the back with exits on both the left and right side, and with a larger fuel storage tank on the roof"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv12.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 12, with a garage installed in the back with exits on both the left and right side, and with a larger fuel storage tank on the roof"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv13.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 13, with a tower frame being built"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv13.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 13, with a tower frame being built"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv15.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 15, with the tower platform and ladder in place"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv15.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 15, with the tower platform and ladder in place"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv16.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 16, with a container on the tower"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv16.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 16, with a container on the tower"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv17.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 17, with a funnel installed"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv17.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 17, with a funnel installed"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv18.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 18, receives some pipes and valves"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv18.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 18, receives some pipes and valves"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv20.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 20, now fully upgraded"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/arctic_base_lv20.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="The arctic base at Level 20, now fully upgraded"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/container_red.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="A red container"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/container_red.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="A red container"
 {% endgallery %}
 {% endportfolio-grid-element %}
 
 {% portfolio-grid-element %}
 {% gallery %}
-https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/cargo_pad.webp" alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="A cargo pad"
+https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/portfolio/frostedplanet/cargo_pad.webp alt="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." title="An image of a small, yellow container-like structure raised above ground, to be used as an arctic outpost or base on a frozen planet." caption="A cargo pad"
 {% endgallery %}
 {% endportfolio-grid-element %}
 

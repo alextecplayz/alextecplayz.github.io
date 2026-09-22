@@ -1,5 +1,6 @@
 ---
 permalink: /terraform.tfvars
+templateEngineOverride: false
 ---
 {
 	"suck_it": true,

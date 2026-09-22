@@ -1,5 +1,6 @@
 ---
 permalink: /firebase.json
+templateEngineOverride: false
 ---
 {
 	"suck_it": true,

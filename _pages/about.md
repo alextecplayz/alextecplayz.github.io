@@ -53,7 +53,7 @@ Hi! I'm Alex, she/they. I also go by Alessia, but I'll respond to either of the 
 
 I'm in my 20s, I'm Transfem, Aromantic, Bisexual, Non-Binary, living in Romania for the time being, but I'm split between staying or moving out of the country due to general bad QoL, bad politics, corruption and climate change. I'm also an Atheist, have been since I was at least 12, but the signs were always there.
 
-## What I do
+# What I do
 
 **In my free time**, I used to work on games in Unreal Engine using Blueprints, such as [{% emoji 'prisonia.webp' %} PRISONIA](https://vantainteractive.com/en/games/Prisonia), now I work on porting my projects from UE to [{% emoji 'sapphire.webp' %} Sapphire](https://alextecplayz.com/sapphire) - including working on the ported PRISONIA project, work on other software and websites such as the one you're currently browsing, or the [{% emoji 'vi-atp.webp' %} Vanta Interactive website](https://vantainteractive.com), with its own subdomains for [Docs](https://docs.vantainteractive.com) and [Status](https://status.vantainteractive.com).
 
@@ -63,7 +63,7 @@ I like to tinker with stuff a lot, so you can expect posts on Masto or on my blo
 
 I stopped talking about work - not because there's anything wrong with it or whatever, I just have a tendency to ramble about things and office work doesn't really seem all that noteworthy for this blog.
 
-## Contact
+# Contact
 If you have any questions, suggestions or something else, here's where you can contact me:
 - Mastodon: [*@alextecplayz@techhub.social*](https://techhub.social/@AlexTECPlayz)
 

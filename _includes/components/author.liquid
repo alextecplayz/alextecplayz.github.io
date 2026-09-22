@@ -1,14 +1,14 @@
 <!-- uses RDFa, Schema, microformats2, hcard 1.0 -->
-<div class="h-card vcard article" vocab="http://schema.org/" typeof="Person" itemprop="author" itemscope itemtype="https://schema.org/Person" id="author">
+<div class="h-card vcard article" vocab="http://schema.org/" typeof="Person" itemscope itemtype="https://schema.org/Person" itemprop="author" id="author">
   <div class="post post-content">
 		<p class="p-honorific-prefix honorific-prefix hidden">Ms.</p>
 		<p class="p-given-name given-name hidden">Alessia</p>
 		<p class="p-additional-name additional-name hidden">Alexandra</p>
 		<div class="flex row align-center">
-			<p class="p-nickname nickname bold white rem1-25 grotesk" itemprop="name" property="name" rel="author">AlexTECPlayz</p>
-			<img class="u-photo photo emoji" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/atp.webp" loading="lazy">
+			<p class="p-nickname nickname bold white rem1-25 grotesk" itemscope itemprop="name" property="name" rel="author">AlexTECPlayz</p>
+			<img class="u-photo photo emoji" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/atp.webp" alt="atp logo used as an emoji" loading="lazy">
 		</div>
-		<a class="u-url url u-uid hidden" itemprop="url" property="url" href="https://alextecplayz.com">Personal website link (a link to the website you're currently browsing, alextecplayz dot com)</a>
+		<a class="u-url url u-uid hidden" itemscope itemprop="url" property="url" href="https://alextecplayz.com">Personal website link (a link to the website you're currently browsing, alextecplayz dot com)</a>
 		<div class="adr hidden"><span class="country-name p-country">Romania</span></div>
 		<p class="p-sex hidden">O</p>
 		<p class="p-gender-identity hidden">Feminine (Trans-feminine)</p>
@@ -20,7 +20,7 @@
 		<p class="p-note note hidden">Game, software, web developer from Romania.</p>
 		<div class="hidden">
 			(<div class="h-card vcard">
-				<img class="u-photo photo" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/vi-bw.webp" loading="lazy" width="24" height="24">
+				<img class="u-photo photo" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/vi-bw.webp" alt="vanta interactive black and white logo used as an emoji" loading="lazy" width="24" height="24">
 				<a class="p-org org" href="https://www.vantainteractive.com">Vanta Interactive</a>
 				<div class="adr"><span class="country-name">Romania</span></div>
 				<a class="u-url url" href="https://www.vantainteractive.com">A link to the Vanta Interactive website, my publishing brand for games.</a>
@@ -48,18 +48,18 @@
 
 {% if aia %}{% else %}
 <!-- Schema ProfilePage -->
-<div class="hidden" itemtype="https://schema.org/ProfilePage" itemscope>
-	<meta itemprop="dateCreated" content="2016-06-04T11:05:00+02:00"/>
-	<meta itemprop="dateModified" content="2026-01-11T01:52:00+02:00"/>
-	<div itemprop="mainEntity" itemtype="https://schema.org/Person" itemscope>
+<div class="hidden" itemscope itemtype="https://schema.org/ProfilePage">
+	<meta itemprop="dateCreated" content="2016-06-04T11:05:00+02:00">
+	<meta itemprop="dateModified" content="2026-01-11T01:52:00+02:00">
+	<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
 		<div>
 			<span itemprop="alternateName" id="handle">AlexTECPlayz</span>
 			(<span itemprop="name" id="real-name">Alessia-Alexandra</span>)
 		</div>
 		<meta itemprop="identifier" content="@AlexTECPlayz">
 		<span itemprop="description">Game, software, web developer.</span>
-		<span itemprop="gender" itemtype="https://schema.org/gender">Female</span>
-		<img itemprop="image" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/atp.webp">
+		<span itemprop="gender" itemscope itemtype="https://schema.org/gender">Female</span>
+		<img itemprop="image" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/atp.webp" alt="atp logo used as an emoji">
 		<div>
 			<a itemprop="sameAs" href="https://alextecplayz.com">A link to the my website.</a>
 			<a itemprop="sameAs" href="https://techhub.social/@alextecplayz">A link to my main Mastodon account.</a>
@@ -76,29 +76,29 @@
 			<a itemprop="sameAs" href="https://github.com/alextecplayz">A link to my GitHub profile.</a>
 			<a itemprop="sameAs" href="https://gitlab.com/alextecplayz">A link to my GitLab profile.</a>
 		</div>
-		<span itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+		<span itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter">
 			<span itemprop="userInteractionCount">26508</span>
 			<span itemprop="interactionType" content="https://schema.org/LikeAction">likes</span>
 			<!-- latest likes count updated 2026-01-11 -->
 			<!-- (YT = 1547 ATP + 173 VI) + (Masto = 3793 ATP (Analytodon)) + (reddit = 21168 total karma) = (Total 26508) -->
 		</span>
-		<span itemprop="interactionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+		<span itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter">
 			<span itemprop="userInteractionCount">839</span>
 			<span itemprop="interactionType" content="https://schema.org/FollowAction">follower</span>
 			<!-- latest follower count updated 2026-01-11 -->
 			<!-- (YT = 109 ATP + 55 VI) + (X = 155) + (Twitch = 2 RTATP + 0 ATP) + (Masto = 447 T_ATP + 5 T_VI + 3 V_ATP) + (Meta = 44 IG + 8 TH) + (reddit = 11) = (Total 839) -->
 		</span>
-		<span itemprop="agentInteractionStatistic" itemtype="https://schema.org/InteractionCounter" itemscope>
+		<span itemscope itemtype="https://schema.org/InteractionCounter" itemprop="agentInteractionStatistic">
 			<span itemprop="userInteractionCount">25</span>
 			<span itemprop="interactionType" content="https://schema.org/WriteAction">posts</span>
 			<!-- latest post count updated 2026-01-11 -->
 		</span>
-		<div itemprop="affiliation" itemtype="https://schema.org/Organization" itemscope>
+		<div itemscope itemtype="https://schema.org/Organization" itemprop="affiliation">
 			<span itemprop="alternateName">VantaInteractive</span>
 			<span itemprop="name">Vanta Interactive</span>
 			<meta itemprop="identifier" content="@VantaInteractive">
 			<span itemprop="description">Vanta Interactive is the commercial publishing name used by AlexTECPlayz.</span>
-			<img itemprop="image" href="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/vi-bw.webp">
+			<img itemprop="image" src="https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/custom_emojis/vi-bw.webp" alt="vanta interactive black and white logo used as an emoji">
 			<div>
 				<a itemprop="sameAs" href="https://vantainteractive.com">A link to the Vanta Interactive website</a>
 				<a itemprop="sameAs" href="https://techhub.social/@vantainteractive">A link to the primary account of Vanta Interactive</a>

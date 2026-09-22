@@ -1,5 +1,6 @@
 ---
 permalink: /awsconfiguration.json
+templateEngineOverride: false
 ---
 {
 	"suck_it": true,

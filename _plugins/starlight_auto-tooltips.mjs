@@ -39,13 +39,13 @@ export default function (eleventyConfig) {
 			}
 			return match;
 		});
-		let glossaryHtml = '<div class="tooltips-container">\n';
+		let glossaryHtml = '<div class="tooltips-container">';
 		foundKeys.forEach((key) => {
 			const rawMarkdown = tooltipMap[key];
 			const renderedDesc = md.render(rawMarkdown).trim();
-			glossaryHtml += `  <div id="glossary-${key}" class="def-tooltip-popup post post-content monospace" hidden><a href="#tooltip-${key}" class="tooltip-close" title="Return to term">Close tooltip</a>${renderedDesc}</div>\n`;
+			glossaryHtml += `  <div id="glossary-${key}" class="def-tooltip-popup post post-content monospace" hidden><a href="#tooltip-${key}" class="tooltip-close" title="Return to term">Close tooltip</a>${renderedDesc}</div>`;
 		});
-		glossaryHtml += '</div>\n';
+		glossaryHtml += '</div>';
 		return replacedContent.replace(
 			/<div[^>]*id=["']tooltips-box["'][^>]*>/i,
 			`$&${glossaryHtml}`

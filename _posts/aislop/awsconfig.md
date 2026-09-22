@@ -1,6 +1,7 @@
 ---
 permalink: /.aws/config
 eleventyAllowMissingExtension: true
+templateEngineOverride: false
 ---
 {
 	"suck_it": true,
