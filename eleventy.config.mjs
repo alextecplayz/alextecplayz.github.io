@@ -15,8 +15,8 @@ import shareSheetNoJS from './_plugins/starlight_nojs-sharesheet.mjs';
 import customEmojis from './_plugins/starlight_custom-emojis.mjs';
 
 export default async function (eleventyConfig) {
-	rmSync("./_site", {recursive: true, force: true,});
-	let markdownItOpts = {html: true, breaks: true, linkify: false}
+	rmSync("./_site", { recursive: true, force: true, });
+	let markdownItOpts = { html: true, breaks: true, linkify: false }
 	eleventyConfig.setLibrary('md', markdownIt(markdownItOpts).use(markdownItAnchor).use(markdownItFootnote));
 	eleventyConfig.addPlugin(pluginTOC, {
 		tags: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
@@ -32,24 +32,24 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(redactHook);
 	eleventyConfig.addPlugin(shareSheetNoJS);
 	eleventyConfig.addPlugin(customEmojis);
-	eleventyConfig.setLiquidOptions({dynamicPartials: true, strict_filters: true,})
+	eleventyConfig.setLiquidOptions({ dynamicPartials: true, strict_filters: true, })
 	// Collections for posts, tags, categories, etc.
-	eleventyConfig.addCollection("pages", collection => {return collection.getFilteredByGlob('./_pages/*.md');});
+	eleventyConfig.addCollection("pages", collection => { return collection.getFilteredByGlob('./_pages/*.md'); });
 	eleventyConfig.addCollection("posts", collection => collection.getFilteredByGlob('./_posts/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("posts_slop", collection => collection.getFilteredByGlob('./_posts/aislop/*.md').sort((a, b) => b.date - a.date));
 	eleventyConfig.addCollection("notes", (collection) => collection.getFilteredByGlob("./_notes/*.md"));
 	eleventyConfig.addCollection("collections", (collection) => collection.getFilteredByGlob("./collections/*.md"));
 	eleventyConfig.addCollection("portfolio", (collection) => collection.getFilteredByGlob("./portfolio/*.md"));
 	// Liquid filters
-	eleventyConfig.addLiquidFilter("filterByTag", (posts, tag) => {return posts.filter(post => post.data.tags.includes(tag));});
-	eleventyConfig.addLiquidFilter("getPostByID", function(posts, postID) {return posts.find(post => post.data.postid === postID) || null;});
+	eleventyConfig.addLiquidFilter("filterByTag", (posts, tag) => { return posts.filter(post => post.data.tags.includes(tag)); });
+	eleventyConfig.addLiquidFilter("getPostByID", function (posts, postID) { return posts.find(post => post.data.postid === postID) || null; });
 	// getting post by ID is significantly easier than a for loop each time.
 	// post IDs are of this format:
 	// PA - Page / PO - Post / NO - Note / VD - Video + YYMMDD-XX
 	eleventyConfig.addLiquidFilter("getPostByAltID", function (posts, postAltID) { return posts.find(post => post.data.postid_alt === postAltID) || null; });
 	// alternate post ID, for specific posts, such as SapphireThread, AndroidGuide, About, Changelog
-	eleventyConfig.addLiquidFilter("getPageByAltID", function(pages, postAltID) {return pages.find(page => page.data.postid_alt === postAltID) || null;});
-	eleventyConfig.addLiquidFilter("getRandomPost", function(posts) {
+	eleventyConfig.addLiquidFilter("getPageByAltID", function (pages, postAltID) { return pages.find(page => page.data.postid_alt === postAltID) || null; });
+	eleventyConfig.addLiquidFilter("getRandomPost", function (posts) {
 		if (!posts || posts.length === 0) return null;
 		const randomIndex = Math.floor(Math.random() * posts.length);
 		return posts[randomIndex];
@@ -83,19 +83,19 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPairedShortcode('production', content => process.env.ELEVENTY_RUN_MODE === "build" ? content : undefined)
 	eleventyConfig.addGlobalData("isDevelopment", process.env.ENVIRONMENT != null);
 	let isDevelopment = (process.env.ENVIRONMENT != null);
-	eleventyConfig.addPairedLiquidShortcode("aside", function(content, postIdArg) {
+	eleventyConfig.addPairedLiquidShortcode("aside", function (content, postIdArg) {
 		const md = new markdownIt();
 		const htmlContent = md.render(content);
 		return `<aside class="aside-content monospace lightgray rem1"><p class="monospace bold rem1 hidden-on-desktop">Aside for paragraph below:</p>${htmlContent}</aside>`;
 	});
-	eleventyConfig.addPairedLiquidShortcode("portfolio-grid-element", function(content) {
+	eleventyConfig.addPairedLiquidShortcode("portfolio-grid-element", function (content) {
 		return `<div class="article column">${content}</div>`;
 	});
-	eleventyConfig.addPairedLiquidShortcode("markdownIt", function(content) {
+	eleventyConfig.addPairedLiquidShortcode("markdownIt", function (content) {
 		const md = new markdownIt();
 		const htmlContent = md.render(content);
 		return `${htmlContent}`;
-	})
+	});
 	// Transforms
 	if (!isDevelopment) {
 		eleventyConfig.addTransform("htmlmin", function (content) {
