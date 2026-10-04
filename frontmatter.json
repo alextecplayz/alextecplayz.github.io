@@ -87,5 +87,41 @@
 			}
 		}
 	}],
-	"frontMatter.snippets.wrapper.enabled": false
+	"frontMatter.snippets.wrapper.enabled": false,
+	"frontMatter.content.snippets": {
+		"ATP Ads": {
+			"description": "Insert Liquid markup for ATP Ads",
+			"body": [
+				"{% atpads %}",
+				"https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-media/slop/[[ad_image]] alt=\"[[alt_text]]\" title=\"[[title]]\"",
+				"{% endatpads %}"
+			],
+			"fields": [
+				{"name": "ad_image", "title": "ad_image", "type": "string", "single": true, "default": ""},
+				{"name": "alt_text", "title": "alt_text", "type": "string", "single": true, "default": ""},
+				{"name": "title", "title": "title", "type": "string", "single": true, "default": ""}
+			]
+		},
+		"Gallery": {
+			"description": "Insert Liquid markup for ATP Ads",
+			"body": [
+				"{% gallery %}",
+				"https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/[[media_relative_to_assets]] alt=\"[[alt_text]]\" title=\"[[title]]\"",
+				"{% endgallery %}"
+			],
+			"fields": [
+				{"name": "media_relative_to_assets", "title": "media_relative_to_assets", "type": "string", "single": true, "default": ""},
+				{"name": "alt_text", "title": "alt_text", "type": "string", "single": true, "default": ""},
+				{"name": "title", "title": "title", "type": "string", "single": true, "default": ""}
+			]
+		},
+		"Tooltip": {
+			"description": "Insert a tooltip",
+			"body": ["[[:[[tooltip_definition]]:[[tooltip_text_to_be_shown]]]]"],
+			"fields": [
+				{"name": "tooltip_definition", "title": "tooltip_definition", "type": "string", "single": true, "default": ""},
+				{"name": "tooltip_text_to_be_shown", "title": "tooltip_text_to_be_shown", "type": "string", "single": true, "default": ""}
+			]
+		}
+	}
 }
