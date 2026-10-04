@@ -95,7 +95,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPairedShortcode('atpads', function(content) {
 		const lines = content.trim().split('\n').map(line => line.trim()).filter(Boolean);
 		const siteBaseurl = this.page || this.ctx ? (this.page.site?.baseurl || this.ctx?.site?.baseurl || '') : '';
-		let html = '<p class="medium rem1 lightgray italic">The content continues after these non-sponsored (and totally legit!1!!) advertisements</p><div class="atpads-container slop" vocab="https://schema.org/" typeof="ImageObject" itemscope itemtype="https://schema.org/ImageObject">';
+		let html = '<p class="medium rem1 lightgray italic">The content continues after these non-sponsored (and totally legit!1!!) advertisements</p><div class="atpads-container slop flexrow-to-col" vocab="https://schema.org/" typeof="ImageObject" itemscope itemtype="https://schema.org/ImageObject">';
 		lines.forEach(line => {
 			const pathMatch = line.match(/^(\S+)/);
 			const path = pathMatch ? pathMatch[1] : '';
@@ -132,7 +132,7 @@ export default function (eleventyConfig) {
 				const fullresPath = attrs.fullrespath;
 				html += `<a class="image-frame-button rem1 bold grotesk" href="${fullresPath}" title="Full resolution">↗</a>`;
 			}
-			if (attrs.alt) {html += `<p class="image-frame-caption rem0-75 lightgray monospace medium">${attrs.alt}</p>`;}
+			if (attrs.alt) {html += `<p class="image-frame-alt rem0-75 lightgray monospace medium">${attrs.alt}</p>`;}
 			html += `</div></figure>`;
 		});
 		html += '</div>';
