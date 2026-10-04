@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Lessons from PRISONIA, part 1"
 description: "Things I learned while developing PRISONIA, Sapphire, and working with Godot 4."
-date: 2026-02-24t10:30:00+02:00
+date: 2026-02-24T10:30:00+02:00
 categories:
   - Post
 tags:
@@ -22,6 +22,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-02-24-lessons-from-prisonia-part-one.webp
 toc: true
+bg: "article-bg-oj1"
 ---
 
 *All code displayed here falls under my classic CC BY-NC-SA 4.0 + No AI Scraping license. Fuck off AI, I don't give you permission to train or use any content on my website without my explicit approval, and without paying me what my content is worth.*

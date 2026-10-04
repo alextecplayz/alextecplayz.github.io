@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "My stance on Framework"
 description: "And debunking some of the talking points."
-date: 2025-10-12t00:00+02:00
+date: 2025-10-12T00:00+02:00
 categories:
   - Post
 tags:

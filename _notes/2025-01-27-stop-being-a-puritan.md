@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: Stop being a puritan [mastodon]"
 description: "Just a longer version of my recent take on Mastodon"
-date: 2025-01-27t01:40:00+02:00
+date: 2025-01-27T01:40:00+02:00
 id: "mastodon"
 postid: NO-250127-01
 permalink: "/notes/stop-being-a-puritan-mastodon.html"

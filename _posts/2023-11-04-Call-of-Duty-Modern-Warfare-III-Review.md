@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Call of Duty: Modern Warfare III - Review [3/10]"
 description: "Sloppy, lazy and uninspired, Modern Warfare Ⅲ's story is filled with shallow characters, predictable cliches, and the very few good moments cannot hold a candle to previous games in the series. Their attempt to innovate the campaign by introducing 'Open Combat Missions' fails miserably, as it's painfully obvious it's the DMZ mode in singleplayer, and they go as far as to literally lift maps from Warzone and bring them in."
-date: 2023-11-04t10:59:00+02:00
+date: 2023-11-04T10:59:00+02:00
 categories:
   - Post
 tags:
@@ -36,6 +36,7 @@ review_negativenote5: The campaign as a whole is convoluted, seemingly coming to
 review_rating: 3
 review_verdict: "Sloppy, lazy and uninspired, Modern Warfare Ⅲ's story is filled with shallow characters, predictable cliches, and the very few good moments cannot hold a candle to previous games in the series. Their attempt to innovate the campaign by introducing 'Open Combat Missions' fails miserably, as it's painfully obvious it's the DMZ mode in singleplayer, and they go as far as to literally lift maps from Warzone and bring them in."
 toc: true
+bg: "article-bg-red1"
 ---
 
 **SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**

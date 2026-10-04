@@ -7,8 +7,8 @@ type: page
 lang: en
 locale: en_US
 title: "AlexTECPlayz' CV"
-date: 2025-06-11t23:01:00+02:00
-ledate: 2026-03-01t00:30:15+02:00
+date: 2025-06-11T23:01:00+02:00
+ledate: 2026-03-01T00:30:15+02:00
 categories:
   - Page
 tags:

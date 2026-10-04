@@ -8,7 +8,7 @@ lang: en
 locale: en_US
 title: "Musings about AI"
 description: "My musings about AI. A whole post about it."
-date: 2026-01-10t00:00+02:00
+date: 2026-01-10T00:00+02:00
 categories:
   - Post
 tags:

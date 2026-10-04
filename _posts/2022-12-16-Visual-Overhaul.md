@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Visual Overhaul"
 description: "The website has finally received a fresh visual overhaul! See what is new, here."
-date: 2022-12-16t16:06:00+02:00
+date: 2022-12-16T16:06:00+02:00
 categories:
   - Post
 tags:

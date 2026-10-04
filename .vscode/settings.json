@@ -1,4 +1,8 @@
 {
 	"editor.minimap.enabled": false,
-	"workbench.settings.showAISearchToggle": false
+	"workbench.settings.showAISearchToggle": false,
+	"[markdown]": {
+	},
+	"frontMatter.dashboard.openOnStart": true,
+	"frontMatter.panel.openOnSupportedFile": false
 }

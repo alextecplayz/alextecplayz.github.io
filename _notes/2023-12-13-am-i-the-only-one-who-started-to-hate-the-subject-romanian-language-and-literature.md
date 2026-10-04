@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: Am I the only one who started to hate the subject 'Romanian language and literature'? [reddit/18glzip]"
 description: "My comment on this reddit post, archived here"
-date: 2023-12-13t01:52:08+02:00
+date: 2023-12-13T01:52:08+02:00
 id: "reddit/18glzip"
 postid: NO-231213-01
 permalink: "/notes/am-i-the-only-one-who-started-to-hate-the-subject-romanian-language-and-literature-reddit18glzip.html"

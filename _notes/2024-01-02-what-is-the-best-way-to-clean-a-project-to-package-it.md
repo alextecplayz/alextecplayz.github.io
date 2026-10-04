@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: What is the best way to clean a project to package it [reddit/18wz6kn]"
 description: "My comment on this reddit post, archived here"
-date: 2024-01-02t22:52:00+02:00
+date: 2024-01-02T22:52:00+02:00
 postid: NO-240102-01
 id: "reddit/18wz6kn"
 permalink: "/notes/what-is-the-best-way-to-clean-a-project-to-package-it-reddit18wz6kn.html"

@@ -8,7 +8,7 @@ lang: en
 locale: en_US
 title: "Comprehensive Android Guide"
 description: "A comprehensive guide with must-haves and recommendations regarding security, privacy and general usability for an Android ROM. Some of the steps require root."
-date: 2025-02-02t20:43:00+02:00
+date: 2025-02-02T20:43:00+02:00
 categories:
   - Post
 tags:

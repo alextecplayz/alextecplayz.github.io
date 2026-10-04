@@ -1,0 +1,91 @@
+{
+	"$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+	"frontMatter.taxonomy.contentTypes": [
+		{
+			"name": "default",
+			"pageBundle": false,
+			"previewPath": null,
+			"fields": [
+				{"title": "Post layout", "name": "layout", "type": "string"},
+				{"title": "Post ID", "name": "postid", "type": "string"},
+				{"title": "Permalink", "name": "permalink", "type": "string"},
+				{"title": "Content type", "name": "type", "type": "string"},
+				{"title": "Content language", "name": "lang", "type": "string"},
+				{"title": "Content locale", "name": "locale", "type": "string"},
+				{"title": "Title", "name": "title", "type": "string"},
+				{"title": "Description", "name": "description", "type": "string"},
+				{"title": "Publishing date", "name": "date", "type": "datetime", "default": "{{now}}", "isPublishDate": true},
+				{"title": "Last modified date", "name": "ledate", "type": "datetime", "isModifiedDate": true},
+				{"title": "Content preview (LQ)", "name": "image_banner_link_lq", "type": "image"},
+				{"title": "Content preview", "name": "image_banner_link", "type": "image"},
+				{"title": "Content preview accessibility text", "name": "image_banner_alt", "type": "string"},
+				{"title": "Is in draft", "name": "draft", "type": "draft"},
+				{"title": "Tags", "name": "tags", "type": "tags"},
+				{"title": "Categories", "name": "categories", "type": "choice", "choices": ["Page", "Post", "Note", "Video"]},
+				{"title": "Table of Contents", "name": "toc", "type": "boolean"},
+				{
+					"title": "Accent color CSS class", "name": "bg", "type": "choice",
+					"choices": [
+						{"id": "article-bg-default", "title": "Default"},
+						{"id": "article-bg-blu1", "title": "Blue 1"},
+						{"id": "article-bg-blu2", "title": "Blue 2"},
+						{"id": "article-bg-blu3", "title": "Blue 3"},
+						{"id": "article-bg-brn1", "title": "Brown 1"},
+						{"id": "article-bg-brn2", "title": "Brown 2"},
+						{"id": "article-bg-cyn1", "title": "Cyan 1"},
+						{"id": "article-bg-grn1", "title": "Green 1"},
+						{"id": "article-bg-grn2", "title": "Green 2"},
+						{"id": "article-bg-gry1", "title": "Gray 1"},
+						{"id": "article-bg-magenta", "title": "Magenta ATP"},
+						{"id": "article-bg-oj1", "title": "Orange 1"},
+						{"id": "article-bg-oj2", "title": "Orange 2"},
+						{"id": "article-bg-purp1", "title": "Purple 1"},
+						{"id": "article-bg-purp2", "title": "Purple 2"},
+						{"id": "article-bg-red1", "title": "Red 1"}
+					]
+				}
+			]
+		}
+	],
+	"frontMatter.framework.id": "11ty",
+	"frontMatter.preview.host": "http://localhost:8081",
+	"frontMatter.preview.pathName": "",
+	"frontMatter.preview.trailingSlash": false,
+	"frontMatter.content.pageFolders": [
+		{"title": "portfolio", "path": "[[workspace]]/portfolio"},
+		{"title": "notes", "path": "[[workspace]]/_notes"},
+		{"title": "collections", "path": "[[workspace]]/collections"},
+		{"title": "_posts", "path": "[[workspace]]/_posts", "excludePaths": ["aislop"], "excludeSubdir": true},
+		{"title": "_pages", "path": "[[workspace]]/_pages"},
+		{"title": "drafts", "path": "[[workspace]]/_posts/drafts"}
+	],
+	"frontMatter.website.host": "https://alextecplayz.com",
+	"frontMatter.data.files": [{
+		"id": "tooltips", "title": "Tooltips", "file": "[[workspace]]/_data/tooltips.json", "labelField": "name", "singleEntry": false, "schema": {
+			"type": "object",
+			"required": ["name", "desc"],
+			"properties": {
+				"name": {"type": "string", "examples": ["name_used_in_post"]},
+				"desc": {"type": "array", "items": {"type": "string", "examples": ["The text to be used in the tooltip."]}}
+			}
+		}
+	}, {
+		"id": "videos", "title": "Videos", "file": "[[workspace]]/_data/videos.json", "labelField": "name", "singleEntry": false,
+		"schema": {
+			"type": "object",
+			"required": ["title", "description", "url", "date", "id", "thumb_alt", "type", "categories", "tags"],
+			"properties": {
+				"title": {"type": "string", "examples": ["A video title"]},
+				"description": {"type": "string", "examples": ["A video description."]},
+				"url": {"type": "string", "examples": ["https://youtube.com/watch?v=videoid"]},
+				"date": {"type": "string", "examples": ["YYYY-MM-DDtHH:MM:SS+02:00"]},
+				"id": {"type": "string", "examples": ["VO-YYMMDD-number"]},
+				"thumb_alt": {"type": "string", "examples": [""]},
+				"type": {"type": "string", "examples": ["video"]},
+				"categories": {"type": "string", "examples": ["Video"]},
+				"tags": {"type": "string", "examples": ["Tags for the video to use."]}
+			}
+		}
+	}],
+	"frontMatter.snippets.wrapper.enabled": false
+}

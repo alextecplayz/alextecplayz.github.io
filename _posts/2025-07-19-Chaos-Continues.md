@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Trump chaos continues"
 description: "New revelations in Epstein case as Trump continues to avoid the subject."
-date: 2025-07-19t16:17:00+02:00
+date: 2025-07-19T16:17:00+02:00
 categories:
   - Post
 tags:
@@ -19,6 +19,7 @@ fedipostid:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2025-07-19-Nothing-to-See-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2025-07-19-Nothing-to-See.webp
 toc: true
+bg: "article-bg-gry1"
 ---
 
 ## Trump kisses a (possibly underage) model on a boat in 1991

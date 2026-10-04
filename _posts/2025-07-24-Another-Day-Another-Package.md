@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Another day, another economical package, and Christo-fascist group bans NSFW games"
 description: "More slop, but this time centered around Romania"
-date: 2025-07-24t21:51:00+02:00
+date: 2025-07-24T21:51:00+02:00
 categories:
   - Post
 tags:

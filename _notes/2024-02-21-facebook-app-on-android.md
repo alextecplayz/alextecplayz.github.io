@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: Facebook app on Android [reddit/1aw9lqi]"
 description: "My comment on this reddit post, archived here"
-date: 2024-02-21t16:05:45+02:00
+date: 2024-02-21T16:05:45+02:00
 id: "reddit/1aw9lqi"
 postid: NO-240221-01
 permalink: "/notes/facebook-app-on-android-reddit1aw9lqi.html"

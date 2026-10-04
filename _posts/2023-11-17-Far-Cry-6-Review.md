@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Far Cry 6 - Review [6/10]"
 description: "Far Cry 6 is the perfect slop to play for dozens of hours, with no emotion or depth. It's sadly the most marketable Far Cry game content-wise to date."
-date: 2023-11-17t22:34:00+02:00
+date: 2023-11-17T22:34:00+02:00
 categories:
   - Post
 tags:
@@ -40,6 +40,7 @@ review_negativenote5: Mediocre game story with some peaks, but mostly mids and a
 review_rating: 6
 review_verdict: Far Cry 6 is the perfect slop to play for dozens of hours, with no emotion or depth. It's sadly the most marketable Far Cry game content-wise to date.
 toc: true
+bg: "article-bg-red1"
 ---
 
 | **Game** | Far Cry 6 |

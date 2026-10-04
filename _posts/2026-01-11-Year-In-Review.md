@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "2025 Year In Review"
 description: "Looking back through 2025."
-date: 2026-01-11t23:00:00+02:00
+date: 2026-01-11T23:00:00+02:00
 categories:
   - Post
 tags:
@@ -19,6 +19,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-01-11-YIR-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-01-11-YIR.webp
 toc: true
+bg: "article-bg-purp1"
 ---
 
 ## January

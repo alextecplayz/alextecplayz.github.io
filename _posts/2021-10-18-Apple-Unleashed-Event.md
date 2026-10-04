@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Apple's 'Unleashed' Event 18 October - Everything revealed"
 description: "Everything revealed at Apple's event."
-date: 2021-10-18t16:06:00+02:00
+date: 2021-10-18T16:06:00+02:00
 categories:
   - Post
 tags:
@@ -21,6 +21,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-10-18-Apple-Event-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-10-18-Apple-Event.webp
 toc: true
+bg: "article-bg-blu1"
 ---
 
 ## Apple Music

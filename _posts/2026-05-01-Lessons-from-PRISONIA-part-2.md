@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Lessons from PRISONIA, part 2"
 description: "C# obfuscation, re-developing the tilemap, NPCs and navigation."
-date: 2026-07-04t15:50:00+02:00
+date: 2026-07-04T15:50:00+02:00
 categories:
   - Post
 tags:
@@ -22,6 +22,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2026-07-04-lessons-from-prisonia-part-two.webp
 toc: true
+bg: "article-bg-grn1"
 ---
 
 Hi there! It's been a few months. How are you holding up?

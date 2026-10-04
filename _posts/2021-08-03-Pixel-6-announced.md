@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Pixel 6 Series announced"
 description: "Pixel 6 and Pixel 6 Pro are official!"
-date: 2021-08-03t16:06:00+02:00
+date: 2021-08-03T16:06:00+02:00
 categories:
   - Post
 tags:
@@ -21,6 +21,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-08-03-Pixel6-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-08-03-Pixel6.webp
 toc: true
+bg: "article-bg-grn2"
 ---
 
 *After months of waiting for official news from Google on the Pixel 6 lineup, Google broke the silence with some pretty promising words, like the phone's capabilities and specifications, along with a release date: this fall. Both the Google Pixel 6 and the 6 Pro will be powered by Google's new SOC (System-on-Chip), Tensor, which Google claims to be a competitor to the latest chips from Qualcomm, Huawei, Apple and Samsung.*

@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: How to delete a Gmail account - and take back your privacy! [reddit/1ams1hw]"
 description: "My comment on this reddit post, archived here"
-date: 2024-02-10t15:05:55+02:00
+date: 2024-02-10T15:05:55+02:00
 postid: NO-240210-01
 id: "reddit/1ams1hw"
 permalink: "/notes/how-to-delete-a-gmail-account---and-take-back-your-privacy-reddit1ams1hw.html"

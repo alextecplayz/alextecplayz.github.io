@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "HITMAN World of Assassination - Review"
 description: "The game is now the 'definitive' place to play all 3 HITMAN games from the trilogy, which is great, although I do not agree at all with their decision to unlist HITMAN and HITMAN 2."
-date: 2023-05-18t19:32:00+02:00
+date: 2023-05-18T19:32:00+02:00
 categories:
   - Post
 tags:
@@ -26,6 +26,7 @@ image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplay
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2023-05-18-HITMAN-WOA.webp
 image_banner_alt: HITMAN World of Assassination logo on a red background
 toc: true
+bg: "article-bg-red1"
 ---
 
 ## HITMAN World of Assassination, delisting of old games

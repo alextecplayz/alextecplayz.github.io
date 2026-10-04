@@ -8,8 +8,8 @@ lang: en
 locale: en_US
 title: "Sapphire Game Engine thread"
 description: "A continuously-updated thread and Fedi comments regarding Sapphire."
-date: 2024-01-14t00:00:00+02:00
-ledate: 2026-03-01t12:49:38+02:00
+date: 2024-01-14T00:00:00+02:00
+ledate: 2026-03-01T12:49:38+02:00
 indicator_type: notice
 indicator_class: notice-danger
 indicator_text: OBSOLETE
@@ -41,6 +41,7 @@ image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplay
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/Sapphire_GridBanner.webp
 image_banner_alt: The Sapphire Engine logo, a few engine screenshots and VSCode laid on a dark gray grid background at an angle.
 toc: true
+bg: "article-bg-magenta"
 ---
 
 **NOTE:** This page is kept for historical reasons, but Sapphire Game Engine has been phased out for [Godot Engine + the Sapphire plugins toolkit]({{site.baseurl}}/posts/2026-02-24-Lessons-from-PRISONIA-part-1.html)

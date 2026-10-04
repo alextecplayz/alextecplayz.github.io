@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Galaxy Unpacked August 2021 - All reveals"
 description: "Find out everything Samsung has revealed during the August Unpacked event."
-date: 2021-08-11t16:06:00+02:00
+date: 2021-08-11T16:06:00+02:00
 categories:
   - Post
 tags:
@@ -22,6 +22,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-08-11-GU-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-08-11-GU.webp
 toc: true
+bg: "article-bg-purp2"
 ---
 *Galaxy Fold 3 5G, Flip 3 5G, Galaxy Buds 2 & Galaxy Watch 4 series were unveiled today at Samsung's Galaxy Unpacked August 2021 event.*
 

@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Scrap Mechanic - Review"
 description: "I say this with a heavy heart, but Scrap Mechanic's development is really painfully slow even though it's been 6 years in Early Access."
-date: 2022-12-03t21:18:00+02:00
+date: 2022-12-03T21:18:00+02:00
 categories:
   - Post
 tags:
@@ -40,6 +40,7 @@ review_negativenote5: Performance could be improved
 review_rating: 4
 review_verdict: I say this with a heavy heart, but Scrap Mechanic's development is really painfully slow even though it's been 6 years in Early Access. The game engine they use isn't optimized properly, or can't simply process everything without some lag. The multiplayer experience is down bad, unless you're playing over LAN or you have fast Internet speed, you will experience stutters, net lag, and other similar issues, which can degrade your experience.
 toc: true
+bg: "article-bg-cyn1"
 ---
 
 ## Review TLDR

@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Nightmare-level gooners flock to Grok (Ani), and other nonsense"
 description: "First edition of slop, I LOVE SLOP!!!"
-date: 2025-07-16t22:17:00+02:00
+date: 2025-07-16T22:17:00+02:00
 categories:
   - Post
 tags:
@@ -22,6 +22,7 @@ fedipostid: "114865573167814570"
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2025-07-16-Grok-Gooners-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2025-07-16-Grok-Gooners.webp
 toc: true
+bg: "article-bg-blu3"
 ---
 
 Based on that title and description, you'd think I might've gone insane. Who knows? With all the shit going on in the world right now, it might not be that implausible.

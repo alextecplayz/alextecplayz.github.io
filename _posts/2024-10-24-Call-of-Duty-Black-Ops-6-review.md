@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Call of Duty®: Black Ops 6 - Campaign Review"
 description: "Call of Duty takes us into the Gulf War, and uncovers a dark conspiracy brewing inside the CIA. Also, could BO6 be better than BOCW?"
-date: 2024-10-24t20:00:00+02:00
+date: 2024-10-24T20:00:00+02:00
 indicator_type: notice
 indicator_class: notice-danger
 indicator_text: Spoiler Warning
@@ -38,6 +38,7 @@ review_verdict: |
   <br>
   If I had to rate only the campaign (as I do in this article), it's an 8/10. If I had to rate the whole game (Campaign + MP + Zombies), it's a 7/10. $70 is way too much for this. If I could only pay for the campaign, it would be much better (especially if it would be playable on Linux through Proton, at the very least), at a $25-30 price tag. The only modern campaign I'd be willing to spend more on than this would be BOCW, which could be sold for $45 and still be damn great.
 toc: true
+bg: "article-bg-oj1"
 ---
 
 **SPOILERS AHEAD! THIS REVIEW CONTAINS SPOILERS!**

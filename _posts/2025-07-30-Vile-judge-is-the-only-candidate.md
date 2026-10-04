@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Vile judge is the only presidential candidate of the Romanian Supreme Court"
 description: "That's the only topic of this article, sorry!"
-date: 2025-07-30t20:49:00+02:00
+date: 2025-07-30T20:49:00+02:00
 categories:
   - Post
 tags:

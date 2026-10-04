@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: GrapheneOS better than dumb phones? [reddit/1ah5tpt]"
 description: "My comment on this reddit post, archived here"
-date: 2024-02-02t15:29:07+02:00
+date: 2024-02-02T15:29:07+02:00
 id: "reddit/1ah5tpt"
 postid: NO-240202-01
 permalink: "/notes/grapheneos-better-than-dumb-phones--reddit1ah5tpt.html"

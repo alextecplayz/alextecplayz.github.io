@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Samsung Galaxy A22 5G Review: Good, on paper"
 description: "Learn why the Galaxy A22 5G is not as good as you thought."
-date: 2021-10-10t16:06:00+02:00
+date: 2021-10-10T16:06:00+02:00
 categories:
   - Post
 tags:
@@ -22,6 +22,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-10-10-GA22-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-10-10-GA22.webp
 toc: true
+bg: "article-bg-brn2"
 ---
 
 *This June's A22 5G is looking impressive on paper, but the software just isn't there. I bought this phone a week ago, it's better in some cases, but sometimes worse than my A10.*

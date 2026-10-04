@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: Does anyone know what LGBT people were like back in the stone ages? [reddit/1asmc0g]"
 description: "My comment on this reddit post, archived here"
-date: 2024-02-17t00:47:25+02:00
+date: 2024-02-17T00:47:25+02:00
 id: "reddit/1asmc0g"
 postid: NO-240217-01
 permalink: "/notes/does-anyone-know-what-lgbt-people-were-like-back-in-the-stone-ages-reddit1asmc0g.html"

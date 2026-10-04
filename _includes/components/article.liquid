@@ -1,4 +1,4 @@
-<div class="h-entry article flexrow-to-col" itemscope itemtype="https://schema.org/NewsArticle">
+<div class="h-entry article flexrow-to-col {% if article.data.bg %}{{article.data.bg}}{% else %}article-bg-default{% endif %}" itemscope itemtype="https://schema.org/NewsArticle">
 	<div class="article-left flex column">
 		{% if article.data.image_banner_link_lq %}
 			<img itemprop="image" class="article-image-size" src="{{ article.data.image_banner_link_lq }}" alt="{{ article.data.image_banner_alt }}" title="{{ article.data.image_banner_alt }}" loading="lazy">

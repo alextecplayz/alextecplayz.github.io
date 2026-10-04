@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Vanta Interactive turns SIX!"
 description: "Six years of (behind the scenes) indie game development, new website and the future."
-date: 2024-04-11t11:11:11+02:00
+date: 2024-04-11T11:11:11+02:00
 categories:
   - Post
 tags:

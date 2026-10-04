@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Announcing Prisonia"
 description: "Design, build and manage prisons, in a brand new game from Vanta Interactive."
-date: 2024-06-01t00:00:00+02:00
+date: 2024-06-01T00:00:00+02:00
 categories:
   - Post
 tags:
@@ -25,6 +25,7 @@ image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplay
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2024-06-01-PRISONIA.webp
 image_banner_alt: The 'PRISONIA' logo using a squared font named 'Kiloton', white text, a thick black stroke around the title, on a 'prison jumpsuit orange' circle gradient to gray grid background that uses subtle light gray for the grid markings.
 toc: true
+bg: "article-bg-oj2"
 ---
 
 It's time for a game announcement, no? Introducing **Prisonia**, a top-down 2D prison management game that blends mechanics from games such as Prison Architect and The Escapists 2, and builds upon them with additional features, and much more in the future.

@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Tomb Raider 2013 - Campaign Review"
 description: "I'm exploring games from my Steam library, and Tomb Raider happened to be the first. It's painfully generic and I don't recommend it at all."
-date: 2025-02-10t21:35:00+02:00
+date: 2025-02-10T21:35:00+02:00
 categories:
   - Post
 tags:
@@ -29,6 +29,7 @@ review_organization_website: "tombraider.com"
 review_rating: 4
 review_verdict: A painfully generic reboot that's needlessly gory and brutal, questionable DLC practices and boring challenges to attain 100% completion. The story is mediocre, the environments are interesting and the parkour could have been more refined. There are more minor gripes as well. Would I recommend this? Not really, no.
 toc: true
+bg: "article-bg-brn1"
 ---
 
 **NOTE:** Product received for free / activated at no cost due to me claiming the *'Tomb Raider Limited Free Promotional Package - Mar 2020'* package.

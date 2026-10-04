@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: Is it too hard for some to respect my decisions? [reddit/18pgjhp]"
 description: "My comment on this reddit post, archived here"
-date: 2023-12-24t13:33:39+02:00
+date: 2023-12-24T13:33:39+02:00
 id: "reddit/18pgjhp"
 postid: NO-231224-01
 permalink: "/notes/is-it-too-hard-for-some-to-respect-my-decisions-reddit18pgjhp.html"

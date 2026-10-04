@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Terralith is the culmination of Minecraft world generation, and it's a datapack!"
 description: "Take a look at the amazing world generation Terralith brings to Minecraft - Java Edition!"
-date: 2021-08-08t16:06:00+02:00
+date: 2021-08-08T16:06:00+02:00
 categories:
   - Post
 tags:
@@ -21,6 +21,7 @@ image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplay
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2021-08-08-Terralith.webp
 image_banner_alt: A screenshot of Minecraft using shaders and the Terralith terrain generation mod, with the sky being removed in post and replaced with the light to dark blue gradient background behind it.
 toc: true
+bg: article-bg-cyn1
 ---
 
 *I stumbled upon one of AsianHalfSquat's videos, where he showcased a new datapack that is, in my opinion, the holy grail of Minecraft world generation. Combine this with something like Complementary Shaders, and you've got yourself an amazing time in Minecraft.*

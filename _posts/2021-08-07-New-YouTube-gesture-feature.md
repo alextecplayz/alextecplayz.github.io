@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "New YouTube gesture feature, now in testing"
 description: "YouTube is getting a new feature probably no one asked for. Here is my opinion."
-date: 2021-08-07t16:06:00+02:00
+date: 2021-08-07T16:06:00+02:00
 categories:
   - Post
 tags:

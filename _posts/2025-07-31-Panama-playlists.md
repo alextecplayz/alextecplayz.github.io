@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "Panama Playlists"
 description: "A website that lists songs from prominent people."
-date: 2025-07-31t10:31:00+02:00
+date: 2025-07-31T10:31:00+02:00
 categories:
   - Post
 tags:

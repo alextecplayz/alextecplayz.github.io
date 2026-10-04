@@ -4,7 +4,7 @@ language: en
 locale: en_US
 title: "re: Why are you still rooting your android? [reddit/1b5dhio]"
 description: "My comment on this reddit post, archived here"
-date: 2024-03-03t13:48:23+02:00
+date: 2024-03-03T13:48:23+02:00
 id: "reddit/1b5dhio"
 postid: NO-240303-01
 permalink: "/notes/why-are-you-still-rooting-your-android-reddit1b5dhio.html"

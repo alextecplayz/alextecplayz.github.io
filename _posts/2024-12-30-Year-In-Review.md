@@ -7,7 +7,7 @@ lang: en
 locale: en_US
 title: "2024 Year In Review"
 description: "Looking back through 2024, from starting big projects like Sapphire, to helping localize Bluesky in Romanian; from applying to many jobs to getting hired nowhere. With ups and downs, 2024 was quite a good year for me."
-date: 2024-12-30t01:00:00+02:00
+date: 2024-12-30T01:00:00+02:00
 categories:
   - Post
 tags:
@@ -18,6 +18,7 @@ tags:
 image_banner_link_lq: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2024-12-30-YIR-lq.webp
 image_banner_link: https://raw.githubusercontent.com/alextecplayz/alextecplayz.github.io-media/refs/heads/main/assets/post-thumbnails/2024-12-30-YIR.webp
 toc: true
+bg: "article-bg-purp1"
 ---
 
 Happy holidays, for the remainder of the holidays that continue through for the first few days / weeks after the New Year. Another year dawns upon us all, with both things to fear, but to also be happy about (or not). In this blog post, I'll try to look back through each month of 2024, to outline what I've managed to achieve this year. I can categorically say that 2024 has been MUCH better than 2023, and I'm hoping 2025 will be better.
